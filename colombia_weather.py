@@ -1,11 +1,13 @@
 import pandas as pd
 
 # Make dataframes of NOAA data CSVs on colombia weather
-modern = pd.read_csv('weather_data/colombia.csv')
-old = pd.read_csv('weather_data/colombia_old.csv')
-useless = [col for col in old.columns if col[-10:] == 'ATTRIBUTES']
-old = old.drop(columns=useless)
-colombia = pd.concat([old, modern])
+def get_colombia_weather():
+    modern = pd.read_csv('weather_data/colombia.csv')
+    old = pd.read_csv('weather_data/colombia_old.csv')
+    useless = [col for col in old.columns if col[-10:] == 'ATTRIBUTES']
+    old = old.drop(columns=useless)
+    colombia = pd.concat([old, modern])
+    return colombia
 
 # Explanation of each column in the data
 data_dict = {
