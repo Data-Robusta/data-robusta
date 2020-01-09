@@ -97,4 +97,14 @@ retail_prices.rename(columns={"value":"dollars_per_lbs"},inplace=True)
 retail_prices.dropna(subset=["country_name"], inplace=True)
 retail_prices.to_csv("retail_prices.csv")
 #--------------------------------------
- 
+#Columbian Coffee Price Per Month------------
+col_prices = pd.read_excel("coffee_data/colu_coffee_data.xlsx", sheet_name="sheet3")
+col_prices = col_prices.iloc[1:]
+col_prices.drop(columns=["Unnamed: 0"], inplace=True)
+col_prices.rename(columns={"Month-year":"date", "Unnamed: 2":"excelso_price_USDcents_per_lbs"}, inplace=True)
+col_prices.to_csv("columbian_excelso_prices.csv")
+
+col_production = pd.read_excel("coffee_data/colu_coffee_data.xlsx", sheet_name="sheet9")
+col_production.drop(columns=["Unnamed: 0", "Unnamed: 3"], inplace=True)
+col_production.to_csv("columbian_excelso_production.csv")
+#-------------------------------------
