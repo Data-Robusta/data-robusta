@@ -1,0 +1,1625 @@
+,country_name,year,beginning_stockpile,coffee_type,production_month
+0,Angola,1990/91,210.0,(R/A),April
+1,Bolivia,1990/91,54.0,(A),April
+2,Brazil,1990/91,26926.0,(A/R),April
+3,Burundi,1990/91,77.0,(A),April
+4,Ecuador,1990/91,723.963,(A/R),April
+5,Indonesia,1990/91,1319.0,(R/A),April
+6,Madagascar,1990/91,544.0,(R),April
+7,Malawi,1990/91,20.0,(A),April
+8,Papua New Guinea,1990/91,199.0,(A/R),April
+9,Paraguay,1990/91,188.0,(A),April
+10,Peru,1990/91,318.0,(A),April
+11,Rwanda,1990/91,134.0,(A),April
+12,Timor-Leste,1990/91,0.0,(A),April
+13,Zimbabwe,1990/91,160.0,(A),April
+16,"Congo, Rep. of",1990/91,12.0,(R),July
+17,Cuba,1990/91,265.7,(A),July
+18,Dominican Republic,1990/91,560.0,(A),July
+19,Haiti,1990/91,47.0,(A),July
+20,Philippines,1990/91,1223.0,(R/A),July
+21,Tanzania,1990/91,450.0,(A/R),July
+22,Zambia,1990/91,1.0,(A),July
+25,Benin,1990/91,0.0,(R),October
+26,Cameroon,1990/91,1344.0,(R/A),October
+27,Central African Republic,1990/91,55.0,(R),October
+28,Colombia,1990/91,6095.0,(A),October
+29,"Congo, Dem. Rep. of",1990/91,116.0,(R/A),October
+30,Costa Rica,1990/91,343.0,(A),October
+31,Côte d'Ivoire,1990/91,4796.0,(R),October
+32,El Salvador,1990/91,245.0,(A),October
+33,Equatorial Guinea,1990/91,2.0,(R),October
+34,Ethiopia,1990/91,2800.0,(A),October
+35,Gabon,1990/91,2.0,(R),October
+36,Ghana,1990/91,4.0,(R),October
+37,Guatemala,1990/91,77.0,(A/R),October
+38,Guinea,1990/91,45.0,(R),October
+39,Guyana,1990/91,0.0,(R),October
+40,Honduras,1990/91,101.198,(A),October
+41,India,1990/91,826.0,(R/A),October
+42,Jamaica,1990/91,0.0,(A),October
+43,Kenya,1990/91,766.333,(A),October
+44,"Lao, People's Dem. Rep. of",1990/91,0.0,(R),October
+45,Liberia,1990/91,0.0,(R),October
+46,Mexico,1990/91,974.0,(A),October
+47,Nepal,1990/91,0.0,(A),October
+48,Nicaragua,1990/91,56.0,(A),October
+49,Nigeria,1990/91,0.0,(R),October
+50,Panama,1990/91,18.0,(A),October
+51,Sierra Leone,1990/91,127.0,(R),October
+52,Sri Lanka,1990/91,10.0,(R),October
+53,Thailand,1990/91,71.0,(R/A),October
+54,Togo,1990/91,59.0,(R),October
+55,Trinidad & Tobago,1990/91,5.0,(R),October
+56,Uganda,1990/91,3100.0,(R/A),October
+57,Venezuela,1990/91,142.0,(A),October
+58,Vietnam,1990/91,181.0,(R/A),October
+59,Yemen,1990/91,0.0,(A),October
+60,Angola,1991/92,161.0,(R/A),April
+61,Bolivia,1991/92,39.8,(A),April
+62,Brazil,1991/92,25548.0,(A/R),April
+63,Burundi,1991/92,150.0,(A),April
+64,Ecuador,1991/92,250.0,(A/R),April
+65,Indonesia,1991/92,798.0,(R/A),April
+66,Madagascar,1991/92,450.0,(R),April
+67,Malawi,1991/92,19.0,(A),April
+68,Papua New Guinea,1991/92,146.0,(A/R),April
+69,Paraguay,1991/92,135.0,(A),April
+70,Peru,1991/92,61.0,(A),April
+71,Rwanda,1991/92,9.0,(A),April
+72,Timor-Leste,1991/92,0.0,(A),April
+73,Zimbabwe,1991/92,118.2,(A),April
+76,"Congo, Rep. of",1991/92,11.0,(R),July
+77,Cuba,1991/92,289.0,(A),July
+78,Dominican Republic,1991/92,640.0,(A),July
+79,Haiti,1991/92,30.0,(A),July
+80,Philippines,1991/92,1344.0,(R/A),July
+81,Tanzania,1991/92,408.053,(A/R),July
+82,Zambia,1991/92,0.0,(A),July
+85,Benin,1991/92,0.0,(R),October
+86,Cameroon,1991/92,1086.0,(R/A),October
+87,Central African Republic,1991/92,59.0,(R),October
+88,Colombia,1991/92,6916.0,(A),October
+89,"Congo, Dem. Rep. of",1991/92,17.0,(R/A),October
+90,Costa Rica,1991/92,120.0,(A),October
+91,Côte d'Ivoire,1991/92,3352.0,(R),October
+92,El Salvador,1991/92,512.3,(A),October
+93,Equatorial Guinea,1991/92,4.0,(R),October
+94,Ethiopia,1991/92,3660.0,(A),October
+95,Gabon,1991/92,2.0,(R),October
+96,Ghana,1991/92,10.0,(R),October
+97,Guatemala,1991/92,244.557,(A/R),October
+98,Guinea,1991/92,10.0,(R),October
+99,Guyana,1991/92,0.0,(R),October
+100,Honduras,1991/92,54.0,(A),October
+101,India,1991/92,1277.0,(R/A),October
+102,Jamaica,1991/92,0.0,(A),October
+103,Kenya,1991/92,552.067,(A),October
+104,"Lao, People's Dem. Rep. of",1991/92,0.0,(R),October
+105,Liberia,1991/92,0.0,(R),October
+106,Mexico,1991/92,748.0,(A),October
+107,Nepal,1991/92,0.0,(A),October
+108,Nicaragua,1991/92,63.162,(A),October
+109,Nigeria,1991/92,0.0,(R),October
+110,Panama,1991/92,40.0,(A),October
+111,Sierra Leone,1991/92,74.0,(R),October
+112,Sri Lanka,1991/92,6.0,(R),October
+113,Thailand,1991/92,207.0,(R/A),October
+114,Togo,1991/92,38.5,(R),October
+115,Trinidad & Tobago,1991/92,0.0,(R),October
+116,Uganda,1991/92,2900.0,(R/A),October
+117,Venezuela,1991/92,350.0,(A),October
+118,Vietnam,1991/92,195.0,(R/A),October
+119,Yemen,1991/92,0.0,(A),October
+120,Angola,1992/93,136.0,(R/A),April
+121,Bolivia,1992/93,33.4,(A),April
+122,Brazil,1992/93,22625.0,(A/R),April
+123,Burundi,1992/93,53.108,(A),April
+124,Ecuador,1992/93,552.207,(A/R),April
+125,Indonesia,1992/93,2427.0,(R/A),April
+126,Madagascar,1992/93,403.3,(R),April
+127,Malawi,1992/93,19.0,(A),April
+128,Papua New Guinea,1992/93,95.0,(A/R),April
+129,Paraguay,1992/93,115.0,(A),April
+130,Peru,1992/93,100.0,(A),April
+131,Rwanda,1992/93,10.0,(A),April
+132,Timor-Leste,1992/93,0.0,(A),April
+133,Zimbabwe,1992/93,98.0,(A),April
+136,"Congo, Rep. of",1992/93,11.0,(R),July
+137,Cuba,1992/93,219.0,(A),July
+138,Dominican Republic,1992/93,300.0,(A),July
+139,Haiti,1992/93,30.0,(A),July
+140,Philippines,1992/93,1554.0,(R/A),July
+141,Tanzania,1992/93,386.772,(A/R),July
+142,Zambia,1992/93,1.0,(A),July
+145,Benin,1992/93,0.0,(R),October
+146,Cameroon,1992/93,991.0,(R/A),October
+147,Central African Republic,1992/93,64.0,(R),October
+148,Colombia,1992/93,7864.0,(A),October
+149,"Congo, Dem. Rep. of",1992/93,21.0,(R/A),October
+150,Costa Rica,1992/93,229.345,(A),October
+151,Côte d'Ivoire,1992/93,3574.0,(R),October
+152,El Salvador,1992/93,354.43,(A),October
+153,Equatorial Guinea,1992/93,2.0,(R),October
+154,Ethiopia,1992/93,4652.0,(A),October
+155,Gabon,1992/93,1.122,(R),October
+156,Ghana,1992/93,43.0,(R),October
+157,Guatemala,1992/93,153.317,(A/R),October
+158,Guinea,1992/93,10.0,(R),October
+159,Guyana,1992/93,0.0,(R),October
+160,Honduras,1992/93,318.342,(A),October
+161,India,1992/93,1253.0,(R/A),October
+162,Jamaica,1992/93,8.0,(A),October
+163,Kenya,1992/93,617.033,(A),October
+164,"Lao, People's Dem. Rep. of",1992/93,0.0,(R),October
+165,Liberia,1992/93,0.0,(R),October
+166,Mexico,1992/93,985.0,(A),October
+167,Nepal,1992/93,0.0,(A),October
+168,Nicaragua,1992/93,39.6,(A),October
+169,Nigeria,1992/93,0.0,(R),October
+170,Panama,1992/93,60.832,(A),October
+171,Sierra Leone,1992/93,45.0,(R),October
+172,Sri Lanka,1992/93,1.0,(R),October
+173,Thailand,1992/93,273.0,(R/A),October
+174,Togo,1992/93,154.0,(R),October
+175,Trinidad & Tobago,1992/93,4.293,(R),October
+176,Uganda,1992/93,2900.0,(R/A),October
+177,Venezuela,1992/93,362.545,(A),October
+178,Vietnam,1992/93,85.0,(R/A),October
+179,Yemen,1992/93,0.0,(A),October
+180,Angola,1993/94,111.0,(R/A),April
+181,Bolivia,1993/94,25.2,(A),April
+182,Brazil,1993/94,28921.0,(A/R),April
+183,Burundi,1993/94,0.0,(A),April
+184,Ecuador,1993/94,100.0,(A/R),April
+185,Indonesia,1993/94,1562.0,(R/A),April
+186,Madagascar,1993/94,455.333,(R),April
+187,Malawi,1993/94,25.0,(A),April
+188,Papua New Guinea,1993/94,49.0,(A/R),April
+189,Paraguay,1993/94,105.0,(A),April
+190,Peru,1993/94,500.0,(A),April
+191,Rwanda,1993/94,6.0,(A),April
+192,Timor-Leste,1993/94,0.0,(A),April
+193,Zimbabwe,1993/94,53.243,(A),April
+196,"Congo, Rep. of",1993/94,11.0,(R),July
+197,Cuba,1993/94,192.0,(A),July
+198,Dominican Republic,1993/94,196.0,(A),July
+199,Haiti,1993/94,30.0,(A),July
+200,Philippines,1993/94,1102.0,(R/A),July
+201,Tanzania,1993/94,200.4,(A/R),July
+202,Zambia,1993/94,0.0,(A),July
+205,Benin,1993/94,0.0,(R),October
+206,Cameroon,1993/94,240.641,(R/A),October
+207,Central African Republic,1993/94,14.0,(R),October
+208,Colombia,1993/94,7224.0,(A),October
+209,"Congo, Dem. Rep. of",1993/94,6.0,(R/A),October
+210,Costa Rica,1993/94,190.0,(A),October
+211,Côte d'Ivoire,1993/94,655.0,(R),October
+212,El Salvador,1993/94,134.78,(A),October
+213,Equatorial Guinea,1993/94,2.0,(R),October
+214,Ethiopia,1993/94,3986.0,(A),October
+215,Gabon,1993/94,0.2,(R),October
+216,Ghana,1993/94,20.3,(R),October
+217,Guatemala,1993/94,153.317,(A/R),October
+218,Guinea,1993/94,8.334,(R),October
+219,Guyana,1993/94,0.0,(R),October
+220,Honduras,1993/94,100.0,(A),October
+221,India,1993/94,1479.0,(R/A),October
+222,Jamaica,1993/94,1.27,(A),October
+223,Kenya,1993/94,470.673,(A),October
+224,"Lao, People's Dem. Rep. of",1993/94,0.0,(R),October
+225,Liberia,1993/94,0.0,(R),October
+226,Mexico,1993/94,201.25,(A),October
+227,Nepal,1993/94,0.0,(A),October
+228,Nicaragua,1993/94,4.6,(A),October
+229,Nigeria,1993/94,0.0,(R),October
+230,Panama,1993/94,41.0,(A),October
+231,Sierra Leone,1993/94,32.0,(R),October
+232,Sri Lanka,1993/94,19.0,(R),October
+233,Thailand,1993/94,253.0,(R/A),October
+234,Togo,1993/94,25.0,(R),October
+235,Trinidad & Tobago,1993/94,4.0,(R),October
+236,Uganda,1993/94,3000.0,(R/A),October
+237,Venezuela,1993/94,249.0,(A),October
+238,Vietnam,1993/94,0.0,(R/A),October
+239,Yemen,1993/94,0.0,(A),October
+240,Angola,1994/95,96.0,(R/A),April
+241,Bolivia,1994/95,11.0,(A),April
+242,Brazil,1994/95,29227.0,(A/R),April
+243,Burundi,1994/95,38.574,(A),April
+244,Ecuador,1994/95,230.0,(A/R),April
+245,Indonesia,1994/95,1644.0,(R/A),April
+246,Madagascar,1994/95,15.833,(R),April
+247,Malawi,1994/95,10.0,(A),April
+248,Papua New Guinea,1994/95,38.0,(A/R),April
+249,Paraguay,1994/95,100.0,(A),April
+250,Peru,1994/95,120.0,(A),April
+251,Rwanda,1994/95,1.2,(A),April
+252,Timor-Leste,1994/95,0.0,(A),April
+253,Zimbabwe,1994/95,0.0,(A),April
+256,"Congo, Rep. of",1994/95,11.0,(R),July
+257,Cuba,1994/95,151.0,(A),July
+258,Dominican Republic,1994/95,193.0,(A),July
+259,Haiti,1994/95,30.0,(A),July
+260,Philippines,1994/95,1108.0,(R/A),July
+261,Tanzania,1994/95,38.583,(A/R),July
+262,Zambia,1994/95,0.0,(A),July
+265,Benin,1994/95,0.0,(R),October
+266,Cameroon,1994/95,198.198,(R/A),October
+267,Central African Republic,1994/95,8.333,(R),October
+268,Colombia,1994/95,3437.0,(A),October
+269,"Congo, Dem. Rep. of",1994/95,81.0,(R/A),October
+270,Costa Rica,1994/95,100.0,(A),October
+271,Côte d'Ivoire,1994/95,183.335,(R),October
+272,El Salvador,1994/95,199.92,(A),October
+273,Equatorial Guinea,1994/95,0.2,(R),October
+274,Ethiopia,1994/95,4219.0,(A),October
+275,Gabon,1994/95,1.093,(R),October
+276,Ghana,1994/95,21.0,(R),October
+277,Guatemala,1994/95,240.0,(A/R),October
+278,Guinea,1994/95,11.667,(R),October
+279,Guyana,1994/95,0.0,(R),October
+280,Honduras,1994/95,38.0,(A),October
+281,India,1994/95,1020.0,(R/A),October
+282,Jamaica,1994/95,8.921,(A),October
+283,Kenya,1994/95,289.0,(A),October
+284,"Lao, People's Dem. Rep. of",1994/95,0.0,(R),October
+285,Liberia,1994/95,0.0,(R),October
+286,Mexico,1994/95,884.0,(A),October
+287,Nepal,1994/95,0.0,(A),October
+288,Nicaragua,1994/95,11.1,(A),October
+289,Nigeria,1994/95,0.0,(R),October
+290,Panama,1994/95,21.71,(A),October
+291,Sierra Leone,1994/95,0.0,(R),October
+292,Sri Lanka,1994/95,5.0,(R),October
+293,Thailand,1994/95,173.0,(R/A),October
+294,Togo,1994/95,25.0,(R),October
+295,Trinidad & Tobago,1994/95,0.0,(R),October
+296,Uganda,1994/95,3000.0,(R/A),October
+297,Venezuela,1994/95,250.0,(A),October
+298,Vietnam,1994/95,0.0,(R/A),October
+299,Yemen,1994/95,0.0,(A),October
+300,Angola,1995/96,36.0,(R/A),April
+301,Bolivia,1995/96,12.5,(A),April
+302,Brazil,1995/96,32161.0,(A/R),April
+303,Burundi,1995/96,120.59,(A),April
+304,Ecuador,1995/96,100.0,(A/R),April
+305,Indonesia,1995/96,1386.0,(R/A),April
+306,Madagascar,1995/96,16.0,(R),April
+307,Malawi,1995/96,5.0,(A),April
+308,Papua New Guinea,1995/96,39.5,(A/R),April
+309,Paraguay,1995/96,67.0,(A),April
+310,Peru,1995/96,160.0,(A),April
+311,Rwanda,1995/96,0.3,(A),April
+312,Timor-Leste,1995/96,0.0,(A),April
+313,Zimbabwe,1995/96,0.0,(A),April
+316,"Congo, Rep. of",1995/96,0.0,(R),July
+317,Cuba,1995/96,116.0,(A),July
+318,Dominican Republic,1995/96,198.0,(A),July
+319,Haiti,1995/96,27.0,(A),July
+320,Philippines,1995/96,1107.0,(R/A),July
+321,Tanzania,1995/96,86.5,(A/R),July
+322,Zambia,1995/96,0.0,(A),July
+325,Benin,1995/96,0.0,(R),October
+326,Cameroon,1995/96,120.0,(R/A),October
+327,Central African Republic,1995/96,8.333,(R),October
+328,Colombia,1995/96,5582.0,(A),October
+329,"Congo, Dem. Rep. of",1995/96,101.0,(R/A),October
+330,Costa Rica,1995/96,309.0,(A),October
+331,Côte d'Ivoire,1995/96,887.0,(R),October
+332,El Salvador,1995/96,603.466,(A),October
+333,Equatorial Guinea,1995/96,0.0,(R),October
+334,Ethiopia,1995/96,4185.0,(A),October
+335,Gabon,1995/96,1.0,(R),October
+336,Ghana,1995/96,15.0,(R),October
+337,Guatemala,1995/96,153.333,(A/R),October
+338,Guinea,1995/96,12.0,(R),October
+339,Guyana,1995/96,0.0,(R),October
+340,Honduras,1995/96,329.1,(A),October
+341,India,1995/96,934.0,(R/A),October
+342,Jamaica,1995/96,14.179,(A),October
+343,Kenya,1995/96,576.825,(A),October
+344,"Lao, People's Dem. Rep. of",1995/96,0.0,(R),October
+345,Liberia,1995/96,0.0,(R),October
+346,Mexico,1995/96,899.0,(A),October
+347,Nepal,1995/96,0.0,(A),October
+348,Nicaragua,1995/96,40.9,(A),October
+349,Nigeria,1995/96,0.0,(R),October
+350,Panama,1995/96,49.779,(A),October
+351,Sierra Leone,1995/96,0.0,(R),October
+352,Sri Lanka,1995/96,5.0,(R),October
+353,Thailand,1995/96,80.25,(R/A),October
+354,Togo,1995/96,1.183,(R),October
+355,Trinidad & Tobago,1995/96,0.0,(R),October
+356,Uganda,1995/96,2520.0,(R/A),October
+357,Venezuela,1995/96,250.0,(A),October
+358,Vietnam,1995/96,158.0,(R/A),October
+359,Yemen,1995/96,0.0,(A),October
+360,Angola,1996/97,40.0,(R/A),April
+361,Bolivia,1996/97,14.0,(A),April
+362,Brazil,1996/97,26361.0,(A/R),April
+363,Burundi,1996/97,88.5,(A),April
+364,Ecuador,1996/97,200.0,(A/R),April
+365,Indonesia,1996/97,166.667,(R/A),April
+366,Madagascar,1996/97,2.033,(R),April
+367,Malawi,1996/97,13.0,(A),April
+368,Papua New Guinea,1996/97,40.0,(A/R),April
+369,Paraguay,1996/97,55.0,(A),April
+370,Peru,1996/97,0.0,(A),April
+371,Rwanda,1996/97,10.679,(A),April
+372,Timor-Leste,1996/97,0.0,(A),April
+373,Zimbabwe,1996/97,9.594,(A),April
+376,"Congo, Rep. of",1996/97,0.0,(R),July
+377,Cuba,1996/97,84.1,(A),July
+378,Dominican Republic,1996/97,180.0,(A),July
+379,Haiti,1996/97,39.236,(A),July
+380,Philippines,1996/97,1117.0,(R/A),July
+381,Tanzania,1996/97,35.4,(A/R),July
+382,Zambia,1996/97,0.0,(A),July
+385,Benin,1996/97,0.0,(R),October
+386,Cameroon,1996/97,175.0,(R/A),October
+387,Central African Republic,1996/97,9.0,(R),October
+388,Colombia,1996/97,6260.0,(A),October
+389,"Congo, Dem. Rep. of",1996/97,84.57,(R/A),October
+390,Costa Rica,1996/97,297.0,(A),October
+391,Côte d'Ivoire,1996/97,469.0,(R),October
+392,El Salvador,1996/97,663.044,(A),October
+393,Equatorial Guinea,1996/97,0.0,(R),October
+394,Ethiopia,1996/97,4018.0,(A),October
+395,Gabon,1996/97,0.992,(R),October
+396,Ghana,1996/97,36.0,(R),October
+397,Guatemala,1996/97,131.661,(A/R),October
+398,Guinea,1996/97,12.0,(R),October
+399,Guyana,1996/97,0.0,(R),October
+400,Honduras,1996/97,23.0,(A),October
+401,India,1996/97,692.0,(R/A),October
+402,Jamaica,1996/97,15.0,(A),October
+403,Kenya,1996/97,295.574,(A),October
+404,"Lao, People's Dem. Rep. of",1996/97,0.0,(R),October
+405,Liberia,1996/97,0.0,(R),October
+406,Mexico,1996/97,524.0,(A),October
+407,Nepal,1996/97,0.0,(A),October
+408,Nicaragua,1996/97,16.374,(A),October
+409,Nigeria,1996/97,0.0,(R),October
+410,Panama,1996/97,31.353,(A),October
+411,Sierra Leone,1996/97,0.0,(R),October
+412,Sri Lanka,1996/97,4.0,(R),October
+413,Thailand,1996/97,87.133,(R/A),October
+414,Togo,1996/97,0.533,(R),October
+415,Trinidad & Tobago,1996/97,0.0,(R),October
+416,Uganda,1996/97,1470.0,(R/A),October
+417,Venezuela,1996/97,300.0,(A),October
+418,Vietnam,1996/97,167.0,(R/A),October
+419,Yemen,1996/97,0.0,(A),October
+420,Angola,1997/98,40.0,(R/A),April
+421,Bolivia,1997/98,2.0,(A),April
+422,Brazil,1997/98,27298.0,(A/R),April
+423,Burundi,1997/98,301.833,(A),April
+424,Ecuador,1997/98,380.0,(A/R),April
+425,Indonesia,1997/98,128.784,(R/A),April
+426,Madagascar,1997/98,16.667,(R),April
+427,Malawi,1997/98,2.0,(A),April
+428,Papua New Guinea,1997/98,45.0,(A/R),April
+429,Paraguay,1997/98,45.0,(A),April
+430,Peru,1997/98,78.0,(A),April
+431,Rwanda,1997/98,15.127,(A),April
+432,Timor-Leste,1997/98,0.0,(A),April
+433,Zimbabwe,1997/98,0.0,(A),April
+436,"Congo, Rep. of",1997/98,0.0,(R),July
+437,Cuba,1997/98,147.4,(A),July
+438,Dominican Republic,1997/98,34.0,(A),July
+439,Haiti,1997/98,25.0,(A),July
+440,Philippines,1997/98,1148.0,(R/A),July
+441,Tanzania,1997/98,15.0,(A/R),July
+442,Zambia,1997/98,0.0,(A),July
+445,Benin,1997/98,0.0,(R),October
+446,Cameroon,1997/98,131.484,(R/A),October
+447,Central African Republic,1997/98,5.886,(R),October
+448,Colombia,1997/98,4203.0,(A),October
+449,"Congo, Dem. Rep. of",1997/98,87.317,(R/A),October
+450,Costa Rica,1997/98,79.0,(A),October
+451,Côte d'Ivoire,1997/98,1372.5,(R),October
+452,El Salvador,1997/98,129.068,(A),October
+453,Equatorial Guinea,1997/98,0.0,(R),October
+454,Ethiopia,1997/98,3935.0,(A),October
+455,Gabon,1997/98,0.733,(R),October
+456,Ghana,1997/98,37.225,(R),October
+457,Guatemala,1997/98,132.0,(A/R),October
+458,Guinea,1997/98,6.0,(R),October
+459,Guyana,1997/98,0.0,(R),October
+460,Honduras,1997/98,33.998,(A),October
+461,India,1997/98,800.0,(R/A),October
+462,Jamaica,1997/98,23.588,(A),October
+463,Kenya,1997/98,103.0,(A),October
+464,"Lao, People's Dem. Rep. of",1997/98,0.0,(R),October
+465,Liberia,1997/98,0.0,(R),October
+466,Mexico,1997/98,208.0,(A),October
+467,Nepal,1997/98,0.0,(A),October
+468,Nicaragua,1997/98,12.398,(A),October
+469,Nigeria,1997/98,0.0,(R),October
+470,Panama,1997/98,47.0,(A),October
+471,Sierra Leone,1997/98,0.0,(R),October
+472,Sri Lanka,1997/98,1.0,(R),October
+473,Thailand,1997/98,54.3,(R/A),October
+474,Togo,1997/98,0.0,(R),October
+475,Trinidad & Tobago,1997/98,0.0,(R),October
+476,Uganda,1997/98,571.71,(R/A),October
+477,Venezuela,1997/98,319.0,(A),October
+478,Vietnam,1997/98,200.0,(R/A),October
+479,Yemen,1997/98,0.0,(A),October
+480,Angola,1998/99,10.0,(R/A),April
+481,Bolivia,1998/99,1.0,(A),April
+482,Brazil,1998/99,26594.0,(A/R),April
+483,Burundi,1998/99,3.584,(A),April
+484,Ecuador,1998/99,160.0,(A/R),April
+485,Indonesia,1998/99,709.035,(R/A),April
+486,Madagascar,1998/99,40.0,(R),April
+487,Malawi,1998/99,3.0,(A),April
+488,Papua New Guinea,1998/99,38.3,(A/R),April
+489,Paraguay,1998/99,40.0,(A),April
+490,Peru,1998/99,98.0,(A),April
+491,Rwanda,1998/99,1.89,(A),April
+492,Timor-Leste,1998/99,0.0,(A),April
+493,Zimbabwe,1998/99,0.0,(A),April
+496,"Congo, Rep. of",1998/99,0.0,(R),July
+497,Cuba,1998/99,140.2,(A),July
+498,Dominican Republic,1998/99,245.0,(A),July
+499,Haiti,1998/99,22.0,(A),July
+500,Philippines,1998/99,1193.0,(R/A),July
+501,Tanzania,1998/99,15.711,(A/R),July
+502,Zambia,1998/99,0.0,(A),July
+505,Benin,1998/99,0.0,(R),October
+506,Cameroon,1998/99,133.333,(R/A),October
+507,Central African Republic,1998/99,3.502,(R),October
+508,Colombia,1998/99,3911.0,(A),October
+509,"Congo, Dem. Rep. of",1998/99,97.847,(R/A),October
+510,Costa Rica,1998/99,163.0,(A),October
+511,Côte d'Ivoire,1998/99,437.5,(R),October
+512,El Salvador,1998/99,227.232,(A),October
+513,Equatorial Guinea,1998/99,0.0,(R),October
+514,Ethiopia,1998/99,3178.0,(A),October
+515,Gabon,1998/99,1.086,(R),October
+516,Ghana,1998/99,44.0,(R),October
+517,Guatemala,1998/99,161.0,(A/R),October
+518,Guinea,1998/99,6.0,(R),October
+519,Guyana,1998/99,0.0,(R),October
+520,Honduras,1998/99,138.209,(A),October
+521,India,1998/99,290.0,(R/A),October
+522,Jamaica,1998/99,30.132,(A),October
+523,Kenya,1998/99,129.0,(A),October
+524,"Lao, People's Dem. Rep. of",1998/99,0.0,(R),October
+525,Liberia,1998/99,0.0,(R),October
+526,Mexico,1998/99,195.0,(A),October
+527,Nepal,1998/99,0.0,(A),October
+528,Nicaragua,1998/99,16.64,(A),October
+529,Nigeria,1998/99,0.0,(R),October
+530,Panama,1998/99,42.0,(A),October
+531,Sierra Leone,1998/99,0.0,(R),October
+532,Sri Lanka,1998/99,19.0,(R),October
+533,Thailand,1998/99,172.4,(R/A),October
+534,Togo,1998/99,42.552,(R),October
+535,Trinidad & Tobago,1998/99,0.75,(R),October
+536,Uganda,1998/99,878.05,(R/A),October
+537,Venezuela,1998/99,145.0,(A),October
+538,Vietnam,1998/99,250.0,(R/A),October
+539,Yemen,1998/99,0.0,(A),October
+540,Angola,1999/00,10.0,(R/A),April
+541,Bolivia,1999/00,5.0,(A),April
+542,Brazil,1999/00,30070.0,(A/R),April
+543,Burundi,1999/00,101.726,(A),April
+544,Ecuador,1999/00,100.0,(A/R),April
+545,Indonesia,1999/00,707.751,(R/A),April
+546,Madagascar,1999/00,42.133,(R),April
+547,Malawi,1999/00,3.0,(A),April
+548,Papua New Guinea,1999/00,47.664,(A/R),April
+549,Paraguay,1999/00,36.0,(A),April
+550,Peru,1999/00,88.0,(A),April
+551,Rwanda,1999/00,2.306,(A),April
+552,Timor-Leste,1999/00,0.0,(A),April
+553,Zimbabwe,1999/00,10.0,(A),April
+556,"Congo, Rep. of",1999/00,0.0,(R),July
+557,Cuba,1999/00,116.2,(A),July
+558,Dominican Republic,1999/00,254.295,(A),July
+559,Haiti,1999/00,19.0,(A),July
+560,Philippines,1999/00,1057.0,(R/A),July
+561,Tanzania,1999/00,12.999,(A/R),July
+562,Zambia,1999/00,0.0,(A),July
+565,Benin,1999/00,0.0,(R),October
+566,Cameroon,1999/00,120.0,(R/A),October
+567,Central African Republic,1999/00,5.0,(R),October
+568,Colombia,1999/00,2998.0,(A),October
+569,"Congo, Dem. Rep. of",1999/00,93.636,(R/A),October
+570,Costa Rica,1999/00,141.0,(A),October
+571,Côte d'Ivoire,1999/00,115.0,(R),October
+572,El Salvador,1999/00,278.53,(A),October
+573,Equatorial Guinea,1999/00,0.0,(R),October
+574,Ethiopia,1999/00,2533.0,(A),October
+575,Gabon,1999/00,1.301,(R),October
+576,Ghana,1999/00,10.218,(R),October
+577,Guatemala,1999/00,161.0,(A/R),October
+578,Guinea,1999/00,22.0,(R),October
+579,Guyana,1999/00,0.0,(R),October
+580,Honduras,1999/00,109.095,(A),October
+581,India,1999/00,329.0,(R/A),October
+582,Jamaica,1999/00,23.103,(A),October
+583,Kenya,1999/00,155.784,(A),October
+584,"Lao, People's Dem. Rep. of",1999/00,0.0,(R),October
+585,Liberia,1999/00,0.0,(R),October
+586,Mexico,1999/00,10.0,(A),October
+587,Nepal,1999/00,0.0,(A),October
+588,Nicaragua,1999/00,8.4,(A),October
+589,Nigeria,1999/00,0.0,(R),October
+590,Panama,1999/00,20.0,(A),October
+591,Sierra Leone,1999/00,0.0,(R),October
+592,Sri Lanka,1999/00,8.0,(R),October
+593,Thailand,1999/00,238.05,(R/A),October
+594,Togo,1999/00,51.862,(R),October
+595,Trinidad & Tobago,1999/00,0.0,(R),October
+596,Uganda,1999/00,500.22,(R/A),October
+597,Venezuela,1999/00,70.0,(A),October
+598,Vietnam,1999/00,283.0,(R/A),October
+599,Yemen,1999/00,0.0,(A),October
+600,Angola,2000/01,5.0,(R/A),April
+601,Bolivia,2000/01,6.0,(A),April
+602,Brazil,2000/01,43762.0,(A/R),April
+603,Burundi,2000/01,12.477,(A),April
+604,Ecuador,2000/01,85.0,(A/R),April
+605,Indonesia,2000/01,792.868,(R/A),April
+606,Madagascar,2000/01,9.433,(R),April
+607,Malawi,2000/01,9.0,(A),April
+608,Papua New Guinea,2000/01,104.943,(A/R),April
+609,Paraguay,2000/01,33.0,(A),April
+610,Peru,2000/01,157.149,(A),April
+611,Rwanda,2000/01,0.71,(A),April
+612,Timor-Leste,2000/01,0.0,(A),April
+613,Zimbabwe,2000/01,10.0,(A),April
+616,"Congo, Rep. of",2000/01,0.0,(R),July
+617,Cuba,2000/01,126.2,(A),July
+618,Dominican Republic,2000/01,337.619,(A),July
+619,Haiti,2000/01,16.0,(A),July
+620,Philippines,2000/01,930.0,(R/A),July
+621,Tanzania,2000/01,82.219,(A/R),July
+622,Zambia,2000/01,0.0,(A),July
+625,Benin,2000/01,0.0,(R),October
+626,Cameroon,2000/01,117.5,(R/A),October
+627,Central African Republic,2000/01,36.942,(R),October
+628,Colombia,2000/01,2241.0,(A),October
+629,"Congo, Dem. Rep. of",2000/01,18.113,(R/A),October
+630,Costa Rica,2000/01,267.0,(A),October
+631,Côte d'Ivoire,2000/01,551.649,(R),October
+632,El Salvador,2000/01,232.9,(A),October
+633,Equatorial Guinea,2000/01,0.0,(R),October
+634,Ethiopia,2000/01,2400.0,(A),October
+635,Gabon,2000/01,2.309,(R),October
+636,Ghana,2000/01,18.0,(R),October
+637,Guatemala,2000/01,80.33,(A/R),October
+638,Guinea,2000/01,56.0,(R),October
+639,Guyana,2000/01,0.0,(R),October
+640,Honduras,2000/01,69.2,(A),October
+641,India,2000/01,364.0,(R/A),October
+642,Jamaica,2000/01,20.525,(A),October
+643,Kenya,2000/01,411.946,(A),October
+644,"Lao, People's Dem. Rep. of",2000/01,0.0,(R),October
+645,Liberia,2000/01,0.0,(R),October
+646,Mexico,2000/01,193.0,(A),October
+647,Nepal,2000/01,,(A),October
+648,Nicaragua,2000/01,107.823,(A),October
+649,Nigeria,2000/01,0.0,(R),October
+650,Panama,2000/01,41.777,(A),October
+651,Sierra Leone,2000/01,7.0,(R),October
+652,Sri Lanka,2000/01,7.0,(R),October
+653,Thailand,2000/01,116.167,(R/A),October
+654,Togo,2000/01,33.579,(R),October
+655,Trinidad & Tobago,2000/01,0.0,(R),October
+656,Uganda,2000/01,326.41,(R/A),October
+657,Venezuela,2000/01,188.0,(A),October
+658,Vietnam,2000/01,666.667,(R/A),October
+659,Yemen,2000/01,0.0,(A),October
+660,Angola,2001/02,15.0,(R/A),April
+661,Bolivia,2001/02,6.0,(A),April
+662,Brazil,2001/02,43295.0,(A/R),April
+663,Burundi,2001/02,90.752,(A),April
+664,Ecuador,2001/02,55.0,(A/R),April
+665,Indonesia,2001/02,489.934,(R/A),April
+666,Madagascar,2001/02,84.0,(R),April
+667,Malawi,2001/02,3.0,(A),April
+668,Papua New Guinea,2001/02,93.6269,(A/R),April
+669,Paraguay,2001/02,30.0,(A),April
+670,Peru,2001/02,214.162,(A),April
+671,Rwanda,2001/02,0.0,(A),April
+672,Timor-Leste,2001/02,0.0,(A),April
+673,Zimbabwe,2001/02,10.0,(A),April
+676,"Congo, Rep. of",2001/02,0.0,(R),July
+677,Cuba,2001/02,129.6,(A),July
+678,Dominican Republic,2001/02,355.285,(A),July
+679,Haiti,2001/02,13.0,(A),July
+680,Philippines,2001/02,882.0,(R/A),July
+681,Tanzania,2001/02,60.0,(A/R),July
+682,Zambia,2001/02,0.0,(A),July
+685,Benin,2001/02,0.0,(R),October
+686,Cameroon,2001/02,10.833,(R/A),October
+687,Central African Republic,2001/02,42.988,(R),October
+688,Colombia,2001/02,1804.0,(A),October
+689,"Congo, Dem. Rep. of",2001/02,29.306,(R/A),October
+690,Costa Rica,2001/02,200.0,(A),October
+691,Côte d'Ivoire,2001/02,810.735,(R),October
+692,El Salvador,2001/02,125.8,(A),October
+693,Equatorial Guinea,2001/02,0.0,(R),October
+694,Ethiopia,2001/02,2083.0,(A),October
+695,Gabon,2001/02,0.0,(R),October
+696,Ghana,2001/02,21.0,(R),October
+697,Guatemala,2001/02,306.0,(A/R),October
+698,Guinea,2001/02,56.0,(R),October
+699,Guyana,2001/02,0.0,(R),October
+700,Honduras,2001/02,36.14,(A),October
+701,India,2001/02,354.0,(R/A),October
+702,Jamaica,2001/02,16.502,(A),October
+703,Kenya,2001/02,130.346,(A),October
+704,"Lao, People's Dem. Rep. of",2001/02,0.0,(R),October
+705,Liberia,2001/02,0.0,(R),October
+706,Mexico,2001/02,354.0,(A),October
+707,Nepal,2001/02,,(A),October
+708,Nicaragua,2001/02,82.422,(A),October
+709,Nigeria,2001/02,0.0,(R),October
+710,Panama,2001/02,75.0,(A),October
+711,Sierra Leone,2001/02,17.0,(R),October
+712,Sri Lanka,2001/02,6.0,(R),October
+713,Thailand,2001/02,124.0,(R/A),October
+714,Togo,2001/02,34.166,(R),October
+715,Trinidad & Tobago,2001/02,0.0,(R),October
+716,Uganda,2001/02,510.0,(R/A),October
+717,Venezuela,2001/02,428.0,(A),October
+718,Vietnam,2001/02,500.0,(R/A),October
+719,Yemen,2001/02,0.0,(A),October
+720,Angola,2002/03,5.0,(R/A),April
+721,Bolivia,2002/03,0.0,(A),April
+722,Brazil,2002/03,37303.0,(A/R),April
+723,Burundi,2002/03,16.185,(A),April
+724,Ecuador,2002/03,35.0,(A/R),April
+725,Indonesia,2002/03,150.15,(R/A),April
+726,Madagascar,2002/03,28.795,(R),April
+727,Malawi,2002/03,3.0,(A),April
+728,Papua New Guinea,2002/03,81.054,(A/R),April
+729,Paraguay,2002/03,28.0,(A),April
+730,Peru,2002/03,205.0,(A),April
+731,Rwanda,2002/03,0.0,(A),April
+732,Timor-Leste,2002/03,0.0,(A),April
+733,Zimbabwe,2002/03,10.0,(A),April
+736,"Congo, Rep. of",2002/03,0.0,(R),July
+737,Cuba,2002/03,102.6,(A),July
+738,Dominican Republic,2002/03,311.909,(A),July
+739,Haiti,2002/03,13.0,(A),July
+740,Philippines,2002/03,814.0,(R/A),July
+741,Tanzania,2002/03,11.667,(A/R),July
+742,Zambia,2002/03,0.0,(A),July
+745,Benin,2002/03,0.0,(R),October
+746,Cameroon,2002/03,11.0,(R/A),October
+747,Central African Republic,2002/03,7.9,(R),October
+748,Colombia,2002/03,1741.0,(A),October
+749,"Congo, Dem. Rep. of",2002/03,87.96,(R/A),October
+750,Costa Rica,2002/03,191.0,(A),October
+751,Côte d'Ivoire,2002/03,702.02,(R),October
+752,El Salvador,2002/03,185.9,(A),October
+753,Equatorial Guinea,2002/03,0.0,(R),October
+754,Ethiopia,2002/03,2067.0,(A),October
+755,Gabon,2002/03,0.0,(R),October
+756,Ghana,2002/03,15.0,(R),October
+757,Guatemala,2002/03,345.0,(A/R),October
+758,Guinea,2002/03,59.0,(R),October
+759,Guyana,2002/03,0.0,(R),October
+760,Honduras,2002/03,255.343,(A),October
+761,India,2002/03,653.0,(R/A),October
+762,Jamaica,2002/03,9.484,(A),October
+763,Kenya,2002/03,277.633,(A),October
+764,"Lao, People's Dem. Rep. of",2002/03,0.0,(R),October
+765,Liberia,2002/03,0.0,(R),October
+766,Mexico,2002/03,399.0,(A),October
+767,Nepal,2002/03,,(A),October
+768,Nicaragua,2002/03,96.71,(A),October
+769,Nigeria,2002/03,0.0,(R),October
+770,Panama,2002/03,90.0,(A),October
+771,Sierra Leone,2002/03,17.0,(R),October
+772,Sri Lanka,2002/03,5.0,(R),October
+773,Thailand,2002/03,78.7,(R/A),October
+774,Togo,2002/03,30.6,(R),October
+775,Trinidad & Tobago,2002/03,0.0,(R),October
+776,Uganda,2002/03,373.62,(R/A),October
+777,Venezuela,2002/03,328.0,(A),October
+778,Vietnam,2002/03,1166.667,(R/A),October
+779,Yemen,2002/03,0.0,(A),October
+780,Angola,2003/04,30.0,(R/A),April
+781,Bolivia,2003/04,0.0,(A),April
+782,Brazil,2003/04,42292.0,(A/R),April
+783,Burundi,2003/04,36.862,(A),April
+784,Ecuador,2003/04,32.0,(A/R),April
+785,Indonesia,2003/04,822.068,(R/A),April
+786,Madagascar,2003/04,62.963,(R),April
+787,Malawi,2003/04,1.0,(A),April
+788,Papua New Guinea,2003/04,87.709,(A/R),April
+789,Paraguay,2003/04,24.0,(A),April
+790,Peru,2003/04,147.0,(A),April
+791,Rwanda,2003/04,10.925,(A),April
+792,Timor-Leste,2003/04,0.0,(A),April
+793,Zimbabwe,2003/04,10.0,(A),April
+796,"Congo, Rep. of",2003/04,0.0,(R),July
+797,Cuba,2003/04,60.0,(A),July
+798,Dominican Republic,2003/04,276.228,(A),July
+799,Haiti,2003/04,10.0,(A),July
+800,Philippines,2003/04,698.0,(R/A),July
+801,Tanzania,2003/04,0.766,(A/R),July
+802,Zambia,2003/04,0.0,(A),July
+805,Benin,2003/04,0.0,(R),October
+806,Cameroon,2003/04,11.0,(R/A),October
+807,Central African Republic,2003/04,58.333,(R),October
+808,Colombia,2003/04,1598.0,(A),October
+809,"Congo, Dem. Rep. of",2003/04,31.241,(R/A),October
+810,Costa Rica,2003/04,183.0,(A),October
+811,Côte d'Ivoire,2003/04,786.607,(R),October
+812,El Salvador,2003/04,150.7,(A),October
+813,Equatorial Guinea,2003/04,0.0,(R),October
+814,Ethiopia,2003/04,1650.0,(A),October
+815,Gabon,2003/04,0.0,(R),October
+816,Ghana,2003/04,10.0,(R),October
+817,Guatemala,2003/04,150.0,(A/R),October
+818,Guinea,2003/04,59.0,(R),October
+819,Guyana,2003/04,0.0,(R),October
+820,Honduras,2003/04,112.513,(A),October
+821,India,2003/04,635.0,(R/A),October
+822,Jamaica,2003/04,12.664,(A),October
+823,Kenya,2003/04,295.146,(A),October
+824,"Lao, People's Dem. Rep. of",2003/04,0.0,(R),October
+825,Liberia,2003/04,0.0,(R),October
+826,Mexico,2003/04,688.0,(A),October
+827,Nepal,2003/04,,(A),October
+828,Nicaragua,2003/04,133.637,(A),October
+829,Nigeria,2003/04,0.0,(R),October
+830,Panama,2003/04,78.869,(A),October
+831,Sierra Leone,2003/04,17.0,(R),October
+832,Sri Lanka,2003/04,4.0,(R),October
+833,Thailand,2003/04,112.0,(R/A),October
+834,Togo,2003/04,19.1,(R),October
+835,Trinidad & Tobago,2003/04,0.0,(R),October
+836,Uganda,2003/04,313.73,(R/A),October
+837,Venezuela,2003/04,228.0,(A),October
+838,Vietnam,2003/04,666.667,(R/A),October
+839,Yemen,2003/04,0.0,(A),October
+840,Angola,2004/05,40.0,(R/A),April
+841,Bolivia,2004/05,0.0,(A),April
+842,Brazil,2004/05,32056.0,(A/R),April
+843,Burundi,2004/05,49.029,(A),April
+844,Ecuador,2004/05,20.0,(A/R),April
+845,Indonesia,2004/05,572.068,(R/A),April
+846,Madagascar,2004/05,42.367,(R),April
+847,Malawi,2004/05,1.0,(A),April
+848,Papua New Guinea,2004/05,88.56,(A/R),April
+849,Paraguay,2004/05,18.0,(A),April
+850,Peru,2004/05,133.0,(A),April
+851,Rwanda,2004/05,8.957,(A),April
+852,Timor-Leste,2004/05,0.0,(A),April
+853,Zimbabwe,2004/05,10.0,(A),April
+856,"Congo, Rep. of",2004/05,0.0,(R),July
+857,Cuba,2004/05,30.0,(A),July
+858,Dominican Republic,2004/05,209.0,(A),July
+859,Haiti,2004/05,10.0,(A),July
+860,Philippines,2004/05,554.0,(R/A),July
+861,Tanzania,2004/05,4.167,(A/R),July
+862,Zambia,2004/05,0.0,(A),July
+865,Benin,2004/05,0.0,(R),October
+866,Cameroon,2004/05,11.0,(R/A),October
+867,Central African Republic,2004/05,29.0,(R),October
+868,Colombia,2004/05,1274.0,(A),October
+869,"Congo, Dem. Rep. of",2004/05,9.124,(R/A),October
+870,Costa Rica,2004/05,189.0,(A),October
+871,Côte d'Ivoire,2004/05,846.867,(R),October
+872,El Salvador,2004/05,127.6,(A),October
+873,Equatorial Guinea,2004/05,0.0,(R),October
+874,Ethiopia,2004/05,1317.0,(A),October
+875,Gabon,2004/05,0.0,(R),October
+876,Ghana,2004/05,8.0,(R),October
+877,Guatemala,2004/05,153.0,(A/R),October
+878,Guinea,2004/05,29.0,(R),October
+879,Guyana,2004/05,0.0,(R),October
+880,Honduras,2004/05,86.618,(A),October
+881,India,2004/05,663.0,(R/A),October
+882,Jamaica,2004/05,14.48,(A),October
+883,Kenya,2004/05,98.163,(A),October
+884,"Lao, People's Dem. Rep. of",2004/05,0.0,(R),October
+885,Liberia,2004/05,0.0,(R),October
+886,Mexico,2004/05,966.0,(A),October
+887,Nepal,2004/05,,(A),October
+888,Nicaragua,2004/05,219.456,(A),October
+889,Nigeria,2004/05,0.0,(R),October
+890,Panama,2004/05,79.0,(A),October
+891,Sierra Leone,2004/05,17.0,(R),October
+892,Sri Lanka,2004/05,3.0,(R),October
+893,Thailand,2004/05,89.967,(R/A),October
+894,Togo,2004/05,9.383,(R),October
+895,Trinidad & Tobago,2004/05,0.0,(R),October
+896,Uganda,2004/05,258.2,(R/A),October
+897,Venezuela,2004/05,128.0,(A),October
+898,Vietnam,2004/05,900.0,(R/A),October
+899,Yemen,2004/05,0.0,(A),October
+900,Angola,2005/06,35.0,(R/A),April
+901,Bolivia,2005/06,0.0,(A),April
+902,Brazil,2005/06,28923.0,(A/R),April
+903,Burundi,2005/06,7.046,(A),April
+904,Ecuador,2005/06,47.0,(A/R),April
+905,Indonesia,2005/06,286.0,(R/A),April
+906,Madagascar,2005/06,11.583,(R),April
+907,Malawi,2005/06,1.0,(A),April
+908,Papua New Guinea,2005/06,73.387,(A/R),April
+909,Paraguay,2005/06,14.0,(A),April
+910,Peru,2005/06,33.0,(A),April
+911,Rwanda,2005/06,0.0,(A),April
+912,Timor-Leste,2005/06,0.0,(A),April
+913,Zimbabwe,2005/06,10.0,(A),April
+916,"Congo, Rep. of",2005/06,0.0,(R),July
+917,Cuba,2005/06,15.0,(A),July
+918,Dominican Republic,2005/06,280.84,(A),July
+919,Haiti,2005/06,8.0,(A),July
+920,Philippines,2005/06,314.0,(R/A),July
+921,Tanzania,2005/06,4.0,(A/R),July
+922,Zambia,2005/06,0.0,(A),July
+925,Benin,2005/06,0.0,(R),October
+926,Cameroon,2005/06,11.0,(R/A),October
+927,Central African Republic,2005/06,13.0,(R),October
+928,Colombia,2005/06,442.0,(A),October
+929,"Congo, Dem. Rep. of",2005/06,0.0,(R/A),October
+930,Costa Rica,2005/06,180.0,(A),October
+931,Côte d'Ivoire,2005/06,741.072,(R),October
+932,El Salvador,2005/06,129.0,(A),October
+933,Equatorial Guinea,2005/06,0.0,(R),October
+934,Ethiopia,2005/06,1432.0,(A),October
+935,Gabon,2005/06,0.0,(R),October
+936,Ghana,2005/06,5.0,(R),October
+937,Guatemala,2005/06,99.667,(A/R),October
+938,Guinea,2005/06,29.0,(R),October
+939,Guyana,2005/06,0.0,(R),October
+940,Honduras,2005/06,36.529,(A),October
+941,India,2005/06,1295.0,(R/A),October
+942,Jamaica,2005/06,5.829,(A),October
+943,Kenya,2005/06,125.0,(A),October
+944,"Lao, People's Dem. Rep. of",2005/06,0.0,(R),October
+945,Liberia,2005/06,0.0,(R),October
+946,Mexico,2005/06,1426.0,(A),October
+947,Nepal,2005/06,,(A),October
+948,Nicaragua,2005/06,144.142,(A),October
+949,Nigeria,2005/06,0.0,(R),October
+950,Panama,2005/06,21.0,(A),October
+951,Sierra Leone,2005/06,10.0,(R),October
+952,Sri Lanka,2005/06,2.0,(R),October
+953,Thailand,2005/06,132.25,(R/A),October
+954,Togo,2005/06,23.317,(R),October
+955,Trinidad & Tobago,2005/06,0.0,(R),October
+956,Uganda,2005/06,242.0,(R/A),October
+957,Venezuela,2005/06,28.0,(A),October
+958,Vietnam,2005/06,580.0,(R/A),October
+959,Yemen,2005/06,0.0,(A),October
+960,Angola,2006/07,40.0,(R/A),April
+961,Bolivia,2006/07,0.0,(A),April
+962,Brazil,2006/07,21240.0,(A/R),April
+963,Burundi,2006/07,17.291,(A),April
+964,Ecuador,2006/07,16.0,(A/R),April
+965,Indonesia,2006/07,150.0,(R/A),April
+966,Madagascar,2006/07,20.25,(R),April
+967,Malawi,2006/07,3.0,(A),April
+968,Papua New Guinea,2006/07,86.109,(A/R),April
+969,Paraguay,2006/07,16.0,(A),April
+970,Peru,2006/07,30.0,(A),April
+971,Rwanda,2006/07,60.0,(A),April
+972,Timor-Leste,2006/07,0.0,(A),April
+973,Zimbabwe,2006/07,10.0,(A),April
+976,"Congo, Rep. of",2006/07,0.0,(R),July
+977,Cuba,2006/07,18.0,(A),July
+978,Dominican Republic,2006/07,120.0,(A),July
+979,Haiti,2006/07,0.0,(A),July
+980,Philippines,2006/07,150.0,(R/A),July
+981,Tanzania,2006/07,7.333,(A/R),July
+982,Zambia,2006/07,0.0,(A),July
+985,Benin,2006/07,0.0,(R),October
+986,Cameroon,2006/07,33.0,(R/A),October
+987,Central African Republic,2006/07,13.0,(R),October
+988,Colombia,2006/07,855.0,(A),October
+989,"Congo, Dem. Rep. of",2006/07,0.0,(R/A),October
+990,Costa Rica,2006/07,140.0,(A),October
+991,Côte d'Ivoire,2006/07,715.64,(R),October
+992,El Salvador,2006/07,110.9,(A),October
+993,Equatorial Guinea,2006/07,0.0,(R),October
+994,Ethiopia,2006/07,900.0,(A),October
+995,Gabon,2006/07,0.0,(R),October
+996,Ghana,2006/07,5.0,(R),October
+997,Guatemala,2006/07,127.0,(A/R),October
+998,Guinea,2006/07,8.0,(R),October
+999,Guyana,2006/07,0.0,(R),October
+1000,Honduras,2006/07,82.33,(A),October
+1001,India,2006/07,1165.0,(R/A),October
+1002,Jamaica,2006/07,10.561,(A),October
+1003,Kenya,2006/07,115.0,(A),October
+1004,"Lao, People's Dem. Rep. of",2006/07,0.0,(R),October
+1005,Liberia,2006/07,0.0,(R),October
+1006,Mexico,2006/07,1418.0,(A),October
+1007,Nepal,2006/07,,(A),October
+1008,Nicaragua,2006/07,16.208,(A),October
+1009,Nigeria,2006/07,0.0,(R),October
+1010,Panama,2006/07,21.0,(A),October
+1011,Sierra Leone,2006/07,10.0,(R),October
+1012,Sri Lanka,2006/07,1.0,(R),October
+1013,Thailand,2006/07,73.0,(R/A),October
+1014,Togo,2006/07,35.0,(R),October
+1015,Trinidad & Tobago,2006/07,0.0,(R),October
+1016,Uganda,2006/07,265.227,(R/A),October
+1017,Venezuela,2006/07,30.0,(A),October
+1018,Vietnam,2006/07,500.0,(R/A),October
+1019,Yemen,2006/07,0.0,(A),October
+1020,Angola,2007/08,40.0,(R/A),April
+1021,Bolivia,2007/08,0.0,(A),April
+1022,Brazil,2007/08,19410.181,(A/R),April
+1023,Burundi,2007/08,150.497,(A),April
+1024,Ecuador,2007/08,7.5,(A/R),April
+1025,Indonesia,2007/08,30.0,(R/A),April
+1026,Madagascar,2007/08,8.333,(R),April
+1027,Malawi,2007/08,2.0,(A),April
+1028,Papua New Guinea,2007/08,80.127,(A/R),April
+1029,Paraguay,2007/08,6.0,(A),April
+1030,Peru,2007/08,16.0,(A),April
+1031,Rwanda,2007/08,17.0,(A),April
+1032,Timor-Leste,2007/08,0.0,(A),April
+1033,Zimbabwe,2007/08,5.0,(A),April
+1036,"Congo, Rep. of",2007/08,0.0,(R),July
+1037,Cuba,2007/08,22.0,(A),July
+1038,Dominican Republic,2007/08,45.0,(A),July
+1039,Haiti,2007/08,0.0,(A),July
+1040,Philippines,2007/08,50.0,(R/A),July
+1041,Tanzania,2007/08,18.383,(A/R),July
+1042,Zambia,2007/08,0.0,(A),July
+1045,Benin,2007/08,0.0,(R),October
+1046,Cameroon,2007/08,40.116,(R/A),October
+1047,Central African Republic,2007/08,5.0,(R),October
+1048,Colombia,2007/08,242.514,(A),October
+1049,"Congo, Dem. Rep. of",2007/08,0.0,(R/A),October
+1050,Costa Rica,2007/08,100.0,(A),October
+1051,Côte d'Ivoire,2007/08,1228.586,(R),October
+1052,El Salvador,2007/08,54.0,(A),October
+1053,Equatorial Guinea,2007/08,0.0,(R),October
+1054,Ethiopia,2007/08,933.0,(A),October
+1055,Gabon,2007/08,0.0,(R),October
+1056,Ghana,2007/08,3.0,(R),October
+1057,Guatemala,2007/08,30.0,(A/R),October
+1058,Guinea,2007/08,4.0,(R),October
+1059,Guyana,2007/08,0.0,(R),October
+1060,Honduras,2007/08,98.14,(A),October
+1061,India,2007/08,1155.0,(R/A),October
+1062,Jamaica,2007/08,19.746,(A),October
+1063,Kenya,2007/08,100.0,(A),October
+1064,"Lao, People's Dem. Rep. of",2007/08,0.0,(R),October
+1065,Liberia,2007/08,0.0,(R),October
+1066,Mexico,2007/08,725.0,(A),October
+1067,Nepal,2007/08,,(A),October
+1068,Nicaragua,2007/08,87.349,(A),October
+1069,Nigeria,2007/08,0.0,(R),October
+1070,Panama,2007/08,15.0,(A),October
+1071,Sierra Leone,2007/08,2.0,(R),October
+1072,Sri Lanka,2007/08,0.0,(R),October
+1073,Thailand,2007/08,11.0,(R/A),October
+1074,Togo,2007/08,20.0,(R),October
+1075,Trinidad & Tobago,2007/08,0.0,(R),October
+1076,Uganda,2007/08,280.151,(R/A),October
+1077,Venezuela,2007/08,15.0,(A),October
+1078,Vietnam,2007/08,833.0,(R/A),October
+1079,Yemen,2007/08,0.0,(A),October
+1080,Angola,2008/09,40.0,(R/A),April
+1081,Bolivia,2008/09,0.0,(A),April
+1082,Brazil,2008/09,13227.434,(A/R),April
+1083,Burundi,2008/09,5.15,(A),April
+1084,Ecuador,2008/09,6.2,(A/R),April
+1085,Indonesia,2008/09,56.0,(R/A),April
+1086,Madagascar,2008/09,0.0,(R),April
+1087,Malawi,2008/09,0.0,(A),April
+1088,Papua New Guinea,2008/09,76.0,(A/R),April
+1089,Paraguay,2008/09,0.0,(A),April
+1090,Peru,2008/09,201.0,(A),April
+1091,Rwanda,2008/09,17.0,(A),April
+1092,Timor-Leste,2008/09,0.0,(A),April
+1093,Zimbabwe,2008/09,0.0,(A),April
+1096,"Congo, Rep. of",2008/09,0.0,(R),July
+1097,Cuba,2008/09,12.0,(A),July
+1098,Dominican Republic,2008/09,52.0,(A),July
+1099,Haiti,2008/09,0.0,(A),July
+1100,Philippines,2008/09,0.0,(R/A),July
+1101,Tanzania,2008/09,13.2166,(A/R),July
+1102,Zambia,2008/09,0.0,(A),July
+1105,Benin,2008/09,0.0,(R),October
+1106,Cameroon,2008/09,9.0,(R/A),October
+1107,Central African Republic,2008/09,8.333,(R),October
+1108,Colombia,2008/09,178.481,(A),October
+1109,"Congo, Dem. Rep. of",2008/09,0.0,(R/A),October
+1110,Costa Rica,2008/09,120.0,(A),October
+1111,Côte d'Ivoire,2008/09,584.231,(R),October
+1112,El Salvador,2008/09,15.2,(A),October
+1113,Equatorial Guinea,2008/09,0.0,(R),October
+1114,Ethiopia,2008/09,1200.0,(A),October
+1115,Gabon,2008/09,0.0,(R),October
+1116,Ghana,2008/09,0.0,(R),October
+1117,Guatemala,2008/09,8.0,(A/R),October
+1118,Guinea,2008/09,1.0,(R),October
+1119,Guyana,2008/09,0.0,(R),October
+1120,Honduras,2008/09,98.14,(A),October
+1121,India,2008/09,926.0,(R/A),October
+1122,Jamaica,2008/09,7.0,(A),October
+1123,Kenya,2008/09,75.0,(A),October
+1124,"Lao, People's Dem. Rep. of",2008/09,0.0,(R),October
+1125,Liberia,2008/09,0.0,(R),October
+1126,Mexico,2008/09,120.0,(A),October
+1127,Nepal,2008/09,0.0,(A),October
+1128,Nicaragua,2008/09,204.411,(A),October
+1129,Nigeria,2008/09,0.0,(R),October
+1130,Panama,2008/09,5.0,(A),October
+1131,Sierra Leone,2008/09,0.0,(R),October
+1132,Sri Lanka,2008/09,0.0,(R),October
+1133,Thailand,2008/09,11.0,(R/A),October
+1134,Togo,2008/09,9.0,(R),October
+1135,Trinidad & Tobago,2008/09,0.0,(R),October
+1136,Uganda,2008/09,379.554,(R/A),October
+1137,Venezuela,2008/09,7.0,(A),October
+1138,Vietnam,2008/09,526.0,(R/A),October
+1139,Yemen,2008/09,0.0,(A),October
+1140,Angola,2009/10,40.0,(R/A),April
+1141,Bolivia,2009/10,0.0,(A),April
+1142,Brazil,2009/10,15766.0,(A/R),April
+1143,Burundi,2009/10,40.465,(A),April
+1144,Ecuador,2009/10,8.0,(A/R),April
+1145,Indonesia,2009/10,668.0,(R/A),April
+1146,Madagascar,2009/10,111.0,(R),April
+1147,Malawi,2009/10,0.0,(A),April
+1148,Papua New Guinea,2009/10,38.0,(A/R),April
+1149,Paraguay,2009/10,0.0,(A),April
+1150,Peru,2009/10,0.0,(A),April
+1151,Rwanda,2009/10,28.0,(A),April
+1152,Timor-Leste,2009/10,0.0,(A),April
+1153,Zimbabwe,2009/10,0.0,(A),April
+1156,"Congo, Rep. of",2009/10,0.0,(R),July
+1157,Cuba,2009/10,12.0,(A),July
+1158,Dominican Republic,2009/10,205.928,(A),July
+1159,Haiti,2009/10,0.0,(A),July
+1160,Philippines,2009/10,0.0,(R/A),July
+1161,Tanzania,2009/10,36.0,(A/R),July
+1162,Zambia,2009/10,0.0,(A),July
+1165,Benin,2009/10,0.0,(R),October
+1166,Cameroon,2009/10,125.0,(R/A),October
+1167,Central African Republic,2009/10,3.333,(R),October
+1168,Colombia,2009/10,75.058,(A),October
+1169,"Congo, Dem. Rep. of",2009/10,49.0,(R/A),October
+1170,Costa Rica,2009/10,51.186,(A),October
+1171,Côte d'Ivoire,2009/10,1177.745,(R),October
+1172,El Salvador,2009/10,15.8,(A),October
+1173,Equatorial Guinea,2009/10,0.0,(R),October
+1174,Ethiopia,2009/10,1233.0,(A),October
+1175,Gabon,2009/10,1.117,(R),October
+1176,Ghana,2009/10,5.0,(R),October
+1177,Guatemala,2009/10,2.0,(A/R),October
+1178,Guinea,2009/10,95.0,(R),October
+1179,Guyana,2009/10,0.0,(R),October
+1180,Honduras,2009/10,159.914,(A),October
+1181,India,2009/10,777.0,(R/A),October
+1182,Jamaica,2009/10,5.0,(A),October
+1183,Kenya,2009/10,25.0,(A),October
+1184,"Lao, People's Dem. Rep. of",2009/10,13.0,(R),October
+1185,Liberia,2009/10,0.0,(R),October
+1186,Mexico,2009/10,332.0,(A),October
+1187,Nepal,2009/10,0.0,(A),October
+1188,Nicaragua,2009/10,63.48,(A),October
+1189,Nigeria,2009/10,8.0,(R),October
+1190,Panama,2009/10,22.0,(A),October
+1191,Sierra Leone,2009/10,15.0,(R),October
+1192,Sri Lanka,2009/10,0.0,(R),October
+1193,Thailand,2009/10,2.0,(R/A),October
+1194,Togo,2009/10,3.0,(R),October
+1195,Trinidad & Tobago,2009/10,0.0,(R),October
+1196,Uganda,2009/10,476.033,(R/A),October
+1197,Venezuela,2009/10,0.0,(A),October
+1198,Vietnam,2009/10,640.0,(R/A),October
+1199,Yemen,2009/10,43.0,(A),October
+1200,Angola,2010/11,20.0,(R/A),April
+1201,Bolivia,2010/11,0.0,(A),April
+1202,Brazil,2010/11,11098.0,(A/R),April
+1203,Burundi,2010/11,6.742,(A),April
+1204,Ecuador,2010/11,12.0,(A/R),April
+1205,Indonesia,2010/11,725.0,(R/A),April
+1206,Madagascar,2010/11,56.0,(R),April
+1207,Malawi,2010/11,0.0,(A),April
+1208,Papua New Guinea,2010/11,25.0,(A/R),April
+1209,Paraguay,2010/11,0.0,(A),April
+1210,Peru,2010/11,37.0,(A),April
+1211,Rwanda,2010/11,19.0,(A),April
+1212,Timor-Leste,2010/11,0.0,(A),April
+1213,Zimbabwe,2010/11,0.0,(A),April
+1216,"Congo, Rep. of",2010/11,0.0,(R),July
+1217,Cuba,2010/11,8.0,(A),July
+1218,Dominican Republic,2010/11,124.593,(A),July
+1219,Haiti,2010/11,0.0,(A),July
+1220,Philippines,2010/11,0.0,(R/A),July
+1221,Tanzania,2010/11,16.0,(A/R),July
+1222,Zambia,2010/11,0.0,(A),July
+1225,Benin,2010/11,0.0,(R),October
+1226,Cameroon,2010/11,136.75,(R/A),October
+1227,Central African Republic,2010/11,18.85,(R),October
+1228,Colombia,2010/11,122.151,(A),October
+1229,"Congo, Dem. Rep. of",2010/11,32.0,(R/A),October
+1230,Costa Rica,2010/11,62.237,(A),October
+1231,Côte d'Ivoire,2010/11,819.996,(R),October
+1232,El Salvador,2010/11,18.2,(A),October
+1233,Equatorial Guinea,2010/11,0.0,(R),October
+1234,Ethiopia,2010/11,2050.0,(A),October
+1235,Gabon,2010/11,0.55,(R),October
+1236,Ghana,2010/11,8.0,(R),October
+1237,Guatemala,2010/11,71.0,(A/R),October
+1238,Guinea,2010/11,82.0,(R),October
+1239,Guyana,2010/11,0.0,(R),October
+1240,Honduras,2010/11,95.312,(A),October
+1241,India,2010/11,923.0,(R/A),October
+1242,Jamaica,2010/11,5.0,(A),October
+1243,Kenya,2010/11,98.0,(A),October
+1244,"Lao, People's Dem. Rep. of",2010/11,6.0,(R),October
+1245,Liberia,2010/11,0.0,(R),October
+1246,Mexico,2010/11,479.0,(A),October
+1247,Nepal,2010/11,0.0,(A),October
+1248,Nicaragua,2010/11,83.175,(A),October
+1249,Nigeria,2010/11,0.0,(R),October
+1250,Panama,2010/11,29.0,(A),October
+1251,Sierra Leone,2010/11,3.0,(R),October
+1252,Sri Lanka,2010/11,0.0,(R),October
+1253,Thailand,2010/11,8.0,(R/A),October
+1254,Togo,2010/11,0.904,(R),October
+1255,Trinidad & Tobago,2010/11,0.0,(R),October
+1256,Uganda,2010/11,512.238,(R/A),October
+1257,Venezuela,2010/11,0.0,(A),October
+1258,Vietnam,2010/11,2716.0,(R/A),October
+1259,Yemen,2010/11,5.0,(A),October
+1260,Angola,2011/12,20.0,(R/A),April
+1261,Bolivia,2011/12,0.0,(A),April
+1262,Brazil,2011/12,11340.0,(A/R),April
+1263,Burundi,2011/12,7.0,(A),April
+1264,Ecuador,2011/12,10.0,(A/R),April
+1265,Indonesia,2011/12,873.0,(R/A),April
+1266,Madagascar,2011/12,30.0,(R),April
+1267,Malawi,2011/12,0.0,(A),April
+1268,Papua New Guinea,2011/12,10.0,(A/R),April
+1269,Paraguay,2011/12,0.0,(A),April
+1270,Peru,2011/12,24.0,(A),April
+1271,Rwanda,2011/12,13.0,(A),April
+1272,Timor-Leste,2011/12,0.0,(A),April
+1273,Zimbabwe,2011/12,0.0,(A),April
+1276,"Congo, Rep. of",2011/12,0.0,(R),July
+1277,Cuba,2011/12,8.0,(A),July
+1278,Dominican Republic,2011/12,58.0,(A),July
+1279,Haiti,2011/12,0.0,(A),July
+1280,Philippines,2011/12,0.0,(R/A),July
+1281,Tanzania,2011/12,20.0,(A/R),July
+1282,Zambia,2011/12,0.0,(A),July
+1285,Benin,2011/12,0.0,(R),October
+1286,Cameroon,2011/12,26.375,(R/A),October
+1287,Central African Republic,2011/12,0.0,(R),October
+1288,Colombia,2011/12,162.577,(A),October
+1289,"Congo, Dem. Rep. of",2011/12,5.044,(R/A),October
+1290,Costa Rica,2011/12,59.223,(A),October
+1291,Côte d'Ivoire,2011/12,381.376,(R),October
+1292,El Salvador,2011/12,71.6,(A),October
+1293,Equatorial Guinea,2011/12,0.0,(R),October
+1294,Ethiopia,2011/12,417.0,(A),October
+1295,Gabon,2011/12,0.683,(R),October
+1296,Ghana,2011/12,5.0,(R),October
+1297,Guatemala,2011/12,27.0,(A/R),October
+1298,Guinea,2011/12,60.0,(R),October
+1299,Guyana,2011/12,0.0,(R),October
+1300,Honduras,2011/12,163.679,(A),October
+1301,India,2011/12,1250.0,(R/A),October
+1302,Jamaica,2011/12,0.0,(A),October
+1303,Kenya,2011/12,34.0,(A),October
+1304,"Lao, People's Dem. Rep. of",2011/12,0.0,(R),October
+1305,Liberia,2011/12,0.0,(R),October
+1306,Mexico,2011/12,255.0,(A),October
+1307,Nepal,2011/12,0.0,(A),October
+1308,Nicaragua,2011/12,20.583,(A),October
+1309,Nigeria,2011/12,0.0,(R),October
+1310,Panama,2011/12,20.0,(A),October
+1311,Sierra Leone,2011/12,3.0,(R),October
+1312,Sri Lanka,2011/12,0.0,(R),October
+1313,Thailand,2011/12,8.0,(R/A),October
+1314,Togo,2011/12,0.05,(R),October
+1315,Trinidad & Tobago,2011/12,0.0,(R),October
+1316,Uganda,2011/12,425.38,(R/A),October
+1317,Venezuela,2011/12,0.0,(A),October
+1318,Vietnam,2011/12,3750.0,(R/A),October
+1319,Yemen,2011/12,0.0,(A),October
+1320,Angola,2012/13,10.0,(R/A),April
+1321,Bolivia,2012/13,0.0,(A),April
+1322,Brazil,2012/13,10063.0,(A/R),April
+1323,Burundi,2012/13,7.0,(A),April
+1324,Ecuador,2012/13,2.3,(A/R),April
+1325,Indonesia,2012/13,450.0,(R/A),April
+1326,Madagascar,2012/13,30.0,(R),April
+1327,Malawi,2012/13,0.0,(A),April
+1328,Papua New Guinea,2012/13,5.0,(A/R),April
+1329,Paraguay,2012/13,0.0,(A),April
+1330,Peru,2012/13,93.0,(A),April
+1331,Rwanda,2012/13,13.0,(A),April
+1332,Timor-Leste,2012/13,0.0,(A),April
+1333,Zimbabwe,2012/13,0.0,(A),April
+1336,"Congo, Rep. of",2012/13,0.0,(R),July
+1337,Cuba,2012/13,0.0,(A),July
+1338,Dominican Republic,2012/13,61.0,(A),July
+1339,Haiti,2012/13,0.0,(A),July
+1340,Philippines,2012/13,0.0,(R/A),July
+1341,Tanzania,2012/13,34.65,(A/R),July
+1342,Zambia,2012/13,0.0,(A),July
+1345,Benin,2012/13,0.0,(R),October
+1346,Cameroon,2012/13,47.076,(R/A),October
+1347,Central African Republic,2012/13,0.3,(R),October
+1348,Colombia,2012/13,114.027,(A),October
+1349,"Congo, Dem. Rep. of",2012/13,4.0,(R/A),October
+1350,Costa Rica,2012/13,125.222,(A),October
+1351,Côte d'Ivoire,2012/13,637.129,(R),October
+1352,El Salvador,2012/13,80.0,(A),October
+1353,Equatorial Guinea,2012/13,0.0,(R),October
+1354,Ethiopia,2012/13,1000.0,(A),October
+1355,Gabon,2012/13,0.433,(R),October
+1356,Ghana,2012/13,3.0,(R),October
+1357,Guatemala,2012/13,16.0,(A/R),October
+1358,Guinea,2012/13,15.0,(R),October
+1359,Guyana,2012/13,0.0,(R),October
+1360,Honduras,2012/13,231.942,(A),October
+1361,India,2012/13,1300.0,(R/A),October
+1362,Jamaica,2012/13,0.0,(A),October
+1363,Kenya,2012/13,14.0,(A),October
+1364,"Lao, People's Dem. Rep. of",2012/13,0.0,(R),October
+1365,Liberia,2012/13,0.0,(R),October
+1366,Mexico,2012/13,400.0,(A),October
+1367,Nepal,2012/13,0.0,(A),October
+1368,Nicaragua,2012/13,348.203,(A),October
+1369,Nigeria,2012/13,0.0,(R),October
+1370,Panama,2012/13,10.0,(A),October
+1371,Sierra Leone,2012/13,2.0,(R),October
+1372,Sri Lanka,2012/13,0.0,(R),October
+1373,Thailand,2012/13,10.0,(R/A),October
+1374,Togo,2012/13,8.633,(R),October
+1375,Trinidad & Tobago,2012/13,0.0,(R),October
+1376,Uganda,2012/13,603.494,(R/A),October
+1377,Venezuela,2012/13,0.0,(A),October
+1378,Vietnam,2012/13,2750.0,(R/A),October
+1379,Yemen,2012/13,0.0,(A),October
+1380,Angola,2013/14,5.0,(R/A),April
+1381,Bolivia,2013/14,0.0,(A),April
+1382,Brazil,2013/14,15868.0,(A/R),April
+1383,Burundi,2013/14,5.0,(A),April
+1384,Ecuador,2013/14,2.0,(A/R),April
+1385,Indonesia,2013/14,650.0,(R/A),April
+1386,Madagascar,2013/14,10.0,(R),April
+1387,Malawi,2013/14,0.0,(A),April
+1388,Papua New Guinea,2013/14,5.0,(A/R),April
+1389,Paraguay,2013/14,0.0,(A),April
+1390,Peru,2013/14,82.0,(A),April
+1391,Rwanda,2013/14,10.0,(A),April
+1392,Timor-Leste,2013/14,0.0,(A),April
+1393,Zimbabwe,2013/14,0.0,(A),April
+1396,"Congo, Rep. of",2013/14,0.0,(R),July
+1397,Cuba,2013/14,0.0,(A),July
+1398,Dominican Republic,2013/14,58.0,(A),July
+1399,Haiti,2013/14,0.0,(A),July
+1400,Philippines,2013/14,0.0,(R/A),July
+1401,Tanzania,2013/14,51.65,(A/R),July
+1402,Zambia,2013/14,0.0,(A),July
+1405,Benin,2013/14,0.0,(R),October
+1406,Cameroon,2013/14,22.043,(R/A),October
+1407,Central African Republic,2013/14,5.523,(R),October
+1408,Colombia,2013/14,231.621,(A),October
+1409,"Congo, Dem. Rep. of",2013/14,4.0,(R/A),October
+1410,Costa Rica,2013/14,144.72,(A),October
+1411,Côte d'Ivoire,2013/14,575.18,(R),October
+1412,El Salvador,2013/14,72.5,(A),October
+1413,Equatorial Guinea,2013/14,0.0,(R),October
+1414,Ethiopia,2013/14,667.0,(A),October
+1415,Gabon,2013/14,0.217,(R),October
+1416,Ghana,2013/14,2.0,(R),October
+1417,Guatemala,2013/14,12.0,(A/R),October
+1418,Guinea,2013/14,10.0,(R),October
+1419,Guyana,2013/14,0.0,(R),October
+1420,Honduras,2013/14,232.574,(A),October
+1421,India,2013/14,1320.0,(R/A),October
+1422,Jamaica,2013/14,0.0,(A),October
+1423,Kenya,2013/14,20.0,(A),October
+1424,"Lao, People's Dem. Rep. of",2013/14,0.0,(R),October
+1425,Liberia,2013/14,0.0,(R),October
+1426,Mexico,2013/14,400.0,(A),October
+1427,Nepal,2013/14,0.0,(A),October
+1428,Nicaragua,2013/14,76.622,(A),October
+1429,Nigeria,2013/14,0.0,(R),October
+1430,Panama,2013/14,10.0,(A),October
+1431,Sierra Leone,2013/14,2.0,(R),October
+1432,Sri Lanka,2013/14,0.0,(R),October
+1433,Thailand,2013/14,5.0,(R/A),October
+1434,Togo,2013/14,9.567,(R),October
+1435,Trinidad & Tobago,2013/14,0.0,(R),October
+1436,Uganda,2013/14,717.737,(R/A),October
+1437,Venezuela,2013/14,0.0,(A),October
+1438,Vietnam,2013/14,3200.0,(R/A),October
+1439,Yemen,2013/14,0.0,(A),October
+1440,Angola,2014/15,5.0,(R/A),April
+1441,Bolivia,2014/15,0.0,(A),April
+1442,Brazil,2014/15,17720.0,(A/R),April
+1443,Burundi,2014/15,7.0,(A),April
+1444,Ecuador,2014/15,3.0,(A/R),April
+1445,Indonesia,2014/15,600.0,(R/A),April
+1446,Madagascar,2014/15,10.0,(R),April
+1447,Malawi,2014/15,0.0,(A),April
+1448,Papua New Guinea,2014/15,5.0,(A/R),April
+1449,Paraguay,2014/15,0.0,(A),April
+1450,Peru,2014/15,60.0,(A),April
+1451,Rwanda,2014/15,10.0,(A),April
+1452,Timor-Leste,2014/15,0.0,(A),April
+1453,Zimbabwe,2014/15,0.0,(A),April
+1456,"Congo, Rep. of",2014/15,0.0,(R),July
+1457,Cuba,2014/15,0.0,(A),July
+1458,Dominican Republic,2014/15,45.0,(A),July
+1459,Haiti,2014/15,0.0,(A),July
+1460,Philippines,2014/15,0.0,(R/A),July
+1461,Tanzania,2014/15,38.95,(A/R),July
+1462,Zambia,2014/15,0.0,(A),July
+1465,Benin,2014/15,0.0,(R),October
+1466,Cameroon,2014/15,20.0,(R/A),October
+1467,Central African Republic,2014/15,0.6,(R),October
+1468,Colombia,2014/15,214.051,(A),October
+1469,"Congo, Dem. Rep. of",2014/15,3.0,(R/A),October
+1470,Costa Rica,2014/15,125.173,(A),October
+1471,Côte d'Ivoire,2014/15,1153.453,(R),October
+1472,El Salvador,2014/15,18.5,(A),October
+1473,Equatorial Guinea,2014/15,0.0,(R),October
+1474,Ethiopia,2014/15,500.0,(A),October
+1475,Gabon,2014/15,0.017,(R),October
+1476,Ghana,2014/15,2.0,(R),October
+1477,Guatemala,2014/15,10.0,(A/R),October
+1478,Guinea,2014/15,10.0,(R),October
+1479,Guyana,2014/15,0.0,(R),October
+1480,Honduras,2014/15,293.075,(A),October
+1481,India,2014/15,1100.0,(R/A),October
+1482,Jamaica,2014/15,0.0,(A),October
+1483,Kenya,2014/15,25.0,(A),October
+1484,"Lao, People's Dem. Rep. of",2014/15,0.0,(R),October
+1485,Liberia,2014/15,0.0,(R),October
+1486,Mexico,2014/15,800.0,(A),October
+1487,Nepal,2014/15,0.0,(A),October
+1488,Nicaragua,2014/15,150.312,(A),October
+1489,Nigeria,2014/15,0.0,(R),October
+1490,Panama,2014/15,8.0,(A),October
+1491,Sierra Leone,2014/15,2.0,(R),October
+1492,Sri Lanka,2014/15,0.0,(R),October
+1493,Thailand,2014/15,16.667,(R/A),October
+1494,Togo,2014/15,46.683,(R),October
+1495,Trinidad & Tobago,2014/15,0.0,(R),October
+1496,Uganda,2014/15,629.975,(R/A),October
+1497,Venezuela,2014/15,0.0,(A),October
+1498,Vietnam,2014/15,3500.0,(R/A),October
+1499,Yemen,2014/15,0.0,(A),October
+1500,Angola,2015/16,5.0,(R/A),April
+1501,Bolivia,2015/16,0.0,(A),April
+1502,Brazil,2015/16,12810.0,(A/R),April
+1503,Burundi,2015/16,7.0,(A),April
+1504,Ecuador,2015/16,3.0,(A/R),April
+1505,Indonesia,2015/16,450.0,(R/A),April
+1506,Madagascar,2015/16,10.0,(R),April
+1507,Malawi,2015/16,0.0,(A),April
+1508,Papua New Guinea,2015/16,5.0,(A/R),April
+1509,Paraguay,2015/16,0.0,(A),April
+1510,Peru,2015/16,50.0,(A),April
+1511,Rwanda,2015/16,10.0,(A),April
+1512,Timor-Leste,2015/16,0.0,(A),April
+1513,Zimbabwe,2015/16,0.0,(A),April
+1516,"Congo, Rep. of",2015/16,0.0,(R),July
+1517,Cuba,2015/16,0.0,(A),July
+1518,Dominican Republic,2015/16,35.0,(A),July
+1519,Haiti,2015/16,0.0,(A),July
+1520,Philippines,2015/16,0.0,(R/A),July
+1521,Tanzania,2015/16,37.183,(A/R),July
+1522,Zambia,2015/16,0.0,(A),July
+1525,Benin,2015/16,0.0,(R),October
+1526,Cameroon,2015/16,30.0,(R/A),October
+1527,Central African Republic,2015/16,0.0,(R),October
+1528,Colombia,2015/16,299.465,(A),October
+1529,"Congo, Dem. Rep. of",2015/16,3.0,(R/A),October
+1530,Costa Rica,2015/16,74.88,(A),October
+1531,Côte d'Ivoire,2015/16,1236.776,(R),October
+1532,El Salvador,2015/16,10.7,(A),October
+1533,Equatorial Guinea,2015/16,0.0,(R),October
+1534,Ethiopia,2015/16,578.0,(A),October
+1535,Gabon,2015/16,0.017,(R),October
+1536,Ghana,2015/16,2.0,(R),October
+1537,Guatemala,2015/16,15.0,(A/R),October
+1538,Guinea,2015/16,10.0,(R),October
+1539,Guyana,2015/16,0.0,(R),October
+1540,Honduras,2015/16,186.219,(A),October
+1541,India,2015/16,1350.0,(R/A),October
+1542,Jamaica,2015/16,0.0,(A),October
+1543,Kenya,2015/16,20.0,(A),October
+1544,"Lao, People's Dem. Rep. of",2015/16,0.0,(R),October
+1545,Liberia,2015/16,0.0,(R),October
+1546,Mexico,2015/16,800.0,(A),October
+1547,Nepal,2015/16,0.0,(A),October
+1548,Nicaragua,2015/16,63.912,(A),October
+1549,Nigeria,2015/16,0.0,(R),October
+1550,Panama,2015/16,4.0,(A),October
+1551,Sierra Leone,2015/16,2.0,(R),October
+1552,Sri Lanka,2015/16,0.0,(R),October
+1553,Thailand,2015/16,8.0,(R/A),October
+1554,Togo,2015/16,6.35,(R),October
+1555,Trinidad & Tobago,2015/16,0.0,(R),October
+1556,Uganda,2015/16,690.0,(R/A),October
+1557,Venezuela,2015/16,0.0,(A),October
+1558,Vietnam,2015/16,5000.0,(R/A),October
+1559,Yemen,2015/16,0.0,(A),October
+1560,Angola,2016/17,5.0,(R/A),April
+1561,Bolivia,2016/17,0.0,(A),April
+1562,Brazil,2016/17,7800.0,(A/R),April
+1563,Burundi,2016/17,5.0,(A),April
+1564,Ecuador,2016/17,3.0,(A/R),April
+1565,Indonesia,2016/17,500.0,(R/A),April
+1566,Madagascar,2016/17,10.0,(R),April
+1567,Malawi,2016/17,0.0,(A),April
+1568,Papua New Guinea,2016/17,5.0,(A/R),April
+1569,Paraguay,2016/17,0.0,(A),April
+1570,Peru,2016/17,40.0,(A),April
+1571,Rwanda,2016/17,10.0,(A),April
+1572,Timor-Leste,2016/17,0.0,(A),April
+1573,Zimbabwe,2016/17,0.0,(A),April
+1576,"Congo, Rep. of",2016/17,0.0,(R),July
+1577,Cuba,2016/17,0.0,(A),July
+1578,Dominican Republic,2016/17,27.0,(A),July
+1579,Haiti,2016/17,0.0,(A),July
+1580,Philippines,2016/17,0.0,(R/A),July
+1581,Tanzania,2016/17,46.833,(A/R),July
+1582,Zambia,2016/17,0.0,(A),July
+1585,Benin,2016/17,0.0,(R),October
+1586,Cameroon,2016/17,35.0,(R/A),October
+1587,Central African Republic,2016/17,0.0,(R),October
+1588,Colombia,2016/17,376.678,(A),October
+1589,"Congo, Dem. Rep. of",2016/17,3.0,(R/A),October
+1590,Costa Rica,2016/17,71.491,(A),October
+1591,Côte d'Ivoire,2016/17,665.462,(R),October
+1592,El Salvador,2016/17,10.1,(A),October
+1593,Equatorial Guinea,2016/17,0.0,(R),October
+1594,Ethiopia,2016/17,500.0,(A),October
+1595,Gabon,2016/17,0.258,(R),October
+1596,Ghana,2016/17,2.0,(R),October
+1597,Guatemala,2016/17,15.0,(A/R),October
+1598,Guinea,2016/17,10.0,(R),October
+1599,Guyana,2016/17,0.0,(R),October
+1600,Honduras,2016/17,466.99,(A),October
+1601,India,2016/17,1400.0,(R/A),October
+1602,Jamaica,2016/17,0.0,(A),October
+1603,Kenya,2016/17,20.0,(A),October
+1604,"Lao, People's Dem. Rep. of",2016/17,0.0,(R),October
+1605,Liberia,2016/17,0.0,(R),October
+1606,Mexico,2016/17,630.0,(A),October
+1607,Nepal,2016/17,0.0,(A),October
+1608,Nicaragua,2016/17,106.988,(A),October
+1609,Nigeria,2016/17,0.0,(R),October
+1610,Panama,2016/17,4.0,(A),October
+1611,Sierra Leone,2016/17,2.0,(R),October
+1612,Sri Lanka,2016/17,0.0,(R),October
+1613,Thailand,2016/17,8.0,(R/A),October
+1614,Togo,2016/17,13.767,(R),October
+1615,Trinidad & Tobago,2016/17,0.0,(R),October
+1616,Uganda,2016/17,790.0,(R/A),October
+1617,Venezuela,2016/17,0.0,(A),October
+1618,Vietnam,2016/17,5000.0,(R/A),October
+1619,Yemen,2016/17,0.0,(A),October
+1620,Angola,2017/18,5.0,(R/A),April
+1621,Bolivia,2017/18,0.0,(A),April
+1622,Brazil,2017/18,9872.0,(A/R),April
+1623,Burundi,2017/18,5.0,(A),April
+1624,Ecuador,2017/18,3.0,(A/R),April
+1625,Indonesia,2017/18,500.0,(R/A),April
+1626,Madagascar,2017/18,10.0,(R),April
+1627,Malawi,2017/18,0.0,(A),April
+1628,Papua New Guinea,2017/18,5.0,(A/R),April
+1629,Paraguay,2017/18,0.0,(A),April
+1630,Peru,2017/18,40.0,(A),April
+1631,Rwanda,2017/18,10.0,(A),April
+1632,Timor-Leste,2017/18,0.0,(A),April
+1633,Zimbabwe,2017/18,0.0,(A),April
+1636,"Congo, Rep. of",2017/18,0.0,(R),July
+1637,Cuba,2017/18,0.0,(A),July
+1638,Dominican Republic,2017/18,25.0,(A),July
+1639,Haiti,2017/18,0.0,(A),July
+1640,Philippines,2017/18,0.0,(R/A),July
+1641,Tanzania,2017/18,25.0,(A/R),July
+1642,Zambia,2017/18,0.0,(A),July
+1645,Benin,2017/18,0.0,(R),October
+1646,Cameroon,2017/18,30.0,(R/A),October
+1647,Central African Republic,2017/18,0.0,(R),October
+1648,Colombia,2017/18,298.369,(A),October
+1649,"Congo, Dem. Rep. of",2017/18,3.0,(R/A),October
+1650,Costa Rica,2017/18,107.343,(A),October
+1651,Côte d'Ivoire,2017/18,200.0,(R),October
+1652,El Salvador,2017/18,22.2,(A),October
+1653,Equatorial Guinea,2017/18,0.0,(R),October
+1654,Ethiopia,2017/18,575.0,(A),October
+1655,Gabon,2017/18,0.258,(R),October
+1656,Ghana,2017/18,2.0,(R),October
+1657,Guatemala,2017/18,15.0,(A/R),October
+1658,Guinea,2017/18,10.0,(R),October
+1659,Guyana,2017/18,0.0,(R),October
+1660,Honduras,2017/18,263.667,(A),October
+1661,India,2017/18,1100.0,(R/A),October
+1662,Jamaica,2017/18,0.0,(A),October
+1663,Kenya,2017/18,30.0,(A),October
+1664,"Lao, People's Dem. Rep. of",2017/18,0.0,(R),October
+1665,Liberia,2017/18,0.0,(R),October
+1666,Mexico,2017/18,550.0,(A),October
+1667,Nepal,2017/18,0.0,(A),October
+1668,Nicaragua,2017/18,125.0,(A),October
+1669,Nigeria,2017/18,0.0,(R),October
+1670,Panama,2017/18,3.0,(A),October
+1671,Sierra Leone,2017/18,2.0,(R),October
+1672,Sri Lanka,2017/18,0.0,(R),October
+1673,Thailand,2017/18,8.0,(R/A),October
+1674,Togo,2017/18,5.0,(R),October
+1675,Trinidad & Tobago,2017/18,0.0,(R),October
+1676,Uganda,2017/18,907.0,(R/A),October
+1677,Venezuela,2017/18,0.0,(A),October
+1678,Vietnam,2017/18,4600.0,(R/A),October
+1679,Yemen,2017/18,0.0,(A),October
+1680,Angola,2018/19,5.0,(R/A),April
+1681,Bolivia,2018/19,0.0,(A),April
+1682,Brazil,2018/19,8392.0,(A/R),April
+1683,Burundi,2018/19,10.0,(A),April
+1684,Ecuador,2018/19,3.0,(A/R),April
+1685,Indonesia,2018/19,500.0,(R/A),April
+1686,Madagascar,2018/19,10.0,(R),April
+1687,Malawi,2018/19,0.0,(A),April
+1688,Papua New Guinea,2018/19,5.0,(A/R),April
+1689,Paraguay,2018/19,0.0,(A),April
+1690,Peru,2018/19,40.0,(A),April
+1691,Rwanda,2018/19,10.0,(A),April
+1692,Timor-Leste,2018/19,0.0,(A),April
+1693,Zimbabwe,2018/19,0.0,(A),April
+1696,"Congo, Rep. of",2018/19,,(R),July
+1697,Cuba,2018/19,,(A),July
+1698,Dominican Republic,2018/19,,(A),July
+1699,Haiti,2018/19,,(A),July
+1700,Philippines,2018/19,,(R/A),July
+1701,Tanzania,2018/19,,(A/R),July
+1702,Zambia,2018/19,,(A),July
+1705,Benin,2018/19,,(R),October
+1706,Cameroon,2018/19,,(R/A),October
+1707,Central African Republic,2018/19,,(R),October
+1708,Colombia,2018/19,,(A),October
+1709,"Congo, Dem. Rep. of",2018/19,,(R/A),October
+1710,Costa Rica,2018/19,,(A),October
+1711,Côte d'Ivoire,2018/19,,(R),October
+1712,El Salvador,2018/19,,(A),October
+1713,Equatorial Guinea,2018/19,,(R),October
+1714,Ethiopia,2018/19,,(A),October
+1715,Gabon,2018/19,,(R),October
+1716,Ghana,2018/19,,(R),October
+1717,Guatemala,2018/19,,(A/R),October
+1718,Guinea,2018/19,,(R),October
+1719,Guyana,2018/19,,(R),October
+1720,Honduras,2018/19,,(A),October
+1721,India,2018/19,,(R/A),October
+1722,Jamaica,2018/19,,(A),October
+1723,Kenya,2018/19,,(A),October
+1724,"Lao, People's Dem. Rep. of",2018/19,,(R),October
+1725,Liberia,2018/19,,(R),October
+1726,Mexico,2018/19,,(A),October
+1727,Nepal,2018/19,,(A),October
+1728,Nicaragua,2018/19,,(A),October
+1729,Nigeria,2018/19,,(R),October
+1730,Panama,2018/19,,(A),October
+1731,Sierra Leone,2018/19,,(R),October
+1732,Sri Lanka,2018/19,,(R),October
+1733,Thailand,2018/19,,(R/A),October
+1734,Togo,2018/19,,(R),October
+1735,Trinidad & Tobago,2018/19,,(R),October
+1736,Uganda,2018/19,,(R/A),October
+1737,Venezuela,2018/19,,(A),October
+1738,Vietnam,2018/19,,(R/A),October
+1739,Yemen,2018/19,,(A),October

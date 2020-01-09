@@ -1,0 +1,2745 @@
+,country_name,year,cents_per_lbs,Unnamed: 29
+0,Colombia,1990,69.523,Colombian Milds
+1,Kenya,1990,60.5721,Colombian Milds
+2,Tanzania,1990,40.8183,Colombian Milds
+3,Tanzania,1990,40.8183,Robustas
+4,Bolivia,1990,51.7802,Other Milds
+5,Burundi,1990,58.0195,Other Milds
+6,Burundi,1990,58.0195,Robustas
+7,Cameroon,1990,32.2852,Other Milds
+8,Cameroon,1990,32.2852,Robustas
+9,"Congo, Dem. Rep. of",1990,,Other Milds
+10,"Congo, Dem. Rep. of",1990,,Robustas
+11,Costa Rica,1990,58.4893,Other Milds
+12,Cuba,1990,171.4282,Other Milds
+13,Dominican Republic,1990,66.055,Other Milds
+14,Ecuador,1990,35.2113,Other Milds
+15,Ecuador,1990,35.2113,Robustas
+16,El Salvador,1990,50.5636,Other Milds
+17,Guatemala,1990,54.5845,Other Milds
+18,Haiti,1990,41.2845,Other Milds
+19,Honduras,1990,50.3496,Other Milds
+20,India,1990,66.7522,Other Milds
+21,India,1990,66.7522,Robustas
+22,Jamaica,1990,171.5513,Other Milds
+23,Madagascar,1990,,Other Milds
+24,Madagascar,1990,,Robustas
+25,Malawi,1990,84.873,Other Milds
+26,Mexico,1990,79.5617,Other Milds
+27,Nicaragua,1990,4.3963,Other Milds
+28,Panama,1990,49.304,Other Milds
+29,Papua New Guinea,1990,65.5004,Other Milds
+30,Papua New Guinea,1990,65.5004,Robustas
+31,Peru,1990,90.3729,Other Milds
+32,Rwanda,1990,74.2047,Other Milds
+33,Sri Lanka,1990,,Other Milds
+34,Sri Lanka,1990,,Robustas
+35,Uganda,1990,15.2932,Other Milds
+36,Uganda,1990,15.2932,Robustas
+37,"Venezuela, Bol. Rep. of",1990,,Other Milds
+38,Zambia,1990,89.7541,Other Milds
+39,Zimbabwe ,1990,,Other Milds
+40,Angola,1990,,Brazilian Naturals
+41,Angola,1990,,Robustas
+42,Brazil,1990,54.3248,Brazilian Naturals
+43,Brazil,1990,54.3248,Robustas
+44,Ethiopia,1990,61.09,Brazilian Naturals
+45,Indonesia,1990,,Brazilian Naturals
+46,Indonesia,1990,,Robustas
+47,Philippines,1990,,Brazilian Naturals
+48,Philippines,1990,,Robustas
+49,Thailand,1990,,Brazilian Naturals
+50,Thailand,1990,,Robustas
+51,Vietnam,1990,,Brazilian Naturals
+52,Vietnam,1990,,Robustas
+53,Angola,1990,85.6569,Brazilian Naturals
+54,Angola,1990,85.6569,Robustas
+55,Benin,1990,53.7609,Robustas
+56,Brazil,1990,34.8486,Brazilian Naturals
+57,Brazil,1990,34.8486,Robustas
+58,Burundi,1990,,Other Milds
+59,Burundi,1990,,Robustas
+60,Cameroon,1990,28.3337,Other Milds
+61,Cameroon,1990,28.3337,Robustas
+62,Central African Republic,1990,36.7471,Robustas
+63,"Congo, Dem. Rep. of",1990,4.5201,Other Milds
+64,"Congo, Dem. Rep. of",1990,4.5201,Robustas
+65,"Congo, Rep. of",1990,19.2087,Robustas
+66,Côte d'Ivoire,1990,33.4064,Robustas
+67,Ecuador,1990,19.0602,Other Milds
+68,Ecuador,1990,19.0602,Robustas
+69,Gabon,1990,43.4284,Robustas
+70,Ghana,1990,,Robustas
+71,Guinea,1990,34.3722,Robustas
+72,India,1990,44.3451,Other Milds
+73,India,1990,44.3451,Robustas
+74,Indonesia,1990,29.6807,Brazilian Naturals
+75,Indonesia,1990,29.6807,Robustas
+76,Liberia,1990,,Robustas
+77,Madagascar,1990,32.4545,Other Milds
+78,Madagascar,1990,32.4545,Robustas
+79,Nigeria,1990,70.5228,Robustas
+80,Papua New Guinea,1990,26.5984,Other Milds
+81,Papua New Guinea,1990,26.5984,Robustas
+82,Philippines,1990,34.2253,Brazilian Naturals
+83,Philippines,1990,34.2253,Robustas
+84,Sierra Leone,1990,26.1686,Robustas
+85,Sri Lanka,1990,26.8959,Other Milds
+86,Sri Lanka,1990,26.8959,Robustas
+87,Tanzania,1990,17.007,Colombian Milds
+88,Tanzania,1990,17.007,Robustas
+89,Thailand,1990,37.7181,Brazilian Naturals
+90,Thailand,1990,37.7181,Robustas
+91,Togo,1990,29.2306,Robustas
+92,Trinidad & Tobago,1990,62.5882,Robustas
+93,Uganda,1990,7.5418,Other Milds
+94,Uganda,1990,7.5418,Robustas
+95,Vietnam,1990,36.9183,Brazilian Naturals
+96,Vietnam,1990,36.9183,Robustas
+97,© International Coffee Organization,1990,,
+98,Colombia,1991,67.1251,Colombian Milds
+99,Kenya,1991,50.6778,Colombian Milds
+100,Tanzania,1991,49.5039,Colombian Milds
+101,Tanzania,1991,49.5039,Robustas
+102,Bolivia,1991,52.423,Other Milds
+103,Burundi,1991,55.0206,Other Milds
+104,Burundi,1991,55.0206,Robustas
+105,Cameroon,1991,28.2347,Other Milds
+106,Cameroon,1991,28.2347,Robustas
+107,"Congo, Dem. Rep. of",1991,,Other Milds
+108,"Congo, Dem. Rep. of",1991,,Robustas
+109,Costa Rica,1991,52.7258,Other Milds
+110,Cuba,1991,171.4282,Other Milds
+111,Dominican Republic,1991,62.6429,Other Milds
+112,Ecuador,1991,36.1803,Other Milds
+113,Ecuador,1991,36.1803,Robustas
+114,El Salvador,1991,44.5445,Other Milds
+115,Guatemala,1991,57.5349,Other Milds
+116,Haiti,1991,23.9888,Other Milds
+117,Honduras,1991,56.1243,Other Milds
+118,India,1991,61.5342,Other Milds
+119,India,1991,61.5342,Robustas
+120,Jamaica,1991,227.4241,Other Milds
+121,Madagascar,1991,,Other Milds
+122,Madagascar,1991,,Robustas
+123,Malawi,1991,70.9354,Other Milds
+124,Mexico,1991,86.5563,Other Milds
+125,Nicaragua,1991,44.137,Other Milds
+126,Panama,1991,47.2497,Other Milds
+127,Papua New Guinea,1991,64.5333,Other Milds
+128,Papua New Guinea,1991,64.5333,Robustas
+129,Peru,1991,,Other Milds
+130,Rwanda,1991,50.3764,Other Milds
+131,Sri Lanka,1991,,Other Milds
+132,Sri Lanka,1991,,Robustas
+133,Uganda,1991,29.6408,Other Milds
+134,Uganda,1991,29.6408,Robustas
+135,"Venezuela, Bol. Rep. of",1991,,Other Milds
+136,Zambia,1991,70.3159,Other Milds
+137,Zimbabwe ,1991,,Other Milds
+138,Angola,1991,,Brazilian Naturals
+139,Angola,1991,,Robustas
+140,Brazil,1991,43.9931,Brazilian Naturals
+141,Brazil,1991,43.9931,Robustas
+142,Ethiopia,1991,68.1911,Brazilian Naturals
+143,Indonesia,1991,,Brazilian Naturals
+144,Indonesia,1991,,Robustas
+145,Philippines,1991,,Brazilian Naturals
+146,Philippines,1991,,Robustas
+147,Thailand,1991,,Brazilian Naturals
+148,Thailand,1991,,Robustas
+149,Vietnam,1991,,Brazilian Naturals
+150,Vietnam,1991,,Robustas
+151,Angola,1991,91.1153,Brazilian Naturals
+152,Angola,1991,91.1153,Robustas
+153,Benin,1991,22.8961,Robustas
+154,Brazil,1991,27.4947,Brazilian Naturals
+155,Brazil,1991,27.4947,Robustas
+156,Burundi,1991,,Other Milds
+157,Burundi,1991,,Robustas
+158,Cameroon,1991,25.0078,Other Milds
+159,Cameroon,1991,25.0078,Robustas
+160,Central African Republic,1991,36.6398,Robustas
+161,"Congo, Dem. Rep. of",1991,,Other Milds
+162,"Congo, Dem. Rep. of",1991,,Robustas
+163,"Congo, Rep. of",1991,18.5542,Robustas
+164,Côte d'Ivoire,1991,32.2682,Robustas
+165,Ecuador,1991,17.8351,Other Milds
+166,Ecuador,1991,17.8351,Robustas
+167,Gabon,1991,43.5841,Robustas
+168,Ghana,1991,,Robustas
+169,Guinea,1991,30.2467,Robustas
+170,India,1991,40.6472,Other Milds
+171,India,1991,40.6472,Robustas
+172,Indonesia,1991,29.9209,Brazilian Naturals
+173,Indonesia,1991,29.9209,Robustas
+174,Liberia,1991,,Robustas
+175,Madagascar,1991,22.7618,Other Milds
+176,Madagascar,1991,22.7618,Robustas
+177,Nigeria,1991,59.0325,Robustas
+178,Papua New Guinea,1991,29.4778,Other Milds
+179,Papua New Guinea,1991,29.4778,Robustas
+180,Philippines,1991,34.6061,Brazilian Naturals
+181,Philippines,1991,34.6061,Robustas
+182,Sierra Leone,1991,,Robustas
+183,Sri Lanka,1991,25.2906,Other Milds
+184,Sri Lanka,1991,25.2906,Robustas
+185,Tanzania,1991,17.1071,Colombian Milds
+186,Tanzania,1991,17.1071,Robustas
+187,Thailand,1991,18.3728,Brazilian Naturals
+188,Thailand,1991,18.3728,Robustas
+189,Togo,1991,28.6435,Robustas
+190,Trinidad & Tobago,1991,62.5882,Robustas
+191,Uganda,1991,11.8428,Other Milds
+192,Uganda,1991,11.8428,Robustas
+193,Vietnam,1991,30.7256,Brazilian Naturals
+194,Vietnam,1991,30.7256,Robustas
+195,© International Coffee Organization,1991,,
+196,Colombia,1992,54.5709,Colombian Milds
+197,Kenya,1992,28.9495,Colombian Milds
+198,Tanzania,1992,49.1581,Colombian Milds
+199,Tanzania,1992,49.1581,Robustas
+200,Bolivia,1992,43.5276,Other Milds
+201,Burundi,1992,59.234,Other Milds
+202,Burundi,1992,59.234,Robustas
+203,Cameroon,1992,28.7593,Other Milds
+204,Cameroon,1992,28.7593,Robustas
+205,"Congo, Dem. Rep. of",1992,,Other Milds
+206,"Congo, Dem. Rep. of",1992,,Robustas
+207,Costa Rica,1992,49.9093,Other Milds
+208,Cuba,1992,179.9996,Other Milds
+209,Dominican Republic,1992,46.5612,Other Milds
+210,Ecuador,1992,29.0799,Other Milds
+211,Ecuador,1992,29.0799,Robustas
+212,El Salvador,1992,30.9092,Other Milds
+213,Guatemala,1992,40.2309,Other Milds
+214,Haiti,1992,8.7513,Other Milds
+215,Honduras,1992,40.1384,Other Milds
+216,India,1992,53.9595,Other Milds
+217,India,1992,53.9595,Robustas
+218,Jamaica,1992,182.5115,Other Milds
+219,Madagascar,1992,,Other Milds
+220,Madagascar,1992,,Robustas
+221,Malawi,1992,48.6849,Other Milds
+222,Mexico,1992,58.2508,Other Milds
+223,Nicaragua,1992,44.137,Other Milds
+224,Panama,1992,44.3736,Other Milds
+225,Papua New Guinea,1992,57.9582,Other Milds
+226,Papua New Guinea,1992,57.9582,Robustas
+227,Peru,1992,31.9698,Other Milds
+228,Rwanda,1992,48.9068,Other Milds
+229,Sri Lanka,1992,,Other Milds
+230,Sri Lanka,1992,,Robustas
+231,Uganda,1992,19.9953,Other Milds
+232,Uganda,1992,19.9953,Robustas
+233,"Venezuela, Bol. Rep. of",1992,,Other Milds
+234,Zambia,1992,34.9584,Other Milds
+235,Zimbabwe ,1992,,Other Milds
+236,Angola,1992,,Brazilian Naturals
+237,Angola,1992,,Robustas
+238,Brazil,1992,45.1989,Brazilian Naturals
+239,Brazil,1992,45.1989,Robustas
+240,Ethiopia,1992,61.2061,Brazilian Naturals
+241,Indonesia,1992,,Brazilian Naturals
+242,Indonesia,1992,,Robustas
+243,Philippines,1992,55.7355,Brazilian Naturals
+244,Philippines,1992,55.7355,Robustas
+245,Thailand,1992,,Brazilian Naturals
+246,Thailand,1992,,Robustas
+247,Vietnam,1992,,Brazilian Naturals
+248,Vietnam,1992,,Robustas
+249,Angola,1992,44.9183,Brazilian Naturals
+250,Angola,1992,44.9183,Robustas
+251,Benin,1992,24.0067,Robustas
+252,Brazil,1992,27.5947,Brazilian Naturals
+253,Brazil,1992,27.5947,Robustas
+254,Burundi,1992,47.1618,Other Milds
+255,Burundi,1992,47.1618,Robustas
+256,Cameroon,1992,24.2466,Other Milds
+257,Cameroon,1992,24.2466,Robustas
+258,Central African Republic,1992,33.9318,Robustas
+259,"Congo, Dem. Rep. of",1992,,Other Milds
+260,"Congo, Dem. Rep. of",1992,,Robustas
+261,"Congo, Rep. of",1992,19.7491,Robustas
+262,Côte d'Ivoire,1992,31.7589,Robustas
+263,Ecuador,1992,23.307,Other Milds
+264,Ecuador,1992,23.307,Robustas
+265,Gabon,1992,51.5195,Robustas
+266,Ghana,1992,,Robustas
+267,Guinea,1992,23.7512,Robustas
+268,India,1992,39.7709,Other Milds
+269,India,1992,39.7709,Robustas
+270,Indonesia,1992,24.9216,Brazilian Naturals
+271,Indonesia,1992,24.9216,Robustas
+272,Liberia,1992,,Robustas
+273,Madagascar,1992,22.6204,Other Milds
+274,Madagascar,1992,22.6204,Robustas
+275,Nigeria,1992,39.5004,Robustas
+276,Papua New Guinea,1992,39.1005,Other Milds
+277,Papua New Guinea,1992,39.1005,Robustas
+278,Philippines,1992,42.4765,Brazilian Naturals
+279,Philippines,1992,42.4765,Robustas
+280,Sierra Leone,1992,,Robustas
+281,Sri Lanka,1992,31.8496,Other Milds
+282,Sri Lanka,1992,31.8496,Robustas
+283,Tanzania,1992,14.8403,Colombian Milds
+284,Tanzania,1992,14.8403,Robustas
+285,Thailand,1992,20.3048,Brazilian Naturals
+286,Thailand,1992,20.3048,Robustas
+287,Togo,1992,29.8298,Robustas
+288,Trinidad & Tobago,1992,69.2941,Robustas
+289,Uganda,1992,8.9537,Other Milds
+290,Uganda,1992,8.9537,Robustas
+291,Vietnam,1992,30.707,Brazilian Naturals
+292,Vietnam,1992,30.707,Robustas
+293,© International Coffee Organization,1992,,
+294,Colombia,1993,50.1234,Colombian Milds
+295,Kenya,1993,47.6419,Colombian Milds
+296,Tanzania,1993,38.2833,Colombian Milds
+297,Tanzania,1993,38.2833,Robustas
+298,Bolivia,1993,27.3283,Other Milds
+299,Burundi,1993,58.2708,Other Milds
+300,Burundi,1993,58.2708,Robustas
+301,Cameroon,1993,23.251,Other Milds
+302,Cameroon,1993,23.251,Robustas
+303,"Congo, Dem. Rep. of",1993,,Other Milds
+304,"Congo, Dem. Rep. of",1993,,Robustas
+305,Costa Rica,1993,54.2666,Other Milds
+306,Cuba,1993,188.5711,Other Milds
+307,Dominican Republic,1993,53.1235,Other Milds
+308,Ecuador,1993,27.6633,Other Milds
+309,Ecuador,1993,27.6633,Robustas
+310,El Salvador,1993,35.352,Other Milds
+311,Guatemala,1993,41.4292,Other Milds
+312,Haiti,1993,14.4941,Other Milds
+313,Honduras,1993,37.5422,Other Milds
+314,India,1993,57.9237,Other Milds
+315,India,1993,57.9237,Robustas
+316,Jamaica,1993,255.535,Other Milds
+317,Madagascar,1993,,Other Milds
+318,Madagascar,1993,,Robustas
+319,Malawi,1993,57.3368,Other Milds
+320,Mexico,1993,79.3121,Other Milds
+321,Nicaragua,1993,,Other Milds
+322,Panama,1993,51.7692,Other Milds
+323,Papua New Guinea,1993,84.9202,Other Milds
+324,Papua New Guinea,1993,84.9202,Robustas
+325,Peru,1993,32.4379,Other Milds
+326,Rwanda,1993,45.2117,Other Milds
+327,Sri Lanka,1993,,Other Milds
+328,Sri Lanka,1993,,Robustas
+329,Uganda,1993,25.0328,Other Milds
+330,Uganda,1993,25.0328,Robustas
+331,"Venezuela, Bol. Rep. of",1993,,Other Milds
+332,Zambia,1993,54.4883,Other Milds
+333,Zimbabwe ,1993,,Other Milds
+334,Angola,1993,,Brazilian Naturals
+335,Angola,1993,,Robustas
+336,Brazil,1993,52.877,Brazilian Naturals
+337,Brazil,1993,52.877,Robustas
+338,Ethiopia,1993,61.7186,Brazilian Naturals
+339,Indonesia,1993,115.5349,Brazilian Naturals
+340,Indonesia,1993,115.5349,Robustas
+341,Philippines,1993,54.1985,Brazilian Naturals
+342,Philippines,1993,54.1985,Robustas
+343,Thailand,1993,,Brazilian Naturals
+344,Thailand,1993,,Robustas
+345,Vietnam,1993,,Brazilian Naturals
+346,Vietnam,1993,,Robustas
+347,Angola,1993,11.8708,Brazilian Naturals
+348,Angola,1993,11.8708,Robustas
+349,Benin,1993,,Robustas
+350,Brazil,1993,35.5441,Brazilian Naturals
+351,Brazil,1993,35.5441,Robustas
+352,Burundi,1993,41.8018,Other Milds
+353,Burundi,1993,41.8018,Robustas
+354,Cameroon,1993,17.3955,Other Milds
+355,Cameroon,1993,17.3955,Robustas
+356,Central African Republic,1993,23.8924,Robustas
+357,"Congo, Dem. Rep. of",1993,,Other Milds
+358,"Congo, Dem. Rep. of",1993,,Robustas
+359,"Congo, Rep. of",1993,18.4404,Robustas
+360,Côte d'Ivoire,1993,27.6964,Robustas
+361,Ecuador,1993,19.5204,Other Milds
+362,Ecuador,1993,19.5204,Robustas
+363,Gabon,1993,48.1054,Robustas
+364,Ghana,1993,,Robustas
+365,Guinea,1993,27.4662,Robustas
+366,India,1993,44.2088,Other Milds
+367,India,1993,44.2088,Robustas
+368,Indonesia,1993,28.4882,Brazilian Naturals
+369,Indonesia,1993,28.4882,Robustas
+370,Liberia,1993,,Robustas
+371,Madagascar,1993,36.2656,Other Milds
+372,Madagascar,1993,36.2656,Robustas
+373,Nigeria,1993,36.0781,Robustas
+374,Papua New Guinea,1993,54.8047,Other Milds
+375,Papua New Guinea,1993,54.8047,Robustas
+376,Philippines,1993,46.4492,Brazilian Naturals
+377,Philippines,1993,46.4492,Robustas
+378,Sierra Leone,1993,,Robustas
+379,Sri Lanka,1993,28.8866,Other Milds
+380,Sri Lanka,1993,28.8866,Robustas
+381,Tanzania,1993,11.8801,Colombian Milds
+382,Tanzania,1993,11.8801,Robustas
+383,Thailand,1993,18.2894,Brazilian Naturals
+384,Thailand,1993,18.2894,Robustas
+385,Togo,1993,22.6435,Robustas
+386,Trinidad & Tobago,1993,72.1989,Robustas
+387,Uganda,1993,14.3486,Other Milds
+388,Uganda,1993,14.3486,Robustas
+389,Vietnam,1993,34.5296,Brazilian Naturals
+390,Vietnam,1993,34.5296,Robustas
+391,© International Coffee Organization,1993,,
+392,Colombia,1994,85.9942,Colombian Milds
+393,Kenya,1994,152.6058,Colombian Milds
+394,Tanzania,1994,62.1553,Colombian Milds
+395,Tanzania,1994,62.1553,Robustas
+396,Bolivia,1994,79.915,Other Milds
+397,Burundi,1994,60.6823,Other Milds
+398,Burundi,1994,60.6823,Robustas
+399,Cameroon,1994,88.3161,Other Milds
+400,Cameroon,1994,88.3161,Robustas
+401,"Congo, Dem. Rep. of",1994,,Other Milds
+402,"Congo, Dem. Rep. of",1994,,Robustas
+403,Costa Rica,1994,81.3628,Other Milds
+404,Cuba,1994,203.5302,Other Milds
+405,Dominican Republic,1994,112.264,Other Milds
+406,Ecuador,1994,76.4202,Other Milds
+407,Ecuador,1994,76.4202,Robustas
+408,El Salvador,1994,99.2603,Other Milds
+409,Guatemala,1994,75.3208,Other Milds
+410,Haiti,1994,25.8735,Other Milds
+411,Honduras,1994,81.5661,Other Milds
+412,India,1994,78.4057,Other Milds
+413,India,1994,78.4057,Robustas
+414,Jamaica,1994,290.5986,Other Milds
+415,Madagascar,1994,,Other Milds
+416,Madagascar,1994,,Robustas
+417,Malawi,1994,92.4135,Other Milds
+418,Mexico,1994,157.9099,Other Milds
+419,Nicaragua,1994,,Other Milds
+420,Panama,1994,80.119,Other Milds
+421,Papua New Guinea,1994,149.0779,Other Milds
+422,Papua New Guinea,1994,149.0779,Robustas
+423,Peru,1994,88.1397,Other Milds
+424,Rwanda,1994,49.4221,Other Milds
+425,Sri Lanka,1994,71.9905,Other Milds
+426,Sri Lanka,1994,71.9905,Robustas
+427,Uganda,1994,61.3589,Other Milds
+428,Uganda,1994,61.3589,Robustas
+429,"Venezuela, Bol. Rep. of",1994,,Other Milds
+430,Zambia,1994,88.2671,Other Milds
+431,Zimbabwe ,1994,,Other Milds
+432,Angola,1994,,Brazilian Naturals
+433,Angola,1994,,Robustas
+434,Brazil,1994,114.5687,Brazilian Naturals
+435,Brazil,1994,114.5687,Robustas
+436,Ethiopia,1994,109.546,Brazilian Naturals
+437,Indonesia,1994,173.5073,Brazilian Naturals
+438,Indonesia,1994,173.5073,Robustas
+439,Philippines,1994,99.6167,Brazilian Naturals
+440,Philippines,1994,99.6167,Robustas
+441,Thailand,1994,,Brazilian Naturals
+442,Thailand,1994,,Robustas
+443,Vietnam,1994,,Brazilian Naturals
+444,Vietnam,1994,,Robustas
+445,Angola,1994,,Brazilian Naturals
+446,Angola,1994,,Robustas
+447,Benin,1994,,Robustas
+448,Brazil,1994,85.4261,Brazilian Naturals
+449,Brazil,1994,85.4261,Robustas
+450,Burundi,1994,41.4499,Other Milds
+451,Burundi,1994,41.4499,Robustas
+452,Cameroon,1994,29.8547,Other Milds
+453,Cameroon,1994,29.8547,Robustas
+454,Central African Republic,1994,32.742,Robustas
+455,"Congo, Dem. Rep. of",1994,,Other Milds
+456,"Congo, Dem. Rep. of",1994,,Robustas
+457,"Congo, Rep. of",1994,8.7749,Robustas
+458,Côte d'Ivoire,1994,29.7788,Robustas
+459,Ecuador,1994,63.2941,Other Milds
+460,Ecuador,1994,63.2941,Robustas
+461,Gabon,1994,27.7637,Robustas
+462,Ghana,1994,,Robustas
+463,Guinea,1994,61.3323,Robustas
+464,India,1994,56.4636,Other Milds
+465,India,1994,56.4636,Robustas
+466,Indonesia,1994,91.3781,Brazilian Naturals
+467,Indonesia,1994,91.3781,Robustas
+468,Liberia,1994,,Robustas
+469,Madagascar,1994,43.9881,Other Milds
+470,Madagascar,1994,43.9881,Robustas
+471,Nigeria,1994,51.554,Robustas
+472,Papua New Guinea,1994,95.6374,Other Milds
+473,Papua New Guinea,1994,95.6374,Robustas
+474,Philippines,1994,94.6608,Brazilian Naturals
+475,Philippines,1994,94.6608,Robustas
+476,Sierra Leone,1994,,Robustas
+477,Sri Lanka,1994,71.9905,Other Milds
+478,Sri Lanka,1994,71.9905,Robustas
+479,Tanzania,1994,24.0035,Colombian Milds
+480,Tanzania,1994,24.0035,Robustas
+481,Thailand,1994,18.7899,Brazilian Naturals
+482,Thailand,1994,18.7899,Robustas
+483,Togo,1994,25.9924,Robustas
+484,Trinidad & Tobago,1994,64.1384,Robustas
+485,Uganda,1994,46.3873,Other Milds
+486,Uganda,1994,46.3873,Robustas
+487,Vietnam,1994,86.0079,Brazilian Naturals
+488,Vietnam,1994,86.0079,Robustas
+489,© International Coffee Organization,1994,,
+490,Colombia,1995,99.6231,Colombian Milds
+491,Kenya,1995,140.1651,Colombian Milds
+492,Tanzania,1995,86.7599,Colombian Milds
+493,Tanzania,1995,86.7599,Robustas
+494,Bolivia,1995,76.9867,Other Milds
+495,Burundi,1995,56.6854,Other Milds
+496,Burundi,1995,56.6854,Robustas
+497,Cameroon,1995,85.2593,Other Milds
+498,Cameroon,1995,85.2593,Robustas
+499,"Congo, Dem. Rep. of",1995,51.1246,Other Milds
+500,"Congo, Dem. Rep. of",1995,51.1246,Robustas
+501,Costa Rica,1995,88.2256,Other Milds
+502,Cuba,1995,188.601,Other Milds
+503,Dominican Republic,1995,109.2636,Other Milds
+504,Ecuador,1995,173.3047,Other Milds
+505,Ecuador,1995,173.3047,Robustas
+506,El Salvador,1995,100.5128,Other Milds
+507,Guatemala,1995,99.34,Other Milds
+508,Haiti,1995,36.2968,Other Milds
+509,Honduras,1995,102.5493,Other Milds
+510,India,1995,84.7157,Other Milds
+511,India,1995,84.7157,Robustas
+512,Jamaica,1995,284.2448,Other Milds
+513,Madagascar,1995,87.3469,Other Milds
+514,Madagascar,1995,87.3469,Robustas
+515,Malawi,1995,125.2991,Other Milds
+516,Mexico,1995,162.7935,Other Milds
+517,Nicaragua,1995,,Other Milds
+518,Panama,1995,97.3754,Other Milds
+519,Papua New Guinea,1995,83.9783,Other Milds
+520,Papua New Guinea,1995,83.9783,Robustas
+521,Peru,1995,95.8392,Other Milds
+522,Rwanda,1995,54.9261,Other Milds
+523,Sri Lanka,1995,98.9851,Other Milds
+524,Sri Lanka,1995,98.9851,Robustas
+525,Uganda,1995,68.1657,Other Milds
+526,Uganda,1995,68.1657,Robustas
+527,"Venezuela, Bol. Rep. of",1995,,Other Milds
+528,Zambia,1995,69.2634,Other Milds
+529,Zimbabwe ,1995,,Other Milds
+530,Angola,1995,,Brazilian Naturals
+531,Angola,1995,,Robustas
+532,Brazil,1995,115.5228,Brazilian Naturals
+533,Brazil,1995,115.5228,Robustas
+534,Ethiopia,1995,115.0172,Brazilian Naturals
+535,Indonesia,1995,,Brazilian Naturals
+536,Indonesia,1995,,Robustas
+537,Philippines,1995,106.301,Brazilian Naturals
+538,Philippines,1995,106.301,Robustas
+539,Thailand,1995,,Brazilian Naturals
+540,Thailand,1995,,Robustas
+541,Vietnam,1995,,Brazilian Naturals
+542,Vietnam,1995,,Robustas
+543,Angola,1995,,Brazilian Naturals
+544,Angola,1995,,Robustas
+545,Benin,1995,,Robustas
+546,Brazil,1995,97.4999,Brazilian Naturals
+547,Brazil,1995,97.4999,Robustas
+548,Burundi,1995,42.3356,Other Milds
+549,Burundi,1995,42.3356,Robustas
+550,Cameroon,1995,52.0795,Other Milds
+551,Cameroon,1995,52.0795,Robustas
+552,Central African Republic,1995,57.1888,Robustas
+553,"Congo, Dem. Rep. of",1995,28.3495,Other Milds
+554,"Congo, Dem. Rep. of",1995,28.3495,Robustas
+555,"Congo, Rep. of",1995,27.2813,Robustas
+556,Côte d'Ivoire,1995,59.4027,Robustas
+557,Ecuador,1995,143.6162,Other Milds
+558,Ecuador,1995,143.6162,Robustas
+559,Gabon,1995,40.9219,Robustas
+560,Ghana,1995,,Robustas
+561,Guinea,1995,92.2648,Robustas
+562,India,1995,66.5331,Other Milds
+563,India,1995,66.5331,Robustas
+564,Indonesia,1995,95.6672,Brazilian Naturals
+565,Indonesia,1995,95.6672,Robustas
+566,Liberia,1995,,Robustas
+567,Madagascar,1995,58.7292,Other Milds
+568,Madagascar,1995,58.7292,Robustas
+569,Nigeria,1995,,Robustas
+570,Papua New Guinea,1995,66.3073,Other Milds
+571,Papua New Guinea,1995,66.3073,Robustas
+572,Philippines,1995,104.3144,Brazilian Naturals
+573,Philippines,1995,104.3144,Robustas
+574,Sierra Leone,1995,,Robustas
+575,Sri Lanka,1995,93.2376,Other Milds
+576,Sri Lanka,1995,93.2376,Robustas
+577,Tanzania,1995,44.6094,Colombian Milds
+578,Tanzania,1995,44.6094,Robustas
+579,Thailand,1995,36.8393,Brazilian Naturals
+580,Thailand,1995,36.8393,Robustas
+581,Togo,1995,61.4095,Robustas
+582,Trinidad & Tobago,1995,63.8905,Robustas
+583,Uganda,1995,59.7418,Other Milds
+584,Uganda,1995,59.7418,Robustas
+585,Vietnam,1995,95.1844,Brazilian Naturals
+586,Vietnam,1995,95.1844,Robustas
+587,© International Coffee Organization,1995,,
+588,Colombia,1996,93.5556,Colombian Milds
+589,Kenya,1996,110.036,Colombian Milds
+590,Tanzania,1996,62.5345,Colombian Milds
+591,Tanzania,1996,62.5345,Robustas
+592,Bolivia,1996,57.1799,Other Milds
+593,Burundi,1996,51.9721,Other Milds
+594,Burundi,1996,51.9721,Robustas
+595,Cameroon,1996,80.9459,Other Milds
+596,Cameroon,1996,80.9459,Robustas
+597,"Congo, Dem. Rep. of",1996,68.0387,Other Milds
+598,"Congo, Dem. Rep. of",1996,68.0387,Robustas
+599,Costa Rica,1996,92.7809,Other Milds
+600,Cuba,1996,188.5711,Other Milds
+601,Dominican Republic,1996,87.671,Other Milds
+602,Ecuador,1996,141.1327,Other Milds
+603,Ecuador,1996,141.1327,Robustas
+604,El Salvador,1996,75.0201,Other Milds
+605,Guatemala,1996,83.7674,Other Milds
+606,Haiti,1996,28.1373,Other Milds
+607,Honduras,1996,67.6608,Other Milds
+608,India,1996,78.3183,Other Milds
+609,India,1996,78.3183,Robustas
+610,Jamaica,1996,332.1091,Other Milds
+611,Madagascar,1996,94.7194,Other Milds
+612,Madagascar,1996,94.7194,Robustas
+613,Malawi,1996,95.6576,Other Milds
+614,Mexico,1996,123.4396,Other Milds
+615,Nicaragua,1996,,Other Milds
+616,Panama,1996,100.9089,Other Milds
+617,Papua New Guinea,1996,95.0217,Other Milds
+618,Papua New Guinea,1996,95.0217,Robustas
+619,Peru,1996,77.7005,Other Milds
+620,Rwanda,1996,55.4431,Other Milds
+621,Sri Lanka,1996,,Other Milds
+622,Sri Lanka,1996,,Robustas
+623,Uganda,1996,52.9977,Other Milds
+624,Uganda,1996,52.9977,Robustas
+625,"Venezuela, Bol. Rep. of",1996,,Other Milds
+626,Zambia,1996,81.4654,Other Milds
+627,Zimbabwe ,1996,,Other Milds
+628,Angola,1996,,Brazilian Naturals
+629,Angola,1996,,Robustas
+630,Brazil,1996,96.3456,Brazilian Naturals
+631,Brazil,1996,96.3456,Robustas
+632,Ethiopia,1996,67.7365,Brazilian Naturals
+633,Indonesia,1996,,Brazilian Naturals
+634,Indonesia,1996,,Robustas
+635,Philippines,1996,76.3125,Brazilian Naturals
+636,Philippines,1996,76.3125,Robustas
+637,Thailand,1996,,Brazilian Naturals
+638,Thailand,1996,,Robustas
+639,Vietnam,1996,,Brazilian Naturals
+640,Vietnam,1996,,Robustas
+641,Angola,1996,,Brazilian Naturals
+642,Angola,1996,,Robustas
+643,Benin,1996,,Robustas
+644,Brazil,1996,69.7791,Brazilian Naturals
+645,Brazil,1996,69.7791,Robustas
+646,Burundi,1996,40.4503,Other Milds
+647,Burundi,1996,40.4503,Robustas
+648,Cameroon,1996,51.0193,Other Milds
+649,Cameroon,1996,51.0193,Robustas
+650,Central African Republic,1996,45.0685,Robustas
+651,"Congo, Dem. Rep. of",1996,32.8854,Other Milds
+652,"Congo, Dem. Rep. of",1996,32.8854,Robustas
+653,"Congo, Rep. of",1996,14.1896,Robustas
+654,Côte d'Ivoire,1996,57.6963,Robustas
+655,Ecuador,1996,97.5143,Other Milds
+656,Ecuador,1996,97.5143,Robustas
+657,Gabon,1996,39.9081,Robustas
+658,Ghana,1996,,Robustas
+659,Guinea,1996,,Robustas
+660,India,1996,56.6737,Other Milds
+661,India,1996,56.6737,Robustas
+662,Indonesia,1996,58.3501,Brazilian Naturals
+663,Indonesia,1996,58.3501,Robustas
+664,Liberia,1996,,Robustas
+665,Madagascar,1996,61.0601,Other Milds
+666,Madagascar,1996,61.0601,Robustas
+667,Nigeria,1996,,Robustas
+668,Papua New Guinea,1996,63.7485,Other Milds
+669,Papua New Guinea,1996,63.7485,Robustas
+670,Philippines,1996,68.9094,Brazilian Naturals
+671,Philippines,1996,68.9094,Robustas
+672,Sierra Leone,1996,,Robustas
+673,Sri Lanka,1996,,Other Milds
+674,Sri Lanka,1996,,Robustas
+675,Tanzania,1996,32.2006,Colombian Milds
+676,Tanzania,1996,32.2006,Robustas
+677,Thailand,1996,43.3532,Brazilian Naturals
+678,Thailand,1996,43.3532,Robustas
+679,Togo,1996,62.5798,Robustas
+680,Trinidad & Tobago,1996,63.2496,Robustas
+681,Uganda,1996,37.4363,Other Milds
+682,Uganda,1996,37.4363,Robustas
+683,Vietnam,1996,57.4154,Brazilian Naturals
+684,Vietnam,1996,57.4154,Robustas
+685,© International Coffee Organization,1996,,
+686,Colombia,1997,133.1672,Colombian Milds
+687,Kenya,1997,183.9967,Colombian Milds
+688,Tanzania,1997,118.5236,Colombian Milds
+689,Tanzania,1997,118.5236,Robustas
+690,Bolivia,1997,100.0689,Other Milds
+691,Burundi,1997,52.7855,Other Milds
+692,Burundi,1997,52.7855,Robustas
+693,Cameroon,1997,43.6415,Other Milds
+694,Cameroon,1997,43.6415,Robustas
+695,"Congo, Dem. Rep. of",1997,85.0486,Other Milds
+696,"Congo, Dem. Rep. of",1997,85.0486,Robustas
+697,Costa Rica,1997,98.2583,Other Milds
+698,Cuba,1997,188.5711,Other Milds
+699,Dominican Republic,1997,166.4135,Other Milds
+700,Ecuador,1997,167.9155,Other Milds
+701,Ecuador,1997,167.9155,Robustas
+702,El Salvador,1997,125.1436,Other Milds
+703,Guatemala,1997,97.2509,Other Milds
+704,Haiti,1997,29.3734,Other Milds
+705,Honduras,1997,116.8815,Other Milds
+706,India,1997,130.1785,Other Milds
+707,India,1997,130.1785,Robustas
+708,Jamaica,1997,286.7807,Other Milds
+709,Madagascar,1997,58.7447,Other Milds
+710,Madagascar,1997,58.7447,Robustas
+711,Malawi,1997,108.7488,Other Milds
+712,Mexico,1997,136.1169,Other Milds
+713,Nicaragua,1997,,Other Milds
+714,Panama,1997,126.547,Other Milds
+715,Papua New Guinea,1997,153.7373,Other Milds
+716,Papua New Guinea,1997,153.7373,Robustas
+717,Peru,1997,105.2832,Other Milds
+718,Rwanda,1997,56.4162,Other Milds
+719,Sri Lanka,1997,,Other Milds
+720,Sri Lanka,1997,,Robustas
+721,Uganda,1997,79.3775,Other Milds
+722,Uganda,1997,79.3775,Robustas
+723,"Venezuela, Bol. Rep. of",1997,,Other Milds
+724,Zambia,1997,121.892,Other Milds
+725,Zimbabwe ,1997,,Other Milds
+726,Angola,1997,,Brazilian Naturals
+727,Angola,1997,,Robustas
+728,Brazil,1997,145.4095,Brazilian Naturals
+729,Brazil,1997,145.4095,Robustas
+730,Ethiopia,1997,91.0557,Brazilian Naturals
+731,Indonesia,1997,112.2585,Brazilian Naturals
+732,Indonesia,1997,112.2585,Robustas
+733,Philippines,1997,79.7375,Brazilian Naturals
+734,Philippines,1997,79.7375,Robustas
+735,Thailand,1997,,Brazilian Naturals
+736,Thailand,1997,,Robustas
+737,Vietnam,1997,,Brazilian Naturals
+738,Vietnam,1997,,Robustas
+739,Angola,1997,,Brazilian Naturals
+740,Angola,1997,,Robustas
+741,Benin,1997,,Robustas
+742,Brazil,1997,77.8558,Brazilian Naturals
+743,Brazil,1997,77.8558,Robustas
+744,Burundi,1997,40.1863,Other Milds
+745,Burundi,1997,40.1863,Robustas
+746,Cameroon,1997,38.9016,Other Milds
+747,Cameroon,1997,38.9016,Robustas
+748,Central African Republic,1997,38.3562,Robustas
+749,"Congo, Dem. Rep. of",1997,45.3592,Other Milds
+750,"Congo, Dem. Rep. of",1997,45.3592,Robustas
+751,"Congo, Rep. of",1997,,Robustas
+752,Côte d'Ivoire,1997,39.2871,Robustas
+753,Ecuador,1997,61.193,Other Milds
+754,Ecuador,1997,61.193,Robustas
+755,Gabon,1997,37.9027,Robustas
+756,Ghana,1997,,Robustas
+757,Guinea,1997,,Robustas
+758,India,1997,76.3016,Other Milds
+759,India,1997,76.3016,Robustas
+760,Indonesia,1997,58.434,Brazilian Naturals
+761,Indonesia,1997,58.434,Robustas
+762,Liberia,1997,,Robustas
+763,Madagascar,1997,49.4841,Other Milds
+764,Madagascar,1997,49.4841,Robustas
+765,Nigeria,1997,,Robustas
+766,Papua New Guinea,1997,75.4338,Other Milds
+767,Papua New Guinea,1997,75.4338,Robustas
+768,Philippines,1997,72.9149,Brazilian Naturals
+769,Philippines,1997,72.9149,Robustas
+770,Sierra Leone,1997,,Robustas
+771,Sri Lanka,1997,,Other Milds
+772,Sri Lanka,1997,,Robustas
+773,Tanzania,1997,92.4844,Colombian Milds
+774,Tanzania,1997,92.4844,Robustas
+775,Thailand,1997,21.85,Brazilian Naturals
+776,Thailand,1997,21.85,Robustas
+777,Togo,1997,44.8863,Robustas
+778,Trinidad & Tobago,1997,60.6263,Robustas
+779,Uganda,1997,41.4705,Other Milds
+780,Uganda,1997,41.4705,Robustas
+781,Vietnam,1997,56.1426,Brazilian Naturals
+782,Vietnam,1997,56.1426,Robustas
+783,© International Coffee Organization,1997,,
+784,Colombia,1998,102.0805,Colombian Milds
+785,Kenya,1998,179.8972,Colombian Milds
+786,Tanzania,1998,90.7025,Colombian Milds
+787,Tanzania,1998,90.7025,Robustas
+788,Bolivia,1998,131.0938,Other Milds
+789,Burundi,1998,52.2187,Other Milds
+790,Burundi,1998,52.2187,Robustas
+791,Cameroon,1998,66.8331,Other Milds
+792,Cameroon,1998,66.8331,Robustas
+793,"Congo, Dem. Rep. of",1998,63.1381,Other Milds
+794,"Congo, Dem. Rep. of",1998,63.1381,Robustas
+795,Costa Rica,1998,92.6592,Other Milds
+796,Cuba,1998,188.5711,Other Milds
+797,Dominican Republic,1998,95.2485,Other Milds
+798,Ecuador,1998,110.5961,Other Milds
+799,Ecuador,1998,110.5961,Robustas
+800,El Salvador,1998,85.0455,Other Milds
+801,Guatemala,1998,102.4469,Other Milds
+802,Haiti,1998,30.9468,Other Milds
+803,Honduras,1998,93.2578,Other Milds
+804,India,1998,99.4736,Other Milds
+805,India,1998,99.4736,Robustas
+806,Jamaica,1998,215.4499,Other Milds
+807,Madagascar,1998,50.3483,Other Milds
+808,Madagascar,1998,50.3483,Robustas
+809,Malawi,1998,101.5223,Other Milds
+810,Mexico,1998,101.6877,Other Milds
+811,Nicaragua,1998,,Other Milds
+812,Panama,1998,111.7558,Other Milds
+813,Papua New Guinea,1998,104.8459,Other Milds
+814,Papua New Guinea,1998,104.8459,Robustas
+815,Peru,1998,75.4309,Other Milds
+816,Rwanda,1998,55.6524,Other Milds
+817,Sri Lanka,1998,,Other Milds
+818,Sri Lanka,1998,,Robustas
+819,Uganda,1998,71.3759,Other Milds
+820,Uganda,1998,71.3759,Robustas
+821,"Venezuela, Bol. Rep. of",1998,,Other Milds
+822,Zambia,1998,130.8328,Other Milds
+823,Zimbabwe ,1998,,Other Milds
+824,Angola,1998,,Brazilian Naturals
+825,Angola,1998,,Robustas
+826,Brazil,1998,105.2491,Brazilian Naturals
+827,Brazil,1998,105.2491,Robustas
+828,Ethiopia,1998,91.8639,Brazilian Naturals
+829,Indonesia,1998,99.4085,Brazilian Naturals
+830,Indonesia,1998,99.4085,Robustas
+831,Philippines,1998,81.8728,Brazilian Naturals
+832,Philippines,1998,81.8728,Robustas
+833,Thailand,1998,,Brazilian Naturals
+834,Thailand,1998,,Robustas
+835,Vietnam,1998,,Brazilian Naturals
+836,Vietnam,1998,,Robustas
+837,Angola,1998,,Brazilian Naturals
+838,Angola,1998,,Robustas
+839,Benin,1998,,Robustas
+840,Brazil,1998,77.7473,Brazilian Naturals
+841,Brazil,1998,77.7473,Robustas
+842,Burundi,1998,35.3567,Other Milds
+843,Burundi,1998,35.3567,Robustas
+844,Cameroon,1998,36.4619,Other Milds
+845,Cameroon,1998,36.4619,Robustas
+846,Central African Republic,1998,37.8613,Robustas
+847,"Congo, Dem. Rep. of",1998,44.276,Other Milds
+848,"Congo, Dem. Rep. of",1998,44.276,Robustas
+849,"Congo, Rep. of",1998,,Robustas
+850,Côte d'Ivoire,1998,40.1367,Robustas
+851,Ecuador,1998,66.6301,Other Milds
+852,Ecuador,1998,66.6301,Robustas
+853,Gabon,1998,50.2608,Robustas
+854,Ghana,1998,,Robustas
+855,Guinea,1998,,Robustas
+856,India,1998,75.6198,Other Milds
+857,India,1998,75.6198,Robustas
+858,Indonesia,1998,59.3709,Brazilian Naturals
+859,Indonesia,1998,59.3709,Robustas
+860,Liberia,1998,,Robustas
+861,Madagascar,1998,48.2505,Other Milds
+862,Madagascar,1998,48.2505,Robustas
+863,Nigeria,1998,,Robustas
+864,Papua New Guinea,1998,59.1507,Other Milds
+865,Papua New Guinea,1998,59.1507,Robustas
+866,Philippines,1998,76.6635,Brazilian Naturals
+867,Philippines,1998,76.6635,Robustas
+868,Sierra Leone,1998,,Robustas
+869,Sri Lanka,1998,,Other Milds
+870,Sri Lanka,1998,,Robustas
+871,Tanzania,1998,28.1884,Colombian Milds
+872,Tanzania,1998,28.1884,Robustas
+873,Thailand,1998,27.3262,Brazilian Naturals
+874,Thailand,1998,27.3262,Robustas
+875,Togo,1998,49.9303,Robustas
+876,Trinidad & Tobago,1998,60.2943,Robustas
+877,Uganda,1998,43.8295,Other Milds
+878,Uganda,1998,43.8295,Robustas
+879,Vietnam,1998,65.8694,Brazilian Naturals
+880,Vietnam,1998,65.8694,Robustas
+881,© International Coffee Organization,1998,,
+882,Colombia,1999,86.3828,Colombian Milds
+883,Kenya,1999,105.1914,Colombian Milds
+884,Tanzania,1999,65.8769,Colombian Milds
+885,Tanzania,1999,65.8769,Robustas
+886,Bolivia,1999,98.7076,Other Milds
+887,Burundi,1999,46.5697,Other Milds
+888,Burundi,1999,46.5697,Robustas
+889,Cameroon,1999,88.411,Other Milds
+890,Cameroon,1999,88.411,Robustas
+891,"Congo, Dem. Rep. of",1999,,Other Milds
+892,"Congo, Dem. Rep. of",1999,,Robustas
+893,Costa Rica,1999,79.5496,Other Milds
+894,Cuba,1999,188.5711,Other Milds
+895,Dominican Republic,1999,74.1837,Other Milds
+896,Ecuador,1999,78.046,Other Milds
+897,Ecuador,1999,78.046,Robustas
+898,El Salvador,1999,56.9223,Other Milds
+899,Guatemala,1999,79.2374,Other Milds
+900,Haiti,1999,22.895,Other Milds
+901,Honduras,1999,61.4807,Other Milds
+902,India,1999,67.4377,Other Milds
+903,India,1999,67.4377,Robustas
+904,Jamaica,1999,177.2662,Other Milds
+905,Madagascar,1999,43.491,Other Milds
+906,Madagascar,1999,43.491,Robustas
+907,Malawi,1999,77.641,Other Milds
+908,Mexico,1999,80.9028,Other Milds
+909,Nicaragua,1999,,Other Milds
+910,Panama,1999,,Other Milds
+911,Papua New Guinea,1999,60.8221,Other Milds
+912,Papua New Guinea,1999,60.8221,Robustas
+913,Peru,1999,59.7327,Other Milds
+914,Rwanda,1999,45.3282,Other Milds
+915,Sri Lanka,1999,,Other Milds
+916,Sri Lanka,1999,,Robustas
+917,Uganda,1999,43.3725,Other Milds
+918,Uganda,1999,43.3725,Robustas
+919,"Venezuela, Bol. Rep. of",1999,,Other Milds
+920,Zambia,1999,119.6968,Other Milds
+921,Zimbabwe ,1999,,Other Milds
+922,Angola,1999,,Brazilian Naturals
+923,Angola,1999,,Robustas
+924,Brazil,1999,74.0666,Brazilian Naturals
+925,Brazil,1999,74.0666,Robustas
+926,Ethiopia,1999,65.6448,Brazilian Naturals
+927,Indonesia,1999,,Brazilian Naturals
+928,Indonesia,1999,,Robustas
+929,Philippines,1999,64.8877,Brazilian Naturals
+930,Philippines,1999,64.8877,Robustas
+931,Thailand,1999,,Brazilian Naturals
+932,Thailand,1999,,Robustas
+933,Vietnam,1999,,Brazilian Naturals
+934,Vietnam,1999,,Robustas
+935,Angola,1999,,Brazilian Naturals
+936,Angola,1999,,Robustas
+937,Benin,1999,,Robustas
+938,Brazil,1999,56.9266,Brazilian Naturals
+939,Brazil,1999,56.9266,Robustas
+940,Burundi,1999,,Other Milds
+941,Burundi,1999,,Robustas
+942,Cameroon,1999,31.3028,Other Milds
+943,Cameroon,1999,31.3028,Robustas
+944,Central African Republic,1999,29.7146,Robustas
+945,"Congo, Dem. Rep. of",1999,88.1768,Other Milds
+946,"Congo, Dem. Rep. of",1999,88.1768,Robustas
+947,"Congo, Rep. of",1999,,Robustas
+948,Côte d'Ivoire,1999,38.8128,Robustas
+949,Ecuador,1999,47.4832,Other Milds
+950,Ecuador,1999,47.4832,Robustas
+951,Gabon,1999,59.0145,Robustas
+952,Ghana,1999,,Robustas
+953,Guinea,1999,,Robustas
+954,India,1999,57.6076,Other Milds
+955,India,1999,57.6076,Robustas
+956,Indonesia,1999,46.5479,Brazilian Naturals
+957,Indonesia,1999,46.5479,Robustas
+958,Liberia,1999,,Robustas
+959,Madagascar,1999,38.0546,Other Milds
+960,Madagascar,1999,38.0546,Robustas
+961,Nigeria,1999,,Robustas
+962,Papua New Guinea,1999,37.6982,Other Milds
+963,Papua New Guinea,1999,37.6982,Robustas
+964,Philippines,1999,60.1365,Brazilian Naturals
+965,Philippines,1999,60.1365,Robustas
+966,Sierra Leone,1999,,Robustas
+967,Sri Lanka,1999,,Other Milds
+968,Sri Lanka,1999,,Robustas
+969,Tanzania,1999,23.5151,Colombian Milds
+970,Tanzania,1999,23.5151,Robustas
+971,Thailand,1999,31.3084,Brazilian Naturals
+972,Thailand,1999,31.3084,Robustas
+973,Togo,1999,43.2215,Robustas
+974,Trinidad & Tobago,1999,79.2287,Robustas
+975,Uganda,1999,36.2402,Other Milds
+976,Uganda,1999,36.2402,Robustas
+977,Vietnam,1999,50.6962,Brazilian Naturals
+978,Vietnam,1999,50.6962,Robustas
+979,© International Coffee Organization,1999,,
+980,Colombia,2000,74.9587,Colombian Milds
+981,Kenya,2000,72.9797,Colombian Milds
+982,Tanzania,2000,54.3175,Colombian Milds
+983,Tanzania,2000,54.3175,Robustas
+984,Bolivia,2000,78.0529,Other Milds
+985,Burundi,2000,37.3535,Other Milds
+986,Burundi,2000,37.3535,Robustas
+987,Cameroon,2000,33.221,Other Milds
+988,Cameroon,2000,33.221,Robustas
+989,"Congo, Dem. Rep. of",2000,,Other Milds
+990,"Congo, Dem. Rep. of",2000,,Robustas
+991,Costa Rica,2000,69.2837,Other Milds
+992,Cuba,2000,188.5711,Other Milds
+993,Dominican Republic,2000,68.0127,Other Milds
+994,Ecuador,2000,65.9705,Other Milds
+995,Ecuador,2000,65.9705,Robustas
+996,El Salvador,2000,44.5482,Other Milds
+997,Guatemala,2000,70.3747,Other Milds
+998,Haiti,2000,22.4856,Other Milds
+999,Honduras,2000,54.292,Other Milds
+1000,India,2000,63.7456,Other Milds
+1001,India,2000,63.7456,Robustas
+1002,Jamaica,2000,208.4371,Other Milds
+1003,Madagascar,2000,155.8285,Other Milds
+1004,Madagascar,2000,155.8285,Robustas
+1005,Malawi,2000,57.5992,Other Milds
+1006,Mexico,2000,64.0786,Other Milds
+1007,Nicaragua,2000,,Other Milds
+1008,Panama,2000,,Other Milds
+1009,Papua New Guinea,2000,49.2802,Other Milds
+1010,Papua New Guinea,2000,49.2802,Robustas
+1011,Peru,2000,53.8586,Other Milds
+1012,Rwanda,2000,34.0754,Other Milds
+1013,Sri Lanka,2000,,Other Milds
+1014,Sri Lanka,2000,,Robustas
+1015,Uganda,2000,40.9981,Other Milds
+1016,Uganda,2000,40.9981,Robustas
+1017,"Venezuela, Bol. Rep. of",2000,,Other Milds
+1018,Zambia,2000,91.8562,Other Milds
+1019,Zimbabwe ,2000,,Other Milds
+1020,Angola,2000,,Brazilian Naturals
+1021,Angola,2000,,Robustas
+1022,Brazil,2000,65.9769,Brazilian Naturals
+1023,Brazil,2000,65.9769,Robustas
+1024,Ethiopia,2000,56.421,Brazilian Naturals
+1025,Indonesia,2000,68.4091,Brazilian Naturals
+1026,Indonesia,2000,68.4091,Robustas
+1027,Philippines,2000,37.044,Brazilian Naturals
+1028,Philippines,2000,37.044,Robustas
+1029,Thailand,2000,,Brazilian Naturals
+1030,Thailand,2000,,Robustas
+1031,Vietnam,2000,,Brazilian Naturals
+1032,Vietnam,2000,,Robustas
+1033,Angola,2000,51.7415,Brazilian Naturals
+1034,Angola,2000,51.7415,Robustas
+1035,Benin,2000,,Robustas
+1036,Brazil,2000,41.5274,Brazilian Naturals
+1037,Brazil,2000,41.5274,Robustas
+1038,Burundi,2000,,Other Milds
+1039,Burundi,2000,,Robustas
+1040,Cameroon,2000,30.4387,Other Milds
+1041,Cameroon,2000,30.4387,Robustas
+1042,Central African Republic,2000,18.2801,Robustas
+1043,"Congo, Dem. Rep. of",2000,45.042,Other Milds
+1044,"Congo, Dem. Rep. of",2000,45.042,Robustas
+1045,"Congo, Rep. of",2000,,Robustas
+1046,Côte d'Ivoire,2000,23.8537,Robustas
+1047,Ecuador,2000,32.696,Other Milds
+1048,Ecuador,2000,32.696,Robustas
+1049,Gabon,2000,51.1065,Robustas
+1050,Ghana,2000,,Robustas
+1051,Guinea,2000,,Robustas
+1052,India,2000,35.8731,Other Milds
+1053,India,2000,35.8731,Robustas
+1054,Indonesia,2000,22.4016,Brazilian Naturals
+1055,Indonesia,2000,22.4016,Robustas
+1056,Liberia,2000,,Robustas
+1057,Madagascar,2000,109.0038,Other Milds
+1058,Madagascar,2000,109.0038,Robustas
+1059,Nigeria,2000,,Robustas
+1060,Papua New Guinea,2000,21.8897,Other Milds
+1061,Papua New Guinea,2000,21.8897,Robustas
+1062,Philippines,2000,34.1959,Brazilian Naturals
+1063,Philippines,2000,34.1959,Robustas
+1064,Sierra Leone,2000,,Robustas
+1065,Sri Lanka,2000,,Other Milds
+1066,Sri Lanka,2000,,Robustas
+1067,Tanzania,2000,15.2928,Colombian Milds
+1068,Tanzania,2000,15.2928,Robustas
+1069,Thailand,2000,12.3524,Brazilian Naturals
+1070,Thailand,2000,12.3524,Robustas
+1071,Togo,2000,22.9164,Robustas
+1072,Trinidad & Tobago,2000,,Robustas
+1073,Uganda,2000,19.9233,Other Milds
+1074,Uganda,2000,19.9233,Robustas
+1075,Vietnam,2000,26.5528,Brazilian Naturals
+1076,Vietnam,2000,26.5528,Robustas
+1077,© International Coffee Organization,2000,,
+1078,Colombia,2001,57.9505,Colombian Milds
+1079,Kenya,2001,69.403,Colombian Milds
+1080,Tanzania,2001,34.8622,Colombian Milds
+1081,Tanzania,2001,34.8622,Robustas
+1082,Bolivia,2001,,Other Milds
+1083,Burundi,2001,32.1917,Other Milds
+1084,Burundi,2001,32.1917,Robustas
+1085,Cameroon,2001,19.0898,Other Milds
+1086,Cameroon,2001,19.0898,Robustas
+1087,"Congo, Dem. Rep. of",2001,,Other Milds
+1088,"Congo, Dem. Rep. of",2001,,Robustas
+1089,Costa Rica,2001,46.6929,Other Milds
+1090,Cuba,2001,188.5711,Other Milds
+1091,Dominican Republic,2001,42.0392,Other Milds
+1092,Ecuador,2001,27.2816,Other Milds
+1093,Ecuador,2001,27.2816,Robustas
+1094,El Salvador,2001,17.6285,Other Milds
+1095,Guatemala,2001,45.3452,Other Milds
+1096,Haiti,2001,,Other Milds
+1097,Honduras,2001,34.3243,Other Milds
+1098,India,2001,43.8182,Other Milds
+1099,India,2001,43.8182,Robustas
+1100,Jamaica,2001,169.5941,Other Milds
+1101,Madagascar,2001,64.5937,Other Milds
+1102,Madagascar,2001,64.5937,Robustas
+1103,Malawi,2001,46.4248,Other Milds
+1104,Mexico,2001,53.9753,Other Milds
+1105,Nicaragua,2001,29.6521,Other Milds
+1106,Panama,2001,,Other Milds
+1107,Papua New Guinea,2001,32.9735,Other Milds
+1108,Papua New Guinea,2001,32.9735,Robustas
+1109,Peru,2001,34.7709,Other Milds
+1110,Rwanda,2001,23.2564,Other Milds
+1111,Sri Lanka,2001,,Other Milds
+1112,Sri Lanka,2001,,Robustas
+1113,Uganda,2001,27.5052,Other Milds
+1114,Uganda,2001,27.5052,Robustas
+1115,"Venezuela, Bol. Rep. of",2001,,Other Milds
+1116,Zambia,2001,65.7341,Other Milds
+1117,Zimbabwe ,2001,,Other Milds
+1118,Angola,2001,,Brazilian Naturals
+1119,Angola,2001,,Robustas
+1120,Brazil,2001,37.0458,Brazilian Naturals
+1121,Brazil,2001,37.0458,Robustas
+1122,Ethiopia,2001,43.7795,Brazilian Naturals
+1123,Indonesia,2001,53.6054,Brazilian Naturals
+1124,Indonesia,2001,53.6054,Robustas
+1125,Philippines,2001,49.3555,Brazilian Naturals
+1126,Philippines,2001,49.3555,Robustas
+1127,Thailand,2001,,Brazilian Naturals
+1128,Thailand,2001,,Robustas
+1129,Vietnam,2001,,Brazilian Naturals
+1130,Vietnam,2001,,Robustas
+1131,Angola,2001,18.6135,Brazilian Naturals
+1132,Angola,2001,18.6135,Robustas
+1133,Benin,2001,,Robustas
+1134,Brazil,2001,19.3547,Brazilian Naturals
+1135,Brazil,2001,19.3547,Robustas
+1136,Burundi,2001,,Other Milds
+1137,Burundi,2001,,Robustas
+1138,Cameroon,2001,21.1299,Other Milds
+1139,Cameroon,2001,21.1299,Robustas
+1140,Central African Republic,2001,13.2225,Robustas
+1141,"Congo, Dem. Rep. of",2001,7.9507,Other Milds
+1142,"Congo, Dem. Rep. of",2001,7.9507,Robustas
+1143,"Congo, Rep. of",2001,,Robustas
+1144,Côte d'Ivoire,2001,,Robustas
+1145,Ecuador,2001,11.2578,Other Milds
+1146,Ecuador,2001,11.2578,Robustas
+1147,Gabon,2001,47.9271,Robustas
+1148,Ghana,2001,,Robustas
+1149,Guinea,2001,,Robustas
+1150,India,2001,23.4397,Other Milds
+1151,India,2001,23.4397,Robustas
+1152,Indonesia,2001,13.5715,Brazilian Naturals
+1153,Indonesia,2001,13.5715,Robustas
+1154,Liberia,2001,,Robustas
+1155,Madagascar,2001,51.6628,Other Milds
+1156,Madagascar,2001,51.6628,Robustas
+1157,Nigeria,2001,,Robustas
+1158,Papua New Guinea,2001,12.0047,Other Milds
+1159,Papua New Guinea,2001,12.0047,Robustas
+1160,Philippines,2001,23.6346,Brazilian Naturals
+1161,Philippines,2001,23.6346,Robustas
+1162,Sierra Leone,2001,,Robustas
+1163,Sri Lanka,2001,,Other Milds
+1164,Sri Lanka,2001,,Robustas
+1165,Tanzania,2001,5.2086,Colombian Milds
+1166,Tanzania,2001,5.2086,Robustas
+1167,Thailand,2001,12.747,Brazilian Naturals
+1168,Thailand,2001,12.747,Robustas
+1169,Togo,2001,15.3167,Robustas
+1170,Trinidad & Tobago,2001,,Robustas
+1171,Uganda,2001,10.5687,Other Milds
+1172,Uganda,2001,10.5687,Robustas
+1173,Vietnam,2001,15.1186,Brazilian Naturals
+1174,Vietnam,2001,15.1186,Robustas
+1175,© International Coffee Organization,2001,,
+1176,Colombia,2002,52.5669,Colombian Milds
+1177,Kenya,2002,67.6698,Colombian Milds
+1178,Tanzania,2002,25.9279,Colombian Milds
+1179,Tanzania,2002,25.9279,Robustas
+1180,Bolivia,2002,,Other Milds
+1181,Burundi,2002,29.17,Other Milds
+1182,Burundi,2002,29.17,Robustas
+1183,Cameroon,2002,24.5554,Other Milds
+1184,Cameroon,2002,24.5554,Robustas
+1185,"Congo, Dem. Rep. of",2002,,Other Milds
+1186,"Congo, Dem. Rep. of",2002,,Robustas
+1187,Costa Rica,2002,46.7441,Other Milds
+1188,Cuba,2002,188.5711,Other Milds
+1189,Dominican Republic,2002,50.829,Other Milds
+1190,Ecuador,2002,27.3637,Other Milds
+1191,Ecuador,2002,27.3637,Robustas
+1192,El Salvador,2002,21.8368,Other Milds
+1193,Guatemala,2002,49.6116,Other Milds
+1194,Haiti,2002,,Other Milds
+1195,Honduras,2002,37.0642,Other Milds
+1196,India,2002,39.6095,Other Milds
+1197,India,2002,39.6095,Robustas
+1198,Jamaica,2002,237.5996,Other Milds
+1199,Madagascar,2002,72.5041,Other Milds
+1200,Madagascar,2002,72.5041,Robustas
+1201,Malawi,2002,39.7883,Other Milds
+1202,Mexico,2002,45.0775,Other Milds
+1203,Nicaragua,2002,30.1493,Other Milds
+1204,Panama,2002,,Other Milds
+1205,Papua New Guinea,2002,31.6628,Other Milds
+1206,Papua New Guinea,2002,31.6628,Robustas
+1207,Peru,2002,29.5158,Other Milds
+1208,Rwanda,2002,17.8762,Other Milds
+1209,Sri Lanka,2002,,Other Milds
+1210,Sri Lanka,2002,,Robustas
+1211,Uganda,2002,27.5174,Other Milds
+1212,Uganda,2002,27.5174,Robustas
+1213,"Venezuela, Bol. Rep. of",2002,,Other Milds
+1214,Zambia,2002,60.0056,Other Milds
+1215,Zimbabwe ,2002,,Other Milds
+1216,Angola,2002,,Brazilian Naturals
+1217,Angola,2002,,Robustas
+1218,Brazil,2002,30.9089,Brazilian Naturals
+1219,Brazil,2002,30.9089,Robustas
+1220,Ethiopia,2002,26.8781,Brazilian Naturals
+1221,Indonesia,2002,59.6569,Brazilian Naturals
+1222,Indonesia,2002,59.6569,Robustas
+1223,Philippines,2002,21.738,Brazilian Naturals
+1224,Philippines,2002,21.738,Robustas
+1225,Thailand,2002,,Brazilian Naturals
+1226,Thailand,2002,,Robustas
+1227,Vietnam,2002,,Brazilian Naturals
+1228,Vietnam,2002,,Robustas
+1229,Angola,2002,10.7112,Brazilian Naturals
+1230,Angola,2002,10.7112,Robustas
+1231,Benin,2002,,Robustas
+1232,Brazil,2002,19.9937,Brazilian Naturals
+1233,Brazil,2002,19.9937,Robustas
+1234,Burundi,2002,,Other Milds
+1235,Burundi,2002,,Robustas
+1236,Cameroon,2002,16.0534,Other Milds
+1237,Cameroon,2002,16.0534,Robustas
+1238,Central African Republic,2002,11.942,Robustas
+1239,"Congo, Dem. Rep. of",2002,2.9573,Other Milds
+1240,"Congo, Dem. Rep. of",2002,2.9573,Robustas
+1241,"Congo, Rep. of",2002,,Robustas
+1242,Côte d'Ivoire,2002,8.9585,Robustas
+1243,Ecuador,2002,11.9973,Other Milds
+1244,Ecuador,2002,11.9973,Robustas
+1245,Gabon,2002,44.5843,Robustas
+1246,Ghana,2002,,Robustas
+1247,Guinea,2002,,Robustas
+1248,India,2002,22.0776,Other Milds
+1249,India,2002,22.0776,Robustas
+1250,Indonesia,2002,14.6522,Brazilian Naturals
+1251,Indonesia,2002,14.6522,Robustas
+1252,Liberia,2002,,Robustas
+1253,Madagascar,2002,55.6953,Other Milds
+1254,Madagascar,2002,55.6953,Robustas
+1255,Nigeria,2002,,Robustas
+1256,Papua New Guinea,2002,13.3144,Other Milds
+1257,Papua New Guinea,2002,13.3144,Robustas
+1258,Philippines,2002,21.4548,Brazilian Naturals
+1259,Philippines,2002,21.4548,Robustas
+1260,Sierra Leone,2002,,Robustas
+1261,Sri Lanka,2002,,Other Milds
+1262,Sri Lanka,2002,,Robustas
+1263,Tanzania,2002,4.2981,Colombian Milds
+1264,Tanzania,2002,4.2981,Robustas
+1265,Thailand,2002,6.4439,Brazilian Naturals
+1266,Thailand,2002,6.4439,Robustas
+1267,Togo,2002,18.2661,Robustas
+1268,Trinidad & Tobago,2002,,Robustas
+1269,Uganda,2002,12.7838,Other Milds
+1270,Uganda,2002,12.7838,Robustas
+1271,Vietnam,2002,18.1376,Brazilian Naturals
+1272,Vietnam,2002,18.1376,Robustas
+1273,© International Coffee Organization,2002,,
+1274,Colombia,2003,48.343,Colombian Milds
+1275,Kenya,2003,41.0724,Colombian Milds
+1276,Tanzania,2003,24.7808,Colombian Milds
+1277,Tanzania,2003,24.7808,Robustas
+1278,Bolivia,2003,,Other Milds
+1279,Burundi,2003,24.8803,Other Milds
+1280,Burundi,2003,24.8803,Robustas
+1281,Cameroon,2003,35.2702,Other Milds
+1282,Cameroon,2003,35.2702,Robustas
+1283,"Congo, Dem. Rep. of",2003,,Other Milds
+1284,"Congo, Dem. Rep. of",2003,,Robustas
+1285,Costa Rica,2003,52.9871,Other Milds
+1286,Cuba,2003,168.9282,Other Milds
+1287,Dominican Republic,2003,49.572,Other Milds
+1288,Ecuador,2003,31.0615,Other Milds
+1289,Ecuador,2003,31.0615,Robustas
+1290,El Salvador,2003,25.6889,Other Milds
+1291,Guatemala,2003,48.4242,Other Milds
+1292,Haiti,2003,,Other Milds
+1293,Honduras,2003,41.7301,Other Milds
+1294,India,2003,43.4504,Other Milds
+1295,India,2003,43.4504,Robustas
+1296,Jamaica,2003,185.619,Other Milds
+1297,Madagascar,2003,86.5775,Other Milds
+1298,Madagascar,2003,86.5775,Robustas
+1299,Malawi,2003,39.621,Other Milds
+1300,Mexico,2003,64.019,Other Milds
+1301,Nicaragua,2003,34.4183,Other Milds
+1302,Panama,2003,,Other Milds
+1303,Papua New Guinea,2003,36.9896,Other Milds
+1304,Papua New Guinea,2003,36.9896,Robustas
+1305,Peru,2003,32.9262,Other Milds
+1306,Rwanda,2003,24.8854,Other Milds
+1307,Sri Lanka,2003,,Other Milds
+1308,Sri Lanka,2003,,Robustas
+1309,Uganda,2003,28.6403,Other Milds
+1310,Uganda,2003,28.6403,Robustas
+1311,"Venezuela, Bol. Rep. of",2003,,Other Milds
+1312,Zambia,2003,52.9675,Other Milds
+1313,Zimbabwe ,2003,,Other Milds
+1314,Angola,2003,,Brazilian Naturals
+1315,Angola,2003,,Robustas
+1316,Brazil,2003,42.8184,Brazilian Naturals
+1317,Brazil,2003,42.8184,Robustas
+1318,Ethiopia,2003,34.5679,Brazilian Naturals
+1319,Indonesia,2003,42.0479,Brazilian Naturals
+1320,Indonesia,2003,42.0479,Robustas
+1321,Philippines,2003,60.6343,Brazilian Naturals
+1322,Philippines,2003,60.6343,Robustas
+1323,Thailand,2003,,Brazilian Naturals
+1324,Thailand,2003,,Robustas
+1325,Vietnam,2003,,Brazilian Naturals
+1326,Vietnam,2003,,Robustas
+1327,Angola,2003,6.6089,Brazilian Naturals
+1328,Angola,2003,6.6089,Robustas
+1329,Benin,2003,,Robustas
+1330,Brazil,2003,31.6119,Brazilian Naturals
+1331,Brazil,2003,31.6119,Robustas
+1332,Burundi,2003,,Other Milds
+1333,Burundi,2003,,Robustas
+1334,Cameroon,2003,22.2637,Other Milds
+1335,Cameroon,2003,22.2637,Robustas
+1336,Central African Republic,2003,18.0599,Robustas
+1337,"Congo, Dem. Rep. of",2003,5.6111,Other Milds
+1338,"Congo, Dem. Rep. of",2003,5.6111,Robustas
+1339,"Congo, Rep. of",2003,,Robustas
+1340,Côte d'Ivoire,2003,17.7064,Robustas
+1341,Ecuador,2003,21.8581,Other Milds
+1342,Ecuador,2003,21.8581,Robustas
+1343,Gabon,2003,,Robustas
+1344,Ghana,2003,,Robustas
+1345,Guinea,2003,,Robustas
+1346,India,2003,28.5993,Other Milds
+1347,India,2003,28.5993,Robustas
+1348,Indonesia,2003,16.6091,Brazilian Naturals
+1349,Indonesia,2003,16.6091,Robustas
+1350,Liberia,2003,,Robustas
+1351,Madagascar,2003,55.9203,Other Milds
+1352,Madagascar,2003,55.9203,Robustas
+1353,Nigeria,2003,,Robustas
+1354,Papua New Guinea,2003,17.3053,Other Milds
+1355,Papua New Guinea,2003,17.3053,Robustas
+1356,Philippines,2003,32.6523,Brazilian Naturals
+1357,Philippines,2003,32.6523,Robustas
+1358,Sierra Leone,2003,,Robustas
+1359,Sri Lanka,2003,,Other Milds
+1360,Sri Lanka,2003,,Robustas
+1361,Tanzania,2003,6.7245,Colombian Milds
+1362,Tanzania,2003,6.7245,Robustas
+1363,Thailand,2003,13.2508,Brazilian Naturals
+1364,Thailand,2003,13.2508,Robustas
+1365,Togo,2003,22.766,Robustas
+1366,Trinidad & Tobago,2003,,Robustas
+1367,Uganda,2003,20.8085,Other Milds
+1368,Uganda,2003,20.8085,Robustas
+1369,Vietnam,2003,27.9353,Brazilian Naturals
+1370,Vietnam,2003,27.9353,Robustas
+1371,© International Coffee Organization,2003,,
+1372,Colombia,2004,60.8325,Colombian Milds
+1373,Kenya,2004,71.0095,Colombian Milds
+1374,Tanzania,2004,26.3711,Colombian Milds
+1375,Tanzania,2004,26.3711,Robustas
+1376,Bolivia,2004,,Other Milds
+1377,Burundi,2004,27.357,Other Milds
+1378,Burundi,2004,27.357,Robustas
+1379,Cameroon,2004,,Other Milds
+1380,Cameroon,2004,,Robustas
+1381,"Congo, Dem. Rep. of",2004,,Other Milds
+1382,"Congo, Dem. Rep. of",2004,,Robustas
+1383,Costa Rica,2004,64.8733,Other Milds
+1384,Cuba,2004,70.1784,Other Milds
+1385,Dominican Republic,2004,75.6965,Other Milds
+1386,Ecuador,2004,51.194,Other Milds
+1387,Ecuador,2004,51.194,Robustas
+1388,El Salvador,2004,39.3039,Other Milds
+1389,Guatemala,2004,66.9099,Other Milds
+1390,Haiti,2004,,Other Milds
+1391,Honduras,2004,50.232,Other Milds
+1392,India,2004,58.3193,Other Milds
+1393,India,2004,58.3193,Robustas
+1394,Jamaica,2004,185.4223,Other Milds
+1395,Madagascar,2004,46.8166,Other Milds
+1396,Madagascar,2004,46.8166,Robustas
+1397,Malawi,2004,51.6781,Other Milds
+1398,Mexico,2004,90.7787,Other Milds
+1399,Nicaragua,2004,40.8748,Other Milds
+1400,Panama,2004,,Other Milds
+1401,Papua New Guinea,2004,41.0979,Other Milds
+1402,Papua New Guinea,2004,41.0979,Robustas
+1403,Peru,2004,42.4274,Other Milds
+1404,Rwanda,2004,29.4574,Other Milds
+1405,Sri Lanka,2004,,Other Milds
+1406,Sri Lanka,2004,,Robustas
+1407,Uganda,2004,35.9874,Other Milds
+1408,Uganda,2004,35.9874,Robustas
+1409,"Venezuela, Bol. Rep. of",2004,,Other Milds
+1410,Zambia,2004,64.4375,Other Milds
+1411,Zimbabwe ,2004,,Other Milds
+1412,Angola,2004,,Brazilian Naturals
+1413,Angola,2004,,Robustas
+1414,Brazil,2004,56.3302,Brazilian Naturals
+1415,Brazil,2004,56.3302,Robustas
+1416,Ethiopia,2004,48.8512,Brazilian Naturals
+1417,Indonesia,2004,80.6176,Brazilian Naturals
+1418,Indonesia,2004,80.6176,Robustas
+1419,Philippines,2004,66.2305,Brazilian Naturals
+1420,Philippines,2004,66.2305,Robustas
+1421,Thailand,2004,,Brazilian Naturals
+1422,Thailand,2004,,Robustas
+1423,Vietnam,2004,,Brazilian Naturals
+1424,Vietnam,2004,,Robustas
+1425,Angola,2004,9.923,Brazilian Naturals
+1426,Angola,2004,9.923,Robustas
+1427,Benin,2004,,Robustas
+1428,Brazil,2004,34.8484,Brazilian Naturals
+1429,Brazil,2004,34.8484,Robustas
+1430,Burundi,2004,,Other Milds
+1431,Burundi,2004,,Robustas
+1432,Cameroon,2004,,Other Milds
+1433,Cameroon,2004,,Robustas
+1434,Central African Republic,2004,20.1724,Robustas
+1435,"Congo, Dem. Rep. of",2004,,Other Milds
+1436,"Congo, Dem. Rep. of",2004,,Robustas
+1437,"Congo, Rep. of",2004,,Robustas
+1438,Côte d'Ivoire,2004,14.7655,Robustas
+1439,Ecuador,2004,29.7468,Other Milds
+1440,Ecuador,2004,29.7468,Robustas
+1441,Gabon,2004,,Robustas
+1442,Ghana,2004,,Robustas
+1443,Guinea,2004,,Robustas
+1444,India,2004,30.7952,Other Milds
+1445,India,2004,30.7952,Robustas
+1446,Indonesia,2004,24.1702,Brazilian Naturals
+1447,Indonesia,2004,24.1702,Robustas
+1448,Liberia,2004,,Robustas
+1449,Madagascar,2004,19.74,Other Milds
+1450,Madagascar,2004,19.74,Robustas
+1451,Nigeria,2004,,Robustas
+1452,Papua New Guinea,2004,22.1559,Other Milds
+1453,Papua New Guinea,2004,22.1559,Robustas
+1454,Philippines,2004,31.8862,Brazilian Naturals
+1455,Philippines,2004,31.8862,Robustas
+1456,Sierra Leone,2004,,Robustas
+1457,Sri Lanka,2004,,Other Milds
+1458,Sri Lanka,2004,,Robustas
+1459,Tanzania,2004,7.553,Colombian Milds
+1460,Tanzania,2004,7.553,Robustas
+1461,Thailand,2004,12.8279,Brazilian Naturals
+1462,Thailand,2004,12.8279,Robustas
+1463,Togo,2004,21.9065,Robustas
+1464,Trinidad & Tobago,2004,,Robustas
+1465,Uganda,2004,26.2624,Other Milds
+1466,Uganda,2004,26.2624,Robustas
+1467,Vietnam,2004,26.0012,Brazilian Naturals
+1468,Vietnam,2004,26.0012,Robustas
+1469,© International Coffee Organization,2004,,
+1470,Colombia,2005,89.2214,Colombian Milds
+1471,Kenya,2005,,Colombian Milds
+1472,Tanzania,2005,43.6924,Colombian Milds
+1473,Tanzania,2005,43.6924,Robustas
+1474,Bolivia,2005,,Other Milds
+1475,Burundi,2005,42.9285,Other Milds
+1476,Burundi,2005,42.9285,Robustas
+1477,Cameroon,2005,,Other Milds
+1478,Cameroon,2005,,Robustas
+1479,"Congo, Dem. Rep. of",2005,,Other Milds
+1480,"Congo, Dem. Rep. of",2005,,Robustas
+1481,Costa Rica,2005,83.4296,Other Milds
+1482,Cuba,2005,70.7141,Other Milds
+1483,Dominican Republic,2005,87.9156,Other Milds
+1484,Ecuador,2005,91.6233,Other Milds
+1485,Ecuador,2005,91.6233,Robustas
+1486,El Salvador,2005,67.097,Other Milds
+1487,Guatemala,2005,92.4642,Other Milds
+1488,Haiti,2005,,Other Milds
+1489,Honduras,2005,78.6893,Other Milds
+1490,India,2005,96.5255,Other Milds
+1491,India,2005,96.5255,Robustas
+1492,Jamaica,2005,244.6888,Other Milds
+1493,Madagascar,2005,50.8012,Other Milds
+1494,Madagascar,2005,50.8012,Robustas
+1495,Malawi,2005,83.7134,Other Milds
+1496,Mexico,2005,139.0296,Other Milds
+1497,Nicaragua,2005,52.8824,Other Milds
+1498,Panama,2005,,Other Milds
+1499,Papua New Guinea,2005,62.2599,Other Milds
+1500,Papua New Guinea,2005,62.2599,Robustas
+1501,Peru,2005,69.4699,Other Milds
+1502,Rwanda,2005,46.245,Other Milds
+1503,Sri Lanka,2005,,Other Milds
+1504,Sri Lanka,2005,,Robustas
+1505,Uganda,2005,57.8593,Other Milds
+1506,Uganda,2005,57.8593,Robustas
+1507,"Venezuela, Bol. Rep. of",2005,,Other Milds
+1508,Zambia,2005,87.176,Other Milds
+1509,Zimbabwe ,2005,,Other Milds
+1510,Angola,2005,,Brazilian Naturals
+1511,Angola,2005,,Robustas
+1512,Brazil,2005,87.09,Brazilian Naturals
+1513,Brazil,2005,87.09,Robustas
+1514,Ethiopia,2005,64.2276,Brazilian Naturals
+1515,Indonesia,2005,117.0379,Brazilian Naturals
+1516,Indonesia,2005,117.0379,Robustas
+1517,Philippines,2005,79.9997,Brazilian Naturals
+1518,Philippines,2005,79.9997,Robustas
+1519,Thailand,2005,,Brazilian Naturals
+1520,Thailand,2005,,Robustas
+1521,Vietnam,2005,,Brazilian Naturals
+1522,Vietnam,2005,,Robustas
+1523,Angola,2005,10.4187,Brazilian Naturals
+1524,Angola,2005,10.4187,Robustas
+1525,Benin,2005,,Robustas
+1526,Brazil,2005,46.4667,Brazilian Naturals
+1527,Brazil,2005,46.4667,Robustas
+1528,Burundi,2005,,Other Milds
+1529,Burundi,2005,,Robustas
+1530,Cameroon,2005,,Other Milds
+1531,Cameroon,2005,,Robustas
+1532,Central African Republic,2005,,Robustas
+1533,"Congo, Dem. Rep. of",2005,,Other Milds
+1534,"Congo, Dem. Rep. of",2005,,Robustas
+1535,"Congo, Rep. of",2005,,Robustas
+1536,Côte d'Ivoire,2005,11.2288,Robustas
+1537,Ecuador,2005,50.9623,Other Milds
+1538,Ecuador,2005,50.9623,Robustas
+1539,Gabon,2005,,Robustas
+1540,Ghana,2005,,Robustas
+1541,Guinea,2005,,Robustas
+1542,India,2005,52.4173,Other Milds
+1543,India,2005,52.4173,Robustas
+1544,Indonesia,2005,34.2061,Brazilian Naturals
+1545,Indonesia,2005,34.2061,Robustas
+1546,Liberia,2005,,Robustas
+1547,Madagascar,2005,30.2388,Other Milds
+1548,Madagascar,2005,30.2388,Robustas
+1549,Nigeria,2005,,Robustas
+1550,Papua New Guinea,2005,24.3033,Other Milds
+1551,Papua New Guinea,2005,24.3033,Robustas
+1552,Philippines,2005,41.6909,Brazilian Naturals
+1553,Philippines,2005,41.6909,Robustas
+1554,Sierra Leone,2005,,Robustas
+1555,Sri Lanka,2005,,Other Milds
+1556,Sri Lanka,2005,,Robustas
+1557,Tanzania,2005,14.2734,Colombian Milds
+1558,Tanzania,2005,14.2734,Robustas
+1559,Thailand,2005,18.3203,Brazilian Naturals
+1560,Thailand,2005,18.3203,Robustas
+1561,Togo,2005,27.9158,Robustas
+1562,Trinidad & Tobago,2005,,Robustas
+1563,Uganda,2005,40.8231,Other Milds
+1564,Uganda,2005,40.8231,Robustas
+1565,Vietnam,2005,35.8985,Brazilian Naturals
+1566,Vietnam,2005,35.8985,Robustas
+1567,© International Coffee Organization,2005,,
+1568,Colombia,2006,89.8083,Colombian Milds
+1569,Kenya,2006,,Colombian Milds
+1570,Tanzania,2006,42.7651,Colombian Milds
+1571,Tanzania,2006,42.7651,Robustas
+1572,Bolivia,2006,,Other Milds
+1573,Burundi,2006,63.4535,Other Milds
+1574,Burundi,2006,63.4535,Robustas
+1575,Cameroon,2006,,Other Milds
+1576,Cameroon,2006,,Robustas
+1577,"Congo, Dem. Rep. of",2006,,Other Milds
+1578,"Congo, Dem. Rep. of",2006,,Robustas
+1579,Costa Rica,2006,89.2238,Other Milds
+1580,Cuba,2006,70.7141,Other Milds
+1581,Dominican Republic,2006,86.2942,Other Milds
+1582,Ecuador,2006,92.445,Other Milds
+1583,Ecuador,2006,92.445,Robustas
+1584,El Salvador,2006,67.4926,Other Milds
+1585,Guatemala,2006,91.1947,Other Milds
+1586,Haiti,2006,,Other Milds
+1587,Honduras,2006,80.8164,Other Milds
+1588,India,2006,95.8634,Other Milds
+1589,India,2006,95.8634,Robustas
+1590,Jamaica,2006,354.8887,Other Milds
+1591,Madagascar,2006,,Other Milds
+1592,Madagascar,2006,,Robustas
+1593,Malawi,2006,84.5843,Other Milds
+1594,Mexico,2006,85.4966,Other Milds
+1595,Nicaragua,2006,58.6579,Other Milds
+1596,Panama,2006,,Other Milds
+1597,Papua New Guinea,2006,71.284,Other Milds
+1598,Papua New Guinea,2006,71.284,Robustas
+1599,Peru,2006,,Other Milds
+1600,Rwanda,2006,,Other Milds
+1601,Sri Lanka,2006,,Other Milds
+1602,Sri Lanka,2006,,Robustas
+1603,Uganda,2006,55.3373,Other Milds
+1604,Uganda,2006,55.3373,Robustas
+1605,"Venezuela, Bol. Rep. of",2006,,Other Milds
+1606,Zambia,2006,100.1823,Other Milds
+1607,Zimbabwe ,2006,,Other Milds
+1608,Angola,2006,,Brazilian Naturals
+1609,Angola,2006,,Robustas
+1610,Brazil,2006,87.0178,Brazilian Naturals
+1611,Brazil,2006,87.0178,Robustas
+1612,Ethiopia,2006,58.3172,Brazilian Naturals
+1613,Indonesia,2006,107.5163,Brazilian Naturals
+1614,Indonesia,2006,107.5163,Robustas
+1615,Philippines,2006,61.5072,Brazilian Naturals
+1616,Philippines,2006,61.5072,Robustas
+1617,Thailand,2006,,Brazilian Naturals
+1618,Thailand,2006,,Robustas
+1619,Vietnam,2006,,Brazilian Naturals
+1620,Vietnam,2006,,Robustas
+1621,Angola,2006,12.9824,Brazilian Naturals
+1622,Angola,2006,12.9824,Robustas
+1623,Benin,2006,,Robustas
+1624,Brazil,2006,62.0285,Brazilian Naturals
+1625,Brazil,2006,62.0285,Robustas
+1626,Burundi,2006,,Other Milds
+1627,Burundi,2006,,Robustas
+1628,Cameroon,2006,,Other Milds
+1629,Cameroon,2006,,Robustas
+1630,Central African Republic,2006,,Robustas
+1631,"Congo, Dem. Rep. of",2006,,Other Milds
+1632,"Congo, Dem. Rep. of",2006,,Robustas
+1633,"Congo, Rep. of",2006,,Robustas
+1634,Côte d'Ivoire,2006,27.9899,Robustas
+1635,Ecuador,2006,53.7258,Other Milds
+1636,Ecuador,2006,53.7258,Robustas
+1637,Gabon,2006,,Robustas
+1638,Ghana,2006,,Robustas
+1639,Guinea,2006,,Robustas
+1640,India,2006,61.3522,Other Milds
+1641,India,2006,61.3522,Robustas
+1642,Indonesia,2006,52.4731,Brazilian Naturals
+1643,Indonesia,2006,52.4731,Robustas
+1644,Liberia,2006,,Robustas
+1645,Madagascar,2006,41.7147,Other Milds
+1646,Madagascar,2006,41.7147,Robustas
+1647,Nigeria,2006,,Robustas
+1648,Papua New Guinea,2006,32.8919,Other Milds
+1649,Papua New Guinea,2006,32.8919,Robustas
+1650,Philippines,2006,55.3165,Brazilian Naturals
+1651,Philippines,2006,55.3165,Robustas
+1652,Sierra Leone,2006,,Robustas
+1653,Sri Lanka,2006,,Other Milds
+1654,Sri Lanka,2006,,Robustas
+1655,Tanzania,2006,21.4463,Colombian Milds
+1656,Tanzania,2006,21.4463,Robustas
+1657,Thailand,2006,46.5464,Brazilian Naturals
+1658,Thailand,2006,46.5464,Robustas
+1659,Togo,2006,44.7165,Robustas
+1660,Trinidad & Tobago,2006,,Robustas
+1661,Uganda,2006,47.0192,Other Milds
+1662,Uganda,2006,47.0192,Robustas
+1663,Vietnam,2006,54.5026,Brazilian Naturals
+1664,Vietnam,2006,54.5026,Robustas
+1665,© International Coffee Organization,2006,,
+1666,Colombia,2007,100.0535,Colombian Milds
+1667,Kenya,2007,,Colombian Milds
+1668,Tanzania,2007,59.7769,Colombian Milds
+1669,Tanzania,2007,59.7769,Robustas
+1670,Bolivia,2007,,Other Milds
+1671,Burundi,2007,80.3535,Other Milds
+1672,Burundi,2007,80.3535,Robustas
+1673,Cameroon,2007,80.1917,Other Milds
+1674,Cameroon,2007,80.1917,Robustas
+1675,"Congo, Dem. Rep. of",2007,,Other Milds
+1676,"Congo, Dem. Rep. of",2007,,Robustas
+1677,Costa Rica,2007,98.6447,Other Milds
+1678,Cuba,2007,47.1428,Other Milds
+1679,Dominican Republic,2007,87.1283,Other Milds
+1680,Ecuador,2007,110.5232,Other Milds
+1681,Ecuador,2007,110.5232,Robustas
+1682,El Salvador,2007,75.2353,Other Milds
+1683,Guatemala,2007,98.312,Other Milds
+1684,Haiti,2007,,Other Milds
+1685,Honduras,2007,81.632,Other Milds
+1686,India,2007,108.0306,Other Milds
+1687,India,2007,108.0306,Robustas
+1688,Jamaica,2007,343.0594,Other Milds
+1689,Madagascar,2007,,Other Milds
+1690,Madagascar,2007,,Robustas
+1691,Malawi,2007,80.358,Other Milds
+1692,Mexico,2007,90.9075,Other Milds
+1693,Nicaragua,2007,64.3645,Other Milds
+1694,Panama,2007,,Other Milds
+1695,Papua New Guinea,2007,76.6883,Other Milds
+1696,Papua New Guinea,2007,76.6883,Robustas
+1697,Peru,2007,,Other Milds
+1698,Rwanda,2007,,Other Milds
+1699,Sri Lanka,2007,,Other Milds
+1700,Sri Lanka,2007,,Robustas
+1701,Uganda,2007,65.0071,Other Milds
+1702,Uganda,2007,65.0071,Robustas
+1703,"Venezuela, Bol. Rep. of",2007,,Other Milds
+1704,Zambia,2007,106.4471,Other Milds
+1705,Zimbabwe ,2007,,Other Milds
+1706,Angola,2007,,Brazilian Naturals
+1707,Angola,2007,,Robustas
+1708,Brazil,2007,98.2955,Brazilian Naturals
+1709,Brazil,2007,98.2955,Robustas
+1710,Ethiopia,2007,69.829,Brazilian Naturals
+1711,Indonesia,2007,117.9882,Brazilian Naturals
+1712,Indonesia,2007,117.9882,Robustas
+1713,Philippines,2007,81.3725,Brazilian Naturals
+1714,Philippines,2007,81.3725,Robustas
+1715,Thailand,2007,,Brazilian Naturals
+1716,Thailand,2007,,Robustas
+1717,Vietnam,2007,,Brazilian Naturals
+1718,Vietnam,2007,,Robustas
+1719,Angola,2007,36.0524,Brazilian Naturals
+1720,Angola,2007,36.0524,Robustas
+1721,Benin,2007,,Robustas
+1722,Brazil,2007,78.9409,Brazilian Naturals
+1723,Brazil,2007,78.9409,Robustas
+1724,Burundi,2007,,Other Milds
+1725,Burundi,2007,,Robustas
+1726,Cameroon,2007,55.1318,Other Milds
+1727,Cameroon,2007,55.1318,Robustas
+1728,Central African Republic,2007,45.3414,Robustas
+1729,"Congo, Dem. Rep. of",2007,,Other Milds
+1730,"Congo, Dem. Rep. of",2007,,Robustas
+1731,"Congo, Rep. of",2007,,Robustas
+1732,Côte d'Ivoire,2007,32.8384,Robustas
+1733,Ecuador,2007,64.9046,Other Milds
+1734,Ecuador,2007,64.9046,Robustas
+1735,Gabon,2007,,Robustas
+1736,Ghana,2007,,Robustas
+1737,Guinea,2007,,Robustas
+1738,India,2007,79.3802,Other Milds
+1739,India,2007,79.3802,Robustas
+1740,Indonesia,2007,55.8043,Brazilian Naturals
+1741,Indonesia,2007,55.8043,Robustas
+1742,Liberia,2007,,Robustas
+1743,Madagascar,2007,69.5695,Other Milds
+1744,Madagascar,2007,69.5695,Robustas
+1745,Nigeria,2007,,Robustas
+1746,Papua New Guinea,2007,23.9073,Other Milds
+1747,Papua New Guinea,2007,23.9073,Robustas
+1748,Philippines,2007,74.4775,Brazilian Naturals
+1749,Philippines,2007,74.4775,Robustas
+1750,Sierra Leone,2007,,Robustas
+1751,Sri Lanka,2007,,Other Milds
+1752,Sri Lanka,2007,,Robustas
+1753,Tanzania,2007,21.3788,Colombian Milds
+1754,Tanzania,2007,21.3788,Robustas
+1755,Thailand,2007,64.6742,Brazilian Naturals
+1756,Thailand,2007,64.6742,Robustas
+1757,Togo,2007,56.7223,Robustas
+1758,Trinidad & Tobago,2007,,Robustas
+1759,Uganda,2007,55.8766,Other Milds
+1760,Uganda,2007,55.8766,Robustas
+1761,Vietnam,2007,71.1417,Brazilian Naturals
+1762,Vietnam,2007,71.1417,Robustas
+1763,© International Coffee Organization,2007,,
+1764,Colombia,2008,114.2209,Colombian Milds
+1765,Kenya,2008,,Colombian Milds
+1766,Tanzania,2008,63.3829,Colombian Milds
+1767,Tanzania,2008,63.3829,Robustas
+1768,Bolivia,2008,,Other Milds
+1769,Burundi,2008,86.1923,Other Milds
+1770,Burundi,2008,86.1923,Robustas
+1771,Cameroon,2008,79.1296,Other Milds
+1772,Cameroon,2008,79.1296,Robustas
+1773,"Congo, Dem. Rep. of",2008,,Other Milds
+1774,"Congo, Dem. Rep. of",2008,,Robustas
+1775,Costa Rica,2008,106.1749,Other Milds
+1776,Cuba,2008,70.7141,Other Milds
+1777,Dominican Republic,2008,101.4508,Other Milds
+1778,Ecuador,2008,145.036,Other Milds
+1779,Ecuador,2008,145.036,Robustas
+1780,El Salvador,2008,86.0511,Other Milds
+1781,Guatemala,2008,111.0286,Other Milds
+1782,Haiti,2008,,Other Milds
+1783,Honduras,2008,90.5567,Other Milds
+1784,India,2008,121.6958,Other Milds
+1785,India,2008,121.6958,Robustas
+1786,Jamaica,2008,348.4808,Other Milds
+1787,Madagascar,2008,,Other Milds
+1788,Madagascar,2008,,Robustas
+1789,Malawi,2008,76.2341,Other Milds
+1790,Mexico,2008,106.0489,Other Milds
+1791,Nicaragua,2008,71.0228,Other Milds
+1792,Panama,2008,,Other Milds
+1793,Papua New Guinea,2008,111.7771,Other Milds
+1794,Papua New Guinea,2008,111.7771,Robustas
+1795,Peru,2008,,Other Milds
+1796,Rwanda,2008,,Other Milds
+1797,Sri Lanka,2008,,Other Milds
+1798,Sri Lanka,2008,,Robustas
+1799,Uganda,2008,73.3181,Other Milds
+1800,Uganda,2008,73.3181,Robustas
+1801,"Venezuela, Bol. Rep. of",2008,,Other Milds
+1802,Zambia,2008,126.7021,Other Milds
+1803,Zimbabwe ,2008,,Other Milds
+1804,Angola,2008,,Brazilian Naturals
+1805,Angola,2008,,Robustas
+1806,Brazil,2008,109.2581,Brazilian Naturals
+1807,Brazil,2008,109.2581,Robustas
+1808,Ethiopia,2008,71.7101,Brazilian Naturals
+1809,Indonesia,2008,,Brazilian Naturals
+1810,Indonesia,2008,,Robustas
+1811,Philippines,2008,95.5242,Brazilian Naturals
+1812,Philippines,2008,95.5242,Robustas
+1813,Thailand,2008,,Brazilian Naturals
+1814,Thailand,2008,,Robustas
+1815,Vietnam,2008,,Brazilian Naturals
+1816,Vietnam,2008,,Robustas
+1817,Angola,2008,42.3165,Brazilian Naturals
+1818,Angola,2008,42.3165,Robustas
+1819,Benin,2008,,Robustas
+1820,Brazil,2008,91.5772,Brazilian Naturals
+1821,Brazil,2008,91.5772,Robustas
+1822,Burundi,2008,,Other Milds
+1823,Burundi,2008,,Robustas
+1824,Cameroon,2008,52.5448,Other Milds
+1825,Cameroon,2008,52.5448,Robustas
+1826,Central African Republic,2008,45.6902,Robustas
+1827,"Congo, Dem. Rep. of",2008,,Other Milds
+1828,"Congo, Dem. Rep. of",2008,,Robustas
+1829,"Congo, Rep. of",2008,,Robustas
+1830,Côte d'Ivoire,2008,51.8569,Robustas
+1831,Ecuador,2008,79.2587,Other Milds
+1832,Ecuador,2008,79.2587,Robustas
+1833,Gabon,2008,,Robustas
+1834,Ghana,2008,,Robustas
+1835,Guinea,2008,,Robustas
+1836,India,2008,96.1168,Other Milds
+1837,India,2008,96.1168,Robustas
+1838,Indonesia,2008,,Brazilian Naturals
+1839,Indonesia,2008,,Robustas
+1840,Liberia,2008,,Robustas
+1841,Madagascar,2008,,Other Milds
+1842,Madagascar,2008,,Robustas
+1843,Nigeria,2008,,Robustas
+1844,Papua New Guinea,2008,34.8969,Other Milds
+1845,Papua New Guinea,2008,34.8969,Robustas
+1846,Philippines,2008,88.332,Brazilian Naturals
+1847,Philippines,2008,88.332,Robustas
+1848,Sierra Leone,2008,,Robustas
+1849,Sri Lanka,2008,,Other Milds
+1850,Sri Lanka,2008,,Robustas
+1851,Tanzania,2008,35.3223,Colombian Milds
+1852,Tanzania,2008,35.3223,Robustas
+1853,Thailand,2008,83.75,Brazilian Naturals
+1854,Thailand,2008,83.75,Robustas
+1855,Togo,2008,76.9358,Robustas
+1856,Trinidad & Tobago,2008,,Robustas
+1857,Uganda,2008,71.0945,Other Milds
+1858,Uganda,2008,71.0945,Robustas
+1859,Vietnam,2008,89.1498,Brazilian Naturals
+1860,Vietnam,2008,89.1498,Robustas
+1861,© International Coffee Organization,2008,,
+1862,Colombia,2009,138.9551,Colombian Milds
+1863,Kenya,2009,,Colombian Milds
+1864,Tanzania,2009,,Colombian Milds
+1865,Tanzania,2009,,Robustas
+1866,Bolivia,2009,,Other Milds
+1867,Burundi,2009,85.6816,Other Milds
+1868,Burundi,2009,85.6816,Robustas
+1869,Cameroon,2009,66.0498,Other Milds
+1870,Cameroon,2009,66.0498,Robustas
+1871,"Congo, Dem. Rep. of",2009,,Other Milds
+1872,"Congo, Dem. Rep. of",2009,,Robustas
+1873,Costa Rica,2009,106.8847,Other Milds
+1874,Cuba,2009,70.7141,Other Milds
+1875,Dominican Republic,2009,106.0351,Other Milds
+1876,Ecuador,2009,147.0903,Other Milds
+1877,Ecuador,2009,147.0903,Robustas
+1878,El Salvador,2009,79.1937,Other Milds
+1879,Guatemala,2009,109.643,Other Milds
+1880,Haiti,2009,,Other Milds
+1881,Honduras,2009,83.7151,Other Milds
+1882,India,2009,136.8872,Other Milds
+1883,India,2009,136.8872,Robustas
+1884,Jamaica,2009,295.9686,Other Milds
+1885,Madagascar,2009,,Other Milds
+1886,Madagascar,2009,,Robustas
+1887,Malawi,2009,91.3144,Other Milds
+1888,Mexico,2009,,Other Milds
+1889,Nicaragua,2009,71.0177,Other Milds
+1890,Panama,2009,,Other Milds
+1891,Papua New Guinea,2009,72.7461,Other Milds
+1892,Papua New Guinea,2009,72.7461,Robustas
+1893,Peru,2009,,Other Milds
+1894,Rwanda,2009,,Other Milds
+1895,Sri Lanka,2009,,Other Milds
+1896,Sri Lanka,2009,,Robustas
+1897,Uganda,2009,60.5449,Other Milds
+1898,Uganda,2009,60.5449,Robustas
+1899,"Venezuela, Bol. Rep. of",2009,,Other Milds
+1900,Zambia,2009,116.5411,Other Milds
+1901,Zimbabwe ,2009,,Other Milds
+1902,Angola,2009,,Brazilian Naturals
+1903,Angola,2009,,Robustas
+1904,Brazil,2009,100.7993,Brazilian Naturals
+1905,Brazil,2009,100.7993,Robustas
+1906,Ethiopia,2009,77.0621,Brazilian Naturals
+1907,Indonesia,2009,,Brazilian Naturals
+1908,Indonesia,2009,,Robustas
+1909,Philippines,2009,,Brazilian Naturals
+1910,Philippines,2009,,Robustas
+1911,Thailand,2009,,Brazilian Naturals
+1912,Thailand,2009,,Robustas
+1913,Vietnam,2009,,Brazilian Naturals
+1914,Vietnam,2009,,Robustas
+1915,Angola,2009,40.1402,Brazilian Naturals
+1916,Angola,2009,40.1402,Robustas
+1917,Benin,2009,,Robustas
+1918,Brazil,2009,73.4234,Brazilian Naturals
+1919,Brazil,2009,73.4234,Robustas
+1920,Burundi,2009,,Other Milds
+1921,Burundi,2009,,Robustas
+1922,Cameroon,2009,37.7428,Other Milds
+1923,Cameroon,2009,37.7428,Robustas
+1924,Central African Republic,2009,43.5931,Robustas
+1925,"Congo, Dem. Rep. of",2009,,Other Milds
+1926,"Congo, Dem. Rep. of",2009,,Robustas
+1927,"Congo, Rep. of",2009,,Robustas
+1928,Côte d'Ivoire,2009,37.5209,Robustas
+1929,Ecuador,2009,77.9858,Other Milds
+1930,Ecuador,2009,77.9858,Robustas
+1931,Gabon,2009,91.9579,Robustas
+1932,Ghana,2009,,Robustas
+1933,Guinea,2009,,Robustas
+1934,India,2009,73.1278,Other Milds
+1935,India,2009,73.1278,Robustas
+1936,Indonesia,2009,,Brazilian Naturals
+1937,Indonesia,2009,,Robustas
+1938,Liberia,2009,,Robustas
+1939,Madagascar,2009,,Other Milds
+1940,Madagascar,2009,,Robustas
+1941,Nigeria,2009,,Robustas
+1942,Papua New Guinea,2009,27.5747,Other Milds
+1943,Papua New Guinea,2009,27.5747,Robustas
+1944,Philippines,2009,69.3786,Brazilian Naturals
+1945,Philippines,2009,69.3786,Robustas
+1946,Sierra Leone,2009,,Robustas
+1947,Sri Lanka,2009,,Other Milds
+1948,Sri Lanka,2009,,Robustas
+1949,Tanzania,2009,,Colombian Milds
+1950,Tanzania,2009,,Robustas
+1951,Thailand,2009,90.4789,Brazilian Naturals
+1952,Thailand,2009,90.4789,Robustas
+1953,Togo,2009,44.7102,Robustas
+1954,Trinidad & Tobago,2009,,Robustas
+1955,Uganda,2009,49.0312,Other Milds
+1956,Uganda,2009,49.0312,Robustas
+1957,Vietnam,2009,65.5202,Brazilian Naturals
+1958,Vietnam,2009,65.5202,Robustas
+1959,© International Coffee Organization,2009,,
+1960,Colombia,2010,180.5484,Colombian Milds
+1961,Kenya,2010,,Colombian Milds
+1962,Tanzania,2010,,Colombian Milds
+1963,Tanzania,2010,,Robustas
+1964,Bolivia,2010,,Other Milds
+1965,Burundi,2010,85.6928,Other Milds
+1966,Burundi,2010,85.6928,Robustas
+1967,Cameroon,2010,,Other Milds
+1968,Cameroon,2010,,Robustas
+1969,"Congo, Dem. Rep. of",2010,,Other Milds
+1970,"Congo, Dem. Rep. of",2010,,Robustas
+1971,Costa Rica,2010,139.8577,Other Milds
+1972,Cuba,2010,70.7141,Other Milds
+1973,Dominican Republic,2010,139.1288,Other Milds
+1974,Ecuador,2010,161.8815,Other Milds
+1975,Ecuador,2010,161.8815,Robustas
+1976,El Salvador,2010,109.8806,Other Milds
+1977,Guatemala,2010,144.7711,Other Milds
+1978,Haiti,2010,,Other Milds
+1979,Honduras,2010,125.1588,Other Milds
+1980,India,2010,151.0778,Other Milds
+1981,India,2010,151.0778,Robustas
+1982,Jamaica,2010,286.8197,Other Milds
+1983,Madagascar,2010,,Other Milds
+1984,Madagascar,2010,,Robustas
+1985,Malawi,2010,96.3484,Other Milds
+1986,Mexico,2010,,Other Milds
+1987,Nicaragua,2010,78.5382,Other Milds
+1988,Panama,2010,,Other Milds
+1989,Papua New Guinea,2010,94.8925,Other Milds
+1990,Papua New Guinea,2010,94.8925,Robustas
+1991,Peru,2010,,Other Milds
+1992,Rwanda,2010,,Other Milds
+1993,Sri Lanka,2010,,Other Milds
+1994,Sri Lanka,2010,,Robustas
+1995,Uganda,2010,87.2302,Other Milds
+1996,Uganda,2010,87.2302,Robustas
+1997,"Venezuela, Bol. Rep. of",2010,,Other Milds
+1998,Zambia,2010,120.1508,Other Milds
+1999,Zimbabwe ,2010,,Other Milds
+2000,Angola,2010,,Brazilian Naturals
+2001,Angola,2010,,Robustas
+2002,Brazil,2010,133.9954,Brazilian Naturals
+2003,Brazil,2010,133.9954,Robustas
+2004,Ethiopia,2010,85.4598,Brazilian Naturals
+2005,Indonesia,2010,,Brazilian Naturals
+2006,Indonesia,2010,,Robustas
+2007,Philippines,2010,,Brazilian Naturals
+2008,Philippines,2010,,Robustas
+2009,Thailand,2010,,Brazilian Naturals
+2010,Thailand,2010,,Robustas
+2011,Vietnam,2010,,Brazilian Naturals
+2012,Vietnam,2010,,Robustas
+2013,Angola,2010,44.3889,Brazilian Naturals
+2014,Angola,2010,44.3889,Robustas
+2015,Benin,2010,,Robustas
+2016,Brazil,2010,74.2175,Brazilian Naturals
+2017,Brazil,2010,74.2175,Robustas
+2018,Burundi,2010,,Other Milds
+2019,Burundi,2010,,Robustas
+2020,Cameroon,2010,,Other Milds
+2021,Cameroon,2010,,Robustas
+2022,Central African Republic,2010,51.3974,Robustas
+2023,"Congo, Dem. Rep. of",2010,,Other Milds
+2024,"Congo, Dem. Rep. of",2010,,Robustas
+2025,"Congo, Rep. of",2010,,Robustas
+2026,Côte d'Ivoire,2010,22.4929,Robustas
+2027,Ecuador,2010,80.548,Other Milds
+2028,Ecuador,2010,80.548,Robustas
+2029,Gabon,2010,82.5789,Robustas
+2030,Ghana,2010,,Robustas
+2031,Guinea,2010,,Robustas
+2032,India,2010,77.9592,Other Milds
+2033,India,2010,77.9592,Robustas
+2034,Indonesia,2010,,Brazilian Naturals
+2035,Indonesia,2010,,Robustas
+2036,Liberia,2010,,Robustas
+2037,Madagascar,2010,,Other Milds
+2038,Madagascar,2010,,Robustas
+2039,Nigeria,2010,,Robustas
+2040,Papua New Guinea,2010,29.4453,Other Milds
+2041,Papua New Guinea,2010,29.4453,Robustas
+2042,Philippines,2010,65.8679,Brazilian Naturals
+2043,Philippines,2010,65.8679,Robustas
+2044,Sierra Leone,2010,,Robustas
+2045,Sri Lanka,2010,,Other Milds
+2046,Sri Lanka,2010,,Robustas
+2047,Tanzania,2010,,Colombian Milds
+2048,Tanzania,2010,,Robustas
+2049,Thailand,2010,84.5002,Brazilian Naturals
+2050,Thailand,2010,84.5002,Robustas
+2051,Togo,2010,42.355,Robustas
+2052,Trinidad & Tobago,2010,,Robustas
+2053,Uganda,2010,55.611,Other Milds
+2054,Uganda,2010,55.611,Robustas
+2055,Vietnam,2010,67.1829,Brazilian Naturals
+2056,Vietnam,2010,67.1829,Robustas
+2057,© International Coffee Organization,2010,,
+2058,Colombia,2011,239.6763,Colombian Milds
+2059,Kenya,2011,,Colombian Milds
+2060,Tanzania,2011,,Colombian Milds
+2061,Tanzania,2011,,Robustas
+2062,Bolivia,2011,,Other Milds
+2063,Burundi,2011,,Other Milds
+2064,Burundi,2011,,Robustas
+2065,Cameroon,2011,,Other Milds
+2066,Cameroon,2011,,Robustas
+2067,"Congo, Dem. Rep. of",2011,,Other Milds
+2068,"Congo, Dem. Rep. of",2011,,Robustas
+2069,Costa Rica,2011,180.2225,Other Milds
+2070,Cuba,2011,70.7141,Other Milds
+2071,Dominican Republic,2011,191.0669,Other Milds
+2072,Ecuador,2011,227.2094,Other Milds
+2073,Ecuador,2011,227.2094,Robustas
+2074,El Salvador,2011,186.7382,Other Milds
+2075,Guatemala,2011,212.4147,Other Milds
+2076,Haiti,2011,,Other Milds
+2077,Honduras,2011,200.019,Other Milds
+2078,India,2011,228.4583,Other Milds
+2079,India,2011,228.4583,Robustas
+2080,Jamaica,2011,302.6948,Other Milds
+2081,Madagascar,2011,,Other Milds
+2082,Madagascar,2011,,Robustas
+2083,Malawi,2011,,Other Milds
+2084,Mexico,2011,,Other Milds
+2085,Nicaragua,2011,91.0278,Other Milds
+2086,Panama,2011,,Other Milds
+2087,Papua New Guinea,2011,141.2352,Other Milds
+2088,Papua New Guinea,2011,141.2352,Robustas
+2089,Peru,2011,,Other Milds
+2090,Rwanda,2011,,Other Milds
+2091,Sri Lanka,2011,,Other Milds
+2092,Sri Lanka,2011,,Robustas
+2093,Uganda,2011,147.0267,Other Milds
+2094,Uganda,2011,147.0267,Robustas
+2095,"Venezuela, Bol. Rep. of",2011,,Other Milds
+2096,Zambia,2011,84.7926,Other Milds
+2097,Zimbabwe ,2011,,Other Milds
+2098,Angola,2011,,Brazilian Naturals
+2099,Angola,2011,,Robustas
+2100,Brazil,2011,224.26,Brazilian Naturals
+2101,Brazil,2011,224.26,Robustas
+2102,Ethiopia,2011,145.4623,Brazilian Naturals
+2103,Indonesia,2011,,Brazilian Naturals
+2104,Indonesia,2011,,Robustas
+2105,Philippines,2011,,Brazilian Naturals
+2106,Philippines,2011,,Robustas
+2107,Thailand,2011,,Brazilian Naturals
+2108,Thailand,2011,,Robustas
+2109,Vietnam,2011,,Brazilian Naturals
+2110,Vietnam,2011,,Robustas
+2111,Angola,2011,48.2936,Brazilian Naturals
+2112,Angola,2011,48.2936,Robustas
+2113,Benin,2011,,Robustas
+2114,Brazil,2011,105.2938,Brazilian Naturals
+2115,Brazil,2011,105.2938,Robustas
+2116,Burundi,2011,,Other Milds
+2117,Burundi,2011,,Robustas
+2118,Cameroon,2011,,Other Milds
+2119,Cameroon,2011,,Robustas
+2120,Central African Republic,2011,72.7194,Robustas
+2121,"Congo, Dem. Rep. of",2011,,Other Milds
+2122,"Congo, Dem. Rep. of",2011,,Robustas
+2123,"Congo, Rep. of",2011,,Robustas
+2124,Côte d'Ivoire,2011,28.4045,Robustas
+2125,Ecuador,2011,95.2595,Other Milds
+2126,Ecuador,2011,95.2595,Robustas
+2127,Gabon,2011,88.9243,Robustas
+2128,Ghana,2011,18.4346,Robustas
+2129,Guinea,2011,,Robustas
+2130,India,2011,109.6024,Other Milds
+2131,India,2011,109.6024,Robustas
+2132,Indonesia,2011,,Brazilian Naturals
+2133,Indonesia,2011,,Robustas
+2134,Liberia,2011,,Robustas
+2135,Madagascar,2011,,Other Milds
+2136,Madagascar,2011,,Robustas
+2137,Nigeria,2011,,Robustas
+2138,Papua New Guinea,2011,37.6759,Other Milds
+2139,Papua New Guinea,2011,37.6759,Robustas
+2140,Philippines,2011,108.3772,Brazilian Naturals
+2141,Philippines,2011,108.3772,Robustas
+2142,Sierra Leone,2011,18.828,Robustas
+2143,Sri Lanka,2011,,Other Milds
+2144,Sri Lanka,2011,,Robustas
+2145,Tanzania,2011,,Colombian Milds
+2146,Tanzania,2011,,Robustas
+2147,Thailand,2011,107.6442,Brazilian Naturals
+2148,Thailand,2011,107.6442,Robustas
+2149,Togo,2011,74.143,Robustas
+2150,Trinidad & Tobago,2011,,Robustas
+2151,Uganda,2011,73.5356,Other Milds
+2152,Uganda,2011,73.5356,Robustas
+2153,Vietnam,2011,98.5716,Brazilian Naturals
+2154,Vietnam,2011,98.5716,Robustas
+2155,© International Coffee Organization,2011,,
+2156,Colombia,2012,166.6921,Colombian Milds
+2157,Kenya,2012,,Colombian Milds
+2158,Tanzania,2012,,Colombian Milds
+2159,Tanzania,2012,,Robustas
+2160,Bolivia,2012,225.6445,Other Milds
+2161,Burundi,2012,,Other Milds
+2162,Burundi,2012,,Robustas
+2163,Cameroon,2012,,Other Milds
+2164,Cameroon,2012,,Robustas
+2165,"Congo, Dem. Rep. of",2012,,Other Milds
+2166,"Congo, Dem. Rep. of",2012,,Robustas
+2167,Costa Rica,2012,160.7291,Other Milds
+2168,Cuba,2012,70.7141,Other Milds
+2169,Dominican Republic,2012,147.8066,Other Milds
+2170,Ecuador,2012,183.904,Other Milds
+2171,Ecuador,2012,183.904,Robustas
+2172,El Salvador,2012,120.1201,Other Milds
+2173,Guatemala,2012,165.9795,Other Milds
+2174,Haiti,2012,,Other Milds
+2175,Honduras,2012,141.1476,Other Milds
+2176,India,2012,161.9762,Other Milds
+2177,India,2012,161.9762,Robustas
+2178,Jamaica,2012,301.4442,Other Milds
+2179,Madagascar,2012,,Other Milds
+2180,Madagascar,2012,,Robustas
+2181,Malawi,2012,,Other Milds
+2182,Mexico,2012,,Other Milds
+2183,Nicaragua,2012,60.8432,Other Milds
+2184,Panama,2012,,Other Milds
+2185,Papua New Guinea,2012,98.8167,Other Milds
+2186,Papua New Guinea,2012,98.8167,Robustas
+2187,Peru,2012,,Other Milds
+2188,Rwanda,2012,,Other Milds
+2189,Sri Lanka,2012,,Other Milds
+2190,Sri Lanka,2012,,Robustas
+2191,Uganda,2012,93.6822,Other Milds
+2192,Uganda,2012,93.6822,Robustas
+2193,"Venezuela, Bol. Rep. of",2012,,Other Milds
+2194,Zambia,2012,,Other Milds
+2195,Zimbabwe ,2012,,Other Milds
+2196,Angola,2012,57.0161,Brazilian Naturals
+2197,Angola,2012,57.0161,Robustas
+2198,Brazil,2012,152.2879,Brazilian Naturals
+2199,Brazil,2012,152.2879,Robustas
+2200,Ethiopia,2012,102.7897,Brazilian Naturals
+2201,Indonesia,2012,,Brazilian Naturals
+2202,Indonesia,2012,,Robustas
+2203,Philippines,2012,262.0105,Brazilian Naturals
+2204,Philippines,2012,262.0105,Robustas
+2205,Thailand,2012,,Brazilian Naturals
+2206,Thailand,2012,,Robustas
+2207,Vietnam,2012,84.4656,Brazilian Naturals
+2208,Vietnam,2012,84.4656,Robustas
+2209,Angola,2012,47.5127,Brazilian Naturals
+2210,Angola,2012,47.5127,Robustas
+2211,Benin,2012,,Robustas
+2212,Brazil,2012,104.4046,Brazilian Naturals
+2213,Brazil,2012,104.4046,Robustas
+2214,Burundi,2012,,Other Milds
+2215,Burundi,2012,,Robustas
+2216,Cameroon,2012,,Other Milds
+2217,Cameroon,2012,,Robustas
+2218,Central African Republic,2012,68.7288,Robustas
+2219,"Congo, Dem. Rep. of",2012,,Other Milds
+2220,"Congo, Dem. Rep. of",2012,,Robustas
+2221,"Congo, Rep. of",2012,,Robustas
+2222,Côte d'Ivoire,2012,46.294,Robustas
+2223,Ecuador,2012,95.1173,Other Milds
+2224,Ecuador,2012,95.1173,Robustas
+2225,Gabon,2012,88.8971,Robustas
+2226,Ghana,2012,17.7237,Robustas
+2227,Guinea,2012,,Robustas
+2228,India,2012,104.6512,Other Milds
+2229,India,2012,104.6512,Robustas
+2230,Indonesia,2012,,Brazilian Naturals
+2231,Indonesia,2012,,Robustas
+2232,Liberia,2012,,Robustas
+2233,Madagascar,2012,,Other Milds
+2234,Madagascar,2012,,Robustas
+2235,Nigeria,2012,,Robustas
+2236,Papua New Guinea,2012,37.2408,Other Milds
+2237,Papua New Guinea,2012,37.2408,Robustas
+2238,Philippines,2012,96.3769,Brazilian Naturals
+2239,Philippines,2012,96.3769,Robustas
+2240,Sierra Leone,2012,31.8686,Robustas
+2241,Sri Lanka,2012,,Other Milds
+2242,Sri Lanka,2012,,Robustas
+2243,Tanzania,2012,,Colombian Milds
+2244,Tanzania,2012,,Robustas
+2245,Thailand,2012,103.0864,Brazilian Naturals
+2246,Thailand,2012,103.0864,Robustas
+2247,Togo,2012,68.4979,Robustas
+2248,Trinidad & Tobago,2012,,Robustas
+2249,Uganda,2012,71.8047,Other Milds
+2250,Uganda,2012,71.8047,Robustas
+2251,Vietnam,2012,87.965,Brazilian Naturals
+2252,Vietnam,2012,87.965,Robustas
+2253,© International Coffee Organization,2012,,
+2254,Colombia,2013,113.9086,Colombian Milds
+2255,Kenya,2013,,Colombian Milds
+2256,Tanzania,2013,,Colombian Milds
+2257,Tanzania,2013,,Robustas
+2258,Bolivia,2013,201.9723,Other Milds
+2259,Burundi,2013,,Other Milds
+2260,Burundi,2013,,Robustas
+2261,Cameroon,2013,82.8733,Other Milds
+2262,Cameroon,2013,82.8733,Robustas
+2263,"Congo, Dem. Rep. of",2013,,Other Milds
+2264,"Congo, Dem. Rep. of",2013,,Robustas
+2265,Costa Rica,2013,124.6527,Other Milds
+2266,Cuba,2013,221.9638,Other Milds
+2267,Dominican Republic,2013,140.9774,Other Milds
+2268,Ecuador,2013,122.2432,Other Milds
+2269,Ecuador,2013,122.2432,Robustas
+2270,El Salvador,2013,95.2784,Other Milds
+2271,Guatemala,2013,127.0596,Other Milds
+2272,Haiti,2013,,Other Milds
+2273,Honduras,2013,101.7963,Other Milds
+2274,India,2013,117.0557,Other Milds
+2275,India,2013,117.0557,Robustas
+2276,Jamaica,2013,,Other Milds
+2277,Madagascar,2013,,Other Milds
+2278,Madagascar,2013,,Robustas
+2279,Malawi,2013,,Other Milds
+2280,Mexico,2013,,Other Milds
+2281,Nicaragua,2013,39.5233,Other Milds
+2282,Panama,2013,,Other Milds
+2283,Papua New Guinea,2013,61.9869,Other Milds
+2284,Papua New Guinea,2013,61.9869,Robustas
+2285,Peru,2013,,Other Milds
+2286,Rwanda,2013,,Other Milds
+2287,Sri Lanka,2013,,Other Milds
+2288,Sri Lanka,2013,,Robustas
+2289,Uganda,2013,70.0295,Other Milds
+2290,Uganda,2013,70.0295,Robustas
+2291,"Venezuela, Bol. Rep. of",2013,,Other Milds
+2292,Zambia,2013,,Other Milds
+2293,Zimbabwe ,2013,,Other Milds
+2294,Angola,2013,37.6447,Brazilian Naturals
+2295,Angola,2013,37.6447,Robustas
+2296,Brazil,2013,102.1379,Brazilian Naturals
+2297,Brazil,2013,102.1379,Robustas
+2298,Ethiopia,2013,73.3004,Brazilian Naturals
+2299,Indonesia,2013,,Brazilian Naturals
+2300,Indonesia,2013,,Robustas
+2301,Philippines,2013,,Brazilian Naturals
+2302,Philippines,2013,,Robustas
+2303,Thailand,2013,203.4373,Brazilian Naturals
+2304,Thailand,2013,203.4373,Robustas
+2305,Vietnam,2013,,Brazilian Naturals
+2306,Vietnam,2013,,Robustas
+2307,Angola,2013,31.3706,Brazilian Naturals
+2308,Angola,2013,31.3706,Robustas
+2309,Benin,2013,,Robustas
+2310,Brazil,2013,85.2862,Brazilian Naturals
+2311,Brazil,2013,85.2862,Robustas
+2312,Burundi,2013,,Other Milds
+2313,Burundi,2013,,Robustas
+2314,Cameroon,2013,66.4339,Other Milds
+2315,Cameroon,2013,66.4339,Robustas
+2316,Central African Republic,2013,,Robustas
+2317,"Congo, Dem. Rep. of",2013,,Other Milds
+2318,"Congo, Dem. Rep. of",2013,,Robustas
+2319,"Congo, Rep. of",2013,,Robustas
+2320,Côte d'Ivoire,2013,56.9418,Robustas
+2321,Ecuador,2013,76.3991,Other Milds
+2322,Ecuador,2013,76.3991,Robustas
+2323,Gabon,2013,91.8416,Robustas
+2324,Ghana,2013,21.3551,Robustas
+2325,Guinea,2013,,Robustas
+2326,India,2013,94.8753,Other Milds
+2327,India,2013,94.8753,Robustas
+2328,Indonesia,2013,,Brazilian Naturals
+2329,Indonesia,2013,,Robustas
+2330,Liberia,2013,,Robustas
+2331,Madagascar,2013,,Other Milds
+2332,Madagascar,2013,,Robustas
+2333,Nigeria,2013,,Robustas
+2334,Papua New Guinea,2013,24.0369,Other Milds
+2335,Papua New Guinea,2013,24.0369,Robustas
+2336,Philippines,2013,90.1654,Brazilian Naturals
+2337,Philippines,2013,90.1654,Robustas
+2338,Sierra Leone,2013,,Robustas
+2339,Sri Lanka,2013,,Other Milds
+2340,Sri Lanka,2013,,Robustas
+2341,Tanzania,2013,,Colombian Milds
+2342,Tanzania,2013,,Robustas
+2343,Thailand,2013,103.7722,Brazilian Naturals
+2344,Thailand,2013,103.7722,Robustas
+2345,Togo,2013,66.5629,Robustas
+2346,Trinidad & Tobago,2013,,Robustas
+2347,Uganda,2013,67.7053,Other Milds
+2348,Uganda,2013,67.7053,Robustas
+2349,Vietnam,2013,90.2336,Brazilian Naturals
+2350,Vietnam,2013,90.2336,Robustas
+2351,© International Coffee Organization,2013,,
+2352,Colombia,2014,159.7125,Colombian Milds
+2353,Kenya,2014,,Colombian Milds
+2354,Tanzania,2014,,Colombian Milds
+2355,Tanzania,2014,,Robustas
+2356,Bolivia,2014,239.2465,Other Milds
+2357,Burundi,2014,,Other Milds
+2358,Burundi,2014,,Robustas
+2359,Cameroon,2014,,Other Milds
+2360,Cameroon,2014,,Robustas
+2361,"Congo, Dem. Rep. of",2014,,Other Milds
+2362,"Congo, Dem. Rep. of",2014,,Robustas
+2363,Costa Rica,2014,130.7748,Other Milds
+2364,Cuba,2014,235.7138,Other Milds
+2365,Dominican Republic,2014,183.531,Other Milds
+2366,Ecuador,2014,100.4471,Other Milds
+2367,Ecuador,2014,100.4471,Robustas
+2368,El Salvador,2014,117.0067,Other Milds
+2369,Guatemala,2014,152.8336,Other Milds
+2370,Haiti,2014,,Other Milds
+2371,Honduras,2014,118.9403,Other Milds
+2372,India,2014,175.6491,Other Milds
+2373,India,2014,175.6491,Robustas
+2374,Jamaica,2014,,Other Milds
+2375,Madagascar,2014,,Other Milds
+2376,Madagascar,2014,,Robustas
+2377,Malawi,2014,,Other Milds
+2378,Mexico,2014,,Other Milds
+2379,Nicaragua,2014,71.8509,Other Milds
+2380,Panama,2014,,Other Milds
+2381,Papua New Guinea,2014,86.306,Other Milds
+2382,Papua New Guinea,2014,86.306,Robustas
+2383,Peru,2014,,Other Milds
+2384,Rwanda,2014,,Other Milds
+2385,Sri Lanka,2014,,Other Milds
+2386,Sri Lanka,2014,,Robustas
+2387,Uganda,2014,103.7028,Other Milds
+2388,Uganda,2014,103.7028,Robustas
+2389,"Venezuela, Bol. Rep. of",2014,,Other Milds
+2390,Zambia,2014,,Other Milds
+2391,Zimbabwe ,2014,,Other Milds
+2392,Angola,2014,54.6078,Brazilian Naturals
+2393,Angola,2014,54.6078,Robustas
+2394,Brazil,2014,134.6969,Brazilian Naturals
+2395,Brazil,2014,134.6969,Robustas
+2396,Ethiopia,2014,83.2356,Brazilian Naturals
+2397,Indonesia,2014,,Brazilian Naturals
+2398,Indonesia,2014,,Robustas
+2399,Philippines,2014,,Brazilian Naturals
+2400,Philippines,2014,,Robustas
+2401,Thailand,2014,113.3269,Brazilian Naturals
+2402,Thailand,2014,113.3269,Robustas
+2403,Vietnam,2014,,Brazilian Naturals
+2404,Vietnam,2014,,Robustas
+2405,Angola,2014,46.152,Brazilian Naturals
+2406,Angola,2014,46.152,Robustas
+2407,Benin,2014,,Robustas
+2408,Brazil,2014,81.1637,Brazilian Naturals
+2409,Brazil,2014,81.1637,Robustas
+2410,Burundi,2014,,Other Milds
+2411,Burundi,2014,,Robustas
+2412,Cameroon,2014,,Other Milds
+2413,Cameroon,2014,,Robustas
+2414,Central African Republic,2014,,Robustas
+2415,"Congo, Dem. Rep. of",2014,,Other Milds
+2416,"Congo, Dem. Rep. of",2014,,Robustas
+2417,"Congo, Rep. of",2014,,Robustas
+2418,Côte d'Ivoire,2014,56.9712,Robustas
+2419,Ecuador,2014,46.469,Other Milds
+2420,Ecuador,2014,46.469,Robustas
+2421,Gabon,2014,91.889,Robustas
+2422,Ghana,2014,15.9379,Robustas
+2423,Guinea,2014,,Robustas
+2424,India,2014,104.634,Other Milds
+2425,India,2014,104.634,Robustas
+2426,Indonesia,2014,,Brazilian Naturals
+2427,Indonesia,2014,,Robustas
+2428,Liberia,2014,,Robustas
+2429,Madagascar,2014,,Other Milds
+2430,Madagascar,2014,,Robustas
+2431,Nigeria,2014,,Robustas
+2432,Papua New Guinea,2014,22.631,Other Milds
+2433,Papua New Guinea,2014,22.631,Robustas
+2434,Philippines,2014,,Brazilian Naturals
+2435,Philippines,2014,,Robustas
+2436,Sierra Leone,2014,,Robustas
+2437,Sri Lanka,2014,,Other Milds
+2438,Sri Lanka,2014,,Robustas
+2439,Tanzania,2014,,Colombian Milds
+2440,Tanzania,2014,,Robustas
+2441,Thailand,2014,92.043,Brazilian Naturals
+2442,Thailand,2014,92.043,Robustas
+2443,Togo,2014,59.8826,Robustas
+2444,Trinidad & Tobago,2014,,Robustas
+2445,Uganda,2014,70.1796,Other Milds
+2446,Uganda,2014,70.1796,Robustas
+2447,Vietnam,2014,,Brazilian Naturals
+2448,Vietnam,2014,,Robustas
+2449,© International Coffee Organization,2014,,
+2450,Colombia,2015,119.4042,Colombian Milds
+2451,Kenya,2015,,Colombian Milds
+2452,Tanzania,2015,,Colombian Milds
+2453,Tanzania,2015,,Robustas
+2454,Bolivia,2015,234.7937,Other Milds
+2455,Burundi,2015,,Other Milds
+2456,Burundi,2015,,Robustas
+2457,Cameroon,2015,,Other Milds
+2458,Cameroon,2015,,Robustas
+2459,"Congo, Dem. Rep. of",2015,,Other Milds
+2460,"Congo, Dem. Rep. of",2015,,Robustas
+2461,Costa Rica,2015,145.8383,Other Milds
+2462,Cuba,2015,235.7138,Other Milds
+2463,Dominican Republic,2015,170.9835,Other Milds
+2464,Ecuador,2015,,Other Milds
+2465,Ecuador,2015,,Robustas
+2466,El Salvador,2015,87.4489,Other Milds
+2467,Guatemala,2015,139.2173,Other Milds
+2468,Haiti,2015,,Other Milds
+2469,Honduras,2015,110.9653,Other Milds
+2470,India,2015,157.0967,Other Milds
+2471,India,2015,157.0967,Robustas
+2472,Jamaica,2015,,Other Milds
+2473,Madagascar,2015,,Other Milds
+2474,Madagascar,2015,,Robustas
+2475,Malawi,2015,,Other Milds
+2476,Mexico,2015,,Other Milds
+2477,Nicaragua,2015,,Other Milds
+2478,Panama,2015,,Other Milds
+2479,Papua New Guinea,2015,66.5234,Other Milds
+2480,Papua New Guinea,2015,66.5234,Robustas
+2481,Peru,2015,,Other Milds
+2482,Rwanda,2015,,Other Milds
+2483,Sri Lanka,2015,,Other Milds
+2484,Sri Lanka,2015,,Robustas
+2485,Uganda,2015,81.2701,Other Milds
+2486,Uganda,2015,81.2701,Robustas
+2487,"Venezuela, Bol. Rep. of",2015,,Other Milds
+2488,Zambia,2015,,Other Milds
+2489,Zimbabwe ,2015,,Other Milds
+2490,Angola,2015,45.812,Brazilian Naturals
+2491,Angola,2015,45.812,Robustas
+2492,Brazil,2015,104.4866,Brazilian Naturals
+2493,Brazil,2015,104.4866,Robustas
+2494,Ethiopia,2015,76.0297,Brazilian Naturals
+2495,Indonesia,2015,,Brazilian Naturals
+2496,Indonesia,2015,,Robustas
+2497,Philippines,2015,,Brazilian Naturals
+2498,Philippines,2015,,Robustas
+2499,Thailand,2015,124.5841,Brazilian Naturals
+2500,Thailand,2015,124.5841,Robustas
+2501,Vietnam,2015,,Brazilian Naturals
+2502,Vietnam,2015,,Robustas
+2503,Angola,2015,38.1767,Brazilian Naturals
+2504,Angola,2015,38.1767,Robustas
+2505,Benin,2015,,Robustas
+2506,Brazil,2015,73.5269,Brazilian Naturals
+2507,Brazil,2015,73.5269,Robustas
+2508,Burundi,2015,,Other Milds
+2509,Burundi,2015,,Robustas
+2510,Cameroon,2015,,Other Milds
+2511,Cameroon,2015,,Robustas
+2512,Central African Republic,2015,40.0288,Robustas
+2513,"Congo, Dem. Rep. of",2015,,Other Milds
+2514,"Congo, Dem. Rep. of",2015,,Robustas
+2515,"Congo, Rep. of",2015,,Robustas
+2516,Côte d'Ivoire,2015,49.8747,Robustas
+2517,Ecuador,2015,,Other Milds
+2518,Ecuador,2015,,Robustas
+2519,Gabon,2015,77.0689,Robustas
+2520,Ghana,2015,24.1176,Robustas
+2521,Guinea,2015,,Robustas
+2522,India,2015,87.9485,Other Milds
+2523,India,2015,87.9485,Robustas
+2524,Indonesia,2015,,Brazilian Naturals
+2525,Indonesia,2015,,Robustas
+2526,Liberia,2015,,Robustas
+2527,Madagascar,2015,,Other Milds
+2528,Madagascar,2015,,Robustas
+2529,Nigeria,2015,,Robustas
+2530,Papua New Guinea,2015,25.0961,Other Milds
+2531,Papua New Guinea,2015,25.0961,Robustas
+2532,Philippines,2015,,Brazilian Naturals
+2533,Philippines,2015,,Robustas
+2534,Sierra Leone,2015,,Robustas
+2535,Sri Lanka,2015,,Other Milds
+2536,Sri Lanka,2015,,Robustas
+2537,Tanzania,2015,,Colombian Milds
+2538,Tanzania,2015,,Robustas
+2539,Thailand,2015,96.5325,Brazilian Naturals
+2540,Thailand,2015,96.5325,Robustas
+2541,Togo,2015,59.5525,Robustas
+2542,Trinidad & Tobago,2015,,Robustas
+2543,Uganda,2015,60.2159,Other Milds
+2544,Uganda,2015,60.2159,Robustas
+2545,Vietnam,2015,,Brazilian Naturals
+2546,Vietnam,2015,,Robustas
+2547,© International Coffee Organization,2015,,
+2548,Colombia,2016,123.5571,Colombian Milds
+2549,Kenya,2016,,Colombian Milds
+2550,Tanzania,2016,,Colombian Milds
+2551,Tanzania,2016,,Robustas
+2552,Bolivia,2016,271.7944,Other Milds
+2553,Burundi,2016,,Other Milds
+2554,Burundi,2016,,Robustas
+2555,Cameroon,2016,,Other Milds
+2556,Cameroon,2016,,Robustas
+2557,"Congo, Dem. Rep. of",2016,,Other Milds
+2558,"Congo, Dem. Rep. of",2016,,Robustas
+2559,Costa Rica,2016,129.1077,Other Milds
+2560,Cuba,2016,235.7138,Other Milds
+2561,Dominican Republic,2016,177.1327,Other Milds
+2562,Ecuador,2016,,Other Milds
+2563,Ecuador,2016,,Robustas
+2564,El Salvador,2016,89.5328,Other Milds
+2565,Guatemala,2016,135.4663,Other Milds
+2566,Haiti,2016,,Other Milds
+2567,Honduras,2016,93.168,Other Milds
+2568,India,2016,132.2062,Other Milds
+2569,India,2016,132.2062,Robustas
+2570,Jamaica,2016,,Other Milds
+2571,Madagascar,2016,,Other Milds
+2572,Madagascar,2016,,Robustas
+2573,Malawi,2016,,Other Milds
+2574,Mexico,2016,,Other Milds
+2575,Nicaragua,2016,,Other Milds
+2576,Panama,2016,,Other Milds
+2577,Papua New Guinea,2016,57.5014,Other Milds
+2578,Papua New Guinea,2016,57.5014,Robustas
+2579,Peru,2016,,Other Milds
+2580,Rwanda,2016,,Other Milds
+2581,Sri Lanka,2016,,Other Milds
+2582,Sri Lanka,2016,,Robustas
+2583,Uganda,2016,71.0947,Other Milds
+2584,Uganda,2016,71.0947,Robustas
+2585,"Venezuela, Bol. Rep. of",2016,,Other Milds
+2586,Zambia,2016,,Other Milds
+2587,Zimbabwe ,2016,,Other Milds
+2588,Angola,2016,100.4557,Brazilian Naturals
+2589,Angola,2016,100.4557,Robustas
+2590,Brazil,2016,107.8289,Brazilian Naturals
+2591,Brazil,2016,107.8289,Robustas
+2592,Ethiopia,2016,87.3074,Brazilian Naturals
+2593,Indonesia,2016,,Brazilian Naturals
+2594,Indonesia,2016,,Robustas
+2595,Philippines,2016,,Brazilian Naturals
+2596,Philippines,2016,,Robustas
+2597,Thailand,2016,,Brazilian Naturals
+2598,Thailand,2016,,Robustas
+2599,Vietnam,2016,,Brazilian Naturals
+2600,Vietnam,2016,,Robustas
+2601,Angola,2016,78.3331,Brazilian Naturals
+2602,Angola,2016,78.3331,Robustas
+2603,Benin,2016,,Robustas
+2604,Brazil,2016,92.7763,Brazilian Naturals
+2605,Brazil,2016,92.7763,Robustas
+2606,Burundi,2016,,Other Milds
+2607,Burundi,2016,,Robustas
+2608,Cameroon,2016,,Other Milds
+2609,Cameroon,2016,,Robustas
+2610,Central African Republic,2016,30.7434,Robustas
+2611,"Congo, Dem. Rep. of",2016,,Other Milds
+2612,"Congo, Dem. Rep. of",2016,,Robustas
+2613,"Congo, Rep. of",2016,,Robustas
+2614,Côte d'Ivoire,2016,52.7617,Robustas
+2615,Ecuador,2016,,Other Milds
+2616,Ecuador,2016,,Robustas
+2617,Gabon,2016,,Robustas
+2618,Ghana,2016,38.479,Robustas
+2619,Guinea,2016,,Robustas
+2620,India,2016,82.712,Other Milds
+2621,India,2016,82.712,Robustas
+2622,Indonesia,2016,,Brazilian Naturals
+2623,Indonesia,2016,,Robustas
+2624,Liberia,2016,,Robustas
+2625,Madagascar,2016,,Other Milds
+2626,Madagascar,2016,,Robustas
+2627,Nigeria,2016,,Robustas
+2628,Papua New Guinea,2016,21.5373,Other Milds
+2629,Papua New Guinea,2016,21.5373,Robustas
+2630,Philippines,2016,,Brazilian Naturals
+2631,Philippines,2016,,Robustas
+2632,Sierra Leone,2016,,Robustas
+2633,Sri Lanka,2016,,Other Milds
+2634,Sri Lanka,2016,,Robustas
+2635,Tanzania,2016,,Colombian Milds
+2636,Tanzania,2016,,Robustas
+2637,Thailand,2016,,Brazilian Naturals
+2638,Thailand,2016,,Robustas
+2639,Togo,2016,65.7322,Robustas
+2640,Trinidad & Tobago,2016,,Robustas
+2641,Uganda,2016,59.4124,Other Milds
+2642,Uganda,2016,59.4124,Robustas
+2643,Vietnam,2016,,Brazilian Naturals
+2644,Vietnam,2016,,Robustas
+2645,© International Coffee Organization,2016,,
+2646,Colombia,2017,125.7612,Colombian Milds
+2647,Kenya,2017,,Colombian Milds
+2648,Tanzania,2017,,Colombian Milds
+2649,Tanzania,2017,,Robustas
+2650,Bolivia,2017,471.6169,Other Milds
+2651,Burundi,2017,,Other Milds
+2652,Burundi,2017,,Robustas
+2653,Cameroon,2017,,Other Milds
+2654,Cameroon,2017,,Robustas
+2655,"Congo, Dem. Rep. of",2017,,Other Milds
+2656,"Congo, Dem. Rep. of",2017,,Robustas
+2657,Costa Rica,2017,138.0947,Other Milds
+2658,Cuba,2017,235.7138,Other Milds
+2659,Dominican Republic,2017,173.1937,Other Milds
+2660,Ecuador,2017,,Other Milds
+2661,Ecuador,2017,,Robustas
+2662,El Salvador,2017,87.6174,Other Milds
+2663,Guatemala,2017,134.1226,Other Milds
+2664,Haiti,2017,,Other Milds
+2665,Honduras,2017,90.7661,Other Milds
+2666,India,2017,135.7524,Other Milds
+2667,India,2017,135.7524,Robustas
+2668,Jamaica,2017,,Other Milds
+2669,Madagascar,2017,,Other Milds
+2670,Madagascar,2017,,Robustas
+2671,Malawi,2017,,Other Milds
+2672,Mexico,2017,,Other Milds
+2673,Nicaragua,2017,,Other Milds
+2674,Panama,2017,,Other Milds
+2675,Papua New Guinea,2017,,Other Milds
+2676,Papua New Guinea,2017,,Robustas
+2677,Peru,2017,,Other Milds
+2678,Rwanda,2017,,Other Milds
+2679,Sri Lanka,2017,,Other Milds
+2680,Sri Lanka,2017,,Robustas
+2681,Uganda,2017,76.9963,Other Milds
+2682,Uganda,2017,76.9963,Robustas
+2683,"Venezuela, Bol. Rep. of",2017,,Other Milds
+2684,Zambia,2017,,Other Milds
+2685,Zimbabwe ,2017,,Other Milds
+2686,Angola,2017,159.4754,Brazilian Naturals
+2687,Angola,2017,159.4754,Robustas
+2688,Brazil,2017,110.4742,Brazilian Naturals
+2689,Brazil,2017,110.4742,Robustas
+2690,Ethiopia,2017,84.3826,Brazilian Naturals
+2691,Indonesia,2017,,Brazilian Naturals
+2692,Indonesia,2017,,Robustas
+2693,Philippines,2017,,Brazilian Naturals
+2694,Philippines,2017,,Robustas
+2695,Thailand,2017,,Brazilian Naturals
+2696,Thailand,2017,,Robustas
+2697,Vietnam,2017,,Brazilian Naturals
+2698,Vietnam,2017,,Robustas
+2699,Angola,2017,132.1367,Brazilian Naturals
+2700,Angola,2017,132.1367,Robustas
+2701,Benin,2017,,Robustas
+2702,Brazil,2017,98.21,Brazilian Naturals
+2703,Brazil,2017,98.21,Robustas
+2704,Burundi,2017,,Other Milds
+2705,Burundi,2017,,Robustas
+2706,Cameroon,2017,,Other Milds
+2707,Cameroon,2017,,Robustas
+2708,Central African Republic,2017,,Robustas
+2709,"Congo, Dem. Rep. of",2017,,Other Milds
+2710,"Congo, Dem. Rep. of",2017,,Robustas
+2711,"Congo, Rep. of",2017,,Robustas
+2712,Côte d'Ivoire,2017,58.5604,Robustas
+2713,Ecuador,2017,,Other Milds
+2714,Ecuador,2017,,Robustas
+2715,Gabon,2017,,Robustas
+2716,Ghana,2017,40.8853,Robustas
+2717,Guinea,2017,,Robustas
+2718,India,2017,94.9679,Other Milds
+2719,India,2017,94.9679,Robustas
+2720,Indonesia,2017,,Brazilian Naturals
+2721,Indonesia,2017,,Robustas
+2722,Liberia,2017,,Robustas
+2723,Madagascar,2017,,Other Milds
+2724,Madagascar,2017,,Robustas
+2725,Nigeria,2017,,Robustas
+2726,Papua New Guinea,2017,,Other Milds
+2727,Papua New Guinea,2017,,Robustas
+2728,Philippines,2017,,Brazilian Naturals
+2729,Philippines,2017,,Robustas
+2730,Sierra Leone,2017,,Robustas
+2731,Sri Lanka,2017,,Other Milds
+2732,Sri Lanka,2017,,Robustas
+2733,Tanzania,2017,,Colombian Milds
+2734,Tanzania,2017,,Robustas
+2735,Thailand,2017,,Brazilian Naturals
+2736,Thailand,2017,,Robustas
+2737,Togo,2017,68.7301,Robustas
+2738,Trinidad & Tobago,2017,,Robustas
+2739,Uganda,2017,63.9549,Other Milds
+2740,Uganda,2017,63.9549,Robustas
+2741,Vietnam,2017,,Brazilian Naturals
+2742,Vietnam,2017,,Robustas
+2743,© International Coffee Organization,2017,,

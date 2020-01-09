@@ -1,0 +1,981 @@
+,country_name,year,value
+1,   Austria,1990,415.0
+2,   Belgium,1990,
+3,   Belgium/Luxembourg,1990,891.0
+4,   Bulgaria,1990,166.0
+5,   Croatia,1990,
+6,   Cyprus,1990,16.0
+7,   Czech Republic,1990,0.0
+8,   Denmark,1990,94.0
+9,   Estonia,1990,
+10,   Finland,1990,19.0
+11,   France,1990,913.0
+12,   Germany,1990,3292.0
+13,   Greece,1990,11.0
+14,   Hungary,1990,0.0
+15,   Ireland,1990,10.0
+16,   Italy,1990,383.0
+17,   Latvia,1990,
+18,   Lithuania,1990,
+19,   Luxembourg,1990,
+20,   Malta,1990,1.0
+21,   Netherlands,1990,585.0
+22,   Poland,1990,100.0
+23,   Portugal,1990,31.0
+24,   Romania,1990,0.0
+25,   Slovakia,1990,
+26,   Slovenia,1990,
+27,   Spain,1990,265.0
+28,   Sweden,1990,77.0
+29,   United Kingdom,1990,482.0
+31,Japan,1990,20.0
+32,Norway,1990,8.0
+33,Russian Federation,1990,
+34,Switzerland,1990,166.0
+35,Tunisia,1990,0.0
+36,USA,1990,825.0
+38,   Austria,1991,756.0
+39,   Belgium,1991,
+40,   Belgium/Luxembourg,1991,1038.0
+41,   Bulgaria,1991,183.0
+42,   Croatia,1991,
+43,   Cyprus,1991,7.0
+44,   Czech Republic,1991,0.0
+45,   Denmark,1991,74.0
+46,   Estonia,1991,
+47,   Finland,1991,21.0
+48,   France,1991,1007.0
+49,   Germany,1991,3252.0
+50,   Greece,1991,20.0
+51,   Hungary,1991,261.0
+52,   Ireland,1991,5.0
+53,   Italy,1991,402.0
+54,   Latvia,1991,
+55,   Lithuania,1991,
+56,   Luxembourg,1991,
+57,   Malta,1991,3.0
+58,   Netherlands,1991,633.0
+59,   Poland,1991,7.0
+60,   Portugal,1991,34.0
+61,   Romania,1991,0.0
+62,   Slovakia,1991,
+63,   Slovenia,1991,
+64,   Spain,1991,268.0
+65,   Sweden,1991,114.0
+66,   United Kingdom,1991,485.0
+68,Japan,1991,34.0
+69,Norway,1991,4.0
+70,Russian Federation,1991,
+71,Switzerland,1991,151.0
+72,Tunisia,1991,0.0
+73,USA,1991,1010.0
+75,   Austria,1992,960.0
+76,   Belgium,1992,
+77,   Belgium/Luxembourg,1992,1131.0
+78,   Bulgaria,1992,7.0
+79,   Croatia,1992,34.0
+80,   Cyprus,1992,4.0
+81,   Czech Republic,1992,3.0
+82,   Denmark,1992,103.0
+83,   Estonia,1992,3.0
+84,   Finland,1992,35.0
+85,   France,1992,1023.0
+86,   Germany,1992,3318.0
+87,   Greece,1992,29.0
+88,   Hungary,1992,174.0
+89,   Ireland,1992,4.0
+90,   Italy,1992,465.0
+91,   Latvia,1992,1.0
+92,   Lithuania,1992,0.0
+93,   Luxembourg,1992,
+94,   Malta,1992,2.0
+95,   Netherlands,1992,648.0
+96,   Poland,1992,137.0
+97,   Portugal,1992,40.0
+98,   Romania,1992,3.0
+99,   Slovakia,1992,
+100,   Slovenia,1992,7.0
+101,   Spain,1992,287.0
+102,   Sweden,1992,138.0
+103,   United Kingdom,1992,570.0
+105,Japan,1992,27.0
+106,Norway,1992,3.0
+107,Russian Federation,1992,5.0
+108,Switzerland,1992,155.0
+109,Tunisia,1992,0.0
+110,USA,1992,1377.0
+112,   Austria,1993,535.0
+113,   Belgium,1993,
+114,   Belgium/Luxembourg,1993,1274.0
+115,   Bulgaria,1993,70.0
+116,   Croatia,1993,31.0
+117,   Cyprus,1993,2.0
+118,   Czech Republic,1993,66.0
+119,   Denmark,1993,103.0
+120,   Estonia,1993,7.0
+121,   Finland,1993,198.0
+122,   France,1993,976.0
+123,   Germany,1993,3282.0
+124,   Greece,1993,227.0
+125,   Hungary,1993,111.0
+126,   Ireland,1993,3.0
+127,   Italy,1993,664.0
+128,   Latvia,1993,18.0
+129,   Lithuania,1993,0.0
+130,   Luxembourg,1993,
+131,   Malta,1993,1.0
+132,   Netherlands,1993,425.0
+133,   Poland,1993,126.0
+134,   Portugal,1993,38.0
+135,   Romania,1993,6.0
+136,   Slovakia,1993,13.0
+137,   Slovenia,1993,5.0
+138,   Spain,1993,168.0
+139,   Sweden,1993,138.0
+140,   United Kingdom,1993,629.0
+142,Japan,1993,34.0
+143,Norway,1993,3.0
+144,Russian Federation,1993,0.0
+145,Switzerland,1993,166.0
+146,Tunisia,1993,0.0
+147,USA,1993,1720.0
+149,   Austria,1994,381.0
+150,   Belgium,1994,
+151,   Belgium/Luxembourg,1994,1304.0
+152,   Bulgaria,1994,110.0
+153,   Croatia,1994,30.0
+154,   Cyprus,1994,1.0
+155,   Czech Republic,1994,45.0
+156,   Denmark,1994,125.0
+157,   Estonia,1994,20.0
+158,   Finland,1994,217.0
+159,   France,1994,1165.0
+160,   Germany,1994,3469.0
+161,   Greece,1994,146.0
+162,   Hungary,1994,47.0
+163,   Ireland,1994,3.0
+164,   Italy,1994,786.0
+165,   Latvia,1994,17.0
+166,   Lithuania,1994,10.0
+167,   Luxembourg,1994,
+168,   Malta,1994,2.0
+169,   Netherlands,1994,678.0
+170,   Poland,1994,100.0
+171,   Portugal,1994,52.0
+172,   Romania,1994,0.0
+173,   Slovakia,1994,23.0
+174,   Slovenia,1994,7.0
+175,   Spain,1994,237.0
+176,   Sweden,1994,224.0
+177,   United Kingdom,1994,817.0
+179,Japan,1994,27.0
+180,Norway,1994,6.0
+181,Russian Federation,1994,14.0
+182,Switzerland,1994,196.0
+183,Tunisia,1994,0.0
+184,USA,1994,2572.0
+186,   Austria,1995,229.0
+187,   Belgium,1995,
+188,   Belgium/Luxembourg,1995,1328.0
+189,   Bulgaria,1995,122.0
+190,   Croatia,1995,32.0
+191,   Cyprus,1995,1.0
+192,   Czech Republic,1995,42.0
+193,   Denmark,1995,119.0
+194,   Estonia,1995,25.0
+195,   Finland,1995,97.0
+196,   France,1995,1081.0
+197,   Germany,1995,3220.0
+198,   Greece,1995,139.0
+199,   Hungary,1995,72.0
+200,   Ireland,1995,8.0
+201,   Italy,1995,749.0
+202,   Latvia,1995,15.0
+203,   Lithuania,1995,45.0
+204,   Luxembourg,1995,
+205,   Malta,1995,1.0
+206,   Netherlands,1995,617.0
+207,   Poland,1995,134.0
+208,   Portugal,1995,74.0
+209,   Romania,1995,2.0
+210,   Slovakia,1995,27.0
+211,   Slovenia,1995,8.0
+212,   Spain,1995,397.0
+213,   Sweden,1995,217.0
+214,   United Kingdom,1995,633.0
+216,Japan,1995,7.0
+217,Norway,1995,5.0
+218,Russian Federation,1995,78.0
+219,Switzerland,1995,175.0
+220,Tunisia,1995,0.0
+221,USA,1995,1841.0
+223,   Austria,1996,163.0
+224,   Belgium,1996,
+225,   Belgium/Luxembourg,1996,1487.0
+226,   Bulgaria,1996,26.0
+227,   Croatia,1996,17.0
+228,   Cyprus,1996,1.0
+229,   Czech Republic,1996,50.0
+230,   Denmark,1996,111.0
+231,   Estonia,1996,33.0
+232,   Finland,1996,172.0
+233,   France,1996,1182.0
+234,   Germany,1996,3613.0
+235,   Greece,1996,51.0
+236,   Hungary,1996,32.0
+237,   Ireland,1996,11.0
+238,   Italy,1996,826.0
+239,   Latvia,1996,16.0
+240,   Lithuania,1996,83.0
+241,   Luxembourg,1996,
+242,   Malta,1996,0.0
+243,   Netherlands,1996,575.0
+244,   Poland,1996,169.0
+245,   Portugal,1996,99.0
+246,   Romania,1996,0.0
+247,   Slovakia,1996,16.0
+248,   Slovenia,1996,11.0
+249,   Spain,1996,595.0
+250,   Sweden,1996,225.0
+251,   United Kingdom,1996,552.0
+253,Japan,1996,6.0
+254,Norway,1996,7.0
+255,Russian Federation,1996,65.0
+256,Switzerland,1996,243.0
+257,Tunisia,1996,0.0
+258,USA,1996,2049.0
+260,   Austria,1997,222.0
+261,   Belgium,1997,
+262,   Belgium/Luxembourg,1997,1658.0
+263,   Bulgaria,1997,19.0
+264,   Croatia,1997,24.0
+265,   Cyprus,1997,1.0
+266,   Czech Republic,1997,76.0
+267,   Denmark,1997,141.0
+268,   Estonia,1997,42.0
+269,   Finland,1997,205.0
+270,   France,1997,1166.0
+271,   Germany,1997,3935.0
+272,   Greece,1997,50.0
+273,   Hungary,1997,73.0
+274,   Ireland,1997,9.0
+275,   Italy,1997,826.0
+276,   Latvia,1997,24.0
+277,   Lithuania,1997,79.0
+278,   Luxembourg,1997,
+279,   Malta,1997,1.0
+280,   Netherlands,1997,557.0
+281,   Poland,1997,287.0
+282,   Portugal,1997,108.0
+283,   Romania,1997,1.0
+284,   Slovakia,1997,18.0
+285,   Slovenia,1997,10.0
+286,   Spain,1997,779.0
+287,   Sweden,1997,232.0
+288,   United Kingdom,1997,511.0
+290,Japan,1997,19.0
+291,Norway,1997,9.0
+292,Russian Federation,1997,328.0
+293,Switzerland,1997,280.0
+294,Tunisia,1997,0.0
+295,USA,1997,2446.0
+297,   Austria,1998,210.0
+298,   Belgium,1998,
+299,   Belgium/Luxembourg,1998,2270.0
+300,   Bulgaria,1998,18.0
+301,   Croatia,1998,19.0
+302,   Cyprus,1998,1.0
+303,   Czech Republic,1998,241.0
+304,   Denmark,1998,160.0
+305,   Estonia,1998,45.0
+306,   Finland,1998,186.0
+307,   France,1998,1193.0
+308,   Germany,1998,4063.0
+309,   Greece,1998,37.0
+310,   Hungary,1998,63.0
+311,   Ireland,1998,10.0
+312,   Italy,1998,946.0
+313,   Latvia,1998,25.0
+314,   Lithuania,1998,50.0
+315,   Luxembourg,1998,
+316,   Malta,1998,4.0
+317,   Netherlands,1998,901.0
+318,   Poland,1998,328.0
+319,   Portugal,1998,96.0
+320,   Romania,1998,11.0
+321,   Slovakia,1998,17.0
+322,   Slovenia,1998,12.0
+323,   Spain,1998,700.0
+324,   Sweden,1998,192.0
+325,   United Kingdom,1998,537.0
+327,Japan,1998,9.0
+328,Norway,1998,4.0
+329,Russian Federation,1998,85.0
+330,Switzerland,1998,254.0
+331,Tunisia,1998,0.0
+332,USA,1998,2447.0
+334,   Austria,1999,398.0
+335,   Belgium,1999,2169.0
+336,   Belgium/Luxembourg,1999,
+337,   Bulgaria,1999,4.0
+338,   Croatia,1999,15.0
+339,   Cyprus,1999,2.0
+340,   Czech Republic,1999,170.0
+341,   Denmark,1999,225.0
+342,   Estonia,1999,36.0
+343,   Finland,1999,215.0
+344,   France,1999,1141.0
+345,   Germany,1999,3972.0
+346,   Greece,1999,92.0
+347,   Hungary,1999,105.0
+348,   Ireland,1999,7.0
+349,   Italy,1999,1023.0
+350,   Latvia,1999,17.0
+351,   Lithuania,1999,48.0
+352,   Luxembourg,1999,84.0
+353,   Malta,1999,0.0
+354,   Netherlands,1999,1094.0
+355,   Poland,1999,418.0
+356,   Portugal,1999,99.0
+357,   Romania,1999,5.0
+358,   Slovakia,1999,20.0
+359,   Slovenia,1999,11.0
+360,   Spain,1999,639.0
+361,   Sweden,1999,176.0
+362,   United Kingdom,1999,645.0
+364,Japan,1999,8.0
+365,Norway,1999,5.0
+366,Russian Federation,1999,16.0
+367,Switzerland,1999,302.0
+368,Tunisia,1999,0.0
+369,USA,1999,2168.0
+371,   Austria,2000,409.0
+372,   Belgium,2000,2357.0
+373,   Belgium/Luxembourg,2000,
+374,   Bulgaria,2000,6.0
+375,   Croatia,2000,17.0
+376,   Cyprus,2000,1.0
+377,   Czech Republic,2000,249.0
+378,   Denmark,2000,231.0
+379,   Estonia,2000,8.0
+380,   Finland,2000,172.0
+381,   France,2000,1073.0
+382,   Germany,2000,4825.0
+383,   Greece,2000,111.0
+384,   Hungary,2000,157.0
+385,   Ireland,2000,72.0
+386,   Italy,2000,1156.0
+387,   Latvia,2000,19.0
+388,   Lithuania,2000,39.0
+389,   Luxembourg,2000,88.0
+390,   Malta,2000,0.0
+391,   Netherlands,2000,1106.0
+392,   Poland,2000,531.0
+393,   Portugal,2000,123.0
+394,   Romania,2000,1.0
+395,   Slovakia,2000,23.0
+396,   Slovenia,2000,14.0
+397,   Spain,2000,753.0
+398,   Sweden,2000,171.0
+399,   United Kingdom,2000,652.0
+401,Japan,2000,32.0
+402,Norway,2000,5.0
+403,Russian Federation,2000,27.0
+404,Switzerland,2000,313.0
+405,Tunisia,2000,1.0
+406,USA,2000,2055.0
+408,   Austria,2001,440.0
+409,   Belgium,2001,2324.0
+410,   Belgium/Luxembourg,2001,
+411,   Bulgaria,2001,5.0
+412,   Croatia,2001,15.0
+413,   Cyprus,2001,4.0
+414,   Czech Republic,2001,266.0
+415,   Denmark,2001,235.0
+416,   Estonia,2001,54.0
+417,   Finland,2001,148.0
+418,   France,2001,1267.0
+419,   Germany,2001,5344.0
+420,   Greece,2001,320.0
+421,   Hungary,2001,186.0
+422,   Ireland,2001,34.0
+423,   Italy,2001,1290.0
+424,   Latvia,2001,6.0
+425,   Lithuania,2001,63.0
+426,   Luxembourg,2001,76.0
+427,   Malta,2001,0.0
+428,   Netherlands,2001,1117.0
+429,   Poland,2001,497.0
+430,   Portugal,2001,116.0
+431,   Romania,2001,1.0
+432,   Slovakia,2001,33.0
+433,   Slovenia,2001,11.0
+434,   Spain,2001,1237.0
+435,   Sweden,2001,181.0
+436,   United Kingdom,2001,771.0
+438,Japan,2001,78.0
+439,Norway,2001,6.0
+440,Russian Federation,2001,25.0
+441,Switzerland,2001,381.0
+442,Tunisia,2001,1.0
+443,USA,2001,2056.0
+445,   Austria,2002,528.0
+446,   Belgium,2002,2308.0
+447,   Belgium/Luxembourg,2002,
+448,   Bulgaria,2002,3.0
+449,   Croatia,2002,16.0
+450,   Cyprus,2002,4.0
+451,   Czech Republic,2002,246.0
+452,   Denmark,2002,271.0
+453,   Estonia,2002,9.0
+454,   Finland,2002,119.0
+455,   France,2002,1264.0
+456,   Germany,2002,6288.0
+457,   Greece,2002,71.0
+458,   Hungary,2002,190.0
+459,   Ireland,2002,34.0
+460,   Italy,2002,1341.0
+461,   Latvia,2002,19.0
+462,   Lithuania,2002,55.0
+463,   Luxembourg,2002,80.0
+464,   Malta,2002,1.0
+465,   Netherlands,2002,1186.0
+466,   Poland,2002,442.0
+467,   Portugal,2002,114.0
+468,   Romania,2002,1.0
+469,   Slovakia,2002,25.0
+470,   Slovenia,2002,12.0
+471,   Spain,2002,1166.0
+472,   Sweden,2002,239.0
+473,   United Kingdom,2002,778.0
+475,Japan,2002,99.0
+476,Norway,2002,6.0
+477,Russian Federation,2002,53.0
+478,Switzerland,2002,442.0
+479,Tunisia,2002,1.0
+480,USA,2002,2192.0
+482,   Austria,2003,620.0
+483,   Belgium,2003,2238.0
+484,   Belgium/Luxembourg,2003,
+485,   Bulgaria,2003,3.0
+486,   Croatia,2003,17.0
+487,   Cyprus,2003,6.0
+488,   Czech Republic,2003,351.0
+489,   Denmark,2003,278.0
+490,   Estonia,2003,19.0
+491,   Finland,2003,122.0
+492,   France,2003,1328.0
+493,   Germany,2003,6518.0
+494,   Greece,2003,69.0
+495,   Hungary,2003,218.0
+496,   Ireland,2003,75.0
+497,   Italy,2003,1410.0
+498,   Latvia,2003,27.0
+499,   Lithuania,2003,48.0
+500,   Luxembourg,2003,99.0
+501,   Malta,2003,0.0
+502,   Netherlands,2003,1433.0
+503,   Poland,2003,422.0
+504,   Portugal,2003,110.0
+505,   Romania,2003,0.0
+506,   Slovakia,2003,17.0
+507,   Slovenia,2003,10.0
+508,   Spain,2003,1365.0
+509,   Sweden,2003,257.0
+510,   United Kingdom,2003,759.0
+512,Japan,2003,137.0
+513,Norway,2003,8.0
+514,Russian Federation,2003,93.0
+515,Switzerland,2003,423.0
+516,Tunisia,2003,3.0
+517,USA,2003,2798.0
+519,   Austria,2004,543.0
+520,   Belgium,2004,2572.0
+521,   Belgium/Luxembourg,2004,
+522,   Bulgaria,2004,3.0
+523,   Croatia,2004,18.0
+524,   Cyprus,2004,7.0
+525,   Czech Republic,2004,324.0
+526,   Denmark,2004,271.0
+527,   Estonia,2004,47.0
+528,   Finland,2004,129.0
+529,   France,2004,1040.0
+530,   Germany,2004,7011.0
+531,   Greece,2004,71.0
+532,   Hungary,2004,270.0
+533,   Ireland,2004,36.0
+534,   Italy,2004,1559.0
+535,   Latvia,2004,33.0
+536,   Lithuania,2004,59.0
+537,   Luxembourg,2004,95.0
+538,   Malta,2004,0.0
+539,   Netherlands,2004,1181.0
+540,   Poland,2004,406.0
+541,   Portugal,2004,83.0
+542,   Romania,2004,10.0
+543,   Slovakia,2004,15.0
+544,   Slovenia,2004,11.0
+545,   Spain,2004,1437.0
+546,   Sweden,2004,262.0
+547,   United Kingdom,2004,838.0
+549,Japan,2004,87.0
+550,Norway,2004,7.0
+551,Russian Federation,2004,129.0
+552,Switzerland,2004,512.0
+553,Tunisia,2004,1.0
+554,USA,2004,2626.0
+556,   Austria,2005,806.0
+557,   Belgium,2005,2905.0
+558,   Belgium/Luxembourg,2005,
+559,   Bulgaria,2005,11.0
+560,   Croatia,2005,18.0
+561,   Cyprus,2005,9.0
+562,   Czech Republic,2005,407.0
+563,   Denmark,2005,199.0
+564,   Estonia,2005,76.0
+565,   Finland,2005,54.0
+566,   France,2005,1028.0
+567,   Germany,2005,8356.0
+568,   Greece,2005,60.0
+569,   Hungary,2005,282.0
+570,   Ireland,2005,30.0
+571,   Italy,2005,1708.0
+572,   Latvia,2005,47.0
+573,   Lithuania,2005,90.0
+574,   Luxembourg,2005,104.0
+575,   Malta,2005,0.0
+576,   Netherlands,2005,1061.0
+577,   Poland,2005,524.0
+578,   Portugal,2005,107.0
+579,   Romania,2005,17.0
+580,   Slovakia,2005,14.0
+581,   Slovenia,2005,9.0
+582,   Spain,2005,1453.0
+583,   Sweden,2005,523.0
+584,   United Kingdom,2005,885.0
+586,Japan,2005,63.0
+587,Norway,2005,10.0
+588,Russian Federation,2005,151.0
+589,Switzerland,2005,567.0
+590,Tunisia,2005,0.0
+591,USA,2005,2452.0
+593,   Austria,2006,991.0
+594,   Belgium,2006,3067.0
+595,   Belgium/Luxembourg,2006,
+596,   Bulgaria,2006,14.0
+597,   Croatia,2006,18.0
+598,   Cyprus,2006,18.0
+599,   Czech Republic,2006,309.0
+600,   Denmark,2006,182.0
+601,   Estonia,2006,87.0
+602,   Finland,2006,121.0
+603,   France,2006,957.0
+604,   Germany,2006,9177.0
+605,   Greece,2006,41.0
+606,   Hungary,2006,303.0
+607,   Ireland,2006,52.0
+608,   Italy,2006,1938.0
+609,   Latvia,2006,40.0
+610,   Lithuania,2006,103.0
+611,   Luxembourg,2006,102.0
+612,   Malta,2006,0.0
+613,   Netherlands,2006,1164.0
+614,   Poland,2006,661.0
+615,   Portugal,2006,114.0
+616,   Romania,2006,19.0
+617,   Slovakia,2006,66.0
+618,   Slovenia,2006,11.0
+619,   Spain,2006,1461.0
+620,   Sweden,2006,505.0
+621,   United Kingdom,2006,949.0
+623,Japan,2006,47.0
+624,Norway,2006,10.0
+625,Russian Federation,2006,244.0
+626,Switzerland,2006,621.0
+627,Tunisia,2006,9.0
+628,USA,2006,2721.0
+630,   Austria,2007,1120.0
+631,   Belgium,2007,2911.0
+632,   Belgium/Luxembourg,2007,
+633,   Bulgaria,2007,29.0
+634,   Croatia,2007,27.0
+635,   Cyprus,2007,2.0
+636,   Czech Republic,2007,358.0
+637,   Denmark,2007,201.0
+638,   Estonia,2007,176.0
+639,   Finland,2007,150.0
+640,   France,2007,901.0
+641,   Germany,2007,10697.0
+642,   Greece,2007,66.0
+643,   Hungary,2007,371.0
+644,   Ireland,2007,17.0
+645,   Italy,2007,2188.0
+646,   Latvia,2007,20.0
+647,   Lithuania,2007,105.0
+648,   Luxembourg,2007,109.0
+649,   Malta,2007,0.0
+650,   Netherlands,2007,1239.0
+651,   Poland,2007,709.0
+652,   Portugal,2007,152.0
+653,   Romania,2007,16.0
+654,   Slovakia,2007,152.0
+655,   Slovenia,2007,10.0
+656,   Spain,2007,1520.0
+657,   Sweden,2007,525.0
+658,   United Kingdom,2007,989.0
+660,Japan,2007,87.0
+661,Norway,2007,8.0
+662,Russian Federation,2007,340.0
+663,Switzerland,2007,842.0
+664,Tunisia,2007,0.0
+665,USA,2007,2707.0
+667,   Austria,2008,992.0
+668,   Belgium,2008,6142.0
+669,   Belgium/Luxembourg,2008,
+670,   Bulgaria,2008,72.0
+671,   Croatia,2008,28.0
+672,   Cyprus,2008,0.0
+673,   Czech Republic,2008,416.0
+674,   Denmark,2008,212.0
+675,   Estonia,2008,181.0
+676,   Finland,2008,170.0
+677,   France,2008,964.0
+678,   Germany,2008,10471.0
+679,   Greece,2008,78.0
+680,   Hungary,2008,317.0
+681,   Ireland,2008,16.0
+682,   Italy,2008,2277.0
+683,   Latvia,2008,39.0
+684,   Lithuania,2008,187.0
+685,   Luxembourg,2008,113.0
+686,   Malta,2008,0.0
+687,   Netherlands,2008,981.0
+688,   Poland,2008,779.0
+689,   Portugal,2008,149.0
+690,   Romania,2008,19.0
+691,   Slovakia,2008,270.0
+692,   Slovenia,2008,11.0
+693,   Spain,2008,1441.0
+694,   Sweden,2008,532.0
+695,   United Kingdom,2008,900.0
+697,Japan,2008,179.0
+698,Norway,2008,7.0
+699,Russian Federation,2008,421.0
+700,Switzerland,2008,883.0
+701,Tunisia,2008,0.0
+702,USA,2008,2861.0
+704,   Austria,2009,415.0
+705,   Belgium,2009,4981.0
+706,   Belgium/Luxembourg,2009,
+707,   Bulgaria,2009,114.0
+708,   Croatia,2009,28.0
+709,   Cyprus,2009,0.0
+710,   Czech Republic,2009,405.0
+711,   Denmark,2009,184.0
+712,   Estonia,2009,234.0
+713,   Finland,2009,185.0
+714,   France,2009,1014.0
+715,   Germany,2009,10819.0
+716,   Greece,2009,72.0
+717,   Hungary,2009,259.0
+718,   Ireland,2009,8.0
+719,   Italy,2009,2272.0
+720,   Latvia,2009,44.0
+721,   Lithuania,2009,201.0
+722,   Luxembourg,2009,108.0
+723,   Malta,2009,0.0
+724,   Netherlands,2009,1604.0
+725,   Poland,2009,1161.0
+726,   Portugal,2009,166.0
+727,   Romania,2009,37.0
+728,   Slovakia,2009,246.0
+729,   Slovenia,2009,12.0
+730,   Spain,2009,1445.0
+731,   Sweden,2009,526.0
+732,   United Kingdom,2009,892.0
+734,Japan,2009,126.0
+735,Norway,2009,9.0
+736,Russian Federation,2009,440.0
+737,Switzerland,2009,1066.0
+738,Tunisia,2009,0.0
+739,USA,2009,2802.0
+741,   Austria,2010,463.0
+742,   Belgium,2010,5053.0
+743,   Belgium/Luxembourg,2010,
+744,   Bulgaria,2010,133.0
+745,   Croatia,2010,24.0
+746,   Cyprus,2010,2.0
+747,   Czech Republic,2010,481.0
+748,   Denmark,2010,208.0
+749,   Estonia,2010,158.0
+750,   Finland,2010,193.0
+751,   France,2010,1060.0
+752,   Germany,2010,11542.0
+753,   Greece,2010,68.0
+754,   Hungary,2010,351.0
+755,   Ireland,2010,8.0
+756,   Italy,2010,2446.0
+757,   Latvia,2010,39.0
+758,   Lithuania,2010,153.0
+759,   Luxembourg,2010,117.0
+760,   Malta,2010,0.0
+761,   Netherlands,2010,1236.0
+762,   Poland,2010,1123.0
+763,   Portugal,2010,197.0
+764,   Romania,2010,43.0
+765,   Slovakia,2010,318.0
+766,   Slovenia,2010,13.0
+767,   Spain,2010,1803.0
+768,   Sweden,2010,505.0
+769,   United Kingdom,2010,1193.0
+771,Japan,2010,143.0
+772,Norway,2010,14.0
+773,Russian Federation,2010,455.0
+774,Switzerland,2010,1313.0
+775,Tunisia,2010,3.0
+776,USA,2010,3191.0
+778,   Austria,2011,365.0
+779,   Belgium,2011,4894.0
+780,   Belgium/Luxembourg,2011,
+781,   Bulgaria,2011,122.0
+782,   Croatia,2011,24.0
+783,   Cyprus,2011,0.0
+784,   Czech Republic,2011,380.0
+785,   Denmark,2011,147.0
+786,   Estonia,2011,100.0
+787,   Finland,2011,194.0
+788,   France,2011,1043.0
+789,   Germany,2011,11683.0
+790,   Greece,2011,132.0
+791,   Hungary,2011,460.0
+792,   Ireland,2011,30.0
+793,   Italy,2011,2663.0
+794,   Latvia,2011,40.0
+795,   Lithuania,2011,109.0
+796,   Luxembourg,2011,111.0
+797,   Malta,2011,1.0
+798,   Netherlands,2011,1769.0
+799,   Poland,2011,1370.0
+800,   Portugal,2011,210.0
+801,   Romania,2011,42.0
+802,   Slovakia,2011,389.0
+803,   Slovenia,2011,15.0
+804,   Spain,2011,1672.0
+805,   Sweden,2011,522.0
+806,   United Kingdom,2011,1264.0
+808,Japan,2011,80.0
+809,Norway,2011,10.0
+810,Russian Federation,2011,463.0
+811,Switzerland,2011,1414.0
+812,Tunisia,2011,13.0
+813,USA,2011,3728.0
+815,   Austria,2012,304.0
+816,   Belgium,2012,4754.0
+817,   Belgium/Luxembourg,2012,
+818,   Bulgaria,2012,184.0
+819,   Croatia,2012,24.0
+820,   Cyprus,2012,1.0
+821,   Czech Republic,2012,441.0
+822,   Denmark,2012,113.0
+823,   Estonia,2012,53.0
+824,   Finland,2012,156.0
+825,   France,2012,1019.0
+826,   Germany,2012,12590.0
+827,   Greece,2012,168.0
+828,   Hungary,2012,496.0
+829,   Ireland,2012,37.0
+830,   Italy,2012,2964.0
+831,   Latvia,2012,56.0
+832,   Lithuania,2012,143.0
+833,   Luxembourg,2012,111.0
+834,   Malta,2012,0.0
+835,   Netherlands,2012,1347.0
+836,   Poland,2012,1607.0
+837,   Portugal,2012,228.0
+838,   Romania,2012,54.0
+839,   Slovakia,2012,571.0
+840,   Slovenia,2012,36.0
+841,   Spain,2012,1659.0
+842,   Sweden,2012,520.0
+843,   United Kingdom,2012,1200.0
+845,Japan,2012,71.0
+846,Norway,2012,12.0
+847,Russian Federation,2012,479.0
+848,Switzerland,2012,1425.0
+849,Tunisia,2012,18.0
+850,USA,2012,3384.0
+852,   Austria,2013,311.0
+853,   Belgium,2013,4257.0
+854,   Belgium/Luxembourg,2013,
+855,   Bulgaria,2013,191.0
+856,   Croatia,2013,26.0
+857,   Cyprus,2013,2.0
+858,   Czech Republic,2013,546.0
+859,   Denmark,2013,99.0
+860,   Estonia,2013,36.0
+861,   Finland,2013,181.0
+862,   France,2013,1014.0
+863,   Germany,2013,12020.0
+864,   Greece,2013,169.0
+865,   Hungary,2013,381.0
+866,   Ireland,2013,38.0
+867,   Italy,2013,3183.0
+868,   Latvia,2013,66.0
+869,   Lithuania,2013,165.0
+870,   Luxembourg,2013,137.0
+871,   Malta,2013,0.0
+872,   Netherlands,2013,1781.0
+873,   Poland,2013,1615.0
+874,   Portugal,2013,212.0
+875,   Romania,2013,80.0
+876,   Slovakia,2013,470.0
+877,   Slovenia,2013,74.0
+878,   Spain,2013,1636.0
+879,   Sweden,2013,534.0
+880,   United Kingdom,2013,1380.0
+882,Japan,2013,92.0
+883,Norway,2013,18.0
+884,Russian Federation,2013,762.0
+885,Switzerland,2013,1547.0
+886,Tunisia,2013,10.0
+887,USA,2013,3248.0
+889,   Austria,2014,
+890,   Belgium,2014,
+891,   Belgium/Luxembourg,2014,
+892,   Bulgaria,2014,
+893,   Croatia,2014,
+894,   Cyprus,2014,
+895,   Czech Republic,2014,
+896,   Denmark,2014,
+897,   Estonia,2014,
+898,   Finland,2014,
+899,   France,2014,
+900,   Germany,2014,
+901,   Greece,2014,
+902,   Hungary,2014,
+903,   Ireland,2014,
+904,   Italy,2014,
+905,   Latvia,2014,
+906,   Lithuania,2014,
+907,   Luxembourg,2014,
+908,   Malta,2014,
+909,   Netherlands,2014,
+910,   Poland,2014,
+911,   Portugal,2014,
+912,   Romania,2014,
+913,   Slovakia,2014,
+914,   Slovenia,2014,
+915,   Spain,2014,
+916,   Sweden,2014,
+917,   United Kingdom,2014,
+919,Japan,2014,111.0
+920,Norway,2014,14.0
+921,Russian Federation,2014,726.0
+922,Switzerland,2014,1616.0
+923,Tunisia,2014,0.0
+924,USA,2014,3361.0
+926,   Austria,2015,
+927,   Belgium,2015,
+928,   Belgium/Luxembourg,2015,
+929,   Bulgaria,2015,
+930,   Croatia,2015,
+931,   Cyprus,2015,
+932,   Czech Republic,2015,
+933,   Denmark,2015,
+934,   Estonia,2015,
+935,   Finland,2015,
+936,   France,2015,
+937,   Germany,2015,
+938,   Greece,2015,
+939,   Hungary,2015,
+940,   Ireland,2015,
+941,   Italy,2015,
+942,   Latvia,2015,
+943,   Lithuania,2015,
+944,   Luxembourg,2015,
+945,   Malta,2015,
+946,   Netherlands,2015,
+947,   Poland,2015,
+948,   Portugal,2015,
+949,   Romania,2015,
+950,   Slovakia,2015,
+951,   Slovenia,2015,
+952,   Spain,2015,
+953,   Sweden,2015,
+954,   United Kingdom,2015,
+956,Japan,2015,117.0
+957,Norway,2015,12.0
+958,Russian Federation,2015,864.0
+959,Switzerland,2015,1641.0
+960,Tunisia,2015,1.0
+961,USA,2015,2958.0
+963,   Austria,2016,
+964,   Belgium,2016,
+965,   Belgium/Luxembourg,2016,
+966,   Bulgaria,2016,
+967,   Croatia,2016,
+968,   Cyprus,2016,
+969,   Czech Republic,2016,
+970,   Denmark,2016,
+971,   Estonia,2016,
+972,   Finland,2016,
+973,   France,2016,
+974,   Germany,2016,
+975,   Greece,2016,
+976,   Hungary,2016,
+977,   Ireland,2016,
+978,   Italy,2016,
+979,   Latvia,2016,
+980,   Lithuania,2016,
+981,   Luxembourg,2016,
+982,   Malta,2016,
+983,   Netherlands,2016,
+984,   Poland,2016,
+985,   Portugal,2016,
+986,   Romania,2016,
+987,   Slovakia,2016,
+988,   Slovenia,2016,
+989,   Spain,2016,
+990,   Sweden,2016,
+991,   United Kingdom,2016,
+993,Japan,2016,111.0
+994,Norway,2016,18.0
+995,Russian Federation,2016,794.0
+996,Switzerland,2016,1748.0
+997,Tunisia,2016,0.0
+998,USA,2016,3175.0
+1000,   Austria,2017,
+1001,   Belgium,2017,
+1002,   Belgium/Luxembourg,2017,
+1003,   Bulgaria,2017,
+1004,   Croatia,2017,
+1005,   Cyprus,2017,
+1006,   Czech Republic,2017,
+1007,   Denmark,2017,
+1008,   Estonia,2017,
+1009,   Finland,2017,
+1010,   France,2017,
+1011,   Germany,2017,
+1012,   Greece,2017,
+1013,   Hungary,2017,
+1014,   Ireland,2017,
+1015,   Italy,2017,
+1016,   Latvia,2017,
+1017,   Lithuania,2017,
+1018,   Luxembourg,2017,
+1019,   Malta,2017,
+1020,   Netherlands,2017,
+1021,   Poland,2017,
+1022,   Portugal,2017,
+1023,   Romania,2017,
+1024,   Slovakia,2017,
+1025,   Slovenia,2017,
+1026,   Spain,2017,
+1027,   Sweden,2017,
+1028,   United Kingdom,2017,
+1030,Japan,2017,113.0
+1031,Norway,2017,19.0
+1032,Russian Federation,2017,956.0
+1033,Switzerland,2017,1861.0
+1034,Tunisia,2017,0.0
+1035,USA,2017,2929.0
