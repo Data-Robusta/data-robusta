@@ -74,3 +74,20 @@ stations = {
     'COM00080234': 'Vanguardia',
     'COM00080091': 'Yariguies'
 }
+
+weather_stations = {
+    'Antioquia': 'Antonio Rodan Betancourt',
+    'Caldas': 'Jose Maria Cordova',
+    'Cauca': 'El Carano',
+    'Cesar': 'Alfonso Lopez Pumarejo',
+    'Cundinamarca': 'Bogota Eldorado',
+    'Huila': 'Benito Salas',
+    'Magdalena': 'Simon Bolivar',
+    'N. Santander': 'Camilo Daza',
+    'Nariño': 'Pasto Antonio Narin',
+    'Quindio': 'El Eden',
+    'Risaralda': 'Matecana',
+    'Santander': 'Palonegro',
+    'Tolima': 'Perales',
+    'Valle': 'Cali Alfonso Bonill'
+}
