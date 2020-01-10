@@ -1,13 +1,25 @@
 import pandas as pd
+import os
 
-# Make dataframes of NOAA data CSVs on colombia weather
-def get_colombia_weather():
-    modern = pd.read_csv('weather_data/colombia.csv')
+# Make dataframes of NOAA data CSVs on monthly colombia weather, has some strange inaccuracies due to the monthly collation
+def get_colombia_weather_monthly():
+    modern = pd.read_csv('weather_data/new_monthly_weather_colombia.csv')
     old = pd.read_csv('weather_data/colombia_old.csv')
     useless = [col for col in old.columns if col[-10:] == 'ATTRIBUTES']
     old = old.drop(columns=useless)
     colombia = pd.concat([old, modern])
     return colombia
+
+# Make dataframes of NOAA data CSVs on daily colombia weather
+def get_weather(fresh=False):
+    if os.path.exists('weather_data/weather.csv') and not fresh:
+        df = pd.read_csv('weather_data/weather.csv', index_col=0)
+    else:
+        modern = pd.read_csv('weather_data/new_daily_weather_colombia.csv')
+        old = pd.read_csv('weather_data/old_daily_weather_colombia.csv')
+        df = pd.concat([old, modern])
+        df.to_csv('weather_data/weather.csv')
+    return df
 
 # Explanation of each column in the data
 data_dict = {
