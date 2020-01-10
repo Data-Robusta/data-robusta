@@ -1,785 +1,785 @@
-,country_name,year,dollars_per_lbs
-0,   Austria,1990,4.9
-1,   Belgium,1990,3.27
-2,   Bulgaria,1990,
-3,   Cyprus,1990,2.83
-4,   Czech Republic,1990,
-5,   Denmark,1990,3.81
-6,   Finland,1990,2.98
-7,   France,1990,3.73
-8,   Germany,1990,3.99
-9,   Hungary,1990,
-10,   Italy,1990,5.31
-11,   Latvia,1990,
-12,   Lithuania,1990,
-13,   Luxembourg,1990,
-14,   Malta 1,1990,
-15,   Netherlands,1990,3.03
-16,   Poland,1990,
-17,   Portugal,1990,4.12
-18,   Slovakia,1990,
-19,   Slovenia,1990,
-20,   Spain,1990,3.62
-21,   Sweden,1990,3.43
-22,   United Kingdom 1,1990,10.55
-24,Japan,1990,10.26
-25,Norway,1990,3.31
-26,Russian Federation,1990,
-27,Switzerland,1990,4.83
-28,USA,1990,2.97
-29,   Austria,1991,4.57
-30,   Belgium,1991,2.92
-31,   Bulgaria,1991,
-32,   Cyprus,1991,2.8
-33,   Czech Republic,1991,
-34,   Denmark,1991,3.67
-35,   Finland,1991,2.72
-36,   France,1991,3.43
-37,   Germany,1991,3.84
-38,   Hungary,1991,
-39,   Italy,1991,5.62
-40,   Latvia,1991,
-41,   Lithuania,1991,
-42,   Luxembourg,1991,
-43,   Malta 1,1991,
-44,   Netherlands,1991,2.95
-45,   Poland,1991,
-46,   Portugal,1991,4.27
-47,   Slovakia,1991,
-48,   Slovenia,1991,
-49,   Spain,1991,3.5
-50,   Sweden,1991,3.29
-51,   United Kingdom 1,1991,10.41
-53,Japan,1991,11.88
-54,Norway,1991,3.16
-55,Russian Federation,1991,
-56,Switzerland,1991,4.36
-57,USA,1991,2.81
-58,   Austria,1992,4.99
-59,   Belgium,1992,3.05
-60,   Bulgaria,1992,
-61,   Cyprus,1992,2.87
-62,   Czech Republic,1992,
-63,   Denmark,1992,3.79
-64,   Finland,1992,2.46
-65,   France,1992,2.31
-66,   Germany,1992,4.0
-67,   Hungary,1992,
-68,   Italy,1992,5.86
-69,   Latvia,1992,
-70,   Lithuania,1992,
-71,   Luxembourg,1992,
-72,   Malta 1,1992,
-73,   Netherlands,1992,3.13
-74,   Poland,1992,
-75,   Portugal,1992,4.95
-76,   Slovakia,1992,
-77,   Slovenia,1992,
-78,   Spain,1992,3.5
-79,   Sweden,1992,3.11
-80,   United Kingdom 1,1992,10.09
-82,Japan,1992,12.62
-83,Norway,1992,3.12
-84,Russian Federation,1992,
-85,Switzerland,1992,4.52
-86,USA,1992,2.58
-87,   Austria,1993,4.97
-88,   Belgium,1993,2.78
-89,   Bulgaria,1993,
-90,   Cyprus,1993,2.6
-91,   Czech Republic,1993,
-92,   Denmark,1993,3.48
-93,   Finland,1993,1.94
-94,   France,1993,2.03
-95,   Germany,1993,3.62
-96,   Hungary,1993,
-97,   Italy,1993,4.59
-98,   Latvia,1993,1.84
-99,   Lithuania,1993,
-100,   Luxembourg,1993,
-101,   Malta 1,1993,
-102,   Netherlands,1993,2.8
-103,   Poland,1993,
-104,   Portugal,1993,4.27
-105,   Slovakia,1993,
-106,   Slovenia,1993,
-107,   Spain,1993,2.79
-108,   Sweden,1993,2.65
-109,   United Kingdom 1,1993,8.44
-111,Japan,1993,14.57
-112,Norway,1993,2.46
-113,Russian Federation,1993,
-114,Switzerland,1993,4.27
-115,USA,1993,2.47
-116,   Austria,1994,4.58
-117,   Belgium,1994,3.42
-118,   Bulgaria,1994,
-119,   Cyprus,1994,3.18
-120,   Czech Republic,1994,
-121,   Denmark,1994,4.45
-122,   Finland,1994,2.73
-123,   France,1994,2.4
-124,   Germany,1994,4.18
-125,   Hungary,1994,3.88
-126,   Italy,1994,4.68
-127,   Latvia,1994,2.21
-128,   Lithuania,1994,
-129,   Luxembourg,1994,
-130,   Malta 1,1994,
-131,   Netherlands,1994,3.26
-132,   Poland,1994,
-133,   Portugal,1994,4.38
-134,   Slovakia,1994,
-135,   Slovenia,1994,
-136,   Spain,1994,2.76
-137,   Sweden,1994,3.79
-138,   United Kingdom 1,1994,11.36
-140,Japan,1994,14.69
-141,Norway,1994,3.29
-142,Russian Federation,1994,
-143,Switzerland,1994,4.5
-144,USA,1994,3.4
-145,   Austria,1995,5.18
-146,   Belgium,1995,4.88
-147,   Bulgaria,1995,
-148,   Cyprus,1995,4.26
-149,   Czech Republic,1995,
-150,   Denmark,1995,5.57
-151,   Finland,1995,3.97
-152,   France,1995,3.69
-153,   Germany,1995,5.02
-154,   Hungary,1995,5.04
-155,   Italy,1995,5.7
-156,   Latvia,1995,3.88
-157,   Lithuania,1995,
-158,   Luxembourg,1995,
-159,   Malta 1,1995,7.8
-160,   Netherlands,1995,4.03
-161,   Poland,1995,5.67
-162,   Portugal,1995,6.24
-163,   Slovakia,1995,
-164,   Slovenia,1995,
-165,   Spain,1995,4.45
-166,   Sweden,1995,4.85
-167,   United Kingdom 1,1995,13.79
-169,Japan,1995,17.72
-170,Norway,1995,4.54
-171,Russian Federation,1995,
-172,Switzerland,1995,6.32
-173,USA,1995,4.04
-174,   Austria,1996,5.42
-175,   Belgium,1996,4.04
-176,   Bulgaria,1996,
-177,   Cyprus,1996,4.13
-178,   Czech Republic,1996,
-179,   Denmark,1996,4.81
-180,   Finland,1996,3.22
-181,   France,1996,3.3
-182,   Germany,1996,4.17
-183,   Hungary,1996,4.62
-184,   Italy,1996,5.92
-185,   Latvia,1996,4.18
-186,   Lithuania,1996,
-187,   Luxembourg,1996,
-188,   Malta 1,1996,11.95
-189,   Netherlands,1996,3.65
-190,   Poland,1996,4.37
-191,   Portugal,1996,5.92
-192,   Slovakia,1996,
-193,   Slovenia,1996,
-194,   Spain,1996,4.18
-195,   Sweden,1996,3.96
-196,   United Kingdom 1,1996,13.35
-198,Japan,1996,15.24
-199,Norway,1996,3.9
-200,Russian Federation,1996,
-201,Switzerland,1996,5.43
-202,USA,1996,3.43
-203,   Austria,1997,4.37
-204,   Belgium,1997,3.98
-205,   Bulgaria,1997,
-206,   Cyprus,1997,4.04
-207,   Czech Republic,1997,4.31
-208,   Denmark,1997,4.96
-209,   Finland,1997,3.5
-210,   France,1997,2.76
-211,   Germany,1997,4.03
-212,   Hungary,1997,3.89
-213,   Italy,1997,5.45
-214,   Latvia,1997,4.58
-215,   Lithuania,1997,4.74
-216,   Luxembourg,1997,
-217,   Malta 1,1997,12.2
-218,   Netherlands,1997,3.67
-219,   Poland,1997,3.54
-220,   Portugal,1997,5.04
-221,   Slovakia,1997,3.39
-222,   Slovenia,1997,
-223,   Spain,1997,3.57
-224,   Sweden,1997,4.35
-225,   United Kingdom 1,1997,14.9
-227,Japan,1997,14.22
-228,Norway,1997,4.11
-229,Russian Federation,1997,
-230,Switzerland,1997,4.79
-231,USA,1997,4.11
-232,   Austria,1998,3.97
-233,   Belgium,1998,4.19
-234,   Bulgaria,1998,
-235,   Cyprus,1998,4.61
-236,   Czech Republic,1998,5.1
-237,   Denmark,1998,4.92
-238,   Finland,1998,3.42
-239,   France,1998,2.78
-240,   Germany,1998,4.04
-241,   Hungary,1998,3.75
-242,   Italy,1998,5.53
-243,   Latvia,1998,4.91
-244,   Lithuania,1998,4.75
-245,   Luxembourg,1998,
-246,   Malta 1,1998,10.03
-247,   Netherlands,1998,3.67
-248,   Poland,1998,3.63
-249,   Portugal,1998,4.88
-250,   Slovakia,1998,3.48
-251,   Slovenia,1998,
-252,   Spain,1998,3.62
-253,   Sweden,1998,4.41
-254,   United Kingdom 1,1998,15.42
-256,Japan,1998,13.52
-257,Norway,1998,3.9
-258,Russian Federation,1998,
-259,Switzerland,1998,5.04
-260,USA,1998,3.77
-261,   Austria,1999,3.28
-262,   Belgium,1999,3.55
-263,   Bulgaria,1999,
-264,   Cyprus,1999,4.39
-265,   Czech Republic,1999,3.91
-266,   Denmark,1999,3.93
-267,   Finland,1999,2.6
-268,   France,1999,2.55
-269,   Germany,1999,3.42
-270,   Hungary,1999,3.44
-271,   Italy,1999,5.16
-272,   Latvia,1999,4.2
-273,   Lithuania,1999,4.34
-274,   Luxembourg,1999,4.95
-275,   Malta 1,1999,9.23
-276,   Netherlands,1999,3.11
-277,   Poland,1999,3.19
-278,   Portugal,1999,4.65
-279,   Slovakia,1999,2.86
-280,   Slovenia,1999,4.72
-281,   Spain,1999,3.23
-282,   Sweden,1999,3.51
-283,   United Kingdom 1,1999,14.33
-285,Japan,1999,15.32
-286,Norway,1999,3.35
-287,Russian Federation,1999,
-288,Switzerland,1999,4.82
-289,USA,1999,3.43
-290,   Austria,2000,3.05
-291,   Belgium,2000,3.22
-292,   Bulgaria,2000,
-293,   Cyprus,2000,3.58
-294,   Czech Republic,2000,3.36
-295,   Denmark,2000,3.45
-296,   Finland,2000,2.29
-297,   France,2000,2.15
-298,   Germany,2000,2.83
-299,   Hungary,2000,2.72
-300,   Italy,2000,4.44
-301,   Latvia,2000,3.97
-302,   Lithuania,2000,3.62
-303,   Luxembourg,2000,4.23
-304,   Malta 1,2000,8.4
-305,   Netherlands,2000,2.81
-306,   Poland,2000,2.81
-307,   Portugal,2000,3.95
-308,   Slovakia,2000,2.44
-309,   Slovenia,2000,3.56
-310,   Spain,2000,2.69
-311,   Sweden,2000,3.03
-312,   United Kingdom 1,2000,12.91
-314,Japan,2000,12.92
-315,Norway,2000,2.98
-316,Russian Federation,2000,
-317,Switzerland,2000,4.09
-318,USA,2000,3.45
-319,   Austria,2001,2.93
-320,   Belgium,2001,3.0
-321,   Bulgaria,2001,
-322,   Cyprus,2001,3.58
-323,   Czech Republic,2001,2.91
-324,   Denmark,2001,3.19
-325,   Finland,2001,1.98
-326,   France,2001,1.99
-327,   Germany,2001,2.63
-328,   Hungary,2001,2.59
-329,   Italy,2001,4.33
-330,   Latvia,2001,3.28
-331,   Lithuania,2001,3.25
-332,   Luxembourg,2001,4.07
-333,   Malta 1,2001,8.03
-334,   Netherlands,2001,2.55
-335,   Poland,2001,2.57
-336,   Portugal,2001,3.87
-337,   Slovakia,2001,2.26
-338,   Slovenia,2001,3.05
-339,   Spain,2001,2.54
-340,   Sweden,2001,2.54
-341,   United Kingdom 1,2001,11.85
-343,Japan,2001,8.6
-344,Norway,2001,2.86
-345,Russian Federation,2001,
-346,Switzerland,2001,4.09
-347,USA,2001,3.09
-348,   Austria,2002,2.86
-349,   Belgium,2002,3.05
-350,   Bulgaria,2002,2.15
-351,   Cyprus,2002,4.05
-352,   Czech Republic,2002,2.99
-353,   Denmark,2002,3.09
-354,   Finland,2002,1.84
-355,   France,2002,2.07
-356,   Germany,2002,2.73
-357,   Hungary,2002,2.81
-358,   Italy,2002,4.57
-359,   Latvia,2002,3.22
-360,   Lithuania,2002,3.39
-361,   Luxembourg,2002,4.29
-362,   Malta 1,2002,7.97
-363,   Netherlands,2002,2.6
-364,   Poland,2002,2.11
-365,   Portugal,2002,3.9
-366,   Slovakia,2002,2.2
-367,   Slovenia,2002,3.1
-368,   Spain,2002,2.58
-369,   Sweden,2002,2.55
-370,   United Kingdom 1,2002,12.11
-372,Japan,2002,8.13
-373,Norway,2002,3.09
-374,Russian Federation,2002,
-375,Switzerland,2002,4.46
-376,USA,2002,2.92
-377,   Austria,2003,3.18
-378,   Belgium,2003,3.6
-379,   Bulgaria,2003,2.68
-380,   Cyprus,2003,4.92
-381,   Czech Republic,2003,3.1
-382,   Denmark,2003,3.57
-383,   Finland,2003,2.13
-384,   France,2003,2.5
-385,   Germany,2003,3.18
-386,   Hungary,2003,3.15
-387,   Italy,2003,5.47
-388,   Latvia,2003,3.35
-389,   Lithuania,2003,3.79
-390,   Luxembourg,2003,5.28
-391,   Malta 1,2003,9.49
-392,   Netherlands,2003,3.2
-393,   Poland,2003,2.12
-394,   Portugal,2003,4.61
-395,   Slovakia,2003,2.47
-396,   Slovenia,2003,3.74
-397,   Spain,2003,3.0
-398,   Sweden,2003,2.94
-399,   United Kingdom 1,2003,13.34
-401,Japan,2003,8.19
-402,Norway,2003,3.48
-403,Russian Federation,2003,
-404,Switzerland,2003,5.12
-405,USA,2003,2.92
-406,   Austria,2004,3.33
-407,   Belgium,2004,3.87
-408,   Bulgaria,2004,2.93
-409,   Cyprus,2004,5.23
-410,   Czech Republic,2004,3.46
-411,   Denmark,2004,3.96
-412,   Finland,2004,2.34
-413,   France,2004,2.72
-414,   Germany,2004,3.33
-415,   Hungary,2004,3.47
-416,   Italy,2004,6.01
-417,   Latvia,2004,3.72
-418,   Lithuania,2004,3.71
-419,   Luxembourg,2004,5.79
-420,   Malta 1,2004,10.3
-421,   Netherlands,2004,3.47
-422,   Poland,2004,2.26
-423,   Portugal,2004,4.9
-424,   Slovakia,2004,2.7
-425,   Slovenia,2004,3.73
-426,   Spain,2004,3.23
-427,   Sweden,2004,3.08
-428,   United Kingdom 1,2004,14.56
-430,Japan,2004,8.75
-431,Norway,2004,3.84
-432,Russian Federation,2004,
-433,Switzerland,2004,5.69
-434,USA,2004,2.85
-435,   Austria,2005,3.77
-436,   Belgium,2005,4.1
-437,   Bulgaria,2005,2.92
-438,   Cyprus,2005,5.28
-439,   Czech Republic,2005,3.79
-440,   Denmark,2005,4.28
-441,   Finland,2005,2.84
-442,   France,2005,2.75
-443,   Germany,2005,4.06
-444,   Hungary,2005,3.71
-445,   Italy,2005,6.13
-446,   Latvia,2005,3.93
-447,   Lithuania,2005,3.78
-448,   Luxembourg,2005,6.04
-449,   Malta 1,2005,10.36
-450,   Netherlands,2005,3.75
-451,   Poland,2005,2.56
-452,   Portugal,2005,4.88
-453,   Slovakia,2005,2.79
-454,   Slovenia,2005,3.72
-455,   Spain,2005,3.22
-456,   Sweden,2005,2.99
-457,   United Kingdom 1,2005,14.74
-459,Japan,2005,8.22
-460,Norway,2005,4.11
-461,Russian Federation,2005,
-462,Switzerland,2005,5.86
-463,USA,2005,3.26
-464,   Austria,2006,4.13
-465,   Belgium,2006,4.32
-466,   Bulgaria,2006,2.9
-467,   Cyprus,2006,5.34
-468,   Czech Republic,2006,3.95
-469,   Denmark,2006,4.43
-470,   Finland,2006,2.94
-471,   France,2006,2.97
-472,   Germany,2006,4.33
-473,   Hungary,2006,3.66
-474,   Italy,2006,6.29
-475,   Latvia,2006,4.29
-476,   Lithuania,2006,4.02
-477,   Luxembourg,2006,6.44
-478,   Malta 1,2006,10.93
-479,   Netherlands,2006,3.96
-480,   Poland,2006,2.76
-481,   Portugal,2006,4.77
-482,   Slovakia,2006,3.05
-483,   Slovenia,2006,3.98
-484,   Spain,2006,3.42
-485,   Sweden,2006,3.16
-486,   United Kingdom 1,2006,15.82
-488,Japan,2006,8.16
-489,Norway,2006,3.89
-490,Russian Federation,2006,
-491,Switzerland,2006,
-492,USA,2006,3.2
-493,   Austria,2007,4.27
-494,   Belgium,2007,4.91
-495,   Bulgaria,2007,3.48
-496,   Cyprus,2007,5.76
-497,   Czech Republic,2007,4.39
-498,   Denmark,2007,4.82
-499,   Finland,2007,3.25
-500,   France,2007,3.41
-501,   Germany,2007,4.69
-502,   Hungary,2007,4.6
-503,   Italy,2007,7.02
-504,   Latvia,2007,4.83
-505,   Lithuania,2007,4.59
-506,   Luxembourg,2007,6.78
-507,   Malta 1,2007,12.14
-508,   Netherlands,2007,4.45
-509,   Poland,2007,3.49
-510,   Portugal,2007,5.08
-511,   Slovakia,2007,3.88
-512,   Slovenia,2007,4.53
-513,   Spain,2007,3.85
-514,   Sweden,2007,3.53
-515,   United Kingdom 1,2007,17.92
-517,Japan,2007,8.09
-518,Norway,2007,4.47
-519,Russian Federation,2007,
-520,Switzerland,2007,
-521,USA,2007,3.47
-522,   Austria,2008,4.74
-523,   Belgium,2008,5.46
-524,   Bulgaria,2008,4.05
-525,   Cyprus,2008,5.67
-526,   Czech Republic,2008,5.76
-527,   Denmark,2008,5.4
-528,   Finland,2008,3.72
-529,   France,2008,3.86
-530,   Germany,2008,5.13
-531,   Hungary,2008,5.47
-532,   Italy,2008,7.87
-533,   Latvia,2008,5.89
-534,   Lithuania,2008,5.44
-535,   Luxembourg,2008,7.52
-536,   Malta 1,2008,13.21
-537,   Netherlands,2008,5.05
-538,   Poland,2008,4.45
-539,   Portugal,2008,5.68
-540,   Slovakia,2008,5.02
-541,   Slovenia,2008,4.98
-542,   Spain,2008,4.31
-543,   Sweden,2008,3.76
-544,   United Kingdom 1,2008,16.83
-546,Japan,2008,8.32
-547,Norway,2008,4.69
-548,Russian Federation,2008,
-549,Switzerland,2008,
-550,USA,2008,
-551,   Austria,2009,6.95
-552,   Belgium,2009,5.26
-553,   Bulgaria,2009,3.84
-554,   Cyprus,2009,5.53
-555,   Czech Republic,2009,5.16
-556,   Denmark,2009,5.29
-557,   Finland,2009,3.51
-558,   France,2009,3.79
-559,   Germany,2009,4.75
-560,   Hungary,2009,4.97
-561,   Italy,2009,7.68
-562,   Latvia,2009,6.1
-563,   Lithuania,2009,5.16
-564,   Luxembourg,2009,7.29
-565,   Malta 1,2009,12.96
-566,   Netherlands,2009,4.7
-567,   Poland,2009,3.49
-568,   Portugal,2009,5.3
-569,   Slovakia,2009,5.08
-570,   Slovenia,2009,4.77
-571,   Spain,2009,4.16
-572,   Sweden,2009,3.55
-573,   United Kingdom 1,2009,15.99
-575,Japan,2009,6.07
-576,Norway,2009,4.02
-577,Russian Federation,2009,
-578,Switzerland,2009,5.3
-579,USA,2009,3.67
-580,   Austria,2010,6.69
-581,   Belgium,2010,5.18
-582,   Bulgaria,2010,3.62
-583,   Cyprus,2010,5.21
-584,   Czech Republic,2010,5.01
-585,   Denmark,2010,5.44
-586,   Finland,2010,3.69
-587,   France,2010,3.62
-588,   Germany,2010,4.76
-589,   Hungary,2010,5.02
-590,   Italy,2010,7.34
-591,   Latvia,2010,6.1
-592,   Lithuania,2010,5.37
-593,   Luxembourg,2010,7.11
-594,   Malta 1,2010,13.1
-595,   Netherlands,2010,4.57
-596,   Poland,2010,3.64
-597,   Portugal,2010,4.93
-598,   Slovakia,2010,4.84
-599,   Slovenia,2010,4.31
-600,   Spain,2010,3.92
-601,   Sweden,2010,3.99
-602,   United Kingdom 1,2010,15.7
-604,Japan,2010,6.39
-605,Norway,2010,4.48
-606,Russian Federation,2010,7.03
-607,Switzerland,2010,6.59
-608,USA,2010,3.91
-609,   Austria,2011,8.32
-610,   Belgium,2011,6.48
-611,   Bulgaria,2011,4.16
-612,   Cyprus,2011,6.06
-613,   Czech Republic,2011,6.58
-614,   Denmark,2011,6.92
-615,   Finland,2011,5.36
-616,   France,2011,4.13
-617,   Germany,2011,5.1
-618,   Hungary,2011,6.08
-619,   Italy,2011,8.52
-620,   Latvia,2011,8.67
-621,   Lithuania,2011,7.81
-622,   Luxembourg,2011,8.28
-623,   Malta 1,2011,14.81
-624,   Netherlands,2011,5.98
-625,   Poland,2011,4.14
-626,   Portugal,2011,5.35
-627,   Slovakia,2011,6.06
-628,   Slovenia,2011,4.8
-629,   Spain,2011,4.42
-630,   Sweden,2011,5.58
-631,   United Kingdom 1,2011,19.02
-633,Japan,2011,7.35
-634,Norway,2011,5.78
-635,Russian Federation,2011,7.75
-636,Switzerland,2011,
-637,USA,2011,5.19
-638,   Austria,2012,8.38
-639,   Belgium,2012,6.2
-640,   Bulgaria,2012,3.44
-641,   Cyprus,2012,6.36
-642,   Czech Republic,2012,7.13
-643,   Denmark,2012,6.72
-644,   Finland,2012,4.8
-645,   France,2012,3.92
-646,   Germany,2012,4.74
-647,   Hungary,2012,6.07
-648,   Italy,2012,8.49
-649,   Latvia,2012,8.08
-650,   Lithuania,2012,7.09
-651,   Luxembourg,2012,7.9
-652,   Malta 1,2012,14.15
-653,   Netherlands,2012,5.83
-654,   Poland,2012,4.16
-655,   Portugal,2012,5.69
-656,   Slovakia,2012,6.71
-657,   Slovenia,2012,4.48
-658,   Spain,2012,4.47
-659,   Sweden,2012,5.2
-660,   United Kingdom 1,2012,19.2
-662,Japan,2012,7.57
-663,Norway,2012,5.48
-664,Russian Federation,2012,8.62
-665,Switzerland,2012,
-666,USA,2012,5.68
-667,   Austria,2013,8.62
-668,   Belgium,2013,6.24
-669,   Bulgaria,2013,3.59
-670,   Cyprus,2013,6.47
-671,   Czech Republic,2013,7.0
-672,   Denmark,2013,6.36
-673,   Finland,2013,4.29
-674,   France,2013,3.92
-675,   Germany,2013,5.65
-676,   Hungary,2013,5.42
-677,   Italy,2013,8.99
-678,   Latvia,2013,7.52
-679,   Lithuania,2013,6.6
-680,   Luxembourg,2013,8.19
-681,   Malta 1,2013,14.99
-682,   Netherlands,2013,5.74
-683,   Poland,2013,3.92
-684,   Portugal,2013,5.79
-685,   Slovakia,2013,6.82
-686,   Slovenia,2013,4.78
-687,   Spain,2013,4.53
-688,   Sweden,2013,4.34
-689,   United Kingdom 1,2013,18.92
-691,Japan,2013,6.05
-692,Norway,2013,5.05
-693,Russian Federation,2013,8.69
-694,Switzerland,2013,
-695,USA,2013,5.45
-696,   Austria,2014,8.63
-697,   Belgium,2014,
-698,   Bulgaria,2014,3.75
-699,   Cyprus,2014,6.48
-700,   Czech Republic,2014,6.61
-701,   Denmark,2014,6.43
-702,   Finland,2014,4.31
-703,   France,2014,3.77
-704,   Germany,2014,5.72
-705,   Hungary,2014,4.86
-706,   Italy,2014,8.85
-707,   Latvia,2014,6.89
-708,   Lithuania,2014,6.55
-709,   Luxembourg,2014,7.92
-710,   Malta 1,2014,14.93
-711,   Netherlands,2014,5.71
-712,   Poland,2014,3.85
-713,   Portugal,2014,5.73
-714,   Slovakia,2014,6.67
-715,   Slovenia,2014,4.62
-716,   Spain,2014,4.44
-717,   Sweden,2014,4.11
-718,   United Kingdom 1,2014,20.56
-720,Japan,2014,5.68
-721,Norway,2014,7.5
-722,Russian Federation,2014,7.65
-723,Switzerland,2014,
-724,USA,2014,4.99
-725,   Austria,2015,7.44
-726,   Belgium,2015,
-727,   Bulgaria,2015,3.45
-728,   Cyprus,2015,5.3
-729,   Czech Republic,2015,5.75
-730,   Denmark,2015,5.85
-731,   Finland,2015,3.9
-732,   France,2015,3.11
-733,   Germany,2015,5.18
-734,   Hungary,2015,4.16
-735,   Italy,2015,7.48
-736,   Latvia,2015,6.57
-737,   Lithuania,2015,6.06
-738,   Luxembourg,2015,6.97
-739,   Malta 1,2015,12.8
-740,   Netherlands,2015,5.38
-741,   Poland,2015,3.28
-742,   Portugal,2015,4.99
-743,   Slovakia,2015,5.6
-744,   Slovenia,2015,4.03
-745,   Spain,2015,3.82
-746,   Sweden,2015,3.82
-747,   United Kingdom 1,2015,18.91
-749,Japan,2015,5.6
-750,Norway,2015,5.81
-751,Russian Federation,2015,6.43
-752,Switzerland,2015,
-753,USA,2015,4.72
-754,   Austria,2016,5.64
-755,   Belgium,2016,
-756,   Bulgaria,2016,3.79
-757,   Cyprus,2016,5.3
-758,   Czech Republic,2016,6.14
-759,   Denmark,2016,4.94
-760,   Finland,2016,3.67
-761,   France,2016,3.26
-762,   Germany,2016,5.05
-763,   Hungary,2016,4.31
-764,   Italy,2016,7.45
-765,   Latvia,2016,6.46
-766,   Lithuania,2016,6.08
-767,   Luxembourg,2016,7.24
-768,   Malta 1,2016,13.33
-769,   Netherlands,2016,4.77
-770,   Poland,2016,3.17
-771,   Portugal,2016,4.93
-772,   Slovakia,2016,5.74
-773,   Slovenia,2016,3.96
-774,   Spain,2016,3.73
-775,   Sweden,2016,3.48
-776,   United Kingdom 1,2016,16.29
-778,Japan,2016,6.21
-779,Norway,2016,5.56
-780,Russian Federation,2016,6.65
-781,Switzerland,2016,
-782,USA,2016,4.39
-783,   Austria,2017,6.22
-784,   Belgium,2017,
-785,   Bulgaria,2017,4.64
-786,   Cyprus,2017,5.5
-787,   Czech Republic,2017,6.58
-788,   Denmark,2017,5.03
-789,   Finland,2017,4.1
-790,   France,2017,3.4
-791,   Germany,2017,
-792,   Hungary,2017,4.83
-793,   Italy,2017,7.67
-794,   Latvia,2017,6.69
-795,   Lithuania,2017,6.29
-796,   Luxembourg,2017,7.56
-797,   Malta 1,2017,14.05
-798,   Netherlands,2017,4.83
-799,   Poland,2017,3.45
-800,   Portugal,2017,5.04
-801,   Slovakia,2017,6.0
-802,   Slovenia,2017,4.2
-803,   Spain,2017,3.84
-804,   Sweden,2017,3.57
-805,   United Kingdom 1,2017,17.01
-807,Japan,2017,5.95
-808,Norway,2017,5.63
-809,Russian Federation,2017,7.84
-810,Switzerland,2017,
-811,USA,2017,4.45
+country_name,year,dollars_per_lbs
+   Austria,1990,4.9
+   Belgium,1990,3.27
+   Bulgaria,1990,
+   Cyprus,1990,2.83
+   Czech Republic,1990,
+   Denmark,1990,3.81
+   Finland,1990,2.98
+   France,1990,3.73
+   Germany,1990,3.99
+   Hungary,1990,
+   Italy,1990,5.31
+   Latvia,1990,
+   Lithuania,1990,
+   Luxembourg,1990,
+   Malta 1,1990,
+   Netherlands,1990,3.03
+   Poland,1990,
+   Portugal,1990,4.12
+   Slovakia,1990,
+   Slovenia,1990,
+   Spain,1990,3.62
+   Sweden,1990,3.43
+   United Kingdom 1,1990,10.55
+Japan,1990,10.26
+Norway,1990,3.31
+Russian Federation,1990,
+Switzerland,1990,4.83
+USA,1990,2.97
+   Austria,1991,4.57
+   Belgium,1991,2.92
+   Bulgaria,1991,
+   Cyprus,1991,2.8
+   Czech Republic,1991,
+   Denmark,1991,3.67
+   Finland,1991,2.72
+   France,1991,3.43
+   Germany,1991,3.84
+   Hungary,1991,
+   Italy,1991,5.62
+   Latvia,1991,
+   Lithuania,1991,
+   Luxembourg,1991,
+   Malta 1,1991,
+   Netherlands,1991,2.95
+   Poland,1991,
+   Portugal,1991,4.27
+   Slovakia,1991,
+   Slovenia,1991,
+   Spain,1991,3.5
+   Sweden,1991,3.29
+   United Kingdom 1,1991,10.41
+Japan,1991,11.88
+Norway,1991,3.16
+Russian Federation,1991,
+Switzerland,1991,4.36
+USA,1991,2.81
+   Austria,1992,4.99
+   Belgium,1992,3.05
+   Bulgaria,1992,
+   Cyprus,1992,2.87
+   Czech Republic,1992,
+   Denmark,1992,3.79
+   Finland,1992,2.46
+   France,1992,2.31
+   Germany,1992,4.0
+   Hungary,1992,
+   Italy,1992,5.86
+   Latvia,1992,
+   Lithuania,1992,
+   Luxembourg,1992,
+   Malta 1,1992,
+   Netherlands,1992,3.13
+   Poland,1992,
+   Portugal,1992,4.95
+   Slovakia,1992,
+   Slovenia,1992,
+   Spain,1992,3.5
+   Sweden,1992,3.11
+   United Kingdom 1,1992,10.09
+Japan,1992,12.62
+Norway,1992,3.12
+Russian Federation,1992,
+Switzerland,1992,4.52
+USA,1992,2.58
+   Austria,1993,4.97
+   Belgium,1993,2.78
+   Bulgaria,1993,
+   Cyprus,1993,2.6
+   Czech Republic,1993,
+   Denmark,1993,3.48
+   Finland,1993,1.94
+   France,1993,2.03
+   Germany,1993,3.62
+   Hungary,1993,
+   Italy,1993,4.59
+   Latvia,1993,1.84
+   Lithuania,1993,
+   Luxembourg,1993,
+   Malta 1,1993,
+   Netherlands,1993,2.8
+   Poland,1993,
+   Portugal,1993,4.27
+   Slovakia,1993,
+   Slovenia,1993,
+   Spain,1993,2.79
+   Sweden,1993,2.65
+   United Kingdom 1,1993,8.44
+Japan,1993,14.57
+Norway,1993,2.46
+Russian Federation,1993,
+Switzerland,1993,4.27
+USA,1993,2.47
+   Austria,1994,4.58
+   Belgium,1994,3.42
+   Bulgaria,1994,
+   Cyprus,1994,3.18
+   Czech Republic,1994,
+   Denmark,1994,4.45
+   Finland,1994,2.73
+   France,1994,2.4
+   Germany,1994,4.18
+   Hungary,1994,3.88
+   Italy,1994,4.68
+   Latvia,1994,2.21
+   Lithuania,1994,
+   Luxembourg,1994,
+   Malta 1,1994,
+   Netherlands,1994,3.26
+   Poland,1994,
+   Portugal,1994,4.38
+   Slovakia,1994,
+   Slovenia,1994,
+   Spain,1994,2.76
+   Sweden,1994,3.79
+   United Kingdom 1,1994,11.36
+Japan,1994,14.69
+Norway,1994,3.29
+Russian Federation,1994,
+Switzerland,1994,4.5
+USA,1994,3.4
+   Austria,1995,5.18
+   Belgium,1995,4.88
+   Bulgaria,1995,
+   Cyprus,1995,4.26
+   Czech Republic,1995,
+   Denmark,1995,5.57
+   Finland,1995,3.97
+   France,1995,3.69
+   Germany,1995,5.02
+   Hungary,1995,5.04
+   Italy,1995,5.7
+   Latvia,1995,3.88
+   Lithuania,1995,
+   Luxembourg,1995,
+   Malta 1,1995,7.8
+   Netherlands,1995,4.03
+   Poland,1995,5.67
+   Portugal,1995,6.24
+   Slovakia,1995,
+   Slovenia,1995,
+   Spain,1995,4.45
+   Sweden,1995,4.85
+   United Kingdom 1,1995,13.79
+Japan,1995,17.72
+Norway,1995,4.54
+Russian Federation,1995,
+Switzerland,1995,6.32
+USA,1995,4.04
+   Austria,1996,5.42
+   Belgium,1996,4.04
+   Bulgaria,1996,
+   Cyprus,1996,4.13
+   Czech Republic,1996,
+   Denmark,1996,4.81
+   Finland,1996,3.22
+   France,1996,3.3
+   Germany,1996,4.17
+   Hungary,1996,4.62
+   Italy,1996,5.92
+   Latvia,1996,4.18
+   Lithuania,1996,
+   Luxembourg,1996,
+   Malta 1,1996,11.95
+   Netherlands,1996,3.65
+   Poland,1996,4.37
+   Portugal,1996,5.92
+   Slovakia,1996,
+   Slovenia,1996,
+   Spain,1996,4.18
+   Sweden,1996,3.96
+   United Kingdom 1,1996,13.35
+Japan,1996,15.24
+Norway,1996,3.9
+Russian Federation,1996,
+Switzerland,1996,5.43
+USA,1996,3.43
+   Austria,1997,4.37
+   Belgium,1997,3.98
+   Bulgaria,1997,
+   Cyprus,1997,4.04
+   Czech Republic,1997,4.31
+   Denmark,1997,4.96
+   Finland,1997,3.5
+   France,1997,2.76
+   Germany,1997,4.03
+   Hungary,1997,3.89
+   Italy,1997,5.45
+   Latvia,1997,4.58
+   Lithuania,1997,4.74
+   Luxembourg,1997,
+   Malta 1,1997,12.2
+   Netherlands,1997,3.67
+   Poland,1997,3.54
+   Portugal,1997,5.04
+   Slovakia,1997,3.39
+   Slovenia,1997,
+   Spain,1997,3.57
+   Sweden,1997,4.35
+   United Kingdom 1,1997,14.9
+Japan,1997,14.22
+Norway,1997,4.11
+Russian Federation,1997,
+Switzerland,1997,4.79
+USA,1997,4.11
+   Austria,1998,3.97
+   Belgium,1998,4.19
+   Bulgaria,1998,
+   Cyprus,1998,4.61
+   Czech Republic,1998,5.1
+   Denmark,1998,4.92
+   Finland,1998,3.42
+   France,1998,2.78
+   Germany,1998,4.04
+   Hungary,1998,3.75
+   Italy,1998,5.53
+   Latvia,1998,4.91
+   Lithuania,1998,4.75
+   Luxembourg,1998,
+   Malta 1,1998,10.03
+   Netherlands,1998,3.67
+   Poland,1998,3.63
+   Portugal,1998,4.88
+   Slovakia,1998,3.48
+   Slovenia,1998,
+   Spain,1998,3.62
+   Sweden,1998,4.41
+   United Kingdom 1,1998,15.42
+Japan,1998,13.52
+Norway,1998,3.9
+Russian Federation,1998,
+Switzerland,1998,5.04
+USA,1998,3.77
+   Austria,1999,3.28
+   Belgium,1999,3.55
+   Bulgaria,1999,
+   Cyprus,1999,4.39
+   Czech Republic,1999,3.91
+   Denmark,1999,3.93
+   Finland,1999,2.6
+   France,1999,2.55
+   Germany,1999,3.42
+   Hungary,1999,3.44
+   Italy,1999,5.16
+   Latvia,1999,4.2
+   Lithuania,1999,4.34
+   Luxembourg,1999,4.95
+   Malta 1,1999,9.23
+   Netherlands,1999,3.11
+   Poland,1999,3.19
+   Portugal,1999,4.65
+   Slovakia,1999,2.86
+   Slovenia,1999,4.72
+   Spain,1999,3.23
+   Sweden,1999,3.51
+   United Kingdom 1,1999,14.33
+Japan,1999,15.32
+Norway,1999,3.35
+Russian Federation,1999,
+Switzerland,1999,4.82
+USA,1999,3.43
+   Austria,2000,3.05
+   Belgium,2000,3.22
+   Bulgaria,2000,
+   Cyprus,2000,3.58
+   Czech Republic,2000,3.36
+   Denmark,2000,3.45
+   Finland,2000,2.29
+   France,2000,2.15
+   Germany,2000,2.83
+   Hungary,2000,2.72
+   Italy,2000,4.44
+   Latvia,2000,3.97
+   Lithuania,2000,3.62
+   Luxembourg,2000,4.23
+   Malta 1,2000,8.4
+   Netherlands,2000,2.81
+   Poland,2000,2.81
+   Portugal,2000,3.95
+   Slovakia,2000,2.44
+   Slovenia,2000,3.56
+   Spain,2000,2.69
+   Sweden,2000,3.03
+   United Kingdom 1,2000,12.91
+Japan,2000,12.92
+Norway,2000,2.98
+Russian Federation,2000,
+Switzerland,2000,4.09
+USA,2000,3.45
+   Austria,2001,2.93
+   Belgium,2001,3.0
+   Bulgaria,2001,
+   Cyprus,2001,3.58
+   Czech Republic,2001,2.91
+   Denmark,2001,3.19
+   Finland,2001,1.98
+   France,2001,1.99
+   Germany,2001,2.63
+   Hungary,2001,2.59
+   Italy,2001,4.33
+   Latvia,2001,3.28
+   Lithuania,2001,3.25
+   Luxembourg,2001,4.07
+   Malta 1,2001,8.03
+   Netherlands,2001,2.55
+   Poland,2001,2.57
+   Portugal,2001,3.87
+   Slovakia,2001,2.26
+   Slovenia,2001,3.05
+   Spain,2001,2.54
+   Sweden,2001,2.54
+   United Kingdom 1,2001,11.85
+Japan,2001,8.6
+Norway,2001,2.86
+Russian Federation,2001,
+Switzerland,2001,4.09
+USA,2001,3.09
+   Austria,2002,2.86
+   Belgium,2002,3.05
+   Bulgaria,2002,2.15
+   Cyprus,2002,4.05
+   Czech Republic,2002,2.99
+   Denmark,2002,3.09
+   Finland,2002,1.84
+   France,2002,2.07
+   Germany,2002,2.73
+   Hungary,2002,2.81
+   Italy,2002,4.57
+   Latvia,2002,3.22
+   Lithuania,2002,3.39
+   Luxembourg,2002,4.29
+   Malta 1,2002,7.97
+   Netherlands,2002,2.6
+   Poland,2002,2.11
+   Portugal,2002,3.9
+   Slovakia,2002,2.2
+   Slovenia,2002,3.1
+   Spain,2002,2.58
+   Sweden,2002,2.55
+   United Kingdom 1,2002,12.11
+Japan,2002,8.13
+Norway,2002,3.09
+Russian Federation,2002,
+Switzerland,2002,4.46
+USA,2002,2.92
+   Austria,2003,3.18
+   Belgium,2003,3.6
+   Bulgaria,2003,2.68
+   Cyprus,2003,4.92
+   Czech Republic,2003,3.1
+   Denmark,2003,3.57
+   Finland,2003,2.13
+   France,2003,2.5
+   Germany,2003,3.18
+   Hungary,2003,3.15
+   Italy,2003,5.47
+   Latvia,2003,3.35
+   Lithuania,2003,3.79
+   Luxembourg,2003,5.28
+   Malta 1,2003,9.49
+   Netherlands,2003,3.2
+   Poland,2003,2.12
+   Portugal,2003,4.61
+   Slovakia,2003,2.47
+   Slovenia,2003,3.74
+   Spain,2003,3.0
+   Sweden,2003,2.94
+   United Kingdom 1,2003,13.34
+Japan,2003,8.19
+Norway,2003,3.48
+Russian Federation,2003,
+Switzerland,2003,5.12
+USA,2003,2.92
+   Austria,2004,3.33
+   Belgium,2004,3.87
+   Bulgaria,2004,2.93
+   Cyprus,2004,5.23
+   Czech Republic,2004,3.46
+   Denmark,2004,3.96
+   Finland,2004,2.34
+   France,2004,2.72
+   Germany,2004,3.33
+   Hungary,2004,3.47
+   Italy,2004,6.01
+   Latvia,2004,3.72
+   Lithuania,2004,3.71
+   Luxembourg,2004,5.79
+   Malta 1,2004,10.3
+   Netherlands,2004,3.47
+   Poland,2004,2.26
+   Portugal,2004,4.9
+   Slovakia,2004,2.7
+   Slovenia,2004,3.73
+   Spain,2004,3.23
+   Sweden,2004,3.08
+   United Kingdom 1,2004,14.56
+Japan,2004,8.75
+Norway,2004,3.84
+Russian Federation,2004,
+Switzerland,2004,5.69
+USA,2004,2.85
+   Austria,2005,3.77
+   Belgium,2005,4.1
+   Bulgaria,2005,2.92
+   Cyprus,2005,5.28
+   Czech Republic,2005,3.79
+   Denmark,2005,4.28
+   Finland,2005,2.84
+   France,2005,2.75
+   Germany,2005,4.06
+   Hungary,2005,3.71
+   Italy,2005,6.13
+   Latvia,2005,3.93
+   Lithuania,2005,3.78
+   Luxembourg,2005,6.04
+   Malta 1,2005,10.36
+   Netherlands,2005,3.75
+   Poland,2005,2.56
+   Portugal,2005,4.88
+   Slovakia,2005,2.79
+   Slovenia,2005,3.72
+   Spain,2005,3.22
+   Sweden,2005,2.99
+   United Kingdom 1,2005,14.74
+Japan,2005,8.22
+Norway,2005,4.11
+Russian Federation,2005,
+Switzerland,2005,5.86
+USA,2005,3.26
+   Austria,2006,4.13
+   Belgium,2006,4.32
+   Bulgaria,2006,2.9
+   Cyprus,2006,5.34
+   Czech Republic,2006,3.95
+   Denmark,2006,4.43
+   Finland,2006,2.94
+   France,2006,2.97
+   Germany,2006,4.33
+   Hungary,2006,3.66
+   Italy,2006,6.29
+   Latvia,2006,4.29
+   Lithuania,2006,4.02
+   Luxembourg,2006,6.44
+   Malta 1,2006,10.93
+   Netherlands,2006,3.96
+   Poland,2006,2.76
+   Portugal,2006,4.77
+   Slovakia,2006,3.05
+   Slovenia,2006,3.98
+   Spain,2006,3.42
+   Sweden,2006,3.16
+   United Kingdom 1,2006,15.82
+Japan,2006,8.16
+Norway,2006,3.89
+Russian Federation,2006,
+Switzerland,2006,
+USA,2006,3.2
+   Austria,2007,4.27
+   Belgium,2007,4.91
+   Bulgaria,2007,3.48
+   Cyprus,2007,5.76
+   Czech Republic,2007,4.39
+   Denmark,2007,4.82
+   Finland,2007,3.25
+   France,2007,3.41
+   Germany,2007,4.69
+   Hungary,2007,4.6
+   Italy,2007,7.02
+   Latvia,2007,4.83
+   Lithuania,2007,4.59
+   Luxembourg,2007,6.78
+   Malta 1,2007,12.14
+   Netherlands,2007,4.45
+   Poland,2007,3.49
+   Portugal,2007,5.08
+   Slovakia,2007,3.88
+   Slovenia,2007,4.53
+   Spain,2007,3.85
+   Sweden,2007,3.53
+   United Kingdom 1,2007,17.92
+Japan,2007,8.09
+Norway,2007,4.47
+Russian Federation,2007,
+Switzerland,2007,
+USA,2007,3.47
+   Austria,2008,4.74
+   Belgium,2008,5.46
+   Bulgaria,2008,4.05
+   Cyprus,2008,5.67
+   Czech Republic,2008,5.76
+   Denmark,2008,5.4
+   Finland,2008,3.72
+   France,2008,3.86
+   Germany,2008,5.13
+   Hungary,2008,5.47
+   Italy,2008,7.87
+   Latvia,2008,5.89
+   Lithuania,2008,5.44
+   Luxembourg,2008,7.52
+   Malta 1,2008,13.21
+   Netherlands,2008,5.05
+   Poland,2008,4.45
+   Portugal,2008,5.68
+   Slovakia,2008,5.02
+   Slovenia,2008,4.98
+   Spain,2008,4.31
+   Sweden,2008,3.76
+   United Kingdom 1,2008,16.83
+Japan,2008,8.32
+Norway,2008,4.69
+Russian Federation,2008,
+Switzerland,2008,
+USA,2008,
+   Austria,2009,6.95
+   Belgium,2009,5.26
+   Bulgaria,2009,3.84
+   Cyprus,2009,5.53
+   Czech Republic,2009,5.16
+   Denmark,2009,5.29
+   Finland,2009,3.51
+   France,2009,3.79
+   Germany,2009,4.75
+   Hungary,2009,4.97
+   Italy,2009,7.68
+   Latvia,2009,6.1
+   Lithuania,2009,5.16
+   Luxembourg,2009,7.29
+   Malta 1,2009,12.96
+   Netherlands,2009,4.7
+   Poland,2009,3.49
+   Portugal,2009,5.3
+   Slovakia,2009,5.08
+   Slovenia,2009,4.77
+   Spain,2009,4.16
+   Sweden,2009,3.55
+   United Kingdom 1,2009,15.99
+Japan,2009,6.07
+Norway,2009,4.02
+Russian Federation,2009,
+Switzerland,2009,5.3
+USA,2009,3.67
+   Austria,2010,6.69
+   Belgium,2010,5.18
+   Bulgaria,2010,3.62
+   Cyprus,2010,5.21
+   Czech Republic,2010,5.01
+   Denmark,2010,5.44
+   Finland,2010,3.69
+   France,2010,3.62
+   Germany,2010,4.76
+   Hungary,2010,5.02
+   Italy,2010,7.34
+   Latvia,2010,6.1
+   Lithuania,2010,5.37
+   Luxembourg,2010,7.11
+   Malta 1,2010,13.1
+   Netherlands,2010,4.57
+   Poland,2010,3.64
+   Portugal,2010,4.93
+   Slovakia,2010,4.84
+   Slovenia,2010,4.31
+   Spain,2010,3.92
+   Sweden,2010,3.99
+   United Kingdom 1,2010,15.7
+Japan,2010,6.39
+Norway,2010,4.48
+Russian Federation,2010,7.03
+Switzerland,2010,6.59
+USA,2010,3.91
+   Austria,2011,8.32
+   Belgium,2011,6.48
+   Bulgaria,2011,4.16
+   Cyprus,2011,6.06
+   Czech Republic,2011,6.58
+   Denmark,2011,6.92
+   Finland,2011,5.36
+   France,2011,4.13
+   Germany,2011,5.1
+   Hungary,2011,6.08
+   Italy,2011,8.52
+   Latvia,2011,8.67
+   Lithuania,2011,7.81
+   Luxembourg,2011,8.28
+   Malta 1,2011,14.81
+   Netherlands,2011,5.98
+   Poland,2011,4.14
+   Portugal,2011,5.35
+   Slovakia,2011,6.06
+   Slovenia,2011,4.8
+   Spain,2011,4.42
+   Sweden,2011,5.58
+   United Kingdom 1,2011,19.02
+Japan,2011,7.35
+Norway,2011,5.78
+Russian Federation,2011,7.75
+Switzerland,2011,
+USA,2011,5.19
+   Austria,2012,8.38
+   Belgium,2012,6.2
+   Bulgaria,2012,3.44
+   Cyprus,2012,6.36
+   Czech Republic,2012,7.13
+   Denmark,2012,6.72
+   Finland,2012,4.8
+   France,2012,3.92
+   Germany,2012,4.74
+   Hungary,2012,6.07
+   Italy,2012,8.49
+   Latvia,2012,8.08
+   Lithuania,2012,7.09
+   Luxembourg,2012,7.9
+   Malta 1,2012,14.15
+   Netherlands,2012,5.83
+   Poland,2012,4.16
+   Portugal,2012,5.69
+   Slovakia,2012,6.71
+   Slovenia,2012,4.48
+   Spain,2012,4.47
+   Sweden,2012,5.2
+   United Kingdom 1,2012,19.2
+Japan,2012,7.57
+Norway,2012,5.48
+Russian Federation,2012,8.62
+Switzerland,2012,
+USA,2012,5.68
+   Austria,2013,8.62
+   Belgium,2013,6.24
+   Bulgaria,2013,3.59
+   Cyprus,2013,6.47
+   Czech Republic,2013,7.0
+   Denmark,2013,6.36
+   Finland,2013,4.29
+   France,2013,3.92
+   Germany,2013,5.65
+   Hungary,2013,5.42
+   Italy,2013,8.99
+   Latvia,2013,7.52
+   Lithuania,2013,6.6
+   Luxembourg,2013,8.19
+   Malta 1,2013,14.99
+   Netherlands,2013,5.74
+   Poland,2013,3.92
+   Portugal,2013,5.79
+   Slovakia,2013,6.82
+   Slovenia,2013,4.78
+   Spain,2013,4.53
+   Sweden,2013,4.34
+   United Kingdom 1,2013,18.92
+Japan,2013,6.05
+Norway,2013,5.05
+Russian Federation,2013,8.69
+Switzerland,2013,
+USA,2013,5.45
+   Austria,2014,8.63
+   Belgium,2014,
+   Bulgaria,2014,3.75
+   Cyprus,2014,6.48
+   Czech Republic,2014,6.61
+   Denmark,2014,6.43
+   Finland,2014,4.31
+   France,2014,3.77
+   Germany,2014,5.72
+   Hungary,2014,4.86
+   Italy,2014,8.85
+   Latvia,2014,6.89
+   Lithuania,2014,6.55
+   Luxembourg,2014,7.92
+   Malta 1,2014,14.93
+   Netherlands,2014,5.71
+   Poland,2014,3.85
+   Portugal,2014,5.73
+   Slovakia,2014,6.67
+   Slovenia,2014,4.62
+   Spain,2014,4.44
+   Sweden,2014,4.11
+   United Kingdom 1,2014,20.56
+Japan,2014,5.68
+Norway,2014,7.5
+Russian Federation,2014,7.65
+Switzerland,2014,
+USA,2014,4.99
+   Austria,2015,7.44
+   Belgium,2015,
+   Bulgaria,2015,3.45
+   Cyprus,2015,5.3
+   Czech Republic,2015,5.75
+   Denmark,2015,5.85
+   Finland,2015,3.9
+   France,2015,3.11
+   Germany,2015,5.18
+   Hungary,2015,4.16
+   Italy,2015,7.48
+   Latvia,2015,6.57
+   Lithuania,2015,6.06
+   Luxembourg,2015,6.97
+   Malta 1,2015,12.8
+   Netherlands,2015,5.38
+   Poland,2015,3.28
+   Portugal,2015,4.99
+   Slovakia,2015,5.6
+   Slovenia,2015,4.03
+   Spain,2015,3.82
+   Sweden,2015,3.82
+   United Kingdom 1,2015,18.91
+Japan,2015,5.6
+Norway,2015,5.81
+Russian Federation,2015,6.43
+Switzerland,2015,
+USA,2015,4.72
+   Austria,2016,5.64
+   Belgium,2016,
+   Bulgaria,2016,3.79
+   Cyprus,2016,5.3
+   Czech Republic,2016,6.14
+   Denmark,2016,4.94
+   Finland,2016,3.67
+   France,2016,3.26
+   Germany,2016,5.05
+   Hungary,2016,4.31
+   Italy,2016,7.45
+   Latvia,2016,6.46
+   Lithuania,2016,6.08
+   Luxembourg,2016,7.24
+   Malta 1,2016,13.33
+   Netherlands,2016,4.77
+   Poland,2016,3.17
+   Portugal,2016,4.93
+   Slovakia,2016,5.74
+   Slovenia,2016,3.96
+   Spain,2016,3.73
+   Sweden,2016,3.48
+   United Kingdom 1,2016,16.29
+Japan,2016,6.21
+Norway,2016,5.56
+Russian Federation,2016,6.65
+Switzerland,2016,
+USA,2016,4.39
+   Austria,2017,6.22
+   Belgium,2017,
+   Bulgaria,2017,4.64
+   Cyprus,2017,5.5
+   Czech Republic,2017,6.58
+   Denmark,2017,5.03
+   Finland,2017,4.1
+   France,2017,3.4
+   Germany,2017,
+   Hungary,2017,4.83
+   Italy,2017,7.67
+   Latvia,2017,6.69
+   Lithuania,2017,6.29
+   Luxembourg,2017,7.56
+   Malta 1,2017,14.05
+   Netherlands,2017,4.83
+   Poland,2017,3.45
+   Portugal,2017,5.04
+   Slovakia,2017,6.0
+   Slovenia,2017,4.2
+   Spain,2017,3.84
+   Sweden,2017,3.57
+   United Kingdom 1,2017,17.01
+Japan,2017,5.95
+Norway,2017,5.63
+Russian Federation,2017,7.84
+Switzerland,2017,
+USA,2017,4.45
