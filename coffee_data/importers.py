@@ -1,2 +1,5 @@
 import pandas as pd 
-pd.read_csv("country_export.tsv", sep="\t",encoding="utf-8")
+df = pd.read_csv("coffee_export_numbers.csv")
+df = df.fillna(0)
+
+

@@ -76,18 +76,17 @@ stations = {
 }
 
 weather_stations = {
-    'Antioquia': 'Antonio Rodan Betancourt',
-    'Caldas': 'Jose Maria Cordova',
-    'Cauca': 'El Carano',
-    'Cesar': 'Alfonso Lopez Pumarejo',
-    'Cundinamarca': 'Bogota Eldorado',
-    'Huila': 'Benito Salas',
-    'Magdalena': 'Simon Bolivar',
-    'N. Santander': 'Camilo Daza',
-    'Nariño': 'Pasto Antonio Narin',
-    'Quindio': 'El Eden',
-    'Risaralda': 'Matecana',
-    'Santander': 'Palonegro',
-    'Tolima': 'Perales',
-    'Valle': 'Cali Alfonso Bonill'
+    'ANTONIO ROLDAN BETANCOURT, CO': 'Antioquia',
+    'JOSE MARIA CORDOVA, CO': 'Caldas',
+    'EL CARANO, CO': 'Cauca',
+    'ALFONSO LOPEZ PUMAREJO, CO': 'Cesar',
+    'BOGOTA ELDORADO, CO': 'Cundinamarca',
+    'BENITO SALAS, CO': 'Huila',
+    'SIMON BOLIVAR, CO': 'Magdalena',
+    'PASTO ANTONIO NARIN, CO': 'Narino',
+    'EL EDEN, CO': 'Quindio',
+    'MATECANA, CO': 'Risaralda',
+    'PALONEGRO, CO': 'Santander',
+    'PERALES, CO': 'Tolima',
+    'CALI ALFONSO BONILL, CO': 'Valle'
 }

@@ -14,9 +14,6 @@ def get_coffee(fresh=False):
         prices = prices.rename(columns={'Mes': 'date', 'Precio externo ': 'price'})
         quantities = quantities.rename(columns={'month/year': 'date', 'thousands_of_60kg_bags_production': 'quantity'})
 
-        # Adjust prices into 2018 dollars
-        prices['inflated'] = prices.apply(lambda x: cpi.inflate(x.price, x.date), axis=1)
-
         # Set index to date
         prices = prices.set_index('date')
         quantities = quantities.set_index('date')
