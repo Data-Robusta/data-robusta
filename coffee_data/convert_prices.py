@@ -21,4 +21,6 @@ adj,non_adj = adjust_for_inflation(df)
 
 df["price_adjusted_inflation"] = adj
 df["excelso_price_cents_per_pound"] = non_adj 
-df.to_csv("price_adjusted_inflation.csv", index=False)
+dffinal.rename(columns={"month/year":"date"},inplace=True)
+merge=pd.merge(dffinal,df, how='inner')
+merge.to_csv("coffee.csv")
