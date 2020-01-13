@@ -1,4 +1,4 @@
-date,name,mean_precip,mean_temp,min_temp,max_temp,price,quantity,inflated
+date,region,mean_precip,mean_temp,min_temp,max_temp,price,quantity,inflated
 1960-01-01,Cundinamarca,0.28,58.25,,,45.68,782.0,387.51918108108106
 1960-02-01,Cundinamarca,0.08285714285714285,58.89473684210526,,,45.95,449.0,389.8096841216216
 1960-02-01,Narino,0.015172413793103448,,,,45.95,449.0,389.8096841216216
