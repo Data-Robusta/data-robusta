@@ -84,7 +84,7 @@ def get_data(fresh=False):
         coffee = coffee.set_index('date')
 
         # combines the two dataframes, merging on date. performs a left join instead of inner join to include all weather data.
-        df = pd.merge(left=weather, right=coffee, how='left', left_index=True, right_index=True)
+        df = pd.merge(left=weather, right=coffee, how='outer', left_index=True, right_index=True)
 
         # slices only 1960-2018 because those are the years for which we have price/quantity data
         df = df[:'2018']
@@ -92,3 +92,4 @@ def get_data(fresh=False):
         # stores dataframe as csv named data.csv
         df.to_csv('data.csv')
     return df
+
