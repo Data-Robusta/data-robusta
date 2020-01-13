@@ -92,4 +92,3 @@ def get_data(fresh=False):
         # stores dataframe as csv named data.csv
         df.to_csv('data.csv')
     return df
-
