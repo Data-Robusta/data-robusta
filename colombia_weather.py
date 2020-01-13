@@ -76,8 +76,8 @@ stations = {
 }
 
 weather_stations = {
-    'ANTONIO ROLDAN BETANCOURT, CO': 'Antioquia',
-    'JOSE MARIA CORDOVA, CO': 'Caldas',
+    'SAN LUIS, CO': 'Antioquia',
+    'OLAYA HERRERA, CO': 'Caldas',
     'EL CARANO, CO': 'Cauca',
     'ALFONSO LOPEZ PUMAREJO, CO': 'Cesar',
     'BOGOTA ELDORADO, CO': 'Cundinamarca',
@@ -87,6 +87,6 @@ weather_stations = {
     'EL EDEN, CO': 'Quindio',
     'MATECANA, CO': 'Risaralda',
     'PALONEGRO, CO': 'Santander',
-    'PERALES, CO': 'Tolima',
-    'CALI ALFONSO BONILL, CO': 'Valle'
+    'SANTIAGO PEREZ, CO': 'Tolima',
+    'YARIGUIES, CO': 'Valle'
 }
