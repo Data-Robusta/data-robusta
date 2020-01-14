@@ -62,7 +62,7 @@ def get_data(fresh=False):
         weather = weather.set_index('date')
 
         # creates grouper object which groups the data by month and region
-        grouper = weather.groupby([pd.Grouper(freq='BMS'), 'region'])
+        grouper = weather.groupby([pd.Grouper(freq='MS'), 'region'])
 
         # uses named aggregation to find monthly mean precipitation, monthly mean temperature,
         # monthly minimum temperature, and monthly maximum temperature, all separated by region
