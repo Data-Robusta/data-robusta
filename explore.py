@@ -16,3 +16,19 @@ def production_by_region(df):
         plt.ylabel("Thousands of 60kg bags")
         plt.xlabel("Year")
         plt.show()
+
+#produces graphs of average precipitation by year and region
+def precipitation_by_region(df):
+    
+    grouper = df[df.index >= '01-01-1980'].groupby([pd.Grouper(freq='1Y'),'region'])
+    region_precip = grouper.mean_precip.sum()
+    region_precip = region_precip.reset_index()
+    region_precip.set_index('date',inplace=True)
+
+    print("Average precipitation by Region of Colombia")
+    for r in region_precip.region.unique():
+        region_precip[region_precip.region == r].mean_precip.plot()
+        plt.title("Average Precipitation in mm " + r)
+        plt.ylabel("Avg Precipitation (mm)")
+        plt.xlabel("Year")
+        plt.show()
