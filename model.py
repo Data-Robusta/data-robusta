@@ -1,6 +1,6 @@
 import pandas as pd
 from fbprophet import Prophet
-from prepare import get_data
+from prepare import get_data, get_prepped
 from fbprophet.diagnostics import cross_validation, performance_metrics
 from sklearn.model_selection import ParameterGrid
 
@@ -49,7 +49,7 @@ cv_log = cross_validation(m_log, horizon='298 days')
 
 performance_metrics(cv_log).rmse.mean() # RMSE: 137.53
 
-data = get_data()
+data = get_prepped()
 
 df = pd.DataFrame()
 df = data.drop(columns='price')
@@ -66,4 +66,34 @@ mv.fit(df)
 
 cv_mv = cross_validation(mv, horizon='298 days')
 
-performance_metrics(cv_mv).rmse.mean() # RMSE: 
+performance_metrics(cv_mv).rmse.mean() # RMSE: 209.81
+
+dfq = df[['ds', 'y', 'quantity']]
+
+q = Prophet()
+
+q.add_regressor('quantity')
+
+q.fit(dfq)
+
+cv_q = cross_validation(q, horizon='298 days')
+
+performance_metrics(cv_q).rmse.mean() # RMSE: 134.50
+
+shifted_df = df
+
+for col in shifted_df.drop(columns=['ds', 'y', 'quantity']):
+    shifted_df[col +'_shifted'] = shifted_df[col].shift(12)
+
+shifted_df = shifted_df.iloc[12:]
+
+shifted = Prophet()
+
+for col in df.drop(columns=['ds', 'y']):
+    shifted.add_regressor(col)
+
+shifted.fit(shifted_df)
+
+cv_shift = cross_validation(shifted, horizon='298 days')
+
+performance_metrics(cv_shift).rmse.mean() # RMSE: 
