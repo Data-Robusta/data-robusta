@@ -96,4 +96,4 @@ shifted.fit(shifted_df)
 
 cv_shift = cross_validation(shifted, horizon='298 days')
 
-performance_metrics(cv_shift).rmse.mean() # RMSE: 
+performance_metrics(cv_shift).rmse.mean() # RMSE: 1625.05
