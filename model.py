@@ -4,12 +4,16 @@ from prepare import get_data, get_prepped
 from fbprophet.diagnostics import cross_validation, performance_metrics
 from sklearn.model_selection import ParameterGrid
 
+# gets data without imputed weather values
 data = get_data()
+
+# creates new dataframe with Prophet-friendly column names
 df = pd.DataFrame()
 df['y'] = data.resample('M').inflated.mean()
 df = df.reset_index()
 df = df.rename(columns={'date': 'ds'})
 
+# creates linear prophet model to fit only on the inflated price
 m = Prophet(growth='linear')
 m.fit(df)
 
@@ -21,6 +25,7 @@ cv = cross_validation(m, horizon='298 days')
 
 performance_metrics(cv).rmse.mean() # RMSE: 135.51
 
+# same as above, but multiplicative seasonality instead of additive
 mult = Prophet(growth='linear', seasonality_mode='multiplicative')
 mult.fit(df)
 
@@ -32,10 +37,12 @@ cv_mult = cross_validation(mult, horizon='298 days')
 
 performance_metrics(cv_mult).rmse.mean() # RMSE: 137.39
 
+# creates dataframe for logistic Prophet model
 df_log = df
 df_log['floor'] = 0
 df_log['cap'] = 1400
 
+# creates and fits logistic Prophet model
 m_log = Prophet(growth='logistic')
 m_log.fit(df_log)
 
@@ -49,37 +56,45 @@ cv_log = cross_validation(m_log, horizon='298 days')
 
 performance_metrics(cv_log).rmse.mean() # RMSE: 137.53
 
+# gets data with imputed missing values for multi-variate Prophet regressions
 data = get_prepped()
 
+# makes df for Prophet, drops the uninflated price column
 df = pd.DataFrame()
 df = data.drop(columns='price')
 df = df.reset_index()
 
+# renames columns to accomodate for Prophet
 df = df.rename(columns={'date': 'ds', 'inflated': 'y'})
 
 mv = Prophet()
 
+# adds each column of weather data as a regressor
 for col in df.drop(columns=['ds', 'y']):
     mv.add_regressor(col)
 
+# fits and evaluates the Prophet model
 mv.fit(df)
 
 cv_mv = cross_validation(mv, horizon='298 days')
 
 performance_metrics(cv_mv).rmse.mean() # RMSE: 209.81
 
+# Creates dataframe with just date, inflated price, and quantity produced
 dfq = df[['ds', 'y', 'quantity']]
 
 q = Prophet()
 
 q.add_regressor('quantity')
 
+# fits and evaluates model on inflated price with quantity regressor
 q.fit(dfq)
 
 cv_q = cross_validation(q, horizon='298 days')
 
 performance_metrics(cv_q).rmse.mean() # RMSE: 134.50
 
+# creates dataframe with weather data shifted 12 months AND normal weather data
 shifted_df = df
 
 for col in shifted_df.drop(columns=['ds', 'y', 'quantity']):
@@ -98,6 +113,7 @@ cv_shift = cross_validation(shifted, horizon='298 days')
 
 performance_metrics(cv_shift).rmse.mean() # RMSE: 1625.05
 
+# same as above but with only shifted data
 just_shift_df = df[['ds', 'y', 'quantity']]
 
 for col in df.drop(columns=['ds', 'y', 'quantity']):
