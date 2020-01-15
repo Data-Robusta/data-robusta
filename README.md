@@ -15,6 +15,8 @@ Stuff and things in the README
 
 #### Data Dictionary
 
+#### Tall dataframe
+
 - region: The specific department of Colombia
 - name: Name of weather station for that department
 - latitude: Latitude of weather station
@@ -22,6 +24,11 @@ Stuff and things in the README
 - elevation: Elevation of weather station
 - prcp: Average precipitation per day in mm
 - tavg: Average temperature
+- quantity: thousands of 60kg bags
+
+#### Wide dataframe
+
+
 
 
 #### Data insights
