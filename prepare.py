@@ -13,43 +13,73 @@ def first_of_month(date):
     date = date[:-2] + '01'
     return date
 
+# imputes missing weather data based on Prophet models for each region's monthly mean precipitaion, mean temperatures, and minimum temperatures
 def impute(data):
+
+    # creates dictionary in which completed series will be stored along with RMSEs for each Prophet model
     info = {}
 
+    # creates index that will be used generally to make sure indices match
+    # necessary to ensure every month's index will be listed on the first
     index = pd.date_range('1960-01-01', '2018-12-01', freq='MS')
 
+    # iterates through all regions
     for region in data.region.unique():
+
+        # creates regional subset of dataframe
         regional = data[data.region == region]
+
+        # initializes regional dictionary in which the filled data and RMSEs for each climate metric will be stored
         info[region] = {}
+
+        # iterates through climate metrics
         for col in ['mean_precip', 'mean_temp', 'min_temp']:
             info[region][col] = {}
             df = regional[[col]]
+
+            # sets index to the pre-defined month-start index
             df = df.reindex(index, fill_value = np.nan)
             df = df.reset_index()
+
+            # renames variables to accomodate Prophet model
             df = df.rename(columns={col: 'y', 'index': 'ds'})
+
+            # creates and fits Prophet model
             m = Prophet()
             m.fit(df)
+
+            # creates dataframe in which Prophet-guessed values will be merged with original data
             filled = m.make_future_dataframe(periods=0)
+
+            # cross-validates model and saves the RMSE
             cv = cross_validation(m, horizon='298 days')
             info[region][col]['rmse'] = performance_metrics(cv).rmse.mean()
+
+            # gets all predicted values from Prophet model
             forecast = m.predict(filled)
+
+            # fills in missing values into dataframe then saves them in info dictionary
             df.loc[df['y'].isna(), 'y'] = forecast[df['y'].isna()].yhat
             info[region][col]['data'] = df.y
 
+    # sets index to month-starts
     data = data[['quantity', 'price', 'inflated']].resample('MS').mean()
 
+    # creates new dataframe in which all completed values will be included
     new = pd.DataFrame()
 
     new['date'] = index
 
     data = data.reset_index()
 
+    # stores complete data straight from initial dataframe into output dataframe
     new['quantity'] = data['quantity']
 
     new['price'] = data['price']
 
     new['inflated'] = data['inflated']
 
+    # fills in the output dataframe with the information from the info dictionary
     for region in info:
         for var in info[region]:
             name = region + '_' + var
@@ -57,6 +87,7 @@ def impute(data):
 
     new = new.set_index('date')
 
+    # saves data to csv
     new.to_csv('prepped.csv')
     return new
 
