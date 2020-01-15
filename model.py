@@ -89,7 +89,7 @@ shifted_df = shifted_df.iloc[12:]
 
 shifted = Prophet()
 
-for col in df.drop(columns=['ds', 'y']):
+for col in shifted_df.drop(columns=['ds', 'y']):
     shifted.add_regressor(col)
 
 shifted.fit(shifted_df)
@@ -97,3 +97,21 @@ shifted.fit(shifted_df)
 cv_shift = cross_validation(shifted, horizon='298 days')
 
 performance_metrics(cv_shift).rmse.mean() # RMSE: 1625.05
+
+just_shift_df = df[['ds', 'y', 'quantity']]
+
+for col in df.drop(columns=['ds', 'y', 'quantity']):
+    just_shift_df[col +'_shifted'] = df[col].shift(12)
+
+just_shift_df = just_shift_df.iloc[12:]
+
+just = Prophet()
+
+for col in just_shift_df.drop(columns=['ds', 'y']):
+    just.add_regressor(col)
+
+just.fit(just_shift_df)
+
+cv_just = cross_validation(just, horizon='298 days')
+
+performance_metrics(cv_just).rmse.mean() # RMSE 3516.03
