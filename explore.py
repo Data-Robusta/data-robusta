@@ -19,8 +19,8 @@ def production_by_region(df):
 
 #produces graphs of average precipitation by year and region
 def precipitation_by_region(df):
-    df = df[df.index != '1971-04-01']
-    grouper = df[df.index >= '01-01-1980'].groupby([pd.Grouper(freq='1Y'),'region'])
+    #df = df[df.index != '1971-04-01']
+    grouper = df[df.index >= '1980-01-01'].groupby([pd.Grouper(freq='1Y'),'region'])
     region_precip = grouper.mean_precip.sum()
     region_precip = region_precip.reset_index()
     region_precip.set_index('date',inplace=True)
@@ -32,3 +32,11 @@ def precipitation_by_region(df):
         plt.ylabel("Avg Precipitation (mm)")
         plt.xlabel("Year")
         plt.show()
+
+    def price_outliers(df):
+        outliers = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].mean())
+        max_inflated = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].max()).rename(columns={'inflated':'max_inflated'})
+        min_inflated = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].min()).rename(columns={'inflated':'min_inflated'})
+        outliers = pd.merge(outliers,max_inflated,left_index=True,right_index=True)
+        outliers = pd.merge(outliers,min_inflated,left_index=True,right_index=True)
+        return outliers
