@@ -33,10 +33,10 @@ def precipitation_by_region(df):
         plt.xlabel("Year")
         plt.show()
 
-    def price_outliers(df):
-        outliers = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].mean())
-        max_inflated = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].max()).rename(columns={'inflated':'max_inflated'})
-        min_inflated = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].min()).rename(columns={'inflated':'min_inflated'})
-        outliers = pd.merge(outliers,max_inflated,left_index=True,right_index=True)
-        outliers = pd.merge(outliers,min_inflated,left_index=True,right_index=True)
-        return outliers
+def price_outliers(df):
+    outliers = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].mean())
+    max_inflated = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].max()).rename(columns={'inflated':'max_inflated'})
+    min_inflated = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].min()).rename(columns={'inflated':'min_inflated'})
+    outliers = pd.merge(outliers,max_inflated,left_index=True,right_index=True)
+    outliers = pd.merge(outliers,min_inflated,left_index=True,right_index=True)
+    return outliers
