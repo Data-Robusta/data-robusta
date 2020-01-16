@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import pylab as pl
 
 #produces graphs by region of thousands of 60kg bags of coffee produced each year
 def production_by_region(df):
@@ -41,24 +42,24 @@ def price_outliers(df):
     outliers = pd.merge(outliers,min_inflated,left_index=True,right_index=True)
     return outliers
 
-
+# graph of wholesale Colombian price 1991 to 2018
 def export_price_1991_2018(df):
 
-    blob = df['1991':]
-    blob['std'] = blob.inflated.std()
-    blob['mean'] = blob.inflated.mean()
-    blob['dist_from_mean'] = blob['inflated'] - blob['mean']
-    blob = blob[['quantity','inflated','std','mean','dist_from_mean']]
+    ax = df['1991':]
+    ax['std'] = ax.inflated.std()
+    ax['mean'] = ax.inflated.mean()
+    ax['dist_from_mean'] = ax['inflated'] - ax['mean']
+    ax = ax[['quantity','inflated','std','mean','dist_from_mean']]
 
-    inflated_mean = blob.inflated.mean()
+    inflated_mean = ax.inflated.mean()
     plt.figure(figsize=(15,12))
-    blob.inflated.plot(linewidth=3,color='steelblue')
+    ax.inflated.plot(linewidth=3,color='steelblue')
 
-    plt.hlines(blob['inflated'].mean(),0,4000,color='limegreen',linewidth=3)
-    plt.hlines(blob['mean'] + (blob['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
-    plt.hlines(blob['mean'] - (blob['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
-    plt.hlines(blob['mean'] + (blob['std'] * .5),0,4000,color='b',linewidth=3)
-    plt.hlines(blob['mean'] - (blob['std'] * .5),0,4000,color='b',linewidth=3)
+    plt.hlines(ax['inflated'].mean(),0,4000,color='limegreen',linewidth=3)
+    plt.hlines(ax['mean'] + (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
+    plt.hlines(ax['mean'] - (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
+    plt.hlines(ax['mean'] + (ax['std'] * .5),0,4000,color='b',linewidth=3)
+    plt.hlines(ax['mean'] - (ax['std'] * .5),0,4000,color='b',linewidth=3)
     plt.ylabel("Export price (2018 cents)",size=22,weight='bold')
     plt.xlabel("Year",size=22,weight='bold')
     plt.title("Export price of Colombian coffee 1994 to 2018",size=25,weight='bold')
