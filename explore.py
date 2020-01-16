@@ -40,3 +40,36 @@ def price_outliers(df):
     outliers = pd.merge(outliers,max_inflated,left_index=True,right_index=True)
     outliers = pd.merge(outliers,min_inflated,left_index=True,right_index=True)
     return outliers
+
+
+def export_price_1991_2018(df):
+
+    blob = df['1991':]
+    blob['std'] = blob.inflated.std()
+    blob['mean'] = blob.inflated.mean()
+    blob['dist_from_mean'] = blob['inflated'] - blob['mean']
+    blob = blob[['quantity','inflated','std','mean','dist_from_mean']]
+
+    inflated_mean = blob.inflated.mean()
+    plt.figure(figsize=(15,12))
+    blob.inflated.plot(linewidth=3,color='steelblue')
+
+    plt.hlines(blob['inflated'].mean(),0,4000,color='limegreen',linewidth=3)
+    plt.hlines(blob['mean'] + (blob['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
+    plt.hlines(blob['mean'] - (blob['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
+    plt.hlines(blob['mean'] + (blob['std'] * .5),0,4000,color='b',linewidth=3)
+    plt.hlines(blob['mean'] - (blob['std'] * .5),0,4000,color='b',linewidth=3)
+    plt.ylabel("Export price (2018 cents)",size=22,weight='bold')
+    plt.xlabel("Year",size=22,weight='bold')
+    plt.title("Export price of Colombian coffee 1994 to 2018",size=25,weight='bold')
+    std_dev_above = "1.5 std_dev above mean"
+    std_dev_below = "1.5 std_dev below mean"
+    std_dev_below_half = ".5 std_dev below mean"
+    std_dev_above_half = ".5 std_dev above mean"
+
+    pl.text(600,278,std_dev_above,size=20)
+    pl.text(600,78,std_dev_below,size=20)
+    pl.text(600,178,"mean",size=20)
+    pl.text(600,144,std_dev_below_half,size=20)
+    pl.text(600,212,std_dev_above_half,size=20)
+    plt.show()
