@@ -157,4 +157,4 @@ scal.fit(df_scaled)
 
 cv_scal = cross_validation(scal, horizon='298 days')
 
-performance_metrics(cv_scal).rmse.mean() # 352.43
+performance_metrics(cv_scal).rmse.mean() # RMSE: 352.43
