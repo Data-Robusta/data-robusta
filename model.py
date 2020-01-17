@@ -1,8 +1,10 @@
 import pandas as pd
+import numpy as np
 from fbprophet import Prophet
 from prepare import get_data, get_prepped
 from fbprophet.diagnostics import cross_validation, performance_metrics
 from sklearn.model_selection import ParameterGrid
+from sklearn.preprocessing import StandardScaler
 
 # gets data without imputed weather values
 data = get_data()
@@ -131,3 +133,28 @@ just.fit(just_shift_df)
 cv_just = cross_validation(just, horizon='298 days')
 
 performance_metrics(cv_just).rmse.mean() # RMSE 3516.03
+
+# Model with scaled weather data from 95 to present
+df = get_prepped()['1995':].drop(columns=['price'])
+
+precip = [col for col in df.columns if col.endswith('precip')]
+
+for col in precip:
+    df.loc[df[df[col] < 0].index, col] = 0
+
+cols = df.drop(columns='inflated').columns
+scaler = StandardScaler().fit(df[cols])
+df_scaled = pd.DataFrame(scaler.transform(df[cols]), columns=cols).set_index(df.index)
+df_scaled['y'] = df.inflated
+df_scaled = df_scaled.reset_index().rename(columns={'date':'ds'})
+
+scal = Prophet()
+
+for col in df_scaled.drop(columns=['ds', 'y']):
+    scal.add_regressor(col)
+
+scal.fit(df_scaled)
+
+cv_scal = cross_validation(scal, horizon='298 days')
+
+performance_metrics(cv_scal).rmse.mean() # 352.43
