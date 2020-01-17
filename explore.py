@@ -29,8 +29,8 @@ def precipitation_by_region(df):
     print("Average precipitation by Region of Colombia")
     for r in region_precip.region.unique():
         region_precip[region_precip.region == r].mean_precip.plot()
-        plt.title("Average Precipitation in mm " + r)
-        plt.ylabel("Avg Precipitation (mm)")
+        plt.title("Average Precipitation in cm " + r)
+        plt.ylabel("Avg Precipitation (cm)")
         plt.xlabel("Year")
         plt.show()
 
