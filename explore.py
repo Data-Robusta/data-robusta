@@ -18,7 +18,6 @@ def production_graph(df):
     plt.xlabel("Year")
     plt.show()
 
-# produces graphs of average precipitation by year and region
 # def precipitation_by_region(df):
 #     # creates grouper object using data from 1980 onward
 #     # groups by year and region
@@ -40,14 +39,18 @@ def production_graph(df):
 #         plt.xlabel("Year")
 #         plt.show()
 
+# produces graphs of average precipitation by year and region
 def precipitation_by_region(df):
+    # gets list of all mean precipitation columns
     columns = [col for col in df.columns if col.endswith('mean_precip')]
+
+    # iterates through all regions creating a line plot of each region's annual mean precipitation
     print('Average Precipitation by Region of Colombia')
     for column in columns:
         word_list = column.split('_')
         region = word_list[0]
         df.resample('Y')[column].mean().plot()
-        plt.title('Average Daily Precipitation in' + region)
+        plt.title('Average Daily Precipitation in ' + region)
         plt.ylabel('Avg Daily Precipitation (cm)')
         plt.xlabel('Year')
         plt.show()
