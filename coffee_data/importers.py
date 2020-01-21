@@ -2,11 +2,12 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
 pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
 
 #Find out if data corr's with coffee data------------
-cf = pd.read_csv("coffee.csv")
+cf = pd.read_csv("coffee_data/coffee.csv")
 cf.drop(columns=["Unnamed: 0"], inplace=True)
 cf.rename(columns={"key_0":"date"}, inplace=True)
 cf.set_index("date", inplace=True)
@@ -24,9 +25,9 @@ year_export.export_val.sum()
 # brazil[brazil.origin == "bra"].to_csv("brazil_imports.csv", index = False)
 # brazil[brazil.origin == "col"].to_csv("colombia_imports-s.csv", index = False)
 
-df = pd.read_csv("brazil_imports.csv")
-dfc = pd.read_csv("colombia_imports.csv")
-key = pd.read_csv("country_names.tsv", sep= "\t")
+df = pd.read_csv("coffee_data/brazil_imports.csv")
+dfc = pd.read_csv("coffee_data/colombia_imports.csv")
+key = pd.read_csv("coffee_data/country_names.tsv", sep= "\t")
 key.drop(columns=["id"], inplace=True)
 key.rename(columns={"id_3char":"id"}, inplace=True)
 df = df[(df.sitc4 == 712)|(df.sitc4 == 711)]
@@ -40,38 +41,39 @@ df.rename(columns={"name":"dest"}, inplace=True)
 df.origin = ["brazil"]*len(df.origin)
 df.fillna(0, inplace=True)
 dfc.origin = ["colombia"]*len(dfc.origin)
-df.to_csv("brazil_imports.csv", index=False)
-dfc.to_csv("colombia_imports.csv", index=False)
+df.to_csv("coffee_data/brazil_imports.csv", index=False)
+dfc.to_csv("coffee_data/colombia_imports.csv", index=False)
+
 #colombia and brazil export calculations------
-co = pd.read_csv("colombia_imports.csv")
-br = pd.read_csv("brazil_imports.csv")
-co.export_val.sum()#$113.427,270,963.50
-br.export_val.sum()#$190,002,767,993.00
-cog = pd.DataFrame(co.groupby(co.year).sum().export_val)#Colombia graph data
-brg = pd.DataFrame(br.groupby(br.year).sum().export_val)#Brazil graph data
-gdf = cog.merge(brg, how="inner", on=brg.index)#graph data frame
-gdf.rename(columns={"key_0":"year", "export_val_x":"export_val_co", "export_val_y":"export_val_br"}, inplace=True)
-plt.plot( "year", "export_val_co",data=gdf, linewidth=2)
-plt.plot( "year", "export_val_br", data=gdf, linewidth=2)
-plt.legend()
-#------------------------------------------------------------------
-#Scaling and further graphing-----------------
-from sklearn.preprocessing import MinMaxScaler
-import datetime as dt
-scaler = MinMaxScaler()
-scog = cog.copy()#Creating copy for scaling
-sbrg = brg.copy()#Creating copy for scaling
-scog["export_val"] = scaler.fit_transform(np.array(scog.export_val).reshape(-1,1))
-sbrg["export_val"] = scaler.fit_transform(np.array(sbrg.export_val).reshape(-1,1))
-sgdf = scog.merge(sbrg, how="inner", on=sbrg.index)#graph data frame
-sgdf.rename(columns={"key_0":"year", "export_val_x":"export_val_co", "export_val_y":"export_val_br"}, inplace=True)
-plt.plot( "year", "export_val_co",data=sgdf, linewidth=2)
-plt.plot( "year", "export_val_br", data=sgdf, linewidth=2)
-plt.legend()#Outputs are proportionally higher with colombia between 1970 and 2003/5
-#Shifting Brazilian data will not be useful in predicting Colombian coffee prices/outputs
+def compare_brazil():
+    co = pd.read_csv("coffee_data/colombia_imports.csv")
+    br = pd.read_csv("coffee_data/brazil_imports.csv")
+    co.export_val.sum()#$113.427,270,963.50
+    br.export_val.sum()#$190,002,767,993.00
+    cog = pd.DataFrame(co.groupby(co.year).sum().export_val)#Colombia graph data
+    brg = pd.DataFrame(br.groupby(br.year).sum().export_val)#Brazil graph data
+    # gdf = cog.merge(brg, how="inner", on=brg.index)#graph data frame
+    # gdf.rename(columns={"key_0":"year", "export_val_x":"export_val_co", "export_val_y":"export_val_br"}, inplace=True)
+    # plt.plot( "year", "export_val_co",data=gdf, linewidth=2)
+    # plt.plot( "year", "export_val_br", data=gdf, linewidth=2)
+    # plt.legend()
+    #------------------------------------------------------------------
+    #Scaling and further graphing-----------------
+    import datetime as dt
+    scaler = MinMaxScaler()
+    scog = cog.copy()#Creating copy for scaling
+    sbrg = brg.copy()#Creating copy for scaling
+    scog["export_val"] = scaler.fit_transform(np.array(scog.export_val).reshape(-1,1))
+    sbrg["export_val"] = scaler.fit_transform(np.array(sbrg.export_val).reshape(-1,1))
+    sgdf = scog.merge(sbrg, how="inner", on=sbrg.index)#graph data frame
+    sgdf.rename(columns={"key_0":"year", "export_val_x":"export_val_co", "export_val_y":"export_val_br"}, inplace=True)
+    plt.plot( "year", "export_val_co",data=sgdf, linewidth=2)
+    plt.plot( "year", "export_val_br", data=sgdf, linewidth=2)
+    plt.legend()#Outputs are proportionally higher with colombia between 1970 and 2003/5
+    #Shifting Brazilian data will not be useful in predicting Colombian coffee prices/outputs
 #------------------------------------------------------------------
 #Introducing price data--------------------
-cf = pd.read_csv("coffee.csv")#load coffee data
+cf = pd.read_csv("coffee_data/coffee.csv")#load coffee data
 cf.drop(columns=["Unnamed: 0"], inplace=True)
 cf.rename(columns={"key_0":"year"}, inplace=True)
 cf.year = pd.to_datetime(cf.year)
@@ -97,21 +99,23 @@ plt.plot("year","export_val_br", data=gdf, linewidth=2)#cash value of quantity
 plt.legend()
 
 #Visualize Coffee imports by country------------------------
-#Drop germany from all years pre-1980 as it is a combination
-# of east and west Germany
+
 import plotly.graph_objects as go
 import plotly
 df = pd.read_csv("colombia_imports.csv")
 df = df[df["dest"] != "World"]
-df.index = df.year
-df.index = pd.to_datetime(df.index,format="%Y")
 df.drop(df[df.dest == "Democratic Republic of Germany"].index, inplace=True)
 df.drop(df[df.dest == "Federal Republic of Germany"].index, inplace=True)
-df["decade"] = df.year.astype(str).apply(lambda x: x[:3]+"0")
-low = df[df.export_val < df[df.dest == "South Korea"].export_val]
+#Dropped East and West Germany due to consolidation in occurring in country labled "Germany"
+df.drop(df[df.year < 1994].index, inplace=True)
+df.drop(columns=["import_val"], inplace=True)
+last_year = df[df.year == 2017]
+top_15 = last_year.sort_values("export_val")[55:].dest.tolist()
+#Getting top 15 importers for 2017
+df = df[df.dest.isin(top_15)]
 
-def get_decade(df, decade):
-    out = df[df.decade == decade]
+def get_year(df, year):
+    out = df[df.year == year]
     return out
 
 def genSankey(df,cat_cols=[],value_cols='',title='Sankey Diagram'):
@@ -183,5 +187,78 @@ def genSankey(df,cat_cols=[],value_cols='',title='Sankey Diagram'):
 
 
 
-fig = genSankey(get_decade(df,"1960"),cat_cols=["origin", "dest"],value_cols='export_val',title='Coffee Imports')
+fig = genSankey(get_year(df,2017),cat_cols=["origin", "dest"],value_cols='export_val',title='Coffee Imports')
 plotly.offline.plot(fig, validate=False)
+
+#Get precent make up of all sales by year per country. 
+dfs = df.groupby(['year', 'dest']).agg({'export_val': 'sum'})
+df_pcts = dfs.groupby(level=0).apply(lambda x:100 * x / float(x.sum()))
+df_pcts.reset_index(inplace=True)
+df_pcts.to_csv("coffee_data/import_percentage2017.csv", index=False)
+#----------------------------------------------------------------
+#Top movers - determed by largest growth year over year.
+df = pd.read_csv("coffee_data/colombia_imports.csv")
+df = df[df["dest"] != "World"]
+df.drop(df[df.dest == "Democratic Republic of Germany"].index, inplace=True)
+df.drop(df[df.dest == "Federal Republic of Germany"].index, inplace=True)
+#Dropped East and West Germany due to consolidation in occurring in country labled "Germany"
+df.groupby(["year","dest"]).agg({"export_val":"sum"}).reset_index(inplace=True)
+df = df.pivot_table("export_val", "dest", "year")
+df.fillna(0, inplace=True)
+df = df.T
+# df = df.pct_change(periods=4)
+# df = df.replace([np.inf, -np.inf], np.nan)
+# df.fillna(0, inplace=True)
+# df["totals"] = df.sum(axis=1)
+df.index = df.index.astype(int)
+cols = df.columns.tolist()
+volListE = []
+for n in cols:
+    volListE.append(df[n].rolling(2).std(ddof=0))
+df = pd.DataFrame(volListE)
+df = df.T
+df.fillna(0, inplace=True)
+
+# Creating Dataframe for getting percentage makeup of market
+df2 = pd.read_csv("coffee_data/colombia_imports.csv")
+df2 = df2[df2["dest"] != "World"]
+df2.drop(df2[df2.dest == "Democratic Republic of Germany"].index, inplace=True)
+df2.drop(df2[df2.dest == "Federal Republic of Germany"].index, inplace=True)
+#Dropped East and West Germany due to consolidation in occurring in country labled "Germany"
+df2.groupby(["year","dest"]).agg({"export_val":"sum"}).reset_index(inplace=True)
+df2 = df2.pivot_table("export_val", "dest", "year")
+df2.fillna(0, inplace=True)
+df2 = df2.T
+
+
+
+# Combine dataframes so as to scale the data by percent makeup
+
+df_comb = pd.DataFrame(df.values*df2.values, columns=df.columns, index=df.index)
+df_comb["totals"] = df_comb.sum(axis=1)
+vollist_imports = df_comb.totals
+#Get Coffee Data
+cf = pd.read_csv("coffee_data/coffee.csv")
+cf.drop(columns=["Unnamed: 0"], inplace=True)
+cf.rename(columns={"key_0":"date"}, inplace=True)
+cf.set_index("date", inplace=True)
+cf.index = pd.to_datetime(cf.index)
+cf = cf.resample("Y").mean()
+cf.index = cf.index.astype(str).str[:4].astype(int)
+cf.drop(columns=["quantity"], inplace=True)
+cf.drop(cf[cf.index > 2017].index, inplace=True)
+vollist_price = cf.price.rolling(2).std(ddof=0)
+sns.lineplot(vollist_price.index, vollist_price)
+sns.lineplot(df_comb.index, df_comb.totals)
+vollist_imports
+vollist_price[4:].corr(vollist_imports[:-1][1:])
+
+
+
+
+
+
+
+
+
+
