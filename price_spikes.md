@@ -1,5 +1,13 @@
 #### Causes of price spikes and dips post 1994
 
+
+
+
+
+
+
+
+
 ##### 1994-09-01 and 1995-03-01 (price spike)
 
 - breakout start: 1994-05-01
@@ -28,9 +36,7 @@ food imports boomed, agricultural profitability was shattered, its exports decli
 harvested decreased by more than 10% from 4.9 to 4.4 million has. 
 
 Temporary (or cash) crop area fell from 2.5 to 2.1 million has. The area under tree crops
-did not decrease much as it is quite inelastic in the short run; however, its productivity
-7
-declined sharply, particularly in coffee, where production fell by 50% (from 18 million 60
+did not decrease much as it is quite inelastic in the short run; however, its productivity declined sharply, particularly in coffee, where production fell by 50% (from 18 million 60
 kg. bags in 1993 to 11 million in 1994)
 
 http://www.oecd.org/countries/colombia/1920402.pdf
@@ -82,7 +88,7 @@ indexes was estimated to have increased from $15 billion to around $200 billion
 https://www.bostonfed.org/publications/regional-review/2002/quarter-2/trouble-in-coffee-lands.aspx
 
 
-##### 2011-04-01 and 2011-09-01
+##### 2011-04-01 and 2011-09-01 (price spike into price dip)
 
 breakout start: 2009-05-01
 breakout end: 2012-06-01
@@ -91,6 +97,7 @@ BLUF:
 - Stockpile at 50 year low
 - 3 years of abnormally wet weather
 - Strong, rising demand for coffee
+- Coffee rust hit in early 2012 and continued to drive price down
 
 April 2011 - The latest surge in coffee prices comes only days after the International Coffee Organisation, which represents producers and consumers, warned that scarce supplies of arabica beans continued to "support high price levels". The London-based group does not expect that coffee stocks, which are at their lowest level for 50 years, will build up this year.
 
@@ -107,4 +114,6 @@ https://www.theglobeandmail.com/report-on-business/international-business/latin-
 
 
 https://unctad.org/en/PublicationsLibrary/suc-miscDP01_en.pdf
+
+
 
