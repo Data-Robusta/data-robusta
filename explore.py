@@ -2,23 +2,23 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pylab as pl
 
-#produces graphs by region of thousands of 60kg bags of coffee produced each year
-def production_by_region(df):
+# produces graphs by region of thousands of 60kg bags of coffee produced each year
+def production_graph(df):
     #df = df.drop(index = '1971-04-01')
-    grouper = df[df.index >= '1980-01-01'].groupby([pd.Grouper(freq='1Y'),'region'])
-    region_quantity = grouper.quantity.sum()
-    region_quantity = region_quantity.reset_index()
-    region_quantity.set_index('date',inplace=True)
-     
-    print("Top Coffee Producing Regions of Colombia")
-    for r in region_quantity.region.unique():
-        region_quantity[region_quantity.region == r].quantity.plot()
-        plt.title("Thousands of 60kg bags produced by " + r)
-        plt.ylabel("Thousands of 60kg bags")
-        plt.xlabel("Year")
-        plt.show()
+    # creates grouper object using data from 1980 onward
+    # groups by year
+    grouper = df[df.index >= '1980-01-01'].resample('Y')
 
-#produces graphs of average precipitation by year and region
+    # aggregates total quantity sold by region by year
+    quantity = grouper.quantity.sum()
+     
+    quantity.quantity.plot()
+    plt.title("Thousands of 60kg Bags Produced in Colombia")
+    plt.ylabel("Thousands of 60kg bags")
+    plt.xlabel("Year")
+    plt.show()
+
+# produces graphs of average precipitation by year and region
 def precipitation_by_region(df):
     #df = df[df.index != '1971-04-01']
     grouper = df[df.index >= '1980-01-01'].groupby([pd.Grouper(freq='1Y'),'region'])
