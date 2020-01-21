@@ -19,25 +19,37 @@ def production_graph(df):
     plt.show()
 
 # produces graphs of average precipitation by year and region
+# def precipitation_by_region(df):
+#     # creates grouper object using data from 1980 onward
+#     # groups by year and region
+#     grouper = df[df.index >= '1980-01-01'].groupby([pd.Grouper(freq='1Y'),'region'])
+
+#     # aggregates total precipitation by region by year
+#     region_precip = grouper.mean_precip.mean()
+
+#     # changes from multi-index with date and region to just a date index
+#     region_precip = region_precip.reset_index()
+#     region_precip.set_index('date',inplace=True)
+
+#     # creates series of graphs, each depicting the average daily rainfall in a specific region
+#     print("Average precipitation by Region of Colombia")
+#     for r in region_precip.region.unique():
+#         region_precip[region_precip.region == r].mean_precip.plot()
+#         plt.title("Average Daily Precipitation in " + r)
+#         plt.ylabel("Avg Daily Precipitation (cm)")
+#         plt.xlabel("Year")
+#         plt.show()
+
 def precipitation_by_region(df):
-    # creates grouper object using data from 1980 onward
-    # groups by year and region
-    grouper = df[df.index >= '1980-01-01'].groupby([pd.Grouper(freq='1Y'),'region'])
-
-    # aggregates total precipitation by region by year
-    region_precip = grouper.mean_precip.mean()
-
-    # changes from multi-index with date and region to just a date index
-    region_precip = region_precip.reset_index()
-    region_precip.set_index('date',inplace=True)
-
-    # creates series of graphs, each depicting the average daily rainfall in a specific region
-    print("Average precipitation by Region of Colombia")
-    for r in region_precip.region.unique():
-        region_precip[region_precip.region == r].mean_precip.plot()
-        plt.title("Average Daily Precipitation in " + r)
-        plt.ylabel("Avg Daily Precipitation (cm)")
-        plt.xlabel("Year")
+    columns = [col for col in df.columns if col.endswith('mean_precip')]
+    print('Average Precipitation by Region of Colombia')
+    for column in columns:
+        word_list = column.split('_')
+        region = word_list[0]
+        df.resample('Y')[column].mean().plot()
+        plt.title('Average Daily Precipitation in' + region)
+        plt.ylabel('Avg Daily Precipitation (cm)')
+        plt.xlabel('Year')
         plt.show()
 
 # 
