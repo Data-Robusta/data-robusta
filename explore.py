@@ -74,3 +74,23 @@ def export_price_1991_2018(df):
     pl.text(600,144,std_dev_below_half,size=20)
     pl.text(600,212,std_dev_above_half,size=20)
     plt.show()
+
+# graph the top five major spikes impacting price over time
+# finish annotating
+def events_over_time(df):   
+    plt.figure(figsize=(12,6))
+    plt.plot(df.inflated)
+    date_ = '1975'
+    plt.axvline(pd.to_datetime(date_), linewidth=1, color='red')
+    datetime = '1979'
+    plt.axvline(pd.to_datetime(datetime), linewidth=1, color='red')
+    date = '1985'
+    plt.axvline(pd.to_datetime(date), linewidth=1, color='red')
+    dateevent = '1992'
+    plt.axvline(pd.to_datetime(dateevent), linewidth=1, color='red')
+    datet = '2014'
+    plt.axvline(pd.to_datetime(datet), linewidth=1, color='red')
+    plt.title('Top five major events that affected inflation')
+    plt.xlabel('Year')
+    plt.ylabel('Inflation Price')
+    plt.show()
