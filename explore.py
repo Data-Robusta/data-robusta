@@ -116,3 +116,12 @@ def events_over_time(df):
     plt.xlabel('Year')
     plt.ylabel('Inflation Price')
     plt.show()
+
+# Look at the correlation between average temperature and inflated price
+def corr_price_and_temp(df):
+    columns = [col for col in df.columns if col.endswith('mean_temp')]
+    for column in columns:
+        sns.scatterplot(df[column], df.price, color='green')
+        plt.title('Price vs Average Temperature')
+        plt.ylabel('Price')
+        plt.show()
