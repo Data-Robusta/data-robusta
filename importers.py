@@ -140,7 +140,7 @@ def tree_map():
 
 
 # #Top movers - determed by largest growth year over year.
-def compare_volitility():
+def compare_volatility():
     df = pd.read_csv("coffee_data/colombia_imports.csv")
     df = df[df["dest"] != "World"]
     df.drop(df[df.dest == "Democratic Republic of Germany"].index, inplace=True)
@@ -197,5 +197,10 @@ def compare_volitility():
     return vollist_price[4:],vollist_imports[:-1][1:], vollist_imports[:-1][1:].corr(vollist_price[4:], method="spearman")
 
 
-
-sns.distplot()
+vollist_price,vollist_imports,z = compare_volatility()
+scaler = MinMaxScaler()
+df = pd.concat([vollist_price,vollist_imports], axis=1, ignore_index=True)
+df[1] = df[1].shift()
+df = df[1:]
+df.columns=["price_vol", "imports_vol"]
+sns.scatterplot(df.index, df.imports_vol)
