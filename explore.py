@@ -79,22 +79,23 @@ def export_price_1991_2018(df):
 
 # graph the top five major spikes impacting price over time
 # finish annotating
+# Look at five major events over time
 def events_over_time(df):   
-    plt.figure(figsize=(12,6))
-    plt.plot(df.inflated)
+    plt.figure(figsize=(10,6))
+    plt.plot(df.inflated, color='Green')
     date_ = '1975'
-    plt.axvline(pd.to_datetime(date_), linewidth=1, color='red')
-    datetime = '1979'
-    plt.axvline(pd.to_datetime(datetime), linewidth=1, color='red')
-    date = '1985'
-    plt.axvline(pd.to_datetime(date), linewidth=1, color='red')
-    dateevent = '1992'
-    plt.axvline(pd.to_datetime(dateevent), linewidth=1, color='red')
-    datet = '2014'
-    plt.axvline(pd.to_datetime(datet), linewidth=1, color='red')
-    plt.title('Top five major events that affected inflation')
+    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    date_ = '1979'
+    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    date_ = '1985'
+    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    date_ = '1992'
+    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    date_ = '2012'
+    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    plt.title('Top Five Fluctations in Coffee Prices')
     plt.xlabel('Year')
-    plt.ylabel('Inflation Price')
+    plt.ylabel('Inflated Price')
     plt.show()
 
 # Look at the correlation between average temperature and inflated price
@@ -105,3 +106,42 @@ def corr_price_and_temp(df):
         plt.title('Price vs Average Temperature')
         plt.ylabel('Price')
         plt.show()
+
+# Look at the distribution of inflated prices
+def dist_of_price(df):
+    plt.figure(figsize=(10, 6))
+    sns.distplot(df.inflated, color='green')
+    plt.title('Inflated Price Distribution')
+    plt.xlabel('Inflated Price')
+    plt.show()
+
+# Look at distribution of inflated price after 1991
+def dist_after(df):
+    plt.figure(figsize=(10, 6))
+    sns.distplot(df.inflated.loc['1991':], color='green')
+    plt.title('Inflated Price Distribution from 1992')
+    plt.xlabel('Inflated Price')
+    plt.show()
+
+# Look at distribution of inflated price before 1991
+def dist_before(df):
+    plt.figure(figsize=(10, 6))
+    sns.distplot(df.inflated.loc[:'1991'], color='green')
+    plt.title('Inflated Price Distribution up to 1991')
+    plt.xlabel('Inflated Price')
+    plt.show()
+
+# Look at which regions have the highest cultivation area
+def area_cultivated():
+    df3 = pd.read_csv('coffee_data/land_use2018.csv').rename(columns={'Unnamed: 0':'region', '2018*':'area'})
+    df3.drop([22], inplace=True)
+    df3 = df3.sort_values(by='area', ascending=False)
+    df3.reset_index(inplace=True)
+    df3.drop(columns=('index'),inplace=True)
+
+    plt.figure(figsize=(14,4))
+    sns.barplot(df3.region[:13], df3.area, palette=("BuGn_d"))
+    plt.title("Which regions have the highest areas cultivated in 2018?")
+    plt.xlabel('Region')
+    plt.ylabel('Area Cultivated')
+    plt.show()
