@@ -11,6 +11,7 @@ Stuff and things in the README
 - scikit-learn 0.22.1
 - CPI 0.1.16
 - FBProphet 0.5
+- Pickle 4.0
 
 
 #### Data Dictionary
