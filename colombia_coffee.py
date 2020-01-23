@@ -30,7 +30,7 @@ def get_coffee(fresh=False):
 
 
 data_dict = {
-    'price': 'Export price of excelso coffee in USD per lb',
+    'price': 'Export price of Excelso coffee in USD per lb',
     'inflated': 'Export price adjusted for inflation into 2018 dollars',
-    'quantity': 'Thousands of 60kg bags of coffee exported'
+    'quantity': 'Thousands of 60kg bags of coffee produced'
 }
