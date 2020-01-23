@@ -18,7 +18,9 @@ When coffee farming becomes unprofitable, the small farmer often abandons coffee
 
 We want the audience to see that price volatility is a negative
 
-We want them to adopt purchasing habits that support price stablity to empower the single family Colombian farmer, that make up the majority of coffee suppliers for the cup of joe that we enjoy daily.
+Volatility in the market will increase prices at your local coffee shop **
+
+
 
 #### What are the stakes if people adopt our view or reject
 
@@ -41,13 +43,36 @@ Benefit to world: Colombia is a mircocosom of Latin American, South American, an
 
 #### Beginning/Setting the scene
 
-##### Goal: Describe the audience's ordinary world and set the baseline for what it is.
+##### Goal: 
+
+Describe the audience's ordinary world and set the baseline for what it is.
 
 Presentation content: 
 
-Since 1995 Colombia has sold it's coffee to the market around $1.50 to $2 per pound.
+slide: cup of coffee
+You have probably paid about the same for a cup of coffee as far back as you can remember. We were curious to see if changing weather patterns would threaten the price of America's true hero: Caffeine. 
 
-In 1997 heavy rain wiped out approximately 25% of Colombia's coffee plants. This caused global coffee prices to skyrocket to 2.5x the normal price. It took over 3 years for prices to return to normal.
+With that in mind we decided to look at the weather and coffee production of the most well known coffee producting country in the world: Colombia
+
+slide: picture of Colombia/ maybe Juan Valdez
+
+Since 1995 Colombia has sold it's coffee to the market around $1.50 to $2 per pound. BUTTT
+
+slide: flooding in Colombia
+
+In 1997 heavy rain wiped out approximately 25% of Colombia's coffee plants. This caused global coffee prices to skyrocket to 2.5x the normal price. It took over 3 years for prices to return to normal. 70% of Colombia's coffee is produced by single family farmers. 
+
+slide: Farmers like my friend Jaime rely on stable coffee prices to provide for their family
+
+Price spikes like this may cause a slight cost increase in your morning cup of joe, but for these farmers it destroys their livelihood.
+
+Slide: show price over time with huge price spikes
+
+Catastrophes like this account for X% of the price volatility
+
+These types of events come in many forms: Weather, economic, plant disease, and political
+
+*** Slide with examples of different incidences ***
 
 #### Middle 
 
@@ -61,7 +86,15 @@ After calling them to the adventure, overcome their resistance, provide them wit
 
 The Data Robusta team set out to see if rising temps and more volatile precipitation affected coffee price.
 
-Several models were tried with various weather and economic features. Ultimately the best model used price over time and production quantity to create the best model
+slide: models compared to actual price
+
+At first we tried several models using price, temperature, precipitation, import/export quanities to predict price. But we found that the most relevant variables were price over time and coffee production quantity. Even still the model struggled to produce accurate results. We found that difficult to predict events like plant disease, natural disasters, and major trade agreements incite extreme price movements in the market.
+
+*** Possibly another visual showing models.
+
+*** Showing our thought process and showing our data science skills
+
+
 
 
 #### End

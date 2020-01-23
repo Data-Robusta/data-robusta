@@ -3,10 +3,10 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
-pd.set_option('display.float_format', lambda x: '%.5f' % x)
+pd.set_option("display.float_format", lambda x: "%.5f" % x)
 
 
-#Find out if data corr's with coffee data------------
+#Find out if data corr"s with coffee data------------
 # cf = pd.read_csv("coffee_data/coffee.csv")
 # cf.drop(columns=["Unnamed: 0"], inplace=True)
 # cf.rename(columns={"key_0":"date"}, inplace=True)
@@ -77,7 +77,7 @@ def compare_brazil():
 # cf.year = pd.to_datetime(cf.year)
 # cf.set_index("year",inplace=True)
 # cf = cf.resample("Y").agg({"price": "median", "quantity": "sum"})
-# cf.index = cf.index.to_series().apply(lambda x: dt.datetime.strftime(x, '%Y')).tolist()
+# cf.index = cf.index.to_series().apply(lambda x: dt.datetime.strftime(x, "%Y")).tolist()
 # cf.index.name = "year"
 # cf = cf[2:-1]
 # gdf = gdf.merge(cf, how="inner", on=cf.index)# Standard graphing
@@ -97,9 +97,7 @@ def compare_brazil():
 # plt.legend()
 
 # #Visualize Coffee imports by country------------------------
-def tree_map():
-    import plotly.graph_objects as go
-    import plotly
+def compare_import_change():
     df = pd.read_csv("coffee_data/colombia_imports.csv")
     df = df[df["dest"] != "World"]
     df.drop(df[df.dest == "Democratic Republic of Germany"].index, inplace=True)
@@ -117,19 +115,23 @@ def tree_map():
     top_10_2017 = df.Y2017.sort_values()[-10:].index.tolist()
     df.reset_index(inplace=True)
     df2.reset_index(inplace=True)
-    df["cat"] = np.where(df.dest.isin(top_10_1962),df.dest,"other")
-    df2["cat"] = np.where(df2.dest.isin(top_10_2017),df2.dest,"other")
+    df["cat"] = np.where(df.dest.isin(top_10_1962),df.dest,"Other")
+    df2["cat"] = np.where(df2.dest.isin(top_10_2017),df2.dest,"Other")
     df.drop(columns=["dest", "Y2017"], inplace=True)
     df2.drop(columns=["dest", "Y1962"], inplace=True)
     df["origin"] = "Colombia"
     df2["origin"] = "Colombia"
-#TREEMAP
+    df2 = pd.DataFrame(df2.groupby("cat").Y2017.sum().sort_values())
+    df =  pd.DataFrame(df.groupby("cat").Y1962.sum().sort_values())
+    sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
+    sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
 
-
+#NOTES
+#Break down the Other category and what the make up is
 
 
 # #Get precent make up of all sales by year per country. 
-# dfs = df.groupby(['year', 'dest']).agg({'export_val': 'sum'})
+# dfs = df.groupby(["year", "dest"]).agg({"export_val": "sum"})
 # df_pcts = dfs.groupby(level=0).apply(lambda x:100 * x / float(x.sum()))
 # df_pcts.reset_index(inplace=True)
 # df_pcts.to_csv("import_percentage2017.csv", index=False)
@@ -162,7 +164,6 @@ def compare_volatility():
     df = pd.DataFrame(volListE)
     df = df.T
     df.fillna(0, inplace=True)
-
     # Creating Dataframe for getting percentage makeup of market
     df2 = pd.read_csv("coffee_data/colombia_imports.csv")
     df2 = df2[df2["dest"] != "World"]
@@ -173,11 +174,7 @@ def compare_volatility():
     df2 = df2.pivot_table("export_val", "dest", "year")
     df2.fillna(0, inplace=True)
     df2 = df2.T
-
-
-
     # Combine dataframes so as to scale the data by percent makeup
-
     df_comb = pd.DataFrame(df.values*df2.values, columns=df.columns, index=df.index)
     df_comb["totals"] = df_comb.sum(axis=1)
     vollist_imports = df_comb.totals
@@ -197,10 +194,20 @@ def compare_volatility():
     return vollist_price[4:],vollist_imports[:-1][1:], vollist_imports[:-1][1:].corr(vollist_price[4:], method="spearman")
 
 
-vollist_price,vollist_imports,z = compare_volatility()
-scaler = MinMaxScaler()
-df = pd.concat([vollist_price,vollist_imports], axis=1, ignore_index=True)
-df[1] = df[1].shift()
-df = df[1:]
-df.columns=["price_vol", "imports_vol"]
-sns.scatterplot(df.index, df.imports_vol)
+def get_volatility_graph():
+    vollist_price,vollist_imports,z = compare_volatility()
+    scaler = MinMaxScaler()
+    df = pd.concat([vollist_price,vollist_imports], axis=1, ignore_index=True)
+    df[1] = df[1].shift()
+    df = df[1:]
+    df.columns=["price_vol", "imports_vol"]
+    index = df.index
+    df = pd.DataFrame(scaler.fit_transform(df))
+    df.index = index
+    plt.scatter(df.index,df[0], label="Price Volatility")
+    plt.scatter(df.index,df[1], label="Imports Volatility")
+    plt.title("Volatility in Colombian Markets")
+    plt.xlabel("Year")
+    plt.ylabel("Scaled Volatility Level")
+    plt.legend()
+    plt.show()
