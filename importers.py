@@ -3,7 +3,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
-pd.set_option("display.float_format", lambda x: "%.5f" % x)
 
 
 #Find out if data corr"s with coffee data------------
@@ -103,7 +102,6 @@ def compare_import_change():
     df.drop(df[df.dest == "Democratic Republic of Germany"].index, inplace=True)
     df.drop(df[df.dest == "Federal Republic of Germany"].index, inplace=True)
     #Dropped East and West Germany due to consolidation in occurring in country labled "Germany"
-    df.groupby(["year","dest"]).agg({"export_val":"sum"}).reset_index(inplace=True)
     df = df.pivot_table("export_val", "dest", "year")
     df.fillna(0, inplace=True)
     df = df.T
@@ -119,15 +117,48 @@ def compare_import_change():
     df2["cat"] = np.where(df2.dest.isin(top_10_2017),df2.dest,"Other")
     df.drop(columns=["dest", "Y2017"], inplace=True)
     df2.drop(columns=["dest", "Y1962"], inplace=True)
-    df["origin"] = "Colombia"
-    df2["origin"] = "Colombia"
+    df2 = pd.DataFrame(df2.groupby("cat").Y2017.sum().sort_values())
+    df =  pd.DataFrame(df.groupby("cat").Y1962.sum().sort_values())
+    sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
+    plt.title("Top 10 importers of Colombian Coffee")
+    plt.xlabel("Millions of USD")
+
+    ax.xaxis.set_major_formatter([0,20,40,60,80,100])
+    plt.ylabel("")
+    plt.show()
+    sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
+
+def breakdown_other():
+    df = pd.read_csv("coffee_data/colombia_imports.csv")
+    df = df[df["dest"] != "World"]
+    df.drop(df[df.dest == "Democratic Republic of Germany"].index, inplace=True)
+    df.drop(df[df.dest == "Federal Republic of Germany"].index, inplace=True)
+    #Dropped East and West Germany due to consolidation in occurring in country labled "Germany"
+    df = df.pivot_table("export_val", "dest", "year")
+    df.fillna(0, inplace=True)
+    df = df.T
+    df = pd.concat([df[:1],df[-1:]])
+    df = df.T
+    df.columns=["Y1962", "Y2017"]
+    df2 = df.copy()
+    top_10_1962 = df.Y1962.sort_values()[-10:].index.tolist()
+    top_10_2017 = df.Y2017.sort_values()[-10:].index.tolist()
+    df.reset_index(inplace=True)
+    df2.reset_index(inplace=True)
+    df["cat"] = np.where(~df.dest.isin(top_10_1962),df.dest,np.nan)
+    df2["cat"] = np.where(~df2.dest.isin(top_10_2017),df2.dest,np.nan)
+    df2.dropna(inplace=True)
+    df.dropna(inplace=True)
+    df.drop(columns=["dest", "Y2017"], inplace=True)
+    df2.drop(columns=["dest", "Y1962"], inplace=True)
+    top_10_df = df.Y1962.sort_values()[-10:].index.tolist()
+    top_10_df2 = df2.Y2017.sort_values()[-10:].index.tolist()
+    df["cat"] = np.where(df.index.isin(top_10_df),df.cat,"Other")
+    df2["cat"] = np.where(df2.index.isin(top_10_df2),df2.cat,"Other")
     df2 = pd.DataFrame(df2.groupby("cat").Y2017.sum().sort_values())
     df =  pd.DataFrame(df.groupby("cat").Y1962.sum().sort_values())
     sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
     sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
-
-#NOTES
-#Break down the Other category and what the make up is
 
 
 # #Get precent make up of all sales by year per country. 
@@ -193,7 +224,7 @@ def compare_volatility():
     #vollist_imports[:-1][1:].hist() #Data is skewed to the left
     return vollist_price[4:],vollist_imports[:-1][1:], vollist_imports[:-1][1:].corr(vollist_price[4:], method="spearman")
 
-
+100,000,000
 def get_volatility_graph():
     vollist_price,vollist_imports,z = compare_volatility()
     scaler = MinMaxScaler()
