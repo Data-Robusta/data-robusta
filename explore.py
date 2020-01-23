@@ -13,10 +13,11 @@ def production_graph(df):
     quantity = grouper.quantity.sum()
     
     # plots quantity produced by year
-    quantity.plot()
-    plt.title("Thousands of 60kg Bags Produced in Colombia")
-    plt.ylabel("Thousands of 60kg bags")
-    plt.xlabel("Year")
+    plt.figure(figsize=(10,6))
+    quantity.plot(color='darkgreen')
+    plt.title("Thousands of 60kg Bags Produced in Colombia", size=20)
+    plt.ylabel("Thousands of 60kg bags", size=15)
+    plt.xlabel("Year", size=15)
     plt.show()
 
 # produces graphs of average precipitation by year and region
@@ -29,10 +30,26 @@ def precipitation_by_region(df):
     for column in columns:
         word_list = column.split('_')
         region = word_list[0]
-        df.resample('Y')[column].mean().plot()
-        plt.title('Average Daily Precipitation in ' + region)
-        plt.ylabel('Avg Daily Precipitation (cm)')
-        plt.xlabel('Year')
+        df.resample('Y')[column].mean().plot(color='darkgreen')
+        plt.title('Average Daily Precipitation in ' + region, size=14)
+        plt.ylabel('Avg Daily Precipitation (cm)', size=12)
+        plt.xlabel('Year', size=12)
+        plt.show()
+
+# produces graphs of average temperature by year and region
+def avg_temp_by_region(df):
+    # gets list of all mean precipitation columns
+    columns = [col for col in df.columns if col.endswith('mean_temp')]
+
+    # iterates through all regions creating a line plot of each region's annual mean temperature
+    print('Average Precipitation by Region of Colombia')
+    for column in columns:
+        word_list = column.split('_')
+        region = word_list[0]
+        df.resample('Y')[column].mean().plot(color='darkgreen')
+        plt.title('Average Temperature in ' + region, size=14)
+        plt.ylabel('Avg Temperature (cm)', size=12)
+        plt.xlabel('Year', size=12)
         plt.show()
 
 # Creates a dataframe containing annual maximum and minimum coffee prices in Colombia
@@ -54,8 +71,8 @@ def export_price_1991_2018(df):
     ax = ax[['quantity','inflated','std','mean','dist_from_mean']]
 
     inflated_mean = ax.inflated.mean()
-    plt.figure(figsize=(15,12))
-    ax.inflated.plot(linewidth=3,color='steelblue')
+    plt.figure(figsize=(10,6))
+    ax.inflated.plot(linewidth=3,color='darkgreen')
 
     plt.hlines(ax['inflated'].mean(),0,4000,color='limegreen',linewidth=3)
     plt.hlines(ax['mean'] + (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
@@ -82,7 +99,7 @@ def export_price_1991_2018(df):
 # Look at five major events over time
 def events_over_time(df):   
     plt.figure(figsize=(10,6))
-    plt.plot(df.inflated, color='Green')
+    plt.plot(df.inflated, color='darkgreen')
     date_ = '1975'
     plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
     date_ = '1979'
@@ -93,42 +110,60 @@ def events_over_time(df):
     plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
     date_ = '2012'
     plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
-    plt.title('Top Five Fluctations in Coffee Prices')
-    plt.xlabel('Year')
-    plt.ylabel('Inflated Price')
+    plt.title('Top Five Fluctations in Coffee Prices', size=20)
+    plt.xlabel('Year', size=15)
+    plt.ylabel('Inflated Price', size=15)
     plt.show()
 
 # Look at the correlation between average temperature and inflated price
 def corr_price_and_temp(df):
     columns = [col for col in df.columns if col.endswith('mean_temp')]
-    for column in columns:
-        sns.scatterplot(df[column], df.price, color='green')
-        plt.title('Price vs Average Temperature')
-        plt.ylabel('Price')
+    for col in columns:
+        word_list = col.split('_')
+        region = word_list[0]
+        sns.scatterplot(df[col], df.price, color='darkgreen')
+        plt.title('Average Temperature in ' + region, size=14)
+        plt.ylabel('Price', size=12)
+        plt.xlabel('Temperature (degrees F)', size='12')
+        plt.show()
+
+# Look at the correlation between avg precipication and inflated price
+def corr_price_and_precip(df):
+    columns = [col for col in df.columns if col.endswith('mean_precip')]
+    for col in columns:
+        word_list = col.split('_')
+        region = word_list[0]
+        sns.scatterplot(df[col], df.price, color='darkgreen')
+        plt.title('Average Temperature in ' + region, size=14)
+        plt.ylabel('Price', size=12)
+        plt.xlabel('Precipitation (cm)', size=12)
         plt.show()
 
 # Look at the distribution of inflated prices
 def dist_of_price(df):
     plt.figure(figsize=(10, 6))
-    sns.distplot(df.inflated, color='green')
-    plt.title('Inflated Price Distribution')
-    plt.xlabel('Inflated Price')
+    sns.distplot(df.inflated, color='darkgreen')
+    plt.title('Inflated Price Distribution',size=20)
+    plt.xlabel('Inflated Price', size=15)
+    plt.ylabel('Expected Probability', size=15)
     plt.show()
 
 # Look at distribution of inflated price after 1991
 def dist_after(df):
     plt.figure(figsize=(10, 6))
-    sns.distplot(df.inflated.loc['1991':], color='green')
-    plt.title('Inflated Price Distribution from 1992')
-    plt.xlabel('Inflated Price')
+    sns.distplot(df.inflated.loc['1992':], color='darkgreen')
+    plt.title('Inflated Price Distribution from 1992', size=20)
+    plt.xlabel('Inflated Price', size=15)
+    plt.ylabel('Expected Probability', size=15)
     plt.show()
 
 # Look at distribution of inflated price before 1991
 def dist_before(df):
     plt.figure(figsize=(10, 6))
-    sns.distplot(df.inflated.loc[:'1991'], color='green')
-    plt.title('Inflated Price Distribution up to 1991')
-    plt.xlabel('Inflated Price')
+    sns.distplot(df.inflated.loc[:'1992'], color='darkgreen')
+    plt.title('Inflated Price Distribution up to 1991', size=20)
+    plt.xlabel('Inflated Price', size=15)
+    plt.ylabel('Expected Probability', size=15)
     plt.show()
 
 # Look at which regions have the highest cultivation area
@@ -139,9 +174,10 @@ def area_cultivated():
     df3.reset_index(inplace=True)
     df3.drop(columns=('index'),inplace=True)
 
-    plt.figure(figsize=(14,4))
-    sns.barplot(df3.region[:13], df3.area, palette=("BuGn_d"))
-    plt.title("Which regions have the highest areas cultivated in 2018?")
-    plt.xlabel('Region')
-    plt.ylabel('Area Cultivated')
+    plt.figure(figsize=(14,6))
+    sns.barplot(df3.region[:13], df3.area, color='darkgreen')
+    plt.title("Which regions have the highest areas cultivated in 2018?", size=20)
+    plt.xlabel('Region', size=15)
+    plt.ylabel('Area Cultivated', size=15)
     plt.show()
+
