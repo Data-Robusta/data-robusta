@@ -11,7 +11,8 @@ def get_model(filename):
     model = pickle.load(open('models/' + filename, 'rb'))
     return model
 
-def graph_models(fresh):
+def graph_models_fresh():
+    pd.plotting.register_matplotlib_converters()
     best = get_model('best_model.p')
     weather = get_model('weather_model.p')
 
@@ -44,5 +45,13 @@ def graph_models(fresh):
 
     to_graph['actual'] = df.resample('YS')['inflated'].mean()
 
+    store_model(to_graph, 'to_graph.p')
+
+    for col in to_graph.columns:
+        to_graph[col].plot()
+
+def graph_models():
+    pd.plotting.register_matplotlib_converters()
+    to_graph = get_model('to_graph.p')
     for col in to_graph.columns:
         to_graph[col].plot()
