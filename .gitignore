@@ -3,3 +3,4 @@ __pycache__
 env.py
 .DS_Store
 bayes.json
+t.ipynb
