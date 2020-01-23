@@ -14,7 +14,7 @@ def production_graph(df):
     
     # plots quantity produced by year
     plt.figure(figsize=(10,6))
-    quantity.plot(color='darkgreen')
+    quantity.plot(color='darkgreen', linewidth=2)
     plt.title("Thousands of 60kg Bags Produced in Colombia", size=20)
     plt.ylabel("Thousands of 60kg bags", size=15)
     plt.xlabel("Year", size=15)
@@ -30,7 +30,7 @@ def precipitation_by_region(df):
     for column in columns:
         word_list = column.split('_')
         region = word_list[0]
-        df.resample('Y')[column].mean().plot(color='darkgreen')
+        df.resample('Y')[column].mean().plot(color='darkgreen', linewidth=2)
         plt.title('Average Daily Precipitation in ' + region, size=14)
         plt.ylabel('Avg Daily Precipitation (cm)', size=12)
         plt.xlabel('Year', size=12)
@@ -42,11 +42,11 @@ def avg_temp_by_region(df):
     columns = [col for col in df.columns if col.endswith('mean_temp')]
 
     # iterates through all regions creating a line plot of each region's annual mean temperature
-    print('Average Precipitation by Region of Colombia')
+    print('Average Temperature by Region of Colombia')
     for column in columns:
         word_list = column.split('_')
         region = word_list[0]
-        df.resample('Y')[column].mean().plot(color='darkgreen')
+        df.resample('Y')[column].mean().plot(color='darkgreen', linewidth=2)
         plt.title('Average Temperature in ' + region, size=14)
         plt.ylabel('Avg Temperature (cm)', size=12)
         plt.xlabel('Year', size=12)
@@ -72,16 +72,16 @@ def export_price_1991_2018(df):
 
     inflated_mean = ax.inflated.mean()
     plt.figure(figsize=(10,6))
-    ax.inflated.plot(linewidth=3,color='darkgreen')
+    ax.inflated.plot(linewidth=2,color='darkgreen')
 
-    plt.hlines(ax['inflated'].mean(),0,4000,color='limegreen',linewidth=3)
-    plt.hlines(ax['mean'] + (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
-    plt.hlines(ax['mean'] - (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=3)
-    plt.hlines(ax['mean'] + (ax['std'] * .5),0,4000,color='b',linewidth=3)
-    plt.hlines(ax['mean'] - (ax['std'] * .5),0,4000,color='b',linewidth=3)
-    plt.ylabel("Export price (2018 cents)",size=22,weight='bold')
-    plt.xlabel("Year",size=22,weight='bold')
-    plt.title("Export price of Colombian coffee 1994 to 2018",size=25,weight='bold')
+    plt.hlines(ax['inflated'].mean(),0,4000,color='limegreen',linewidth=2)
+    plt.hlines(ax['mean'] + (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=2)
+    plt.hlines(ax['mean'] - (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=2)
+    plt.hlines(ax['mean'] + (ax['std'] * .5),0,4000,color='b',linewidth=2)
+    plt.hlines(ax['mean'] - (ax['std'] * .5),0,4000,color='b',linewidth=2)
+    plt.ylabel("Export price (2018 cents)",size=15,weight='bold')
+    plt.xlabel("Year",size=15,weight='bold')
+    plt.title("Export price of Colombian coffee 1994 to 2018",size=20,weight='bold')
     std_dev_above = "1.5 std_dev above mean"
     std_dev_below = "1.5 std_dev below mean"
     std_dev_below_half = ".5 std_dev below mean"
@@ -99,17 +99,17 @@ def export_price_1991_2018(df):
 # Look at five major events over time
 def events_over_time(df):   
     plt.figure(figsize=(10,6))
-    plt.plot(df.inflated, color='darkgreen')
+    plt.plot(df.inflated, color='darkgreen', linewidth=2)
     date_ = '1975'
-    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    plt.axvline(pd.to_datetime(date_), linewidth=2, color='navy')
     date_ = '1979'
-    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    plt.axvline(pd.to_datetime(date_), linewidth=2, color='navy')
     date_ = '1985'
-    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    plt.axvline(pd.to_datetime(date_), linewidth=2, color='navy')
     date_ = '1992'
-    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    plt.axvline(pd.to_datetime(date_), linewidth=2, color='navy')
     date_ = '2012'
-    plt.axvline(pd.to_datetime(date_), linewidth=1, color='brown')
+    plt.axvline(pd.to_datetime(date_), linewidth=2, color='navy')
     plt.title('Top Five Fluctations in Coffee Prices', size=20)
     plt.xlabel('Year', size=15)
     plt.ylabel('Inflated Price', size=15)
@@ -134,7 +134,7 @@ def corr_price_and_precip(df):
         word_list = col.split('_')
         region = word_list[0]
         sns.scatterplot(df[col], df.price, color='darkgreen')
-        plt.title('Average Temperature in ' + region, size=14)
+        plt.title('Average Precipitation in ' + region, size=14)
         plt.ylabel('Price', size=12)
         plt.xlabel('Precipitation (cm)', size=12)
         plt.show()
@@ -169,8 +169,8 @@ def dist_before(df):
 # Look at which regions have the highest cultivation area
 def area_cultivated():
     df3 = pd.read_csv('coffee_data/land_use2018.csv').rename(columns={'Unnamed: 0':'region', '2018*':'area'})
-    df3.drop([22], inplace=True)
     df3 = df3.sort_values(by='area', ascending=False)
+    df3.drop([15, 22], inplace=True)
     df3.reset_index(inplace=True)
     df3.drop(columns=('index'),inplace=True)
 
