@@ -1,5 +1,7 @@
 ### Data Robusta Capstone README
 
+We tried to use coffee production quantities and weather in Colombia to predict its export price.
+
 Stuff and things in the README
 
 ### Dependencies and version
