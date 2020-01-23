@@ -35,7 +35,7 @@ def precipitation_by_region(df):
         plt.xlabel('Year')
         plt.show()
 
-# 
+# Creates a dataframe containing annual maximum and minimum coffee prices in Colombia
 def price_outliers(df):
     outliers = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].mean())
     max_inflated = pd.DataFrame(df.groupby([pd.Grouper(freq='1Y')])['inflated'].max()).rename(columns={'inflated':'max_inflated'})
@@ -44,7 +44,7 @@ def price_outliers(df):
     outliers = pd.merge(outliers,min_inflated,left_index=True,right_index=True)
     return outliers
 
-# graph of wholesale Colombian price 1991 to 2018
+# graph of wholesale Colombian price from 1991 to 2018
 def export_price_1991_2018(df):
 
     ax = df['1991':]
