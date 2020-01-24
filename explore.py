@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import pylab as pl
 import seaborn as sns
 from scipy import stats
+from prepare import get_prepped
 
 
 # produces graphs by region of thousands of 60kg bags of coffee produced each year
@@ -202,3 +203,31 @@ def corr_precip_price(df):
     r, p = stats.pearsonr(x, y)
     print(f'r = {r}')
     print(f'P = {p}')
+
+# describes how volatility differs in years with disastrous weather events compared to those without
+def describe_volatility():
+    # acquires inflation-adjusted prices and calculates differences in price from year-to-year
+    df = get_prepped()
+    df = df[['inflated']]
+    df = df.resample('YS').mean()
+    df['difference'] = df.inflated - df.inflated.shift(1)
+    df['difference'] = df.difference.apply(lambda x: abs(x))
+    df['percent_change'] = df.difference / df.inflated
+
+    # creates mask of years in which price was majorly affected by severe weather events
+    weather_events = ((df.index >= '1976') & (df.index <= '1978')) | (df.index == '1986') | (df.index == '1987') | (df.index == '1997') | (df.index == '1998')
+
+    # calculates average price in years which were unaffected by disastrous weather
+    typical_price = df[~weather_events].inflated.mean()
+
+    # calculates average price in years which were unaffected by disastrous weather
+    disaster_price = df[weather_events].inflated.mean()
+
+    
+    disaster_volatility = df[weather_events].difference.mean() / disaster_price
+
+    typical_volatility = df[~(weather_events)].difference.mean() / typical_price
+
+    print(f'''In typical years, price changed by an average of {round(typical_volatility * 100, 2)}%. 
+In years with disastrous weather events, price changed by an average of {round(disaster_volatility * 100, 2)}%.
+This represents a {round((disaster_volatility / typical_volatility * 100), 2)}% increase in year-to-year price volatility.''')
