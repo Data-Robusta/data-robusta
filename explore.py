@@ -81,19 +81,19 @@ def export_price_1991_2018(df):
     plt.hlines(ax['mean'] - (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=2)
     plt.hlines(ax['mean'] + (ax['std'] * .5),0,4000,color='b',linewidth=2)
     plt.hlines(ax['mean'] - (ax['std'] * .5),0,4000,color='b',linewidth=2)
-    plt.ylabel("Export price (2018 cents)",size=15,weight='bold')
-    plt.xlabel("Year",size=15,weight='bold')
-    plt.title("Export price of Colombian coffee 1994 to 2018",size=20,weight='bold')
+    plt.ylabel("Export price (2018 cents)",size=15)
+    plt.xlabel("Year",size=15)
+    plt.title("Export price of Colombian coffee 1994 to 2018",size=20)
     std_dev_above = "1.5 std_dev above mean"
     std_dev_below = "1.5 std_dev below mean"
     std_dev_below_half = ".5 std_dev below mean"
     std_dev_above_half = ".5 std_dev above mean"
 
-    pl.text(600,278,std_dev_above,size=20)
-    pl.text(600,78,std_dev_below,size=20)
-    pl.text(600,178,"mean",size=20)
-    pl.text(600,144,std_dev_below_half,size=20)
-    pl.text(600,212,std_dev_above_half,size=20)
+    pl.text(600,278,std_dev_above,size=15)
+    pl.text(600,78,std_dev_below,size=15)
+    pl.text(600,178,"mean",size=15)
+    pl.text(600,144,std_dev_below_half,size=15)
+    pl.text(600,212,std_dev_above_half,size=15)
     plt.show()
 
 # graph the top five major spikes impacting price over time
