@@ -42,22 +42,19 @@
 - Split data
 - Create multiple models with training data
 
-**Evaluation**
-- Analyize evaluation metrics with test data
-
 ## Dictionary
 
 ### Uncommon Words and Phrases
 
-- Coffee Arabica: 
-- Coffee Robusta: 
+- Coffee Arabica: One of the two major coffee varieties, considered sweeter, more flavorful, and more acidic than Robusta. Our project focuses on this type of coffee.
+- Coffee Robusta: The other major coffee variety, sought after for its much higher caffeine content and lesser vulnerability to pests and adverse weather conditions.
 - Coffee rust: 
 - Excelso coffee: 
 - Prophet model: 
 - ICO: 
 - Fedecafé: Common abbreviation for National Federation of Coffee Growers of Colombia (Spanish: Federación Nacional de Cafeteros de Colombia), a non-profit business association that promotes production and exportation of Colombian coffee
 - NOAA: National Oceanic and Atmospheric Administration, the source for all of our weather data
-- RMSE: root mean squared error, the average amount our predictions differ from the actual values
+- RMSE: Root mean squared error, the average amount our predictions differ from the actual values
 
 ### Data Dictionary
 
