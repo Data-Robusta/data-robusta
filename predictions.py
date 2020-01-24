@@ -1,6 +1,7 @@
 import prepare
 import pickle
 from fbprophet import Prophet
+import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -54,4 +55,9 @@ def graph_models():
     pd.plotting.register_matplotlib_converters()
     to_graph = get_model('to_graph.p')
     for col in to_graph.columns:
-        to_graph[col].plot()
+        sns.lineplot(x=to_graph.index, y=to_graph[col])
+    plt.title('Models Compared to Actual Inflated Coffee Prices')
+    plt.xlabel('Year')
+    plt.ylabel('Coffee Price (2018 USD per lb)')
+    plt.legend(to_graph.columns)
+    plt.show()

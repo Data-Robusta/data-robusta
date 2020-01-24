@@ -1,8 +1,16 @@
-### Data Robusta Capstone README
+# What Drives Coffee Prices?
 
-Stuff and things in the README
+**Goals:** 
+- Test if weather in Colombia can predict the export price of Colombian coffee
+- Identify key factors in determining Colombian coffee prices
 
-### Dependencies and version
+## Table of Contents
+
+- [Dependencies](#dependencies)
+- [Organization](#organization)
+- [Dictionary](#dictionary)
+
+## Dependencies
 - python3 3.7.3
 - pandas 2.5.0
 - seaborn .9.0
@@ -13,10 +21,47 @@ Stuff and things in the README
 - FBProphet 0.5
 - Pickle 4.0
 
+## Organization
 
-#### Data Dictionary
+`data_robusta_final.ipynb` pipeline:
 
-#### Tall dataframe
+**Acquisition**
+- Acquire from included json file (data.json) if it exists.
+- If not, scrape a list of the top 100 most-starred GitHub repositories for the following languages: Python, Shell, JavaScript, and PHP.
+- Then, use the GitHub API to create a json file that includes each repository's name, raw README contents, and listed language.
+
+**Preparation**
+- Perform a basic clean of the README text.
+- Create a stemmed version of the cleaned text.
+- Create a lemmatized version of the cleaned text.
+
+**Exploration**
+- Vizualize distributions within the data
+
+**Modeling**
+- Split data
+- Create multiple models with training data
+
+**Evaluation**
+- Analyize evaluation metrics with test data
+
+## Dictionary
+
+### Uncommon Words and Phrases
+
+- Coffee Arabica: 
+- Coffee Robusta: 
+- Coffee rust: 
+- Excelso coffee: 
+- Prophet model: 
+- ICO: 
+- Fedecafé: Common abbreviation for National Federation of Coffee Growers of Colombia (Spanish: Federación Nacional de Cafeteros de Colombia), a non-profit business association that promotes production and exportation of Colombian coffee
+- NOAA: National Oceanic and Atmospheric Administration, the source for all of our weather data
+- RMSE: root mean squared error, the average amount our predictions differ from the actual values
+
+### Data Dictionary
+
+#### Weather Data
 
 - region: The specific department of Colombia
 - name: Name of weather station for that department
@@ -25,22 +70,18 @@ Stuff and things in the README
 - elevation: Elevation of weather station
 - prcp: Average precipitation per day in mm
 - tavg: Average temperature
-- quantity: thousands of 60kg bags
 
-#### Wide dataframe
+#### Coffee Data
 
+- price: Export price of Excelso coffee in USD per lb
+- inflated: Export price adjusted for inflation into 2018 dollars
+- quantity: Thousands of 60kg bags of coffee produced
 
+#### Unified Dataframe
 
-
-#### Data insights
-
-Original dataframe is 708 rows with 42 columns and the month as the index
-
-#### missing data points
-
-- max_temp missing 2421 values
-- min_temp missing 484 values
-- mean_precip missing 1605 values
-- mean_temp missing 225 values
-
-
+- \[region]_mean_precip: Average monthly precipitation for that region (missing values were backfilled by time-series models on each column)
+- \[region]_mean_temp: Average monthy temperature for that region (missing values were backfilled by time-series models on each column)
+- \[region]_min_temp: Minimum monthly temperature for that region (missing values were backfilled by time-series models on each column)
+- quantity: Thousands of 60kg bags of coffee produced
+- price: Export price of Excelso coffee in USD per lb
+- inflated: Export price adjusted for inflation into 2018 dollars
