@@ -2,6 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pylab as pl
 import seaborn as sns
+from scipy import stats
+from prepare import get_prepped
+
 
 # produces graphs by region of thousands of 60kg bags of coffee produced each year
 def production_graph(df):
@@ -79,19 +82,19 @@ def export_price_1991_2018(df):
     plt.hlines(ax['mean'] - (ax['std'] * 1.5),0,4000,color='firebrick',linewidth=2)
     plt.hlines(ax['mean'] + (ax['std'] * .5),0,4000,color='b',linewidth=2)
     plt.hlines(ax['mean'] - (ax['std'] * .5),0,4000,color='b',linewidth=2)
-    plt.ylabel("Export price (2018 cents)",size=15,weight='bold')
-    plt.xlabel("Year",size=15,weight='bold')
-    plt.title("Export price of Colombian coffee 1994 to 2018",size=20,weight='bold')
+    plt.ylabel("Export price (2018 cents)",size=15)
+    plt.xlabel("Year",size=15)
+    plt.title("Export price of Colombian coffee 1994 to 2018",size=20)
     std_dev_above = "1.5 std_dev above mean"
     std_dev_below = "1.5 std_dev below mean"
     std_dev_below_half = ".5 std_dev below mean"
     std_dev_above_half = ".5 std_dev above mean"
 
-    pl.text(600,278,std_dev_above,size=20)
-    pl.text(600,78,std_dev_below,size=20)
-    pl.text(600,178,"mean",size=20)
-    pl.text(600,144,std_dev_below_half,size=20)
-    pl.text(600,212,std_dev_above_half,size=20)
+    pl.text(600,278,std_dev_above,size=15)
+    pl.text(600,78,std_dev_below,size=15)
+    pl.text(600,178,"mean",size=15)
+    pl.text(600,144,std_dev_below_half,size=15)
+    pl.text(600,212,std_dev_above_half,size=15)
     plt.show()
 
 # graph the top five major spikes impacting price over time
@@ -181,3 +184,50 @@ def area_cultivated():
     plt.ylabel('Area Cultivated', size=15)
     plt.show()
 
+# correlation testing between precipitation and price
+def corr_temp_price(df):
+    columns = [col for col in df.columns if col.endswith('mean_temp')]
+    for col in columns:
+        x = df[col]
+    y = df.inflated
+    corr, p = stats.pearsonr(x,y)
+    print(f'r = {corr}')
+    print(f'p = {p}')
+
+# correlation testing between mean temp and price
+def corr_precip_price(df):
+    columns = [col for col in df.columns if col.endswith('mean_precip')]
+    for col in columns:
+        x = df[col]
+    y = df.inflated
+    r, p = stats.pearsonr(x, y)
+    print(f'r = {r}')
+    print(f'P = {p}')
+
+# describes how volatility differs in years with disastrous weather events compared to those without
+def describe_volatility():
+    # acquires inflation-adjusted prices and calculates differences in price from year-to-year
+    df = get_prepped()
+    df = df[['inflated']]
+    df = df.resample('YS').mean()
+    df['difference'] = df.inflated - df.inflated.shift(1)
+    df['difference'] = df.difference.apply(lambda x: abs(x))
+    df['percent_change'] = df.difference / df.inflated
+
+    # creates mask of years in which price was majorly affected by severe weather events
+    weather_events = ((df.index >= '1976') & (df.index <= '1978')) | (df.index == '1986') | (df.index == '1987') | (df.index == '1997') | (df.index == '1998')
+
+    # calculates average price in years which were unaffected by disastrous weather
+    typical_price = df[~weather_events].inflated.mean()
+
+    # calculates average price in years which were unaffected by disastrous weather
+    disaster_price = df[weather_events].inflated.mean()
+
+    
+    disaster_volatility = df[weather_events].difference.mean() / disaster_price
+
+    typical_volatility = df[~(weather_events)].difference.mean() / typical_price
+
+    print(f'''In typical years, price changed by an average of {round(typical_volatility * 100, 2)}%. 
+In years with disastrous weather events, price changed by an average of {round(disaster_volatility * 100, 2)}%.
+This represents a {round((disaster_volatility / typical_volatility * 100), 2)}% increase in year-to-year price volatility.''')

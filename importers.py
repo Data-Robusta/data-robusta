@@ -26,7 +26,7 @@ def compare_brazil():
     plt.legend()#Outputs are proportionally higher with colombia between 1970 and 2003/5
     #Shifting Brazilian data will not be useful in predicting Colombian coffee prices/outputs
 
-def compare_import_change():
+def compare_import_change(year):
     df = pd.read_csv("coffee_data/colombia_imports.csv")
     df = df[df["dest"] != "World"]
     df.drop(df[df.dest == "Democratic Republic of Germany"].index, inplace=True)
@@ -49,17 +49,37 @@ def compare_import_change():
     df2.drop(columns=["dest", "Y1962"], inplace=True)
     df2 = pd.DataFrame(df2.groupby("cat").Y2017.sum().sort_values())
     df =  pd.DataFrame(df.groupby("cat").Y1962.sum().sort_values())
-    sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
-    plt.title("Top 10 importers of Colombian Coffee 1962")
-    plt.xlabel("Millions of USD")
-    plt.ylabel("")
-    plt.show()
-    sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
-    plt.title("Top 10 importers of Colombian Coffee 1962")
-    plt.xlabel("Millions of USD")
-    plt.ylabel("")
-    plt.show()
-def breakdown_other():
+    if year == 1962:
+        values = df.index
+        clrs = ['darkgreen' if (x != "Other") else 'navy' for x in values ]
+        ax = sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=(clrs))
+        ax.set_xticklabels([0,20,40,60,80,100])
+        for p in ax.patches:
+            percentage = '{:.1f}%'.format(100 * p.get_width()/float(df.Y1962.sum()))
+            x = p.get_x() + p.get_width() + 0.02
+            y = p.get_y() + p.get_height()/2
+            ax.annotate(percentage, (x, y))
+        plt.title("Top 10 Importers of Colombian Coffee 1962")
+        plt.xlabel("Millions of USD")
+        plt.ylabel("")
+        plt.show()
+    else:
+        values2 = df2.index
+        clrs2 = ['darkgreen' if (x != "Other") else "navy" for x in values2 ]
+        ax1 = sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=(clrs2))
+        for p in ax1.patches:
+            percentage = '{:.1f}%'.format(100 * p.get_width()/float(df2.Y2017.sum()))
+            x = p.get_x() + p.get_width() + 0.02
+            y = p.get_y() + p.get_height()/2
+            ax1.annotate(percentage, (x, y))
+        ax1.set_xticklabels([0,20,40,60,80,100, 110])
+        plt.title("Top 10 Importers of Colombian Coffee 2017")
+        plt.xlabel("Millions of USD")
+        plt.ylabel("")
+        plt.show()
+
+
+def breakdown_other(year):
     df = pd.read_csv("coffee_data/colombia_imports.csv")
     df = df[df["dest"] != "World"]
     df.drop(df[df.dest == "Democratic Republic of Germany"].index, inplace=True)
@@ -86,11 +106,29 @@ def breakdown_other():
     top_10_df2 = df2.Y2017.sort_values()[-10:].index.tolist()
     df["cat"] = np.where(df.index.isin(top_10_df),df.cat,"Other")
     df2["cat"] = np.where(df2.index.isin(top_10_df2),df2.cat,"Other")
+    df = df[df.index != "Other"]
+    df2 = df2[df2.index != "Other"]
     df2 = pd.DataFrame(df2.groupby("cat").Y2017.sum().sort_values())
     df =  pd.DataFrame(df.groupby("cat").Y1962.sum().sort_values())
-    sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
-    sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=("BuGn_d"))
 
+    if year == 1962:
+        values = df.index
+        clrs = ['darkgreen' if (x != "Other") else 'navy' for x in values]
+        ax = sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=(clrs))
+        ax.set_xticklabels([0,2.5,5,7.5,10,12.5, 15, 17.5, 20])
+        plt.title("Top 10 Countries in Other Category 1962")
+        plt.xlabel("Hundreds of Thousands of USD")
+        plt.ylabel("")
+        plt.show()
+    else:
+        values2 = df2.index
+        clrs2 = ['darkgreen' if (x != "Other") else 'navy' for x in values2]
+        ax1 = sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=(clrs2))
+        ax.set_xticklabels([0,10,20,30,40,50])
+        plt.title("Top 10 Countries in Other Category 2017")
+        plt.xlabel("Millions of USD")
+        plt.ylabel("")
+        plt.show()
 
 
 # #Top movers - determed by largest growth year over year.
@@ -153,10 +191,20 @@ def get_volatility_graph():
     index = df.index
     df = pd.DataFrame(scaler.fit_transform(df))
     df.index = index
-    plt.scatter(df.index,df[0], label="Price Volatility")
+    plt.scatter(df.index,df[0], label="Price Volatility", )
     plt.scatter(df.index,df[1], label="Imports Volatility")
     plt.title("Volatility in Colombian Markets")
     plt.xlabel("Year")
     plt.ylabel("Scaled Volatility Level")
     plt.legend()
     plt.show()
+
+# The graph below compares the prior year's volatility with the next year's 
+# volatility, as can be observed there is a strong correlation between these 
+# two measurements meaning that import volatility is a solid preditctor of 
+# price volatility. 
+
+
+compare_import_change(2017)
+
+
