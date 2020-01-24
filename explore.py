@@ -2,6 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pylab as pl
 import seaborn as sns
+from scipy import stats
+
 
 # produces graphs by region of thousands of 60kg bags of coffee produced each year
 def production_graph(df):
@@ -181,3 +183,22 @@ def area_cultivated():
     plt.ylabel('Area Cultivated', size=15)
     plt.show()
 
+# correlation testing between precipitation and price
+def corr_temp_price(df):
+    columns = [col for col in df.columns if col.endswith('mean_temp')]
+    for col in columns:
+        x = df[col]
+    y = df.inflated
+    corr, p = stats.pearsonr(x,y)
+    print(f'r = {corr}')
+    print(f'p = {p}')
+
+# correlation testing between mean temp and price
+def corr_precip_price(df):
+    columns = [col for col in df.columns if col.endswith('mean_precip')]
+    for col in columns:
+        x = df[col]
+    y = df.inflated
+    r, p = stats.pearsonr(x, y)
+    print(f'r = {r}')
+    print(f'P = {p}')
