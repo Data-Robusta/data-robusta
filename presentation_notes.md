@@ -42,15 +42,9 @@ Benefit to world: Colombia is a mircocosom of Latin American, South American, an
 ### Presentation Structure
 
 #### Beginning/Setting the scene
-
-##### Goal: 
-
-Describe the audience's ordinary world and set the baseline for what it is.
-
-Presentation content: 
-
+Presenter: Jeff
 slide: cup of coffee
-You have probably paid about the same for a cup of coffee as far back as you can remember. We were curious to see if changing weather patterns would threaten the price of America's true hero: Caffeine. 
+You have probably paid about the same for a cup of coffee as far back as you can remember. We were curious to see if changing weather patterns would threaten the price of America's true : Caffeine. 
 
 With that in mind we decided to look at the weather and coffee production of the most well known coffee producting country in the world: Colombia
 
@@ -68,31 +62,31 @@ Price spikes like this may cause a slight cost increase in your morning cup of j
 
 Slide: show price over time with huge price spikes
 
-Catastrophes like this account for X% of the price volatility
+Catastrophes like this can create 4x the normal volatility seen in the market
 
 These types of events come in many forms: Weather, economic, plant disease, and political
 
 *** Slide with examples of different incidences ***
 
 #### Middle 
-
-##### Goal:
-
-Clearly contrast what is with what could be so teh audience feels the tension and begins to desire resolution of that tension.
-
-After calling them to the adventure, overcome their resistance, provide them with what they need to succeed, and guide them through the solution - all while contrasting the status quo with the loftiness of the idea
-
-##### Presentation content:
-
+Presenter: Sam
 The Data Robusta team set out to see if rising temps and more volatile precipitation affected coffee price.
 
 slide: models compared to actual price
 
 At first we tried several models using price, temperature, precipitation, import/export quanities to predict price. But we found that the most relevant variables were price over time and coffee production quantity. Even still the model struggled to produce accurate results. We found that difficult to predict events like plant disease, natural disasters, and major trade agreements incite extreme price movements in the market.
 
+
+
 *** Possibly another visual showing models.
 
-*** Showing our thought process and showing our data science skills
+Presenter: Symeon
+
+
+
+
+Presenter: Cari
+*** Showing our thought process and showing our data science skills: Qualitative data
 
 
 
