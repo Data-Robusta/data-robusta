@@ -15,7 +15,7 @@
 
 BLUF: 
 
-- Colombia changed their economic focus to shift away from food and nontradables
+- Attempts to fight inflation destroyed agricultural profitability, exports declined and area harvested decreased by more than 10% 
 - Coffee production dropped 50% from 1993
 - Two years of overly heavy rain leading up to 1994
 

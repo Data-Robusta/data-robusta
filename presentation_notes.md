@@ -44,9 +44,11 @@ Benefit to world: Colombia is a mircocosom of Latin American, South American, an
 #### Beginning/Setting the scene
 Presenter: Jeff
 slide: cup of coffee
-You have probably paid about the same for a cup of coffee as far back as you can remember. We were curious to see if changing weather patterns would threaten the price of America's true : Caffeine. 
+You have probably paid about the same for a cup of coffee as far back as you can remember. We were curious to see if changing weather patterns would threaten the price of America's motor: Caffeine. 
 
 With that in mind we decided to look at the weather and coffee production of the most well known coffee producting country in the world: Colombia
+
+Coffee grows best in volcanic soil, at altitudes of 1,200 to 1,800 meters, in places without frost, and receiving around 80 inches of rain a year. Colombia ticks all those boxes.
 
 slide: picture of Colombia/ maybe Juan Valdez
 
@@ -81,14 +83,24 @@ At first we tried several models using price, temperature, precipitation, import
 *** Possibly another visual showing models.
 
 Presenter: Symeon
+*** exploratory discoveries and quantitative analysis
 
+
+
+Huila, Antioquia, and Tolima produce about half of Colombia's coffee
+
+ Talk about lack of corr with weather and price. 
+
+ One or two stat facts
+
+ temperatures
 
 
 
 Presenter: Cari
-*** Showing our thought process and showing our data science skills: Qualitative data
+*** Showing our thought process and qualitative analysis
 
-
+The data exploration identified the extreme price spikes, but it did not tell us what was creating them. We decide to take a deeper dive into the drivers and how they affected prices over time.
 
 
 #### End
