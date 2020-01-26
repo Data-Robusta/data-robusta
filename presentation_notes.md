@@ -72,18 +72,44 @@ These types of events come in many forms: Weather, economic, plant disease, and 
 
 #### Middle 
 Presenter: Sam
-The Data Robusta team set out to see if rising temps and more volatile precipitation affected coffee price.
+
 
 slide: models compared to actual price
 
-At first we tried several models using price, temperature, precipitation, import/export quanities to predict price. But we found that the most relevant variables were price over time and coffee production quantity. Even still the model struggled to produce accurate results. We found that difficult to predict events like plant disease, natural disasters, and major trade agreements incite extreme price movements in the market.
+*** Briefly explain our data and its sources. 
 
+The Data Robusta team set out to see if we could develop a model for predicting Colombian wholesale coffee prices. Our initial hypothesis was that temperature and more volatile precipitation would be strong drivers of coffee price.
+
+The coffee data came from the National Federation of Coffee Growers in Colombia, commonly known as Fedecafé. These spreadsheets included records of all coffee export prices in dollars per pound, going back to 1960. They also listed the monthly quantity of coffee produced in thousands of sixty kilogram bags. We acquired our weather data from the National Oceanic and Atmospheric Administration. We selected all precipitation and temperature data from 1960 to 2018. We filled in missing weather data using a forecasting tool from Facebook.
+
+At first we tried several models using price, temperature, precipitation, production quantities to predict price. We found that day to day Colombian weather was a very poor predictor of their coffee price. We experimented with various transformations of weather data, including date shifting and weighting them by regional production quantities. While those ideas did not improve the model directly, they did inform some improvements in our model. Since we only had a regional breakdown of coffee production back to 2002, that model appeared to greatly improve our predictions, but we quickly found this was due to limiting the time period, not the new aggregated weather variables. 
+
+Our best-performing model solely utilized production quantities and price post 1995. It was not as strong as we were hoping for. The model calculates prices that miss the actual price by 36 cents (or about 20%) per pound. We found that previously mentioned events like plant disease, natural disasters, and major trade agreements drive extreme changes in the price of Colombian coffee and make it difficult to model.
+
+What we'd like to include in our model.
 
 
 *** Possibly another visual showing models.
 
 Presenter: Symeon
 *** exploratory discoveries and quantitative analysis
+
+Sam broke down the model and variables we ended up using to predict prices. I would like to talk to you about some of the insights we uncovered exploring the data. The exploration phase was instrumental in helping our team understand what was, and just as important, what wasn't driving price.
+
+Sam mentioned the final model used only post 1995 years. After discovering the newer dates improved the model we explored the shape and distribution of the price over time. It was quickly apparent the prices were bimodal, with two very distinct patterns: pre and post 1995. This split left us with two unique price trends that were very close to normal distribution. This was very helpful in understanding why our model performed so much better with newer dates.
+
+Slide: Bimodal Distribution
+
+Next we asked ourselves: Does international production volume provide predictive power for Colombia's coffee price?
+
+We compared Colombia's exports to that their geographic neighbor and coffee competitor, Brazil. We were looking for potential leading indicators from Brazil's exports that would move Colombia's exports/price in a predicable manner. 
+
+Slide: Colombia and Brazil Exports
+
+The graph here shows that there was not a strong predictor of Colombia's coffee price or production based on Brazil's coffee activity.
+
+One very interesting insight we found. Was a drastic drop in the size of 
+
 
 
 
@@ -97,21 +123,29 @@ Huila, Antioquia, and Tolima produce about half of Colombia's coffee
 
 
 
+
+ (Graph with overview of price spikes)
+1976, 1986 and 1994; all of these years the price of coffee significantly spiked primarily due to weather related conditions. Certainly weather does have an impact on price but its impacts are most prevalent during extreme events; weather macro trends cannot (*preform/cannot be seen as well/cannot be accounted for as well*) during most other times. This is due to the markets natural gravitation towards a lower price due to modernization, innovation, and the perseverance of the farmers themselves. Other major fluctuations can be attributed to events such as (graph of 1995 to 2015) disease, government policy changes, natural disasters.
+
+
+
+4:32
+That’s what I have thus far
+
+
+
 Presenter: Cari
 *** Showing our thought process and qualitative analysis
 
-The data exploration identified the extreme price spikes, but it did not tell us what was creating them. We decide to take a deeper dive into the drivers and how they affected prices over time.
+The data exploration identified the extreme price spikes, but it did not tell us what was creating them. We decide to take a deeper dive into the data and to see what was causing these spikes.
 
-What we found was that coffee volatility can be created by several different types of events. Prolonged frost, trade agreements, exchange rates, and plant disease can all cause price spikes 2-10x the normal price. These events have serious long term effects on the price of coffee as well; prices can take 18 months to 5 years to return to normal levels.
+What we found was that coffee volatility can be created by several different types of events. Hard frost, trade agreements, exchange rates, and plant disease can all cause price spikes 2-10x the normal price. These events have serious long term effects on the price of coffee as well; prices can take 18 months to 5 years to return to normal levels.
 
-In 1975, the now named Brazilian "Black Frost" destroyed 40% of Brazil's coffee plants. This caused prices to skyrocket to worldwide record highs and several years to return to normal. Coffee producing countries are not insulated from other countries' misfortunes affecting their own coffee export prices. Foreign disasters like this can be price beneficial to unaffected countries, but are not sustainable and make long term planning difficult for farmers.
+In 1975, the now named Brazilian "Black Frost" destroyed 40% of Brazil's coffee plants. This caused prices to skyrocket to worldwide record highs and several years to return to normal. Coffee producing countries are not insulated from other countries' misfortunes affecting their own coffee export prices. Foreign disasters like this can be price beneficial to unaffected countries, but are not sustainable and make long term planning difficult for small farmers.
 
 2002 emerging markets
 
 2011 plant disease
-
-
-
 
 
 
@@ -121,7 +155,7 @@ In 1975, the now named Brazilian "Black Frost" destroyed 40% of Brazil's coffee 
 Goal: Give them a clear call to action and propose a new bliss that lures them toward your idea. Make it clear how the world will be a better place once your idea is adopted.
 
 
-To sum up the true impact of these staggering stats and stories. Price spikes come from many different directions and can be difficult to predict. Our model was adequate at predicting prices during periods of relative stability, but as a follow on project we believe we can identify early triggers of these types of events. We would like to create a natural language processing model that would examine live streams of local social media posts discussing weather and 
+To sum up the true impact of these staggering stats and stories. Price spikes come from many different directions and can be difficult to predict. Our model was adequate at predicting prices during periods of relative stability, but as a follow on project we would like to develop a model to identify early triggers of these types of events. We believe a natural language processing model to examine local Colombian weather social media posts, FEDECAFE news, and trade/economic news would be very beneficial in assisting in predicting these major market disruptions.
 
 Coffee prices change in a predictable manner outside of severe events
 
