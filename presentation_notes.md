@@ -58,7 +58,7 @@ slide: flooding in Colombia
 
 In 1997 heavy rain wiped out approximately 25% of Colombia's coffee plants. This caused global coffee prices to skyrocket to 2.5x the normal price. It took over 3 years for prices to return to normal. 70% of Colombia's coffee is produced by single family farmers. 
 
-slide: Farmers like my friend Jaime rely on stable coffee prices to provide for their family
+slide: Farmers like my friend Jaime rely on stable coffee prices to provide for their family.
 
 Price spikes like this may cause a slight cost increase in your morning cup of joe, but for these farmers it destroys their livelihood.
 
@@ -102,7 +102,27 @@ Presenter: Cari
 
 The data exploration identified the extreme price spikes, but it did not tell us what was creating them. We decide to take a deeper dive into the drivers and how they affected prices over time.
 
+What we found was that coffee volatility can be created by several different types of events. Prolonged frost, trade agreements, exchange rates, and plant disease can all cause price spikes 2-10x the normal price. These events have serious long term effects on the price of coffee as well; prices can take 18 months to 5 years to return to normal levels.
+
+In 1975, the now named Brazilian "Black Frost" destroyed 40% of Brazil's coffee plants. This caused prices to skyrocket to worldwide record highs and several years to return to normal. Coffee producing countries are not insulated from other countries' misfortunes affecting their own coffee export prices. Foreign disasters like this can be price beneficial to unaffected countries, but are not sustainable and make long term planning difficult for farmers.
+
+2002 emerging markets
+
+2011 plant disease
+
+
+
+
+
+
 
 #### End
 
 Goal: Give them a clear call to action and propose a new bliss that lures them toward your idea. Make it clear how the world will be a better place once your idea is adopted.
+
+
+To sum up the true impact of these staggering stats and stories. Price spikes come from many different directions and can be difficult to predict. Our model was adequate at predicting prices during periods of relative stability, but as a follow on project we believe we can identify early triggers of these types of events. We would like to create a natural language processing model that would examine live streams of local social media posts discussing weather and 
+
+Coffee prices change in a predictable manner outside of severe events
+
+
