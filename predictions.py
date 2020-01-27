@@ -16,7 +16,8 @@ def make_predictions(model_dict):
     model_name = model_dict['name']
     model = get_model(model_name + '_model.p')
 
-    model_df = model_dict['data']
+    model_data = model_dict['data']
+    model_data = model_data.reset_index()
     model_df = model.make_future_dataframe(periods=0)
     regressors = model.train_component_cols.drop(columns=['additive_terms', 'extra_regressors_additive', 'yearly', 'multiplicative_terms']).columns
     for regressor in regressors:
@@ -25,7 +26,14 @@ def make_predictions(model_dict):
     model_forecast = model.predict(model_df)
     store_model(model_forecast, model_name + '_predictions.p')
 
-    return model_forecast
+    to_graph = model_forecast[['ds', 'yhat']]
+    to_graph = to_graph.rename(columns={'ds':'date', 'yhat': model_name})
+    to_graph = to_graph.set_index('date')
+
+    if len(to_graph) > 24:
+        to_graph = to_graph.resample('YS').mean()
+
+    return model_forecast, to_graph
 
 def graph_models_fresh(store=True):
     pd.plotting.register_matplotlib_converters()
@@ -35,32 +43,39 @@ def graph_models_fresh(store=True):
     weighted_q = prepare.make_weighted(quantity=True)
     weighted_monthly_q = prepare.make_weighted_monthly(quantity=True)
 
-    models= [{'name': 'best', 'data': df}, 
+    models= [{'name': 'best', 'data': df['1995':]}, 
             {'name': 'weather', 'data': weighted}, 
             {'name': 'weather_monthly', 'data': weighted_monthly}, 
-            {'name': 'weather_q', 'data': weighted_q}, 
-            {'name': 'weather_monthly_q', 'data': weighted_monthly_q}]
-    
+            {'name': 'weather_quantity', 'data': weighted_q}, 
+            {'name': 'weather_monthly_quantity', 'data': weighted_monthly_q}]
+
     for model in models:
-        model['forecast'] = make_predictions(model)
+        print(model['name'])
+        model['forecast'], model['graph'] = make_predictions(model)
 
     # best = get_model('best_model.p')
     # weather = get_model('weather_model.p')
     # monthly_weather = get_model('weather_monthly_model.p')
 
-    best_df = best.make_future_dataframe(periods=0)
-    best_df['quantity'] = df['1995':].reset_index()['quantity']
+    # best_df = best.make_future_dataframe(periods=0)
+    # best_df['quantity'] = df['1995':].reset_index()['quantity']
 
-    weather_df = weather.make_future_dataframe(periods=0)
-    weighted = get_model('weighted.p')
-    weather_df['weighted_mean_precip'] = weighted['weighted_mean_precip']
-    weather_df['weighted_mean_temp'] = weighted['weighted_mean_temp']
+    # weather_df = weather.make_future_dataframe(periods=0)
+    # weighted = get_model('weighted.p')
+    # weather_df['weighted_mean_precip'] = weighted['weighted_mean_precip']
+    # weather_df['weighted_mean_temp'] = weighted['weighted_mean_temp']
 
-    best_forecast = best.predict(best_df)
-    store_model(best_forecast, 'best_predictions.p')
+    # best_forecast = best.predict(best_df)
+    # store_model(best_forecast, 'best_predictions.p')
 
-    weather_forecast = weather.predict(weather_df)
-    store_model(weather_forecast, 'weather_predictions.p')
+    # weather_forecast = weather.predict(weather_df)
+    # store_model(weather_forecast, 'weather_predictions.p')
+
+    to_graph = pd.DataFrame()
+    
+    to_graph['ds'] = 
+    for model in models:
+        
 
     to_graph = best_forecast[['ds', 'yhat']]
     to_graph = to_graph.rename(columns={'ds': 'date', 'yhat': 'best_model'})
