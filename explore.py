@@ -249,3 +249,29 @@ def precip_vs_price():
     for region in to_plot:
         sns.scatterplot(x=df[region], y=df.inflated, color='darkgreen', alpha=0.5)
     plt.show()
+
+
+def major_events_arrows(df):
+    ax = df
+    ax['price'] = ax.inflated
+    plt.figure(figsize=(10,6))
+    ax.price.plot(linewidth=2,color='darkgreen')
+    plt.ylabel("Price",size=15)
+    plt.xlabel("Year",size=15)
+    plt.title("Price Spikes Over Time",size=20)
+    
+    plt.annotate('1975\nBlack\nFrost', xy=('1975', 400), xytext=('1970', 600),
+             arrowprops={'facecolor': 'navy'}, fontsize=13, color='navy')
+    
+    plt.annotate('1985\nNevado\ndel\nRuiz\nErupted', xy=('1985', 375), xytext=('1982', 600),
+             arrowprops={'facecolor': 'navy'}, fontsize=13, color='navy')
+    
+    plt.annotate('1994\nEconomic\nShifts', xy=('1993', 175), xytext=('1990', 420),
+             arrowprops={'facecolor': 'navy'}, fontsize=13, color='navy')
+    plt.annotate('2002\nEmerging\nMarkets', xy=('2002', 125), xytext=('2000', 350),
+             arrowprops={'facecolor': 'navy'}, fontsize=13, color='navy')
+    
+    plt.annotate('2012\nCoffee\nRust', xy=('2013', 225), xytext=('2011', 400),
+         arrowprops={'facecolor': 'navy'}, fontsize=13, color='navy')
+    
+    plt.show()
