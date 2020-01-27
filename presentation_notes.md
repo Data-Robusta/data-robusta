@@ -58,7 +58,9 @@ slide: flooding in Colombia
 
 In 1997 heavy rain wiped out approximately 25% of Colombia's coffee plants. This caused global coffee prices to skyrocket to 2.5x the normal price. It took over 3 years for prices to return to normal. 70% of Colombia's coffee is produced by single family farmers. 
 
-slide: Farmers like my friend Jaime rely on stable coffee prices to provide for their family.
+slide: Jaime and his fam
+
+Farmers like my friend Jaime rely on stable coffee prices to provide for their family and events like the floods of 1997 are devestating.
 
 Price spikes like this may cause a slight cost increase in your morning cup of joe, but for these farmers it destroys their livelihood.
 
@@ -92,9 +94,7 @@ Going forward, we think it may yield a more accurate model to also include facto
 Presenter: Symeon
 *** exploratory discoveries and quantitative analysis
 
-Sam broke down the model and variables we ended up using to predict prices. I would like to talk to you about some of the insights we uncovered exploring the data. The exploration phase was instrumental in helping our team understand what was, and just as important, what wasn't driving price.
-
-The coffee data came from the National Federation of Coffee Growers in Colombia, commonly known as Fedecafé. These spreadsheets included records of all coffee export prices in dollars per pound, going back to 1960. They also listed the monthly quantity of coffee produced in thousands of sixty kilogram bags. We acquired our weather data from the National Oceanic and Atmospheric Administration. We selected all precipitation and temperature data from 1960 to 2018. We filled in missing weather data using a forecasting tool from Facebook.
+Sam broke down the model and variables we ended up using to predict prices. I would like to talk to you about some of the insights we uncovered exploring the data from the National Federation of Coffee Growers and the National Oceanaic and Atmospheric Administration. The exploration phase was instrumental in helping our team understand what was, and just as important, what wasn't driving price.
 
 Sam mentioned the final model used only post 1995 years. After discovering the newer dates improved the model we explored the shape and distribution of the price over time. It was quickly apparent the prices were bimodal, with two very distinct patterns: pre and post 1995. This split left us with two unique price trends that were very close to normal distribution. This was very helpful in understanding why our model performed so much better with newer dates.
 

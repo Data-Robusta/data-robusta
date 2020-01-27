@@ -146,8 +146,8 @@ def corr_price_and_precip(df):
 def dist_of_price(df):
     plt.figure(figsize=(10, 6))
     sns.distplot(df.inflated, color='darkgreen')
-    plt.title('Inflated Price Distribution',size=20)
-    plt.xlabel('Inflated Price', size=15)
+    plt.title('Price Distribution 1960 to 2018',size=20)
+    plt.xlabel('Price (in 2018 dollars)', size=15)
     plt.ylabel('Expected Probability', size=15)
     plt.show()
 
@@ -155,8 +155,8 @@ def dist_of_price(df):
 def dist_after(df):
     plt.figure(figsize=(10, 6))
     sns.distplot(df.inflated.loc['1992':], color='darkgreen')
-    plt.title('Inflated Price Distribution from 1992', size=20)
-    plt.xlabel('Inflated Price', size=15)
+    plt.title('Price Distribution 1992 to 2018', size=20)
+    plt.xlabel('Price (in 2018 dollars)', size=15)
     plt.ylabel('Expected Probability', size=15)
     plt.show()
 
@@ -164,8 +164,8 @@ def dist_after(df):
 def dist_before(df):
     plt.figure(figsize=(10, 6))
     sns.distplot(df.inflated.loc[:'1992'], color='darkgreen')
-    plt.title('Inflated Price Distribution up to 1991', size=20)
-    plt.xlabel('Inflated Price', size=15)
+    plt.title('Price Distribution 1960 to 1991', size=20)
+    plt.xlabel('Price (in 2018 dollars)', size=15)
     plt.ylabel('Expected Probability', size=15)
     plt.show()
 
