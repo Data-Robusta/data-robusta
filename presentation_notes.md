@@ -3,7 +3,11 @@
 #### Beginning/Setting the scene
 Presenter: Jeff
 slide: cup of coffee
-You have probably paid about the same for a cup of coffee as far back as you can remember. We were curious to see if changing weather patterns would threaten the price of America's motor: Caffeine. 
+
+The Big Four of Kraft, Procter and Gamble, Sara Lee, and Nestle buy half of the coffee produced worldwide. 
+
+
+Coffee is the second most traded commodity worldwide. It is a $200billion industry. The Data Robusta team was curious to see if changing weather patterns had any effect on the price of the world's favorite morning jolt of energy.
 
 With that in mind we decided to look at the weather and coffee production of the most well known coffee producting country in the world: Colombia
 
@@ -58,13 +62,6 @@ This led us to a pivitol point in our analysis. When splitting our model, one fo
 
 Going forward, we think it may yield a more accurate model to also include factors that would help predict demand and the cost of purchasing and transporting the coffee to destination. Including information such as US weather, crude oil prices, and the exchange rate between the US dollar and the Colombian Peso might account for these missing pieces and result in an even better model.
 
-(take this out) 
-
-Huila, Antioquia, and Tolima produce about half of Colombia's coffee
- 
-**** finish talking about best model
-
-*** Possibly another visual showing models.
 
 Presenter: Symeon
 *** exploratory discoveries and quantitative analysis
@@ -86,10 +83,6 @@ We compared Colombia's exports to that of their geographic neighbor and coffee c
 The graph here shows that there was not a strong predictor of Colombia's coffee price or production based on Brazil's prior montbh coffee activity. Brazil and Colombia prices tend to move in concert.
 (need more clarity)
 
-
-One very interesting insight we found. Was a drastic drop in the size of Colombia's stockpile size over time. The number 
-
-(finish thought)
 
 
 Presenter: Cari
