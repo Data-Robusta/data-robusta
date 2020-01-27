@@ -33,7 +33,7 @@
 **Preparation**
 - Widens the dataframe to have one column for each regional weather metric
 - Fills in missing weather data with values predicted by univariate Prophet models
-- NEEDS FURTHER EXPLANATION
+- Makes dataframe that weights temperature/precipitation by proportion of total coffee production
 
 **Exploration**
 - Vizualize distributions and correlations within the data
@@ -43,9 +43,13 @@
 - Look at stockpile reserves over time
 - Search for predictive power of Brazilian coffee prices
 - Visualize which countries buy most coffee from Colombia
+- Explore effects of weighting the weather data by regional production
 
 **Modeling**
-- NEEDS WORK
+- Run Prophet models on data with various hyperparameters and regressors
+- Try given different dataframes
+- Try models with different time periods
+- Evaluate and plot models
 
 ## Dictionary
 
