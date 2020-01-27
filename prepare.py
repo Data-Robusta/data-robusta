@@ -190,6 +190,25 @@ def get_prepped(fresh=False):
         df = impute(df)
     return df
 
+def get_weights():
+    weights = pd.read_excel('coffee_data/colu_coffee_data.xlsx', sheet_name=7, index_col=1, header=5)
+    weights = weights.drop(columns='Unnamed: 0')
+    weights = weights.reset_index().rename(columns={'index': 'region'})
+    weights = weights.iloc[:23]
+    weights = weights[weights['2018*'] > 60]
+    weights = weights.set_index('region')
+    for col in weights.columns:
+        weights = weights.rename(columns={str(col): str(col)[0:4]})
+    weights = weights.T
+    weights.index = weights.index.astype(str)
+    weights.index = pd.to_datetime(weights.index)
+    monthly_index = pd.date_range('1995-01-01', '2018-12-01', freq='MS')
+    weights = weights.reindex(monthly_index)
+    weights.loc[weights.index < '2002'] = weights['2002-01']
+    weights = weights.bfill()
+    weights = weights.ffill()
+    return weights
+
 def make_weighted(quantity=False):
     df = get_prepped()
     weights = pd.read_excel('coffee_data/colu_coffee_data.xlsx', sheet_name=7, index_col=1, header=5)
@@ -228,7 +247,7 @@ def make_weighted(quantity=False):
     
     if quantity:
         weighted['quantity'] = df.quantity
-        
+
     weighted['price'] = yearly.inflated
     return weighted
 

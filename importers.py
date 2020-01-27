@@ -205,6 +205,5 @@ def get_volatility_graph():
 # price volatility. 
 
 
-compare_import_change(2017)
 
 
