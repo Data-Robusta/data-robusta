@@ -6,6 +6,7 @@ from colombia_weather import get_weather, weather_stations
 from colombia_coffee import get_coffee
 from fbprophet.diagnostics import cross_validation, performance_metrics
 from fbprophet import Prophet
+import datetime as dt
 
 # converts dates from the format 'YYYY-MM-DD' to 'YYYY-MM-01'
 def first_of_month(date):
@@ -226,4 +227,39 @@ def make_weighted():
     + (yearly['Tolima' + field] * yearly['Tolima_weight'])
 
     weighted['price'] = yearly.inflated
+    return weighted
+
+def make_weighted_monthly():
+    df = get_prepped()
+    weights = pd.read_excel('coffee_data/colu_coffee_data.xlsx', sheet_name=7, index_col=1, header=5)
+    weights = weights.drop(columns='Unnamed: 0')
+    weights = weights.reset_index().rename(columns={'index': 'region'})
+    weights = weights.iloc[:23]
+    weights = weights[weights['2018*'] > 60]
+    weights = weights.set_index('region')
+    for col in weights.columns:
+        weights = weights.rename(columns={str(col): str(col)[0:4]})
+    weights = weights.T
+    weights.index = weights.index.astype(str)
+    weights.index = pd.to_datetime(weights.index)
+    monthly_index = pd.date_range('1995-01-01', '2018-12-01', freq='MS')
+    weights = weights.reindex(monthly_index)
+    weights.loc[weights.index < '2002'] = weights['2002-01']
+    weights = weights.bfill()
+    weights = weights.ffill()
+    df = df['1995':]
+
+    for col in weights.drop(columns='TOTAL ').columns:
+        df[col + '_weight'] = weights[col] / weights['TOTAL ']
+    
+    fields = ['_mean_precip', '_mean_temp']
+    weighted = pd.DataFrame()
+    for field in fields:
+        weighted['weighted' + field] = (df['Antioquia' + field] * df['Antioquia_weight']) \
+    + (df['Caldas' + field] * df['Caldas_weight'])\
+    + (df['Cauca' + field] * df['Cauca_weight'])\
+    + (df['Huila'  + field] * df['Huila_weight'])\
+    + (df['Tolima' + field] * df['Tolima_weight'])
+
+    weighted['price'] = df.inflated
     return weighted

@@ -32,7 +32,8 @@
 
 **Preparation**
 - Widens the dataframe to have one column for each regional weather metric
-- Fills in missing weather data with 
+- Fills in missing weather data with values predicted by univariate Prophet models
+- NEEDS FURTHER EXPLANATION
 
 **Exploration**
 - Vizualize distributions and correlations within the data
@@ -44,8 +45,7 @@
 - Visualize which countries buy most coffee from Colombia
 
 **Modeling**
-- Split data
-- Create multiple models with training data
+- NEEDS WORK
 
 ## Dictionary
 
