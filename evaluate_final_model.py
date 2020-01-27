@@ -56,6 +56,6 @@ During disaster months, its RMSE was {round(rmse_disaster, 2)}, and missed by {r
             print('Disaster:' + str(round(rmse_disaster, 2)))
 
 if __name__ == '__main__':
-    models = ['best', 'weather', 'weather_monthly', 'weather_quantity', 'weather_monthly_quantity']
+    models = ['best', 'weather', 'weather_monthly', 'weather_quantity', 'weather_monthly_quantity', 'old_weather']
     for model in models:
         evaluate_model(model, words=False)

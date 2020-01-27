@@ -81,15 +81,9 @@ for col in df.drop(columns=['ds', 'y']):
 # fits and evaluates the Prophet model
 mv.fit(df)
 
-store_model(mv, 'old_weather_model.p')
-
 cv_mv = cross_validation(mv, horizon='298 days')
 
-store_model(cv_mv, 'old_weather_cv.p')
-
 old_weather_performance = performance_metrics(cv_mv)
-
-store_model(old_weather_performance, 'old_weather_performance.p')
 
 old_weather_performance.rmse.mean() # RMSE: 209.81
 
@@ -268,3 +262,32 @@ run_weighted_model()
 run_weighted_model(monthly=True)
 run_weighted_model(quantity=True)
 run_weighted_model(monthly=True, quantity=True)
+
+data = get_prepped()
+
+# makes df for Prophet, drops the uninflated price column
+df = pd.DataFrame()
+df = data.drop(columns='price')
+df = df['1995':]
+df = df.reset_index()
+
+# renames columns to accomodate for Prophet
+df = df.rename(columns={'date': 'ds', 'inflated': 'y'})
+
+mv_95 = Prophet()
+
+# adds each column of weather data as a regressor
+for col in df.drop(columns=['ds', 'y']):
+    mv_95.add_regressor(col)
+
+mv_95.fit(df)
+
+store_model(mv_95, 'old_weather_model.p')
+
+cv_mv_95 = cross_validation(mv_95, horizon='298 days')
+
+store_model(cv_mv_95, 'old_weather_cv.p')
+
+old_weather_performance_95 = performance_metrics(cv_mv_95)
+
+store_model(old_weather_performance, 'old_weather_performance.p')
