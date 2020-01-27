@@ -35,3 +35,5 @@ def evaluate_model(model_name='best'):
 
     print(f'''The {model_name} model had an RMSE of {round(rmse, 2)}. This means on average it missed its guess by {round(pct * 100, 2)}% of the price.
 During stable months, its RMSE was {round(rmse_stable, 2)}, and missed by {round(pct_stable * 100, 2)}% of the price.''')
+
+models = ['best', 'weather', 'weather_monthly', 'weather_q', 'weather_monthly_q']

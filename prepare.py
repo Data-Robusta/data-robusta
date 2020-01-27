@@ -190,7 +190,7 @@ def get_prepped(fresh=False):
         df = impute(df)
     return df
 
-def make_weighted():
+def make_weighted(quantity=False):
     df = get_prepped()
     weights = pd.read_excel('coffee_data/colu_coffee_data.xlsx', sheet_name=7, index_col=1, header=5)
     weights = weights.drop(columns='Unnamed: 0')
@@ -225,11 +225,14 @@ def make_weighted():
     + (yearly['Cauca' + field] * yearly['Cauca_weight'])\
     + (yearly['Huila'  + field] * yearly['Huila_weight'])\
     + (yearly['Tolima' + field] * yearly['Tolima_weight'])
-
+    
+    if quantity:
+        weighted['quantity'] = df.quantity
+        
     weighted['price'] = yearly.inflated
     return weighted
 
-def make_weighted_monthly():
+def make_weighted_monthly(quantity=False):
     df = get_prepped()
     weights = pd.read_excel('coffee_data/colu_coffee_data.xlsx', sheet_name=7, index_col=1, header=5)
     weights = weights.drop(columns='Unnamed: 0')
@@ -260,6 +263,9 @@ def make_weighted_monthly():
     + (df['Cauca' + field] * df['Cauca_weight'])\
     + (df['Huila'  + field] * df['Huila_weight'])\
     + (df['Tolima' + field] * df['Tolima_weight'])
+
+    if quantity:
+        weighted['quantity'] = df.quantity
 
     weighted['price'] = df.inflated
     return weighted
