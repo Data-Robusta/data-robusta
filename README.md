@@ -26,17 +26,22 @@
 `data_robusta_final.ipynb` pipeline:
 
 **Acquisition**
-- Acquire from included json file (data.json) if it exists.
-- If not, scrape a list of the top 100 most-starred GitHub repositories for the following languages: Python, Shell, JavaScript, and PHP.
-- Then, use the GitHub API to create a json file that includes each repository's name, raw README contents, and listed language.
+- Acquire coffee price and production quantity data from Fedecafé Excel spreadsheets. Also creates a column of prices adjusted into 2018 dollars using the Consumer Price Index.
+- Acquire Colombia's average temperature, minimum temperature, and average precipitation data by day by weather station from 1960 to 2018. Aggregate these fields into monthly averages in the cases of precipitation and average temperature, and the monthly minimum of the daily minimums. Map weather stations to regions in Colombia. Notably, some of these data were missing.
+- Combine these two dataframes into one.
 
 **Preparation**
-- Perform a basic clean of the README text.
-- Create a stemmed version of the cleaned text.
-- Create a lemmatized version of the cleaned text.
+- Widens the dataframe to have one column for each regional weather metric
+- Fills in missing weather data with 
 
 **Exploration**
-- Vizualize distributions within the data
+- Vizualize distributions and correlations within the data
+- Explore price volatility
+- See how major weather events affected price
+- Research Colombian history
+- Look at stockpile reserves over time
+- Search for predictive power of Brazilian coffee prices
+- Visualize which countries buy most coffee from Colombia
 
 **Modeling**
 - Split data
@@ -48,13 +53,14 @@
 
 - Coffee Arabica: One of the two major coffee varieties, considered sweeter, more flavorful, and more acidic than Robusta. Our project focuses on this type of coffee.
 - Coffee Robusta: The other major coffee variety, sought after for its much higher caffeine content and lesser vulnerability to pests and adverse weather conditions.
-- Coffee rust: 
-- Excelso coffee: 
-- Prophet model: 
-- ICO: 
-- Fedecafé: Common abbreviation for National Federation of Coffee Growers of Colombia (Spanish: Federación Nacional de Cafeteros de Colombia), a non-profit business association that promotes production and exportation of Colombian coffee
-- NOAA: National Oceanic and Atmospheric Administration, the source for all of our weather data
-- RMSE: Root mean squared error, the average amount our predictions differ from the actual values
+- Coffee rust: A disease that devastates coffee plants and produces red-yellow spots on the leaves that look like rust.
+- Excelso coffee: A size-grading of coffee beans. This is the second largest coffee grading and is most commonly sold.
+- Prophet model: A time-series modeling library developed by Facebook used to quickly and accurately predict trends over time
+- ICO: International Coffee Organization, a trade bloc that tracks global coffee statistics and encourages development.
+- Fedecafé: Common abbreviation for National Federation of Coffee Growers of Colombia (Spanish: Federación Nacional de Cafeteros de Colombia), a non-profit business association that promotes production and exportation of Colombian coffee.
+- NOAA: National Oceanic and Atmospheric Administration, the source for all of our weather data.
+- RMSE: Root mean squared error, the average amount our predictions differ from the actual values.
+- CPI: Consumer Price Index, a measure of the average change over time in the prices paid by U.S. consumers, used to approximate inflation.
 
 ### Data Dictionary
 
