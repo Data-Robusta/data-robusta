@@ -81,9 +81,17 @@ for col in df.drop(columns=['ds', 'y']):
 # fits and evaluates the Prophet model
 mv.fit(df)
 
+store_model(mv, 'old_weather_model.p')
+
 cv_mv = cross_validation(mv, horizon='298 days')
 
-performance_metrics(cv_mv).rmse.mean() # RMSE: 209.81
+store_model(cv_mv, 'old_weather_cv.p')
+
+old_weather_performance = performance_metrics(cv_mv)
+
+store_model(old_weather_performance, 'old_weather_performance.p')
+
+old_weather_performance.rmse.mean() # RMSE: 209.81
 
 # Creates dataframe with just date, inflated price, and quantity produced
 dfq = df[['ds', 'y', 'quantity']]

@@ -154,8 +154,8 @@ def dist_of_price(df):
 # Look at distribution of inflated price after 1991
 def dist_after(df):
     plt.figure(figsize=(10, 6))
-    sns.distplot(df.inflated.loc['1992':], color='darkgreen')
-    plt.title('Price Distribution 1992 to 2018', size=20)
+    sns.distplot(df.inflated.loc['1995':], color='darkgreen')
+    plt.title('Price Distribution 1995 to 2018', size=20)
     plt.xlabel('Price (in 2018 dollars)', size=15)
     plt.ylabel('Expected Probability', size=15)
     plt.show()
@@ -163,8 +163,8 @@ def dist_after(df):
 # Look at distribution of inflated price before 1991
 def dist_before(df):
     plt.figure(figsize=(10, 6))
-    sns.distplot(df.inflated.loc[:'1992'], color='darkgreen')
-    plt.title('Price Distribution 1960 to 1991', size=20)
+    sns.distplot(df.inflated.loc[:'1994'], color='darkgreen')
+    plt.title('Price Distribution 1960 to 1994', size=20)
     plt.xlabel('Price (in 2018 dollars)', size=15)
     plt.ylabel('Expected Probability', size=15)
     plt.show()
