@@ -71,17 +71,16 @@ Slide: FEDECAFE and NOAA pics
 Sam broke down the model and variables we ended up using to predict prices. I’d like to show you about some of the insights we uncovered exploring the data from the National Federation of Coffee Growers and the National Oceanaic and Atmospheric Administration. The exploration phase was instrumental in helping our team understand what was, and just as importantly, what wasn’t driving price.
 
 Slide: Bimodal Distribution
-(paragraph skipped)
-As Sam mentioned, the final model used only dates post 1995. After discovering the newer dates improved the model we explored the shape and distribution of the price over time. It was quickly apparent the prices were bimodal, with two very distinct patterns: pre and post 1995. This split left us with two unique price trends that were normally distributed. This was very helpful in understanding why our model performed so much better with newer dates.
+As Sam mentioned, the final model used only dates post 1995. After discovering the newer dates improved the model we explored the shape and distribution of the price over time. It was quickly apparent the prices were bimodal, with two very distinct distributions: one pre and one post 1995. This split left us with two unique price trends that were normally distributed. This was very helpful in understanding why our model performed better with newer dates.
 
 Slide: Colombia and Brazil Exports
 
 Next we asked ourselves: Does international production volume provide predictive power for Colombia's coffee price?
 
-We compared Colombia's exports to that of their geographic neighbor and coffee competitor, Brazil. We were looking for potential leading indicators from Brazil's exports that would move Colombia's exports/price in a predicable manner. 
+We compared Colombia's exports to that of their geographic neighbor and coffee competitor, Brazil. We were searching for indicators from Brazil's export numbers that would ahead of time influence Colombia's exports or price.
 
-The graph here shows that there was not a strong predictor of Colombia's coffee price or production based on Brazil's prior montbh coffee activity. Brazil and Colombia prices tend to move in concert.
-(need more clarity)
+The graph here shows that there was no early indications given reagarding Colombia's coffee price or production based on Brazil's prior activity, meaning Brazilian and Colombian prices tend to move in concert.
+
 
 
 

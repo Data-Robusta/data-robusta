@@ -1,9 +1,10 @@
 Presenter: Symeon
+~1:30 to 2:30
 *** exploratory discoveries and quantitative analysis
 
-Sam broke down the model and variables we ended up using to predict prices. I would like to talk to you about some of the insights we uncovered exploring the data. The exploration phase was instrumental in helping our team understand what was, and just as important, what wasn't driving price.
+Sam broke down the model and variables we ended up using to predict prices. I'd like to show you you about some of the insights we uncovered exploring the data. The exploration phase was instrumental in helping our team understand what was, and just as important, what wasn't driving price.
 
-Sam mentioned the final model used only post 1995 years. After discovering the newer dates improved the model we explored the shape and distribution of the price over time. It was quickly apparent the prices were bimodal, with two very distinct patterns: pre and post 1995. This split left us with two unique price trends that were very close to normal distribution. This was very helpful in understanding why our model performed so much better with newer dates.
+As Sam mentioned, the final model used only dates post 1995. After discovering the newer dates improved the model we explored the shape and distribution of the price over time. It was quickly apparent the prices were bimodal, with two very distinct patterns: pre and post 1995. This split left us with two unique price trends that were normally distributed. This was very helpful in understanding why our model performed so much better with newer dates. 
 
 
 Slide: Bimodal Distribution
