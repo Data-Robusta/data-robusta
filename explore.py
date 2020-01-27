@@ -231,3 +231,21 @@ def describe_volatility():
     print(f'''In typical years, price changed by an average of {round(typical_volatility * 100, 2)}%. 
 In years with disastrous weather events, price changed by an average of {round(disaster_volatility * 100, 2)}%.
 This represents a {round((disaster_volatility / typical_volatility * 100), 2)}% increase in year-to-year price volatility.''')
+
+# creates a scatter plot comparing temperature vs price across all regions
+def temp_vs_price():
+    df = get_prepped()
+    df = df['1994':]
+    to_plot = [col for col in df.columns if col.endswith('mean_temp')]
+    for region in to_plot:
+        sns.scatterplot(x=df[region], y=df.inflated, color='darkgreen', alpha=0.5)
+    plt.show()
+
+# creates a scatter plot comparing precipitation vs price across all regions
+def precip_vs_price():
+    df = get_prepped()
+    df = df['1994':]
+    to_plot = [col for col in df.columns if col.endswith('mean_precip')]
+    for region in to_plot:
+        sns.scatterplot(x=df[region], y=df.inflated, color='darkgreen', alpha=0.5)
+    plt.show()

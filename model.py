@@ -1,12 +1,13 @@
 import pandas as pd
 import numpy as np
 from fbprophet import Prophet
-from prepare import get_data, get_prepped
+from prepare import get_data, get_prepped, make_weighted
 from fbprophet.diagnostics import cross_validation, performance_metrics
 from sklearn.model_selection import ParameterGrid
 from sklearn.preprocessing import StandardScaler
 import pickle
 import matplotlib.pyplot as plt
+from predictions import get_model, store_model
 
 # gets data without imputed weather values
 data = get_data()
@@ -161,13 +162,6 @@ cv_scal = cross_validation(scal, horizon='298 days')
 
 performance_metrics(cv_scal).rmse.mean() # RMSE: 352.43
 
-def store_model(model, filename):
-    pickle.dump(model, open('models/' + filename, 'wb'))
-
-def get_model(filename):
-    model = pickle.load(open('models/' + filename, 'rb'))
-    return model
-
 df = get_prepped()['1995':]
 df = df[['inflated', 'quantity']].reset_index().rename(columns={'inflated': 'y', 'date': 'ds'})
 best_model = Prophet()
@@ -191,43 +185,7 @@ weather_model.fit(df)
 weather_cv = cross_validation(weather_model, horizon='365 days')
 weather_performance = performance_metrics(weather_cv)
 
-df = get_prepped()
-weights = pd.read_excel('coffee_data/colu_coffee_data.xlsx', sheet_name=7, index_col=1, header=5)
-weights = weights.drop(columns='Unnamed: 0')
-weights = weights.reset_index().rename(columns={'index': 'region'})
-weights = weights.iloc[:23]
-weights = weights[weights['2018*'] > 60]
-weights = weights.set_index('region')
-for col in weights.columns:
-    weights = weights.rename(columns={str(col): str(col)[0:4]})
-weights = weights.T
-weights.index = weights.index.astype(str)
-weights.index = pd.to_datetime(weights.index)
-yearly = df.resample('YS').mean()
-yearly = yearly[['quantity', 'inflated', 'Caldas_mean_precip', 'Caldas_mean_temp',
-    'Antioquia_mean_precip', 'Antioquia_mean_temp', 'Cauca_mean_precip', 'Cauca_mean_temp',
-    'Huila_mean_precip', 'Huila_mean_temp', 'Tolima_mean_precip', 'Tolima_mean_temp']]
-yearly = yearly['1995':]
-weights = weights.reindex(index=yearly.index)
-for col in weights.columns:
-    for year in range(1995, 2002):
-        weights.loc[str(year), col] = weights.loc['2002', col].values
-
-for col in weights.drop(columns='TOTAL ').columns:
-    yearly[col + '_weight'] = weights[col] / weights['TOTAL ']
-
-fields = ['_mean_precip', '_mean_temp']
-regions = weights.drop(columns='TOTAL ').columns
-weighted = pd.DataFrame()
-
-for field in fields:
-    weighted['weighted' + field] = (yearly['Antioquia' + field] * yearly['Antioquia_weight']) \
-+ (yearly['Caldas' + field] * yearly['Caldas_weight'])\
-+ (yearly['Cauca' + field] * yearly['Cauca_weight'])\
-+ (yearly['Huila'  + field] * yearly['Huila_weight'])\
-+ (yearly['Tolima' + field] * yearly['Tolima_weight'])
-
-weighted['price'] = yearly.inflated
+weighted = make_weighted()
 weighted = weighted.reset_index()
 weighted = weighted.rename(columns={'date': 'ds', 'price': 'y'})
 weather = Prophet()
