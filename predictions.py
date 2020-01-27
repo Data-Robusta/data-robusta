@@ -12,9 +12,11 @@ def get_model(filename):
     model = pickle.load(open('models/' + filename, 'rb'))
     return model
 
-def make_predictions(model_name, model_data):
+def make_predictions(model_dict):
+    model_name = model_dict['name']
     model = get_model(model_name + '_model.p')
 
+    model_df = model_dict['data']
     model_df = model.make_future_dataframe(periods=0)
     regressors = model.train_component_cols.drop(columns=['additive_terms', 'extra_regressors_additive', 'yearly', 'multiplicative_terms']).columns
     for regressor in regressors:
@@ -33,10 +35,18 @@ def graph_models_fresh(store=True):
     weighted_q = prepare.make_weighted(quantity=True)
     weighted_monthly_q = prepare.make_weighted_monthly(quantity=True)
 
-    models = {'best': df, 'weather': weighted, 'weather_monthly': weighted_monthly, 'weather_q': weighted_q, 'weather_monthly_q': weighted_monthly_q}
-    best = get_model('best_model.p')
-    weather = get_model('weather_model.p')
-    monthly_weather = get_model('weather_monthly_model.p')
+    models= [{'name': 'best', 'data': df}, 
+            {'name': 'weather', 'data': weighted}, 
+            {'name': 'weather_monthly', 'data': weighted_monthly}, 
+            {'name': 'weather_q', 'data': weighted_q}, 
+            {'name': 'weather_monthly_q', 'data': weighted_monthly_q}]
+    
+    for model in models:
+        model['forecast'] = make_predictions(model)
+
+    # best = get_model('best_model.p')
+    # weather = get_model('weather_model.p')
+    # monthly_weather = get_model('weather_monthly_model.p')
 
     best_df = best.make_future_dataframe(periods=0)
     best_df['quantity'] = df['1995':].reset_index()['quantity']
