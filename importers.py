@@ -21,6 +21,7 @@ def compare_brazil():
     sbrg["export_val"] = scaler.fit_transform(np.array(sbrg.export_val).reshape(-1,1))
     sgdf = scog.merge(sbrg, how="inner", on=sbrg.index)#graph data frame
     sgdf.rename(columns={"key_0":"year", "export_val_x":"Colombian_exports_scaled", "export_val_y":"Brazilian_exports_scaled"}, inplace=True)
+    plt.figure(figsize=(10,6))
     plt.plot( "year", "Colombian_exports_scaled",data=sgdf, linewidth=2)
     plt.plot( "year", "Brazilian_exports_scaled", data=sgdf, linewidth=2)
     plt.legend()#Outputs are proportionally higher with colombia between 1970 and 2003/5
@@ -52,6 +53,7 @@ def compare_import_change(year):
     if year == 1962:
         values = df.index
         clrs = ['darkgreen' if (x != "Other") else 'navy' for x in values ]
+        plt.figure(figsize=(10,6))
         ax = sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=(clrs))
         ax.set_xticklabels([0,20,40,60,80,100])
         for p in ax.patches:
@@ -66,6 +68,7 @@ def compare_import_change(year):
     else:
         values2 = df2.index
         clrs2 = ['darkgreen' if (x != "Other") else "navy" for x in values2 ]
+        plt.figure(figsize=(10,6))
         ax1 = sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=(clrs2))
         for p in ax1.patches:
             percentage = '{:.1f}%'.format(100 * p.get_width()/float(df2.Y2017.sum()))
@@ -114,6 +117,7 @@ def breakdown_other(year):
     if year == 1962:
         values = df.index
         clrs = ['darkgreen' if (x != "Other") else 'navy' for x in values]
+        plt.figure(figsize=(10,6))
         ax = sns.barplot(df.Y1962, df.index, estimator=np.sum, ci=None,palette=(clrs))
         ax.set_xticklabels([0,2.5,5,7.5,10,12.5, 15, 17.5, 20])
         plt.title("Top 10 Countries in Other Category 1962")
@@ -123,6 +127,7 @@ def breakdown_other(year):
     else:
         values2 = df2.index
         clrs2 = ['darkgreen' if (x != "Other") else 'navy' for x in values2]
+        plt.figure(figsize=(10,6))
         ax1 = sns.barplot(df2.Y2017, df2.index, estimator=np.sum, ci=None,palette=(clrs2))
         ax.set_xticklabels([0,10,20,30,40,50])
         plt.title("Top 10 Countries in Other Category 2017")
@@ -182,7 +187,7 @@ def compare_volatility():
     return vollist_price[4:],vollist_imports[:-1][1:], vollist_imports[:-1][1:].corr(vollist_price[4:], method="spearman")
 
 def get_volatility_graph():
-    vollist_price,vollist_imports,z = compare_volatility()
+    vollist_price,vollist_imports,corr = compare_volatility()
     scaler = MinMaxScaler()
     df = pd.concat([vollist_price,vollist_imports], axis=1, ignore_index=True)
     df[1] = df[1].shift()
@@ -191,6 +196,7 @@ def get_volatility_graph():
     index = df.index
     df = pd.DataFrame(scaler.fit_transform(df))
     df.index = index
+    plt.figure(figsize=(10,6))
     plt.scatter(df.index,df[0], label="Price Volatility", )
     plt.scatter(df.index,df[1], label="Imports Volatility")
     plt.title("Volatility in Colombian Markets")
@@ -198,6 +204,8 @@ def get_volatility_graph():
     plt.ylabel("Scaled Volatility Level")
     plt.legend()
     plt.show()
+    print("Correlation Score for Price Volatility and Import Volatility: ",corr)
+
 
 # The graph below compares the prior year's volatility with the next year's 
 # volatility, as can be observed there is a strong correlation between these 

@@ -16,6 +16,7 @@ df.index = df.index.astype(str).str[:4]
 df["date"] = df.index.astype(int)
 
 def get_temp_chart():
+    plt.figure(figsize=(10,6))
     sns.regplot("date","mean_temp", data = df, ci=False, color="darkgreen", robust=True)
     plt.title("Average Temperature in Colombia")
     plt.xlabel("Date")
@@ -23,6 +24,7 @@ def get_temp_chart():
     plt.show()
 
 def get_price_chart():
+    plt.figure(figsize=(10,6))
     sns.regplot("date", "inflated", data=df, ci=False, color="darkgreen", robust=True)
     plt.title("Price of Colombain Coffe per Pound in USD")
     plt.xlabel("Date")
@@ -30,7 +32,7 @@ def get_price_chart():
     plt.show()
 
 
-def get_stockpile_chart()
+def get_stockpile_chart():
     df2 = pd.read_csv("coffee_data/ico_data_pandas/stockpile.csv")
     df2[df2.country_name == "Colombia"]
     df2.dropna(inplace=True)
@@ -40,8 +42,19 @@ def get_stockpile_chart()
     df2.set_index(df2.year, inplace=True)
     df2 = df2.resample("Y").sum()
     df2["date"] = df2.index.astype(str).str[:4].astype(int)
+    plt.figure(figsize=(10,6))
     sns.lmplot("date", "beginning_stockpile",data = df2)
     plt.title("Stockpiles of Coffee Colombia")
     plt.xlabel("Date")
     plt.ylabel("Stockpile")
+    plt.show()
+
+
+
+def get_precip_chart():
+    plt.figure(figsize=(10,6))
+    sns.regplot("date","mean_precip", data = df, ci=False, color="darkgreen", robust=True)
+    plt.title("Average Precipitation in Colombia")
+    plt.xlabel("Date")
+    plt.ylabel("Precipitation in Centimeters ")
     plt.show()

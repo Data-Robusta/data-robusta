@@ -146,15 +146,7 @@ df.drop(columns=["Antioquia_weight", "Caldas_weight", "Cauca_weight", "Huila_wei
 
 #Calculate mean temps with each state contributing its portion to the mean
 mean = pd.DataFrame()
-
-mean_temp_states = []
-
-for state in top_5_states:
-    mean_temp_states.append(state + "_mean_temp")
-
+mean_list = []
 for idx, row in df.iterrows():
-    mean_list = []
-    for state in mean_temp_states:
-       print(row.loc['Antioquia_mean_temp'])
-
-df.describe()
+    for state in top_5_states:
+       mean_list.extend([row.loc[f"{state}_mean_temp"] * (row.loc[f"{state}_weight_pct"]))
