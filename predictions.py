@@ -12,13 +12,18 @@ def get_model(filename):
     model = pickle.load(open('models/' + filename, 'rb'))
     return model
 
-def make_predictions(model_dict):
+def make_predictions(model_dict, monthly=True):
     model_name = model_dict['name']
     model = get_model(model_name + '_model.p')
 
     model_data = model_dict['data']
     model_data = model_data.reset_index()
     model_df = model.make_future_dataframe(periods=0)
+
+    if len(model_df) > 288:
+        model_df = model_df.iloc[-288:]
+        model_df = model_df.reset_index()
+
     regressors = model.train_component_cols.drop(columns=['additive_terms', 'extra_regressors_additive', 'yearly', 'multiplicative_terms']).columns
     for regressor in regressors:
         model_df[regressor] = model_data[regressor]
@@ -30,13 +35,13 @@ def make_predictions(model_dict):
     to_graph = to_graph.rename(columns={'ds':'date', 'yhat': model_name})
     to_graph = to_graph.set_index('date')
 
-    if len(to_graph) > 24:
-        to_graph = to_graph.resample('YS').mean()
+    if not monthly:
+        if len(to_graph) > 24:
+            to_graph = to_graph.resample('YS').mean()
 
     return model_forecast, to_graph
 
-def graph_models_fresh(store=True):
-    pd.plotting.register_matplotlib_converters()
+def prep_models_fresh(monthly=False, final=False):
     df = prepare.get_prepped()
     weighted = prepare.make_weighted()
     weighted_monthly = prepare.make_weighted_monthly()
@@ -47,62 +52,49 @@ def graph_models_fresh(store=True):
             {'name': 'weather', 'data': weighted}, 
             {'name': 'weather_monthly', 'data': weighted_monthly}, 
             {'name': 'weather_quantity', 'data': weighted_q}, 
-            {'name': 'weather_monthly_quantity', 'data': weighted_monthly_q}]
+            {'name': 'weather_monthly_quantity', 'data': weighted_monthly_q},
+            {'name': 'old_weather', 'data': df['1995':]}]
+
+    if monthly:
+        models = [models[0], models[2], models[4], models[5]]
+        if final:
+            models = [models[0], models[3]]
 
     for model in models:
         print(model['name'])
-        model['forecast'], model['graph'] = make_predictions(model)
 
-    # best = get_model('best_model.p')
-    # weather = get_model('weather_model.p')
-    # monthly_weather = get_model('weather_monthly_model.p')
-
-    # best_df = best.make_future_dataframe(periods=0)
-    # best_df['quantity'] = df['1995':].reset_index()['quantity']
-
-    # weather_df = weather.make_future_dataframe(periods=0)
-    # weighted = get_model('weighted.p')
-    # weather_df['weighted_mean_precip'] = weighted['weighted_mean_precip']
-    # weather_df['weighted_mean_temp'] = weighted['weighted_mean_temp']
-
-    # best_forecast = best.predict(best_df)
-    # store_model(best_forecast, 'best_predictions.p')
-
-    # weather_forecast = weather.predict(weather_df)
-    # store_model(weather_forecast, 'weather_predictions.p')
+    for model in models:
+        print(f"graphing {model['name']}")
+        model['forecast'], model['graph'] = make_predictions(model, monthly=monthly)
 
     to_graph = pd.DataFrame()
     
-    to_graph['ds'] = 
+    to_graph['date'] = models[0]['graph'].index
+    to_graph = to_graph.set_index('date')
+
     for model in models:
-        
+        name = model['name']
+        to_graph[name] = model['graph']
+    
+    if monthly:
+        to_graph['actual'] = df['inflated']
+    else:
+        to_graph['actual'] = df.resample('YS')['inflated'].mean()
 
-    to_graph = best_forecast[['ds', 'yhat']]
-    to_graph = to_graph.rename(columns={'ds': 'date', 'yhat': 'best_model'})
+    store_model(to_graph, 'to_graph.p')
 
-    to_graph = to_graph.set_index('date').resample('YS').mean()
-
-    weather_future = weather_forecast[['ds', 'yhat']]
-    weather_future = weather_future.rename(columns={'ds': 'date', 'yhat': 'weather_model'})
-    weather_future = weather_future.set_index('date')
-
-    to_graph['weather_model'] = weather_future['weather_model']
-
-    to_graph['actual'] = df.resample('YS')['inflated'].mean()
-
-    if store:
-        store_model(to_graph, 'to_graph.p')
-
-    for col in to_graph.columns:
-        to_graph[col].plot()
-
-def graph_models():
+def graph_models(fresh=False, monthly=True, final=True):
     pd.plotting.register_matplotlib_converters()
+    if fresh:
+        prep_models_fresh(monthly=monthly, final=final)
     to_graph = get_model('to_graph.p')
     for col in to_graph.columns:
         sns.lineplot(x=to_graph.index, y=to_graph[col])
     plt.title('Models Compared to Actual Inflated Coffee Prices')
-    plt.xlabel('Year')
+    if monthly:
+        plt.xlabel('Date')
+    else:
+        plt.xlabel('Year')
     plt.ylabel('Coffee Price (2018 USD per lb)')
     plt.legend(to_graph.columns)
     plt.show()
