@@ -1,42 +1,24 @@
 Presenter: Symeon
-~1:30 to 2:30
 *** exploratory discoveries and quantitative analysis
 
-Sam broke down the model and variables we ended up using to predict prices. I'd like to show you you about some of the insights we uncovered exploring the data. The exploration phase was instrumental in helping our team understand what was, and just as important, what wasn't driving price.
+(Slide: FEDECAFE and NOAA pics)
 
-As Sam mentioned, the final model used only dates post 1995. After discovering the newer dates improved the model we explored the shape and distribution of the price over time. It was quickly apparent the prices were bimodal, with two very distinct patterns: pre and post 1995. This split left us with two unique price trends that were normally distributed. This was very helpful in understanding why our model performed so much better with newer dates. 
-
-
-Slide: Bimodal Distribution
-
-Next we asked ourselves: Does international production volume provide predictive power for Colombia's coffee price?
-
-We compared Colombia's exports to that their geographic neighbor and coffee competitor, Brazil. We were looking for potential leading indicators from Brazil's exports that would move Colombia's exports/price in a predicable manner. 
-
-Slide: Colombia and Brazil Exports
-
-The graph here shows that there was not a strong predictor of Colombia's coffee price or production based on Brazil's coffee activity.
-
-One very interesting insight we found. Was a drastic drop in the size of 
+I'm going walk us though some of the insights we uncovered exploring the data from the National Federation of Coffee Growers of Colombia known as Fedecafe and the National Oceanaic and Atmospheric Administration known as NOAA. The exploration phase was instrumental in helping our team understand what was, and just as importantly, what wasn’t driving price.
 
 
+(Slide: Bimodal Distribution/ two normal dists)
+In the early 90s, Fedecafe worked closely with Colombian farmers, helping them learn more advanced farming techniques. Their effect on prices became more evident during exploration where we found prices were bimodal; from this two normal distributions can be created, one for pre-1995 and one for post-1995 data, both with unique trends and volatility. The shift in trends and volatility can be largly attibuted to Fedecafe's involvement to create long-term sustainability of family farms which lead to a more stable coffee economy. 
 
+(Slide: Colombia and Brazil Exports)
 
-Huila, Antioquia, and Tolima produce about half of Colombia's coffee
+Next we asked ourselves: Do international export volumes of coffee provide predictive power for Colombia's coffee price?
 
- Talk about lack of corr with weather and price. 
+We aquired additional data from the Observatory of Economic Complexity; this provided us with coffee export data for Brazilian and Colombian coffee. 
 
- One or two stat facts
+We had chosen to use Brazil as it was the next largest producer of coffee.
 
- temperatures
+We analyzed the Brazilian data for indicators that would ahead of time influence Colombia's exports or price. 
 
+After comparing Colombia's exports to that of Brazil's we determined that there was no early indicators given off by Brazilian export data. 
 
-
-
- (Graph with overview of price spikes)
-1976, 1986 and 1994; all of these years the price of coffee significantly spiked primarily due to weather related conditions. Certainly weather does have an impact on price but its impacts are most prevalent during extreme events; weather macro trends cannot (*preform/cannot be seen as well/cannot be accounted for as well*) during most other times. This is due to the markets natural gravitation towards a lower price due to modernization, innovation, and the perseverance of the farmers themselves. Other major fluctuations can be attributed to events such as (graph of 1995 to 2015) disease, government policy changes, natural disasters.
-
-
-
-4:32
-That’s what I have thus far
+The graph here shows that there was no early indications given reagarding Colombia's production based on Brazil's prior activity,meaning Brazilian and Colombian production tend to move in concert.
