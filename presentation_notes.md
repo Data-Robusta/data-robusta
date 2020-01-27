@@ -141,7 +141,7 @@ The data exploration identified the extreme price spikes, but it did not tell us
 
 What we found was that coffee volatility can be created by several different types of events. Hard frost, trade agreements, exchange rates, and plant disease can all cause price spikes 2-10x the normal price. These events have serious long term effects on the price of coffee as well; prices can take 18 months to 5 years to return to normal levels.
 
-In 1975, the now named Brazilian "Black Frost" destroyed 40% of Brazil's coffee plants. This caused prices to skyrocket to worldwide record highs and several years to return to normal. Coffee producing countries are not insulated from other countries' misfortunes affecting their own coffee export prices. Foreign disasters like this can be price beneficial to unaffected countries, but are not sustainable and make long term planning difficult for small farmers.
+In 1975, the now named Brazilian "Black Frost" destroyed 70% of Brazil's coffee plants. This caused prices to skyrocket to worldwide record highs and several years to return to normal. Coffee producing countries are not insulated from other countries' misfortunes affecting their own coffee export prices. Foreign disasters like this can be price beneficial to unaffected countries, but are not sustainable and make long term planning difficult for small farmers.
 
 2002 emerging markets
 
