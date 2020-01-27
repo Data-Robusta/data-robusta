@@ -12,10 +12,21 @@ def get_model(filename):
     model = pickle.load(open('models/' + filename, 'rb'))
     return model
 
+def make_predictions(model_name):
+    model = get_model(model_name + '_model.p')
+    df = prepare.get_prepped()
+
+    model_df = model.make_future_dataframe(periods=0)
+    regressors = model.train_component_cols.drop(columns=['additive_terms', 'extra_regressors_additive', 'yearly', 'multiplicative_terms']).columns
+    for regressor in regressors:
+        model_df[regressor] = 
+
 def graph_models_fresh():
     pd.plotting.register_matplotlib_converters()
+    models = ['best', 'weather', 'weather_monthly', 'weather_q', 'weather_monthly_q']
     best = get_model('best_model.p')
     weather = get_model('weather_model.p')
+    monthly_weather = get_model('weather_monthly_model.p')
 
     df = prepare.get_prepped()
 
