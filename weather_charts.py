@@ -24,9 +24,9 @@ def get_temp_chart():
     plt.show()
 
 def get_price_chart():
-    plt.figure(figsize=(10,6))
+    plt.figure(figsize=(8,4))
     sns.regplot("date", "inflated", data=df, ci=False, color="darkgreen", robust=True)
-    plt.title("Price of Colombain Coffe per Pound in USD", size=15)
+    plt.title("Price of Colombian Coffee per Pound in USD", size=15)
     plt.xlabel("Date", size=13)
     plt.ylabel("Price in Cents", size=13)
     plt.show()
@@ -58,3 +58,12 @@ def get_precip_chart():
     plt.xlabel("Date", size=13)
     plt.ylabel("Precipitation in Centimeters ", size=13)
     plt.show()
+
+def get_min_temp_chart():
+    plt.figure(figsize=(10,6))
+    sns.regplot("date","min_temp", data = df, ci=False, color="darkgreen", robust=True)
+    plt.title("Minumum Temperature in Colombia", size=15)
+    plt.xlabel("Date", size=13)
+    plt.ylabel("Temperature in Fahrenheit ", size=13)
+    plt.show()
+

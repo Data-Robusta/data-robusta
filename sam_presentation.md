@@ -1,8 +1,8 @@
-Hi I'm Sam. I acquired data from FEDECAFE and NOAA, used time series modeling to fill in missing data, and modeled prices.
+Hi I'm Sam. I acquired data from FEDECAFE and NOAA, filled in missing data with time-series modeling, and modeled prices.
 
 The Data Robusta team wanted to see if we could develop a model for predicting Colombian wholesale coffee prices in 2018 dollars per pound. Our initial hypothesis was that temperature and more volatile precipitation are strong drivers of coffee price. So does weather predict price? Like any good data scientist will tell you...it depends.
 
-We initially tried models using all of our available features: historical price, temperature, precipitation, and production quantities to predict price. We used Prophet, a time-series modeling library developed by Facebook, to create these models. Prophet models create three functions: an overall trend, seasonal trends, and holiday trends. These come together to predict the overall pattern of temporal data.
+We initially tried models using all of our available features: historical price, temperature, precipitation, and production quantities. We used Prophet, a time-series modeling library developed by Facebook, to create these models. Prophet models create three functions: an overall trend, seasonal trend, and holiday trend. These come together to predict the overall pattern of temporal data.
 
 Slide: Price over time and baseline model
 
@@ -15,6 +15,6 @@ Slide: Best Model
 
 At this point, finally, our model including weather did significantly out-perform the model solely using quantity and price. This final model missed actual prices by an average of 30 cents, or 17% of the average price.
 
-Going forward, we think including factors that represent demand and the cost of business could yield a more accurate model. Including data such as US weather, crude oil prices, and the exchange rate between the US dollar and the Colombian Peso might account for these missing pieces and result in better predictions.
+Going forward, we think including factors that represent demand and the cost of business could yield a more accurate model.
 
 Now, I'm going to hand it off to Cari to discuss qualitative research and the effects of severe events on Colombia coffee.
