@@ -113,11 +113,11 @@ def graph_two_models(names, titles):
     to_graph = get_model('to_graph.p')
     to_graph = to_graph.resample('QS').mean()
     
-    sns.lineplot(x=to_graph.index, y=to_graph[names[0]], color='burlywood')
+    sns.lineplot(x=to_graph.index, y=to_graph[names[0]], color='silver')
     sns.lineplot(x=to_graph.index, y=to_graph[names[1]], color='olivedrab', linewidth=3)
     sns.lineplot(x=to_graph.index, y=to_graph['actual'], color='burlywood')
     plt.title('Models Compared to Actual Inflated Coffee Prices', size=15)
     plt.ylabel('Coffee Price (2018 USD per lb)', size=13)
     plt.xlabel('Date', size=13)
-    plt.legend(labels=[names[0], names[1], 'Actual Prices'])
+    plt.legend(labels=[titles[0], titles[1], 'Actual Prices'])
     plt.show()
