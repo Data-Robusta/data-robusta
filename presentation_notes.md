@@ -14,13 +14,14 @@ slide: Jaime and his fam
 
 Farmers like my friend Jaime rely on stable coffee prices to provide for their family and events like the floods of 1997 are devestating for them.
 
-How does this affect you and me? Why should we care a world away if Colombia is in a multi year drought or about to sign the next big trade agreement?
+Why should we care if Colombia is in a multi year drought or about to sign the next big trade agreement?
 
-Worldwide and Colombian governments and NGOs have been fighting for decades to stabalize and convert farmers from illicit drugs crops to legal means of providing for their families. 
+Governments and NGOs have been fighting for decades to convert farmers from illicit drugs crops to legal means of providing for their families. 
 
-A stable and healthy coffee economy is a key pillar of that transformation and Colombia's economy as a whole. Without a reliable coffee market, it is difficult to keep farmers.
+A stable and healthy coffee economy is key to Colombia's economy and retraining coffee farmers.
 
-Price fluctuations may cause a slight cost increase in your morning cup of joe, but for farmers like Jaime it destroys their livelihood.
+Price fluctuation may cost you a bit more on morning coffee run, but for farmers like Jaime it destroys their livelihood.
+
 what can data science bring to this fight?
 
 As data scientists we have the ability to uncover new insights and validate already existing knowledge through cutting edge analytic techniques and models.
@@ -30,7 +31,6 @@ Slide: Goal/Hypothesis
 Our goal was to identify what data affected Colombian coffee prices. Our hypthosis was that weather and harvest data were good predictors of price. We found that while weather was decent at predicting weather, there were much stronger factors at play driving price.
 Slide: Process slide
 
-We are going to walk you through our work of in depth domain research, wrangling price and harvest data from FEDECAFE.
 We analyzed Colombian history, agricultural processes, political effects on price, production, and inventory.
 
 Slide: Wrangle:
@@ -38,7 +38,6 @@ Slide: Wrangle:
 We fused data from Colombian weather stations, national growers reports, and international commodity market activity to paint a clear picture about the impact of coffee price for us as consumers; as well as for the local farmer in the hills of Colombia.
 
 Catastrophes like this can create 3x the normal market volatility and lengthy periods of price uncertainty. As data scientists we used time series analysis to created models to aid in long term crop forcasting and assisting Colombia's National Coffee Federation manage long price spikes with optimized stockpile quantity.
-(possibly cut)
 
 I'm going to hand it off to Symeon to talk about the in depth exploration conducted by our team.
 (transition to Symeon)
@@ -108,18 +107,21 @@ Presenter: Cari
 
 slide: price spike with timeline
 
-The data exploration identified extreme price spikes, but it did not tell us what was creating them. We decide to take a deeper dive into the data and to see what was causing these lengthy disruptions.
-What we found was that coffee volatility can be created by several different types of events. Hard frost, trade agreements, exchange rates, and plant disease can all cause fluctuations 2-10x the normal price.
+The data exploration identified extreme price spikes, but it did not tell us what was creating them. We decided to take a deeper dive into the data to see what was causing these lengthy disruptions.
+We found that coffee volatility can be caused by several different types of events. Hard frost, trade agreements, exchange rates, and plant disease can all cause fluctuations from 2-10x of the normal price.
 
 slide: baby and adult plants
 
-These events have serious long term effects on the price of coffee as well; prices can take 18 months to 5 years to return to normal levels. This is largely caused by the long maturation process of the plant. Coffee plants take 3 to 4 years to start producing their fruit.
+These events have serious long term effects on the price of coffee as well; prices can take 18 months to 5 years to return to normal levels. This is because coffee plants take 3 to 4 years to start producing their fruit.
 
-In 1975, the Brazilian "Black Frost" destroyed 70% of Brazil's coffee plants. This caused prices to skyrocket to worldwide record highs and several years to return to normal. Coffee producing countries are not insulated from other countries' misfortunes affecting their own coffee export prices. Foreign disasters like this can be price beneficial to unaffected countries, but are not sustainable and make long term planning difficult for small farmers.
+In 1975, the Brazilian "Black Frost" destroyed 70% of Brazil's coffee plants, causing prices to skyrocket for several years. Nation Coffee prices are not insulated from other countries' misfortunes. Such disasters can benefit unaffected countries in the short term, but make long term planning difficult for farmers.
 
 2002 emerging markets
 
-In 2002, some interesting economic factors played a large part in the volatility of coffee prices. Coffee prices plummeted to a historic bottom of about 39 cents per pound, largely due to the demand for coffee being much less than the supply of coffee produced. Coffee prices remained depressed through 2008. This forced the Federation of National Coffee Growers to reexamine its loyalty to the coffee industry as its number one priority.
+In the years leading up to the crash, farmers were aggresively expanding their farms.In 2002, Coffee prices plummeted to a 39 cents per pound, due to a sharp decrease in global demand. 
+
+
+Coffee prices remained depressed through 2008. This forced the Fe Growers to reexamine its loyalty to the coffee industry as its number one priority.
 
 2011 plant disease
 
