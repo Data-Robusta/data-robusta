@@ -4,7 +4,7 @@
 Presenter: Jeff
 slide: cup of coffee
 
-Good afternoon, i'm Jeff Roeder, this is Sam Callahan, this is Symeon White, and Cari Holmes. We are data scientists for Data Robusta.
+Good afternoon, this is Sam Callahan, this is Symeon White, Cari Holmes and I'm Jeff Roeder. We are data scientists for Data Robusta.
 
 slide: flooding in Colombia
 
@@ -15,22 +15,30 @@ slide: Jaime and his fam
 
 Farmers like my friend Jaime rely on stable coffee prices to provide for their family and events like the floods of 1997 are devestating for them.
 
+How does this affect you and me? Why should we care a world away if Colombia is in a multi year drought, dealing with a coffee plant disease epidemic, or about to sign the next big trade agreement?
+
+Worldwide and Colombian governments and NGOs have been fighting for decades to stabalize and convert farmers from illicit drugs crops to legal means of providing for their families. A stable and healthy coffee economy is a key pillar of that transformation and Colombia's economy as a whole. Without a reliable coffee market, it is difficult to keep farmers.
+
 Price fluctuations may cause a slight cost increase in your morning cup of joe, but for farmers like Jaime it destroys their livelihood.
+
+what can data science bring to this fight?
+
+As data scientists we have the ability to uncover new insights and validate already existing knowledge through cutting edge analytic techniques and models.
 
 Slide: Goal/Hypothesis
 
 Coffee is $200 billion industry and the second most traded commodity worldwide. Knowing that coffee is such an important global product; we decided to take a deep dive into the most well known coffee producting country in the world: Colombia
 
-We set out to find the effect of Colombian weather and harvest data as predictors for price. In the end we found that while weather was decent at predicting weather, there were much stronger factors at play driving price.
+Our goal was to identify what data affected Colombian coffee prices. Our hypthosis was that weather and harvest data were good predictors of price. We found that while weather was decent at predicting weather, there were much stronger factors at play driving price.
 
 Slide: Process slide
-We are going to walk you through our work of in depth domain research, wrangling, exploring, analyzing, and predicting price. 
 
-How does this affect you and I? Why should we care a world away if Colombia is in a multi year drought, dealing with a coffee plant disease epidemic, or about to sign the next big trade agreement?
+We are going to walk you through our work of in depth domain research, wrangling price and harvest data from FEDECAFE. 
 
-Worldwide and Colombian governments and NGOs have been fighting for decades to stabalize and convert farmers from illicit drugs crops to legal means of providing for their families. A stable and healthy coffee economy is a key pillar of that transformation and Colombia's economy as a whole.
+We Explored correlation, distribution, and changes over time. We analyzed Colombian history, agricultural processes, political effects on price, production, and inventory.
 
-what can data bring to this fight?
+We modeled using time series analysis of past coffee prices, weather,and harvest data to predict the behavior of future coffee prices.
+
 
 Slide: Wrangle: 
 
@@ -71,24 +79,24 @@ Presenter: Sam
  
  Slide: Prophet
 
-The Data Robusta team set out to see if we could develop a model for predicting Colombian wholesale coffee prices. Our initial hypothesis was that temperature and more volatile precipitation would be strong drivers of coffee price. So does weather predict price? Like any good data scientist will tell you...it depends.
+Hi I'm Sam. We acquired data from FEDECAFE and NOAA, used time series modeling to fill in missing data, and modeled price predictions.
 
+The Data Robusta team wanted to see if we could develop a model for predicting Colombian wholesale coffee prices in 2018 dollars per pound. Our initial hypothesis was that temperature and more volatile precipitation are strong drivers of coffee price. So does weather predict price? Like any good data scientist will tell you...it depends.
 
-slide: Just price over time
+We initially tried models using most of our available features: price, temperature, precipitation, and production quantities to predict price. We used Prophet, a time-series modeling library developed by Facebook, to create these models. Prophet models create three functions: an overall trend, seasonal trends, and holiday trends. These come together to predict the overall pattern of temporal data.
 
-At first we tried several models using price, temperature, precipitation, and production quantities to predict price. We found that Colombian weather was a very poor predictor of their coffee price. We experimented with various transformations of weather data, including date-shifting and weighting them by regional production quantities. While neither of those ideas panned out directly (fix wording), the latter did inform some improvements in our model. Since we only had a regional breakdown of coffee production back to 2002, that model appeared to greatly improve our predictions, but we quickly realized this was due to limiting the time period, not the new aggregate weather variables.
+Slide: Price over time and baseline model
 
-slide: improved model (old best model)
+Initially, climate data appeared to worsen our models; our best early model only used prior prices and production quantities. We experimented with various transformations of weather data, including date-shifting and weighting them by regional production quantities. While these changes did not result in better predictions than the models that excluded weather data, they did provide key insight for later models. 
 
+We only had regional production data from 2002 to present, using that information the model appeared to greatly improve our predictions, but we quickly realized this was due to limiting the time period, not the new weather variables.
+After some analysis with the date cutoff, we settled on 1995. 
 
-Our improved model used just coffee production quantity and prices from 1995 onward, but it still did not predict prices especially well. The mean price of coffee during this time was $1.80 per pound and the model calculated prices that miss the actual price by 37 cents (about 20%). We found that unpredictable events like plant disease, natural disasters, and major trade agreements drive extreme changes in the price of Colombian coffee. 
+Slide: Best Model
 
-slide: best model
+At this point, finally, our model that included weather did significantly out-perform the model solely using quantity and price. This final model missed actual prices by an average of about 30 cents, or 17% of the average price.
 
-This led us to a pivitol point in our analysis. When splitting our model, one for "normal prices" plus or minus 20% of the average price and one to capture severe events, our model was able to reduce the calculated error down to 32 cents.
-
-
-Going forward, we think it may yield a more accurate model to also include factors that would help predict demand and the cost of purchasing and transporting the coffee to destination. Including information such as US weather, crude oil prices, and the exchange rate between the US dollar and the Colombian Peso might account for these missing pieces and result in an even better model.
+Going forward, we think including factors that represent demand and the cost of business could yield a more accurate model. Including data such as US weather, crude oil prices, and the exchange rate between the US dollar and the Colombian Peso might account for these missing pieces and result in better predictions.
 
 
 Presenter: Cari
@@ -124,7 +132,7 @@ Price instability in the markets affects real people
 
 As data scientists we created models to aid in long term crop forcasting and assisting Colombia's National Coffee Federation manage long price spikes with optimized stockpile quantity.
  
- 
+ (need to flesh this out)
  We believe we can futher contribute to Colombian coffee farmer success by...a follow on project we would like to further develop our price spike model to identify early triggers of these types of events. 
 We also believe a natural language processing model to examine local Colombian weather social media posts, FEDECAFE news, and trade/economic news would be very beneficial in assisting in predicting these major market disruptions. Data science will be part of the future success of providing a stable economy for the more than half a million family coffee farmers of Colombia and those of us around that world that enjoy their coffee.
 
