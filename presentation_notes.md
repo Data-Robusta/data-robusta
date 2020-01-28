@@ -79,22 +79,22 @@ Presenter: Sam
  
  Slide: Prophet
 
-Hi I'm Sam. We acquired data from FEDECAFE and NOAA, used time series modeling to fill in missing data, and modeled price predictions.
+Hi I'm Sam. I acquired data from FEDECAFE and NOAA, used time series modeling to fill in missing data, and modeled prices.
 
 The Data Robusta team wanted to see if we could develop a model for predicting Colombian wholesale coffee prices in 2018 dollars per pound. Our initial hypothesis was that temperature and more volatile precipitation are strong drivers of coffee price. So does weather predict price? Like any good data scientist will tell you...it depends.
 
-We initially tried models using most of our available features: price, temperature, precipitation, and production quantities to predict price. We used Prophet, a time-series modeling library developed by Facebook, to create these models. Prophet models create three functions: an overall trend, seasonal trends, and holiday trends. These come together to predict the overall pattern of temporal data.
+We initially tried models using all of our available features: price, temperature, precipitation, and production quantities to predict price. We used Prophet, a time-series modeling library developed by Facebook, to create these models. Prophet models create three functions: an overall trend, seasonal trends, and holiday trends. These come together to predict the overall pattern of temporal data.
 
 Slide: Price over time and baseline model
 
-Initially, climate data appeared to worsen our models; our best early model only used prior prices and production quantities. We experimented with various transformations of weather data, including date-shifting and weighting them by regional production quantities. While these changes did not result in better predictions than the models that excluded weather data, they did provide key insight for later models. 
+Initially, climate data appeared to worsen our models; our best early model only used prior prices and production quantities. We experimented with various transformations of weather data, including date-shifting and weighting them by regional production quantities. While these changes did not result in better predictions than the models that excluded weather data, they did provide a key insight for later models. 
 
-We only had regional production data from 2002 to present, using that information the model appeared to greatly improve our predictions, but we quickly realized this was due to limiting the time period, not the new weather variables.
-After some analysis with the date cutoff, we settled on 1995. 
+Since we only had regional production data from 2002 to present, that model appeared to greatly improve our predictions, but we quickly realized this was due to limiting the time period, not the new aggregate weather variables.
+After some analysis on the date cutoff, we settled on 1995. 
 
 Slide: Best Model
 
-At this point, finally, our model that included weather did significantly out-perform the model solely using quantity and price. This final model missed actual prices by an average of about 30 cents, or 17% of the average price.
+At this point, finally, our model including weather did significantly out-perform the model solely using quantity and price. This final model missed actual prices by an average of 30 cents, or 17% of the average price.
 
 Going forward, we think including factors that represent demand and the cost of business could yield a more accurate model. Including data such as US weather, crude oil prices, and the exchange rate between the US dollar and the Colombian Peso might account for these missing pieces and result in better predictions.
 
