@@ -4,7 +4,7 @@ Presenter: Jeff
 
 slide: cup of coffee
 
-Good afternoon, this is Sam Callahan, this is Symeon White, Cari Holmes and I'm Jeff Roeder. We are data scientists for Data Robusta.
+Good afternoon, this is Symeon White, Sam Callahan, Cari Holmes and I'm Jeff Roeder. We are data scientists for Data Robusta.
 slide: flooding in Colombia
 
 In 1997 heavy rain wiped out approximately 25% of Colombia's coffee plants. This caused global coffee prices to skyrocket to 2.5x the normal price. It took over 3 years for prices to return to normal. These types of events come in many forms: natural distasters, economic, plant disease, and political and greatly affects Colombia's single family farmers that produce 70% Colombia's coffee.
@@ -36,21 +36,28 @@ We modeled using time series analysis of past coffee prices, weather,and harvest
 Slide: Wrangle:
 
 We fused data from Colombian weather stations, national growers reports, and international commodity market activity to paint a clear picture about the impact of coffee price for us as consumers; as well as for the local farmer in the hills of Colombia. ...initially we had  challenges with the data and predicting missing values but we were able to analyze the data we had and determined we would fill the values with a predictive model.
+(possibly cut imputing data sectio )
 
 Catastrophes like this can create 3x the normal market volatility and lengthy periods of price uncertainty. As data scientists we created models to aid in long term crop forcasting and assisting Colombia's National Coffee Federation manage long price spikes with optimized stockpile quantity.
+(possibly cut)
 
 I'm going to hand it off to Symeon to talk about the in depth exploration conducted by our team.
 (transition to Symeon)
+2:40
 #### Middle
 
 Presenter: Symeon
+*** exploratory discoveries and quantitative analysis
+Fed - eh - cafeh
 
-Slide: FEDECAFE and NOAA pics)
+(Slide: FEDECAFE and NOAA pics)
+
 I’m going walk us though some of the insights we uncovered exploring the data from the National Federation of Coffee Growers of Colombia known as Fedecafe and the National Oceanaic and Atmospheric Administration known as NOAA.
 
 The exploration phase was instrumental in driving our teams understanding of what was, and just as importantly, what wasn’t driving price.
 
 (Slide: NOAA mean_temp/min_temp and Fedecafe price over time)
+
 After visualizing some of the data we aquired from NOAA you can see it appears to have a correlation between the mean temperature, the minimum temperature , and the price, year over year. After statistically analyzing the results it was determined the results did not have a significant correlation.
 
 (Slide: Bimodal Distribution/ two normal dists)
@@ -63,12 +70,13 @@ The shift in trends and volatility can be largly attibuted to Fedecafe’s invol
 (Slide: Colombia and Brazil Exports)
 
 Next we asked ourselves: Do international export volumes of coffee provide predictive power for Colombia’s coffee price?
-We aquired additional data from the Observatory of Economic Complexity; this provided us with coffee export data for Brazilian and Colombian coffee.
-We had chosen to use Brazil as it was the next largest producer of coffee.
-We analyzed the Brazilian data for indicators that would ahead of time influence Colombia’s exports or price.
-After comparing Colombia’s exports to that of Brazil’s we determined that there was no early indicators given off by Brazilian export data.
-The graph here shows that there was no early indications given reagarding Colombia’s production based on Brazil’s prior activity,meaning Brazilian and Colombian production tend to move in concert.
+We aquired additional data from the Observatory of Economic Complexity which provided us with coffee export data both internationally and for Colombian.
 
+We had chosen to compare Colombia’s exports to that of Brazil as it is the next largest producer of coffee.
+We analyzed the Brazilian data for indicators that would ahead of time influence Colombia’s exports or price.
+After comparing Colombia’s exports to that of Brazil’s as can be seen in this graph, we determined that there was no early indicators given off by Brazilian export data.
+
+4:55
 
 Presenter: Sam
  
@@ -93,6 +101,8 @@ At this point, finally, our model including weather did significantly out-perfor
 ​
 Going forward, we think including factors that represent demand and the cost of business could yield a more accurate model. Including data such as US weather, crude oil prices, and the exchange rate between the US dollar and the Colombian Peso might account for these missing pieces and result in better predictions.
 
+
+7:08
 
 Presenter: Cari
 *** Showing our thought process and qualitative analysis
@@ -123,3 +133,5 @@ Price instability in the markets affects real people, but as
 data scientists we can bring some clarity to their problem. We created models to aid in thier long term crop forcasting and assisting Colombia's National Coffee Federation manage long term price flucuations with optimized stockpile quantity.
 
 We also believe a natural language processing model to examine local Colombian weather social media posts, FEDECAFE news, and trade/economic news would be very beneficial in assisting in predicting these major market disruptions. Data science will be part of the future success of providing a stable economy for the more than half a million family coffee farmers of Colombia and those of us around that world that enjoy their coffee.
+
+10:33
