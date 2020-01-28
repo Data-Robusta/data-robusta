@@ -15,6 +15,6 @@ Slide: Best Model
 
 At this point, finally, our model including weather did significantly out-perform the model solely using quantity and price. This final model missed actual prices by an average of 30 cents, or 17% of the average price.
 
-Going forward, we think including factors that represent demand and the cost of business could yield a more accurate model. Including data such as US weather, crude oil prices, and the exchange rate between the US dollar and the Colombian Peso might account for these missing pieces and result in better predictions.
+Going forward, we think including factors that represent demand and the cost of business could yield a more accurate model.
 
 Now, I'm going to hand it off to Cari to discuss qualitative research and the effects of severe events on Colombia coffee.
