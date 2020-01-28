@@ -187,58 +187,6 @@ weather_model.fit(df)
 weather_cv = cross_validation(weather_model, horizon='365 days')
 weather_performance = performance_metrics(weather_cv)
 
-# weighted = make_weighted()
-# weighted = weighted.reset_index()
-# weighted = weighted.rename(columns={'date': 'ds', 'price': 'y'})
-# weather = Prophet()
-# for col in weighted.drop(columns=['y', 'ds']).columns:
-#     weather.add_regressor(col)
-# weather.fit(weighted)
-# store_model(weather, 'weather_model.p')
-# store_model(weather_cv, 'weaher_cv.p')
-# weather_cv = cross_validation(weather, horizon='365 days')
-# weather_performance = performance_metrics(weather_cv)
-# store_model(weather_performance, 'weather_performance.p')
-
-# weighted = make_weighted_monthly()
-# weighted = weighted.reset_index()
-# weighted = weighted.rename(columns={'date': 'ds', 'price': 'y'})
-# weather_monthly = Prophet()
-# for col in weighted.drop(columns=['y', 'ds']).columns:
-#     weather_monthly.add_regressor(col)
-# weather_monthly.fit(weighted)
-# store_model(weather_monthly, 'weather_monthly_model.p')
-# weather_monthly_cv = cross_validation(weather, horizon='365 days')
-# store_model(weather_monthly_cv, 'weather_monthly_cv.p')
-# weather_monthly_performance = performance_metrics(weather_monthly_cv)
-# store_model(weather_monthly_performance, 'weather_monthly_performance.p')
-
-# weighted = make_weighted()
-# weighted = weighted.reset_index()
-# weighted = weighted.rename(columns={'date': 'ds', 'price': 'y'})
-# weather = Prophet()
-# for col in weighted.drop(columns=['y', 'ds']).columns:
-#     weather.add_regressor(col)
-# weather.fit(weighted)
-# store_model(weather, 'weather_model.p')
-# weather_cv = cross_validation(weather, horizon='365 days')
-# store_model(weather_cv, 'weather_cv.p')
-# weather_performance = performance_metrics(weather_cv)
-# store_model(weather_performance, 'weather_performance.p')
-
-# weighted = make_weighted_monthly()
-# weighted = weighted.reset_index()
-# weighted = weighted.rename(columns={'date': 'ds', 'price': 'y'})
-# weather_monthly = Prophet()
-# for col in weighted.drop(columns=['y', 'ds']).columns:
-#     weather_monthly.add_regressor(col)
-# weather_monthly.fit(weighted)
-# store_model(weather, 'weather_monthly_model.p')
-# weather_monthly_cv = cross_validation(weather, horizon='365 days')
-# store_model(weather_cv, 'weaher_monthly_cv.p')
-# weather_monthly_performance = performance_metrics(weather_monthly_cv)
-# store_model(weather_monthly_performance, 'weather_monthly_performance.p')
-
 def run_weighted_model(monthly=False, quantity=False):
     if monthly:
         weighted = make_weighted_monthly(quantity)
@@ -291,3 +239,23 @@ store_model(cv_mv_95, 'old_weather_cv.p')
 old_weather_performance_95 = performance_metrics(cv_mv_95)
 
 store_model(old_weather_performance, 'old_weather_performance.p')
+
+data = get_prepped()
+
+# makes df for Prophet, drops the uninflated price column
+df = pd.DataFrame()
+df = data.drop(columns='price')
+df = df.reset_index()
+
+# renames columns to accomodate for Prophet
+df = df.rename(columns={'date': 'ds', 'inflated': 'y'})
+
+mv = Prophet()
+
+# adds each column of weather data as a regressor
+for col in df.drop(columns=['ds', 'y']):
+    mv.add_regressor(col)
+
+# fits and evaluates the Prophet model
+mv.fit(df)
+store_model(mv, 'entire_time.p')

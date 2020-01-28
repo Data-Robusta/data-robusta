@@ -36,8 +36,7 @@ def make_predictions(model_dict, monthly=True):
     to_graph = to_graph.set_index('date')
 
     if not monthly:
-        if len(to_graph) > 24:
-            to_graph = to_graph.resample('YS').mean()
+        to_graph = to_graph.resample('QS').mean()
 
     return model_forecast, to_graph
 
@@ -53,18 +52,16 @@ def prep_models_fresh(monthly=False, final=False):
             {'name': 'weather_monthly', 'data': weighted_monthly}, 
             {'name': 'weather_quantity', 'data': weighted_q}, 
             {'name': 'weather_monthly_quantity', 'data': weighted_monthly_q},
-            {'name': 'old_weather', 'data': df['1995':]}]
+            {'name': 'old_weather', 'data': df['1995':]},
+            {'name': 'entire_time', 'data': df}]
 
-    if monthly:
-        models = [models[0], models[2], models[4], models[5]]
-        if final:
-            models = [models[0], models[3]]
+    if final:
+        models = [models[5], models[6]]
+
+    elif monthly:
+        models = [models[0], models[2], models[4], models[5], models[6]]
 
     for model in models:
-        print(model['name'])
-
-    for model in models:
-        print(f"graphing {model['name']}")
         model['forecast'], model['graph'] = make_predictions(model, monthly=monthly)
 
     to_graph = pd.DataFrame()
@@ -79,7 +76,7 @@ def prep_models_fresh(monthly=False, final=False):
     if monthly:
         to_graph['actual'] = df['inflated']
     else:
-        to_graph['actual'] = df.resample('YS')['inflated'].mean()
+        to_graph['actual'] = df.resample('QS')['inflated'].mean()
 
     store_model(to_graph, 'to_graph.p')
 
@@ -97,4 +94,30 @@ def graph_models(fresh=False, monthly=True, final=True):
         plt.xlabel('Year')
     plt.ylabel('Coffee Price (2018 USD per lb)')
     plt.legend(to_graph.columns)
+    plt.show()
+
+def graph_model(model_name, model_title):
+    pd.plotting.register_matplotlib_converters()
+    to_graph = get_model('to_graph.p')
+    to_graph = to_graph.resample('QS').mean()
+    sns.lineplot(x=to_graph.index, y=to_graph[model_name], color='olivedrab', linewidth=3)
+    sns.lineplot(x=to_graph.index, y=to_graph['actual'], color='burlywood')
+    plt.title('Models Compared to Actual Inflated Coffee Prices', size=15)
+    plt.ylabel('Coffee Price (2018 USD per lb)', size=13)
+    plt.xlabel('Date', size=13)
+    plt.legend(labels=[model_title, 'Actual Prices'])
+    plt.show()
+
+def graph_two_models(names, titles):
+    pd.plotting.register_matplotlib_converters()
+    to_graph = get_model('to_graph.p')
+    to_graph = to_graph.resample('QS').mean()
+    
+    sns.lineplot(x=to_graph.index, y=to_graph[names[0]], color='silver')
+    sns.lineplot(x=to_graph.index, y=to_graph[names[1]], color='olivedrab', linewidth=3)
+    sns.lineplot(x=to_graph.index, y=to_graph['actual'], color='burlywood')
+    plt.title('Models Compared to Actual Inflated Coffee Prices', size=15)
+    plt.ylabel('Coffee Price (2018 USD per lb)', size=13)
+    plt.xlabel('Date', size=13)
+    plt.legend(labels=[titles[0], titles[1], 'Actual Prices'])
     plt.show()
