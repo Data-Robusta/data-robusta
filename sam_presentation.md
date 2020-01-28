@@ -2,7 +2,7 @@ Hi I'm Sam. I acquired data from FEDECAFE and NOAA, used time series modeling to
 
 The Data Robusta team wanted to see if we could develop a model for predicting Colombian wholesale coffee prices in 2018 dollars per pound. Our initial hypothesis was that temperature and more volatile precipitation are strong drivers of coffee price. So does weather predict price? Like any good data scientist will tell you...it depends.
 
-We initially tried models using all of our available features: price, temperature, precipitation, and production quantities to predict price. We used Prophet, a time-series modeling library developed by Facebook, to create these models. Prophet models create three functions: an overall trend, seasonal trends, and holiday trends. These come together to predict the overall pattern of temporal data.
+We initially tried models using all of our available features: historical price, temperature, precipitation, and production quantities to predict price. We used Prophet, a time-series modeling library developed by Facebook, to create these models. Prophet models create three functions: an overall trend, seasonal trends, and holiday trends. These come together to predict the overall pattern of temporal data.
 
 Slide: Price over time and baseline model
 
