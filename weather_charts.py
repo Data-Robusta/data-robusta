@@ -18,17 +18,17 @@ df["date"] = df.index.astype(int)
 def get_temp_chart():
     plt.figure(figsize=(10,6))
     sns.regplot("date","mean_temp", data = df, ci=False, color="darkgreen", robust=True)
-    plt.title("Average Temperature in Colombia")
-    plt.xlabel("Date")
-    plt.ylabel("Temperature in Fahrenheit ")
+    plt.title("Average Temperature in Colombia", size=15)
+    plt.xlabel("Date", size=13)
+    plt.ylabel("Temperature in Fahrenheit ", size=13)
     plt.show()
 
 def get_price_chart():
     plt.figure(figsize=(10,6))
     sns.regplot("date", "inflated", data=df, ci=False, color="darkgreen", robust=True)
-    plt.title("Price of Colombain Coffe per Pound in USD")
-    plt.xlabel("Date")
-    plt.ylabel("Price in Cents")
+    plt.title("Price of Colombain Coffe per Pound in USD", size=15)
+    plt.xlabel("Date", size=13)
+    plt.ylabel("Price in Cents", size=13)
     plt.show()
 
 
@@ -54,7 +54,7 @@ def get_stockpile_chart():
 def get_precip_chart():
     plt.figure(figsize=(10,6))
     sns.regplot("date","mean_precip", data = df, ci=False, color="darkgreen", robust=True)
-    plt.title("Average Precipitation in Colombia")
-    plt.xlabel("Date")
-    plt.ylabel("Precipitation in Centimeters ")
+    plt.title("Average Precipitation in Colombia", size=15)
+    plt.xlabel("Date", size=13)
+    plt.ylabel("Precipitation in Centimeters ", size=13)
     plt.show()
