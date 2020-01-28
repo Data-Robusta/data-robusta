@@ -1,4 +1,4 @@
-Hi I'm Sam. I acquired data from FEDECAFE and NOAA, used time series modeling to fill in missing data, and modeled prices.
+Hi I'm Sam. I acquired data from FEDECAFE and NOAA, filled in missing data with time-series modeling, and modeled prices.
 
 The Data Robusta team wanted to see if we could develop a model for predicting Colombian wholesale coffee prices in 2018 dollars per pound. Our initial hypothesis was that temperature and more volatile precipitation are strong drivers of coffee price. So does weather predict price? Like any good data scientist will tell you...it depends.
 
