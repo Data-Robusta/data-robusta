@@ -4,13 +4,13 @@ Fed - eh - cafeh
 
 (Slide: FEDECAFE and NOAA pics)
 
-I'm going walk us though some of the insights we uncovered exploring the data from the National Federation of Coffee Growers of Colombia known as Fedecafe and the National Oceanaic and Atmospheric Administration known as NOAA. 
+I'm going to walk through some of the insights we uncovered exploring the data from the National Federation of Coffee Growers of Colombia known as Fedecafe and the National Oceanaic and Atmospheric Administration known as NOAA. 
 
-The exploration phase was instrumental in driving our teams understanding of what was, and just as importantly, what wasn’t driving price.
+The exploration phase was instrumental in driving our team's understanding of what was, and just as importantly, what wasn’t driving price.
 
 (Slide: NOAA mean_temp/min_temp and Fedecafe price over time)
 
-After visualizing some of the data we aquired from NOAA it appeared minimum temperature per year correlated with the price per year. Statistical analysis determined weather did not drive price. 
+After visualizing some of the data we acquired from NOAA, minimum temperature per year appeared to correlate with average annual price. However, statistical analysis determined weather did not drive price. 
 
 
 (Slide: Bimodal Distribution/ two normal dists)
@@ -18,30 +18,25 @@ After visualizing some of the data we aquired from NOAA it appeared minimum temp
 
 In the early 90s, Fedecafe worked closely with Colombian farmers, helping them learn more advanced farming techniques. 
 
-Their effect on prices became more evident during exploration where we found prices were bimodal; from this two normal distributions can be created, one for pre-1995 and one for post-1995 data, both with unique trends. 
-
-
+In effect, Fedecafe's efforts created a totally different market, evidenced by the distinct price distributions before and after 1995.
 
 <!-- Fedecafe's involvement to create long-term sustainability of family farms
 more stable coffee economy.  -->
 
-
-
-The shift in trends can be largly attibuted to Fedecafe's involvement to create long-term sustainability of family farms which lead to a more stable coffee economy. 
+These new technologies and practices resulted in long-term sustainability of family farms which led to a more stable coffee economy.
 
 (Slide: Colombia and Brazil Exports)
 
-Next we asked ourselves: Do international export volumes of coffee provide predictive power for Colombia's coffee price?
+Next we asked ourselves: Can changes in other nation's coffee exports predict shifts in the Colombian coffee price?
 
-We aquired additional data from the Observatory of Economic Complexity which provided us with coffee export data both internationally and for Colombian. 
+We acquired additional data from the Observatory of Economic Complexity which provided us with global coffee export data. 
 
-We had chosen to compare Colombia's exports to that of Brazil as it is the next largest producer of coffee.
+We chose to examine Brazilian exports because Brazil is the largest coffee exporter in the world.
 
-We analyzed the Brazilian data for indicators that would ahead of time influence Colombia's exports or price. 
-
-After comparing Colombian exports to Brazilian ones,as it can be seen in this graph, we determined that there was no early indicators given off by Brazilian export data. 
+While Brazilian exports generally rise and fall with those of Colombia, our analysis determined that those movements occur at the same times, so they cannot predict one another. 
 
 
+THIS DOES NOT APPEAR RELATED TO THE REST OF THE PRESENTATION. NOT SURE WHY IT'S HERE:
 Provide our business clients and prospective clients with assistance for any general needs such as business documentation needed to open/maintain accounts, transactional research, funds transfers, online service questions, and other account maintenance requests.
 
 Provide our consumer clients with assistance for any general needs such as transactional research and inquiries, beneficiary questions, claims, online service questions, and other account maintenance requests.
