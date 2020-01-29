@@ -8,7 +8,7 @@ Good afternoon, this is Symeon White, Sam Callahan, Cari Holmes and I'm Jeff Roe
 
 slide: flooding in Colombia
 
-In 1997 heavy rain wiped out approximately 25% of Colombia's coffee plants. This caused global coffee prices to skyrocket to 2.5x the normal price. It took over 3 years for prices to return to normal. Events like this come in many forms: natural distasters, economic, disease, and political and greatly affect Colombia's single family farmers that produce 70% Colombia's coffee.
+In 1997 heavy rain wiped out 25% of Colombia's coffee plants. This caused global coffee prices to skyrocket to 2.5x the normal price and took over 3 years to return to normal. Events like natural distasters, economic, and disease greatly affect Colombia's single family farmers that produce 70% Colombia's coffee.
 (awkward ending)
 
 slide: Jaime and his fam
@@ -17,19 +17,19 @@ Farmers like my friend Jaime rely on stable coffee prices to provide for their f
 
 Why should we care if Colombia is in a multi year drought or about to sign the next big trade agreement?
 
-Governments and NGOs have been fighting for decades to convert farmers from illicit drugs crops to legal means of providing for their families. 
+Governments and NGOs have fought for decades to convert farmers from illicit crops to legal means of providing for their families. 
 
-A stable and healthy coffee economy is key to Colombia's economy.
+A stable coffee economy is key to Colombia's economy.
 
-Price fluctuation may cost you a bit more on morning coffee run, but for farmers like Jaime it destroys their livelihood.
+Price fluctuation may cost you a extra dime at Starbucks, but for farmers like Jaime it destroys their livelihood.
 
 what can data science bring to this fight?
 
-As data scientists we have the ability to uncover new insights and validate already existing knowledge through cutting edge analytic techniques and modeling.
+As data scientists we have the ability to uncover new insights and validate already existing knowledge analytsis and modeling.
 
 Slide: Goal/Hypothesis
 
-Our goal was to identify what data affected Colombian coffee prices. Our hypthosis was that weather and harvest data were good predictors of price. We found that while weather was decent at predicting weather, there were much stronger factors at play.
+Our goal was to identify what data affected Colombian coffee prices. We hypothesized that weather and harvest data would predict price. We found these factors to be adequate predictors, but there were much stronger factors at play.
 
 Slide: Process slide
 
@@ -39,11 +39,32 @@ Slide: Wrangle:
 
 We fused data from weather stations and national harvest reports to paint a clear picture about the impact of coffee price for us as consumers; as well as for the local farmer in the hills of Colombia.
 
-Catastrophes like this can create 3x the normal market volatility and lengthy periods of price uncertainty. We used time series analysis to create models to aid in long term crop forcasting and to assist Colombia's National Coffee Federation manage long price flucuations.
+Catastrophes like this can create 3x the normal market volatility and lengthy periods of price uncertainty. We used time series modeling to help Colombia's National Coffee Federation manage this uncertainty and aid in long term crop forecasting.
 
 I'm going to hand it off to Symeon to talk about the in depth exploration conducted by our team.
 (transition to Symeon)
 2:40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Middle
 
 Presenter: Symeon
