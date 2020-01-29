@@ -11,7 +11,7 @@ After some analysis on the date cutoff, we settled on 1995.
 
 Slide: Best Model
 
-At this point, finally, our model including weather significantly out-performed the original model. This final model, the green line, missed actual prices by an average of 30 cents, or 17% of the average price - far more accurate than our old model, here represented by the grey line.
+At this point, finally, our model including weather significantly out-performed the original model. This final model, the green line, missed actual prices by an average of 30 cents, or 17% of the average price - far more accurate than our old model, the grey line.
 
 Going forward, we think including factors that represent demand and the cost of business could yield a more accurate model.
 
