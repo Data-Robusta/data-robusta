@@ -5,6 +5,7 @@ Presenter: Jeff
 slide: cup of coffee
 
 Good afternoon, this is Symeon White, Sam Callahan, Cari Holmes and I'm Jeff Roeder. We are data scientists for Data Robusta.
+
 slide: flooding in Colombia
 
 In 1997 heavy rain wiped out approximately 25% of Colombia's coffee plants. This caused global coffee prices to skyrocket to 2.5x the normal price. It took over 3 years for prices to return to normal. Events like this come in many forms: natural distasters, economic, disease, and political and greatly affect Colombia's single family farmers that produce 70% Colombia's coffee.
@@ -18,26 +19,27 @@ Why should we care if Colombia is in a multi year drought or about to sign the n
 
 Governments and NGOs have been fighting for decades to convert farmers from illicit drugs crops to legal means of providing for their families. 
 
-A stable and healthy coffee economy is key to Colombia's economy and retraining coffee farmers.
+A stable and healthy coffee economy is key to Colombia's economy.
 
 Price fluctuation may cost you a bit more on morning coffee run, but for farmers like Jaime it destroys their livelihood.
 
 what can data science bring to this fight?
 
-As data scientists we have the ability to uncover new insights and validate already existing knowledge through cutting edge analytic techniques and models.
+As data scientists we have the ability to uncover new insights and validate already existing knowledge through cutting edge analytic techniques and modeling.
 
 Slide: Goal/Hypothesis
 
-Our goal was to identify what data affected Colombian coffee prices. Our hypthosis was that weather and harvest data were good predictors of price. We found that while weather was decent at predicting weather, there were much stronger factors at play driving price.
+Our goal was to identify what data affected Colombian coffee prices. Our hypthosis was that weather and harvest data were good predictors of price. We found that while weather was decent at predicting weather, there were much stronger factors at play.
+
 Slide: Process slide
 
-We analyzed Colombian history, agricultural processes, political effects on price, production, and inventory.
+We analyzed Colombian history, agricultural processes, and political effects on price.
 
 Slide: Wrangle:
 
-We fused data from Colombian weather stations, national growers reports, and international commodity market activity to paint a clear picture about the impact of coffee price for us as consumers; as well as for the local farmer in the hills of Colombia.
+We fused data from weather stations and national harvest reports to paint a clear picture about the impact of coffee price for us as consumers; as well as for the local farmer in the hills of Colombia.
 
-Catastrophes like this can create 3x the normal market volatility and lengthy periods of price uncertainty. As data scientists we used time series analysis to created models to aid in long term crop forcasting and assisting Colombia's National Coffee Federation manage long price spikes with optimized stockpile quantity.
+Catastrophes like this can create 3x the normal market volatility and lengthy periods of price uncertainty. We used time series analysis to create models to aid in long term crop forcasting and to assist Colombia's National Coffee Federation manage long price flucuations.
 
 I'm going to hand it off to Symeon to talk about the in depth exploration conducted by our team.
 (transition to Symeon)
@@ -112,7 +114,7 @@ We found that coffee volatility can be caused by several different types of even
 
 slide: baby and adult plants
 
-These events have serious long term effects on the price of coffee as well; prices can take 18 months to 5 years to return to normal levels. This is because coffee plants take 3 to 4 years to start producing their fruit.
+These events have serious long term effects on the price of coffee as well; prices can take 18 months to 5 years to return to normal. This is because coffee plants take 3 to 4 years to start producing their fruit.
 
 In 1975, the Brazilian "Black Frost" destroyed 70% of Brazil's coffee plants, causing prices to skyrocket for several years. Nation Coffee prices are not insulated from other countries' misfortunes. Such disasters can benefit unaffected countries in the short term, but make long term planning difficult for farmers.
 
