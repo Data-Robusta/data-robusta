@@ -5,6 +5,8 @@ Fed - eh - cafeh
 (Slide: FEDECAFE and NOAA pics)
 
 I'm going to walk through some of the insights we uncovered exploring data from the National Federation of Coffee Growers of Colombia known as Fedecafe and the National Oceanic and Atmospheric Administration known as NOAA. 
+
+
 This exploration was instrumental in driving our team's understanding of what was, and just as importantly, what wasn’t driving price.
 (Slide: NOAA mean_temp/min_temp and Fedecafe price over time)
 
@@ -15,11 +17,7 @@ After visualizing some of the data we acquired from NOAA, minimum temperature ap
 
 In the early 90s, Fedecafe worked closely with Colombian farmers, helping them learn better farming techniques. 
 
-
-
-Fedecafe's involvement created a very different market, evidenced by distinct price distributions before and after 1995.
-
-
+This created two different stories, one pre-1995 and one post-1995.
 
 Analyzing this data together is like comparing automobile production before and after Henry Ford invented the assembly line. 
 
@@ -33,4 +31,6 @@ We acquired additional data from the Observatory of Economic Complexity which pr
 
 We chose to examine Brazilian exports because Brazil is the largest coffee exporter in the world.
 
-While Brazilian exports generally rise and fall with those of Colombia, our analysis concluded that those movements occur at the same times, so they cannot predict one another. 
+While Brazilian exports generally rise and fall with those of Colombia, our analysis concluded that those movements occur at the same times, so they cannot predict one another.
+
+Now I'm going to hand it over to Sam for modeling.
